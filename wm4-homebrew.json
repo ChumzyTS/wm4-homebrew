@@ -6,7 +6,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.0.0",
+				"version": "1.1.0",
 				"authors": [
 					"Various DMs"
 				],
@@ -115,7 +115,8 @@
                             "Cold"
 						]
 					]
-				}
+				},
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -126,7 +127,8 @@
             "weight": 1,
             "value": 2500,
             "entries": [
-                "When you take the Attack action, you can replace one of your attacks with throwing a flask of Axiomatic Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Force damage if it is an Aberration or an Elemental."
+                "When you take the Attack action, you can replace one of your attacks with throwing a flask of Axiomatic Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Force damage if it is an Aberration or an Elemental.",
+				"{@note Made by Aris}"
             ]
         },
 		{
@@ -165,7 +167,8 @@
             "weight": 1,
             "value": 2500,
             "entries": [
-                "When you take the Attack action, you can replace one of your attacks with throwing a flask of Unholy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Necrotic damage if it is a Celestial or a Plant."
+                "When you take the Attack action, you can replace one of your attacks with throwing a flask of Unholy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Necrotic damage if it is a Celestial or a Plant.",
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -176,7 +179,8 @@
             "weight": 1,
             "value": 1000,
             "entries": [
-                "These boots can be wielded as a {@item dagger|XPHB} while on your feet. However, they have a -2 to hit, unless the boot is wielded in a hand, you are airborne, or the attack is made against a {@condition prone} creature."
+                "These boots can be wielded as a {@item dagger|XPHB} while on your feet. However, they have a -2 to hit, unless the boot is wielded in a hand, you are airborne, or the attack is made against a {@condition prone} creature.",
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -187,7 +191,8 @@
             "weight": 0.5,
             "value": 100,
             "entries": [
-                "These clothes are treated to be water resistant, quick drying, stretchy, and low absorption, great for swimming in!"
+                "These clothes are treated to be water resistant, quick drying, stretchy, and low absorption, great for swimming in!",
+				"{@note Made by Landon}"
             ]
         },
 		{
@@ -614,7 +619,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "You can treat every ranged weapon as if it were a Simple melee weapon of your choice."
+                "You can treat every ranged weapon as if it were a Simple melee weapon of your choice.",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -625,7 +631,8 @@
             "entries": [
                 "{@i Prerequisite: Level 7 Reward, Hunter's Mark}",
                 "If you hit a creature marked by your Hunter's Mark with a weapon attack, you can choose to end the Hunter's Mark on the creature. If you do so, your attack deals an extra {@dice 4d6} damage.",
-                "If you have Foe Slayer, this instead becomes {@dice 4d10} damage."
+                "If you have Foe Slayer, this instead becomes {@dice 4d10} damage.",
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -635,7 +642,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "You treat every melee weapon as if it has the thrown property with a range of (20/60). After you make an attack, the weapon magically returns to your hand."
+                "You treat every melee weapon as if it has the thrown property with a range of (20/60). After you make an attack, the weapon magically returns to your hand.",
+				"{@note Made by Chrys}"
             ]
         },
         {
@@ -645,7 +653,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward, Unarmored Defense}",
-                "You add your Strength Modifier to your Unarmored Defense calculations."
+                "You add your Strength Modifier to your Unarmored Defense calculations.",
+				"{@note Made by V}"
             ]
         },
         {
@@ -655,7 +664,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "When a creature within 5 feet of you attempts to {@condition Grappled|XPHB|Grapple} you or subject you to an effect that would {@condition Grappled|XPHB|Grapple} you, you can use your reaction to make a melee weapon attack against that creature. If you hit, you deal {@dice 1d6} extra damage, and you automatically succeed against the effect."
+                "When a creature within 5 feet of you attempts to {@condition Grappled|XPHB|Grapple} you or subject you to an effect that would {@condition Grappled|XPHB|Grapple} you, you can use your reaction to make a melee weapon attack against that creature. If you hit, you deal {@dice 1d6} extra damage, and you automatically succeed against the effect.",
+				"{@note Made by Chrys}"
             ]
         },
         {
@@ -665,7 +675,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "When you finish a Long Rest, you can choose {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, or {@skill Religion}. If you do not have Proficiency in that Skill, you gain Proficiency with that skill until the end of your next long rest. If you did have Proficiency, when you take the {@action study|XPHB|Study Action}, you have Advantage on Intelligence checks involving that Skill."
+                "When you finish a Long Rest, you can choose {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, or {@skill Religion}. If you do not have Proficiency in that Skill, you gain Proficiency with that skill until the end of your next long rest. If you did have Proficiency, when you take the {@action study|XPHB|Study Action}, you have Advantage on Intelligence checks involving that Skill.",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -676,7 +687,8 @@
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
                 "As a Bonus Action, you can throw irritating particles at a creature within 10 feet of you. It must make a Dexterity Saving throw, or become {@condition Blinded} until the end of your turn. The saving throw is equal to 8 + Your Proficiency Modifier + Your Dexterity modifier. ",
-                "Additionally, you have a +1 bonus to weapon damage rolls against {@condition Prone} creatures."
+                "Additionally, you have a +1 bonus to weapon damage rolls against {@condition Prone} creatures.",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -688,7 +700,8 @@
                 "{@i Prerequisite: Level 7 Reward}",
                 "You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
                 "You have advantage on saving throws made to avoid or resist traps.",
-                "You have resistance to the damage dealt by traps."
+                "You have resistance to the damage dealt by traps.",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -698,7 +711,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward, Pact of the Blade Invocation}",
-                "Your Pact of the Blade invocation can sustain two weapons at the same time, allowing you to keep up the pressure with dual-wielded weapons."
+                "Your Pact of the Blade invocation can sustain two weapons at the same time, allowing you to keep up the pressure with dual-wielded weapons.",
+				"{@note Made by Lily}"
             ]
         },
         {
@@ -708,7 +722,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward, Channel Divinity (Turn Undead)}",
-                "The range of your Turn Undead is increased to 60 feet, and undead within 15 feet of you have disadvantage on the saving throw."
+                "The range of your Turn Undead is increased to 60 feet, and undead within 15 feet of you have disadvantage on the saving throw.",
+				"{@note Made by Chrys}"
             ]
         },
         {
@@ -718,7 +733,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward, Flurry of Blows}",
-                "The first time you use Flurry of Blows after a short or long rest, you can do so without expending focus points. Additionally, you gain 2 more focus points to your total pool."
+                "The first time you use Flurry of Blows after a short or long rest, you can do so without expending focus points. Additionally, you gain 2 more focus points to your total pool.",
+				"{@note Made by Chrys}"
             ]
         },
         {
@@ -742,7 +758,8 @@
                     "entries": [
                         "The target must succeed on a Strength saving throw or have its speed reduced by 15 feet."
                     ]
-                }
+                },
+				"{@note Made by Chrys}"
             ]
         },
         {
@@ -763,7 +780,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward, {@class Wizard}}",
-                "You can read twice as quickly as most people, and it takes you only half the time to copy spells into your book."
+                "You can read twice as quickly as most people, and it takes you only half the time to copy spells into your book.",
+				"{@note Made by Lily}"
             ]
         },
         {
@@ -773,7 +791,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "Whenever you roll initiative, you may immediately draw a weapon, and the first attack roll you make that combat has advantage. Additionally, you can don or doff a shield as an object interaction."
+                "Whenever you roll initiative, you may immediately draw a weapon, and the first attack roll you make that combat has advantage. Additionally, you can don or doff a shield as an object interaction.",
+				"{@note Made by Lily}"
             ]
         },
         {
@@ -783,7 +802,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward, Spellcasting}",
-                "When you cast an illusion spell that has a duration of 1 minute or longer, you can use a Magic Action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion."
+                "When you cast an illusion spell that has a duration of 1 minute or longer, you can use a Magic Action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion.",
+				"{@note Made by Gavin}"
             ]
         },
         {
@@ -793,7 +813,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "Whenever you finish a short or long rest, you can choose a Language to know until you finish another short or long rest."
+                "Whenever you finish a short or long rest, you can choose a Language to know until you finish another short or long rest.",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -803,7 +824,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "Whenever a creature fails the saving throw against being Shoved by you, you can have it take bludgeoning damage equal to your strength modifier."
+                "Whenever a creature fails the saving throw against being Shoved by you, you can have it take bludgeoning damage equal to your strength modifier.",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -813,7 +835,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "You always have {@spell Dancing Lights}, {@spell Elementalism|XPHB}, {@spell Mending}, {@spell Prestidigitation}, and {@spell Thaumaturgy} prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this Gift)."
+                "You always have {@spell Dancing Lights}, {@spell Elementalism|XPHB}, {@spell Mending}, {@spell Prestidigitation}, and {@spell Thaumaturgy} prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this Gift).",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -824,7 +847,8 @@
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
                 "Whenever you make an {@action Opportunity Attack|XPHB|Attack Of Opportunity} against a creature, you can choose to roll at advantage. If you land this attack, all allies within 15 feet of the creature gain a +1 bonus to their attack and damage rolls against the creature until the start of the creature's next turn.",
-                "You can use this ability a number of times equal to half of your Proficiency Bonus (rounded down), and regain expended uses at the end of a short or long rest."
+                "You can use this ability a number of times equal to half of your Proficiency Bonus (rounded down), and regain expended uses at the end of a short or long rest.",
+				"{@note Made by Chrys}"
             ]
         },
         {
@@ -834,7 +858,8 @@
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward, Hunter's Mark}",
-                "Creatures affected by your Hunter's Mark subtract {@dice 1d4} from their saving throws against your spells."    
+                "Creatures affected by your Hunter's Mark subtract {@dice 1d4} from their saving throws against your spells."    ,
+				"{@note Made by Chrys}"
             ]
         },
         {
@@ -844,7 +869,8 @@
             "rarity": "very rare",
             "entries": [
                 "{@i Prerequisite: Level 16 Reward}",
-                "When an attack you make reduces a creature to 0 hit points, you can target another creature within range and, if the original attack roll can hit it, applies any remaining damage to it. If that creature is likewise reduced to 0 hit points, repeat this process, carrying over the remaining damage until there are no valid targets, or until the damage carried over fails to reduce a creature to 0 hit points."    
+                "When an attack you make reduces a creature to 0 hit points, you can target another creature within range and, if the original attack roll can hit it, applies any remaining damage to it. If that creature is likewise reduced to 0 hit points, repeat this process, carrying over the remaining damage until there are no valid targets, or until the damage carried over fails to reduce a creature to 0 hit points.",
+				"{@note Made by Landon}"    
             ]
         },
         {
@@ -861,7 +887,8 @@
                     "entries": [
                         "You may unequip and equip a weapon after each attack when you take the Attack Action on your turn. Once per turn, when you do this, you may attack an additional time if the weapon you equipped has a different mastery property than the one you unequipped."
                     ]
-                }
+                },
+				"{@note Made by Gavin}"
             ]
         },
         {
@@ -871,7 +898,8 @@
             "rarity": "very rare",
             "entries": [
                 "{@i Prerequisite: Level 16 Reward}",
-                "Immediately after you roll Initiative, you can take a Reaction to cast {@spell Scatter|XGE} without expending a spell slot."
+                "Immediately after you roll Initiative, you can take a Reaction to cast {@spell Scatter|XGE} without expending a spell slot.",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -882,7 +910,8 @@
             "entries": [
                 "{@i Prerequisite: Level 16 Reward; Bard, Cleric or Druid}",
                 "When you restore Hit Points to a creature with a spell, any excess healing (Hit Points not healed due to being at maximum health), the target instead receives a number of Temporary Hit Points equal to the excess healing. These Temporary Hit Points cannot exceed the target's maximum Hit Points.",
-                "These Temporary Hit Points remain for 1 minute."
+                "These Temporary Hit Points remain for 1 minute.",
+				"{@note Made by Chrys}"
             ]
         },
         {
@@ -893,7 +922,8 @@
             "entries": [
                 "{@i Prerequisite: Level 16 Reward}",
                 "You always have the {@spell Plane Shift} spell prepared. When you cast it, it doesn’t require components. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a long rest.",
-                "Intelligence, Wisdom, or Charisma is your spellcasting ability for this gift (choose when you receive it)."
+                "Intelligence, Wisdom, or Charisma is your spellcasting ability for this gift (choose when you receive it).",
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -954,7 +984,8 @@
 						}
 					]
 				},
-                "Creatures that don't sleep, such as elves, or that have Immunity to the {@condition Exhaustion} condition are immune to the Asleep condition. Creatures immune to the Asleep condition are immune to the {@spell Sleep} spell."
+                "Creatures that don't sleep, such as elves, or that have Immunity to the {@condition Exhaustion} condition are immune to the Asleep condition. Creatures immune to the Asleep condition are immune to the {@spell Sleep} spell.",
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -975,7 +1006,8 @@
 							]
 						}
                     ]
-                }
+                },
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -1004,7 +1036,8 @@
 						}
                     ]
                 },
-                "A creature immune to the Enfeebled condition is immune to the {@spell ray of enfeeblement} spell. "
+                "A creature immune to the Enfeebled condition is immune to the {@spell ray of enfeeblement} spell. ",
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -1086,7 +1119,8 @@
 						]
 					]
 				},
-                "A creature immune to the Confused condition is immune to the {@spell confusion} spell."
+                "A creature immune to the Confused condition is immune to the {@spell confusion} spell.",
+				"{@note Made by Aris}"
             ]
         },
         {
@@ -1108,7 +1142,7 @@
 						}
                     ]
                 },
-                "{@i Version in 2024 UA}"
+                "{@note Version in 2024 UA}"
             ]
         },
         {
@@ -1151,7 +1185,8 @@
 						}
                     ]
                 },
-                "A creature immune to the Slowed condition is immune to the {@spell confusion} spell."
+                "A creature immune to the Slowed condition is immune to the {@spell confusion} spell.",
+				"{@note Made by Aris}"
             ]
         }
     ]
