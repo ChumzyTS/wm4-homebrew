@@ -129,6 +129,34 @@
                 "When you take the Attack action, you can replace one of your attacks with throwing a flask of Axiomatic Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Force damage if it is an Aberration or an Elemental."
             ]
         },
+		{
+			
+            "name": "Crab Suit",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i To create a cheaper, more easily produced version of the popular Fish Suit, gnomish inventor Nadul DaRoni created the Crab Suit, a suit of armor made to handle deep water pressure.}",
+				"This bulky suit, which fully encases your head and body, takes 10 minutes to don or doff. While worn, it enables you to breathe in an airless environment and renders you immune to the harmful effects of any gas that surrounds you for up to 8 hours.",
+				"Once worn for 8 total hours, the suit's property is unusable unless the suit is recharged for 1 hour in an elemental air node (or dedicated Crab Suit Recharger).",
+				"The Crab Suit allows the user to withstand depth pressures of up to 750m, with more resistant models able to withstand even greater pressure.",
+				"{@note Made by Patrick}"
+			]
+		},
+		{
+			
+            "name": "Diving Mask",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i Comprised of an airtight mask, goggles, and an air tank, the Diving Mask was made as a portable solution to air deprivation and light underwater travel.}",
+				"The Diving Mask allows the user to connect to an air tank, expanding their breathing capacity and prolonging suffocation. A full air tank connected to a diving mask provides 6 hours' worth of breathable air.",
+				"{@note Made by Patrick}"
+			]
+		},
         {
             "name": "Unholy Water",
             "source": "WM4",
@@ -452,6 +480,113 @@
                 "The mental effort required to command the Floating Lounge is too great to permit resting while it hovers.",
                 "A surface held aloft by telekinesis, another creature, or most other magical means is not sufficiently solid for the lounge. (Please don't GMod physics this thing)."
             ]
+		},
+		{
+			"name": "Doublet of Dramatic Demise",
+			"source": "WM4",
+			"rarity": "common",
+            "wondrous": true,
+			"entries": [
+				"This striking satin jacket allows you to make the most of your dying moments. When you are Unconscious with 0 hit points while wearing this doublet, you can speak and communicate.",
+				"You make Death Saving Throws as normal, but if you roll a 1 on the {@dice d20}, you swoon with a loud gasp and die instantly.",
+				"{@note Made by Chrys}"
+			]
+		},
+		{
+			"name": "Painter’s Sun Hat",
+			"source": "WM4",
+			"rarity": "common",
+            "wondrous": true,
+			"entries": [
+				"This well-made hat can come in any shape, size, or form and from casual inspection seems to be mundane in nature. However, when the hat is placed on the ground as a {@action Magic|XPHB} action and its command word is spoken, it begins to float into the air. The hovering hat then produces an illusion of a humanoid of your choice that you are familiar with, with the caveat that the illusion is wearing the hat. The figure can't move and fails to hold up to physical inspection. The illusion remains until the hat is moved out of place, or until the command word is spoken once more, causing the hat to float back to the ground. If a creature uses the {@action Study|XPHB} action to examine the illusion, a DC 10 Intelligence ({@skill Investigation}) check reveals the figure is an illusion.",
+				"{@note From Obojima: Tales from the Tall Grass}"
+			]
+		},
+		{
+			"name": "Plushie of Scent",
+			"source": "WM4",
+			"rarity": "common",
+            "wondrous": true,
+			"entries": [
+				"{@i A tiny, soft plushy that emits a particular scent.}",
+				"This plushy emits a particular scent that can be perceived up to 10 feet away. You can change the scent to a scent of your choice with a {@action Magic|XPHB} action.",
+				"{@note Made by Marvin}"
+			]
+		},
+		{
+			"name": "Plushie of Squeaking",
+			"source": "WM4",
+			"rarity": "common",
+            "wondrous": true,
+			"entries": [
+				"{@i A tiny, soft, squeezable plushy.}",
+				"When you squeeze this plushy as a {@action Utilize|XPHB} action or a Bonus Action, it emits a squeaking sound that can be heard by creatures up to 10 feet away.",
+				"{@note Made by Marvin}"
+			]
+		},
+		{
+			"name": "Plushie of Warmth",
+			"source": "WM4",
+			"rarity": "common",
+            "wondrous": true,
+			"entries": [
+				"{@i A tiny, soft plushy that emits warmth.}",
+				"The plushy generates enough dry heat to keep the temperature within 10 feet of it at 95 degrees Fahrenheit (35 degrees Celsius).",
+				"{@note Made by Marvin}"
+			]
+		},
+		{
+			"name": "Adamantine Psychic Blade Gauntlets",
+			"source": "WM4",
+			"rarity": "uncommon",
+            "wondrous": true,
+			"entries": [
+				"{@i Each of these heavy leather gloves bears a violet crystal set on a small plate of adamantine.}",
+				"These gloves enhance the psychic blades of Soulknifes. When you hit an object with an attack with your psychic blades, you deal force damage instead of psychic damage, and your hit is a Critical Hit.",
+				"{@note Inspired by Magic Item Compendium 3.5e, Made by Aris}"
+			]
+		},
+		{
+			"name": "Mak’Arrel’s Riffmaker",
+			"source": "WM4",
+			"rarity": "uncommon",
+            "wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Riff.",
+					"entries": [
+						"You can take a {@action Magic|XPHB} action to strum the cittern and cause an illusory riff to emanate from it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cacophony.",
+					"entries": [
+						"This cittern has 4 charges and regains {@dice 1d4+1} charges daily at dawn. While wielding this cittern, you can cast a spell from it. A spell cast from the cittern has a save DC of 13. Choose the spell from the following list: {@spell Shatter|XPHB} (2 charges), {@spell Thunderwave|XPHB} (1 charge)."
+					]
+				},
+				"{@note Made by Chrys}"
+			]
+		},
+		{
+			"name": "Pointe Stilettos",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"type": "M",
+			"baseItem": "rapier|XPHB",
+			"reqAttune": true,
+			"property": [
+				"T"
+			],
+			"range": "20/60",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls with these weapons.",
+				"These two {@item rapier|XPHB} transform into boots when you put them on your feet as a {@action Utilize|XPHB} action. While they are boots, each can be wielded as a {@item rapier|XPHB} while on a foot. You can transform them back into a more normal {@item rapier|XPHB} form as {@action Utilize|XPHB} action.",
+				"They also have the Thrown (20/60) property in either form, and don't require a hand to be thrown while they're boots. In either form, they magically return at the end of your turn if what was used to throw them is free, whether that's to your hand or your feet. When they do so, you must succeed on a DC 5 Dexterity Saving Throw or take {@dice 1d4} piercing damage from them.",
+				"{@note Original Item by Aris}"
+			]
 		}
     ],
 	"reward": [
@@ -611,13 +746,14 @@
             ]
         },
         {
-            "name": "Enduring Focus",
+            "name": "Familiar Familiarity",
             "source": "WM4",
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
                 "{@i Prerequisite: Level 7 Reward}",
-                "You always have the {@spell Find Familiar} spell prepared. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a long rest."
+                "You always have the {@spell Find Familiar|XPHB} spell prepared. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a long rest.",
+				"{@note Made by Landon}"
             ]
         },
         {
@@ -759,6 +895,36 @@
                 "You always have the {@spell Plane Shift} spell prepared. When you cast it, it doesn’t require components. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a long rest.",
                 "Intelligence, Wisdom, or Charisma is your spellcasting ability for this gift (choose when you receive it)."
             ]
+        },
+        {
+            "name": "Let’s Get This Out Onto A Tray",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You never tire of eating rations and have Advantage on Saving Throws against the Poisoned condition from consuming spoiled or old rations. Nice.",
+				"{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Specific Knowledge: [Topic]",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You gain a +5 bonus to Intelligence ({@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}) checks you make about that topic. This bonus does not stack when using a {@item Book|XPHB}.",
+				"{@note Original by Aris, Reworked by Landon}"
+            ]
+        },
+        {
+            "name": "Spellheart",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Spellcasting feature}",
+				"If you have no spell slots remaining for an entire minute, you regain a 1st level spell slot.",
+				"Sorcerers cannot convert slots regained in this way into sorcery points. These slots cannot be used to refuel uses of other features, such as Wild Resurgence or Font of Inspiration.",
+				"{@note Made by Aris}"
+			]
         }
 	],
     "condition": [
