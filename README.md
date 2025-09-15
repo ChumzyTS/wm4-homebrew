@@ -14,7 +14,6 @@ Click Load from URL, and enter the following link: [https://raw.githubuserconten
 <img width="1186" height="178" alt="image" src="https://github.com/user-attachments/assets/c251d89a-b6c6-41f4-83a9-98c32f9ab58e" />
 
 And thats it! If you want to verify you can go to items, click filter and you should see "Westmarch UTD" under Homebrew.
-<img width="110" height="53" alt="image" src="https://github.com/user-attachments/assets/1cf3490c-122e-40ba-a03b-7ee84f68646e" />
 
 # Other Notes
 ## Found something missing/wrong?
@@ -27,4 +26,4 @@ Turn notifications on for this thread. I should only be sending new messages whe
 
 That is all :3
 
-Last Updated: 9/15/25
+Last Updated: 9/15/25, Current Version: 1.1.0
