@@ -6,7 +6,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.2.0",
+				"version": "1.2.1",
 				"authors": [
 					"Various DMs"
 				],
@@ -354,6 +354,39 @@
 			]
         },
 		{
+			"name": "+1 Bracelet of Nature's Will",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"reqAttune": "by a druid",
+			"wondrous": true,
+			"entries": [
+                "While wearing this magic item, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your Druid spells.",
+                "While you wear this bracelet, you can use your Wild Shape feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "+2 Bracelet of Nature's Will",
+			"source": "WM4",
+			"rarity": "rare",
+			"reqAttune": "by a druid",
+			"wondrous": true,
+			"entries": [
+                "While wearing this magic item, you gain +2 bonus to spell attack rolls and the saving throw DCs of your Druid spells.",
+                "While you wear this bracelet, you can use your Wild Shape feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "+3 Bracelet of Nature's Will",
+			"source": "WM4",
+			"rarity": "very rare",
+			"reqAttune": "by a druid",
+			"wondrous": true,
+			"entries": [
+                "While wearing this magic item, you gain +3 bonus to spell attack rolls and the saving throw DCs of your Druid spells.",
+                "While you wear this bracelet, you can use your Wild Shape feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
+			]
+		},
+		{
 			"name": "+1 Fortune Clover",
 			"source": "WM4",
 			"rarity": "uncommon",
@@ -644,7 +677,7 @@
 		{
 			"name": "Bag of Boars",
 			"source": "WM4",
-			"rarity": "Uncommon",
+			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
 				"{@i This bag made from gray cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, pigskin object.}",
@@ -787,33 +820,150 @@
 				"As an action, a creature within 5 feet of the cube can attempt to pull out an engulfed creature by succeeding on a DC 13 Strength ({@skill Athletics}) check, moving the creature to the nearest unoccupied space on a success, causing it to no longer be engulfed. The puller takes 7 ({@dice 2d6}) Acid damage whether or not it succeeds on the check.",
 				"{@note Made by Gem}"
 			]
+		},
+		{
+			"name": "Training Manual: [Talent]",
+			"source": "WM4",
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"A creature can study the manual in order to learn a new Talent. The amount of time it takes depends on the rarity of the manual. Once a manual is used, it becomes nonmagical. If a creature does not meet the prerequisites for the Talent, it does not gain the Talent and the manual is still consumed.",
+				"The Talent the manual gives is chosen by the GM when it is given out. The item is of the same rarity as the Talent.",
+				{
+					"type": "table",
+					"caption": "Study Time",
+					"colLabels": [
+						"Rarity",
+						"Time"
+					],
+					"colStyles": [
+						"col-3",
+						"col-3"
+					],
+					"rows": [
+						[
+							"Common",
+							"1 day"
+						],
+						[
+							"Uncommon",
+							"2 days"
+						],
+						[
+							"Rare",
+							"3 days"
+						],
+						[
+							"Very Rare",
+							"4 days"
+						],
+						[
+							"Legendary",
+							"5 days"
+						]
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Heart of Gears",
+			"source": "WM4",
+			"rarity": "legacy",
+			"wondrous": true,
+			"reqAttune": "by a Construct",
+			"entries": [
+				"{@i This large metal amalgamation of electrum gears empowers any construct it is installed into. The nature of the gears causes constructs to take on a more mechanical nature, allowing greater consistency in all that they do.}",
+				"When attuned to, the Heart of Gears is installed into the creature, disappearing and becoming one with it. When unattuned, the Heart of Gears reappears next to the creature.",
+				"Your movement speed is increased by 10 feet. You have advantage on saving throws against the {@condition Prone} condition.",
+				{
+					"type": "entries",
+					"name": "Engrained Talent (Level 5).",
+					"entries": [
+						"The Heart of Gears holds mechanical knowledge on tools. When you finish a long or short rest, choose a tool that you aren't Proficient with. You gain Proficiency with that tool until the end of your next short or long rest. This feature starts unlocked."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Clockwork Consistency (Level 7).",
+					"entries": [
+						"The Heart of Gears gains the ability to give consistency to attacks you make. It has 4 charges and regains {@dice 1d4} charges daily at dawn. When you make an attack roll, you can expend a charge to forgo rolling the d20 to get a 10 on the die. "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mechanical Nature (Level 9).",
+					"entries": [
+						"The Heart of Gears learns to adapt to absorb attacks made against you. Any Critical Hit against you becomes a normal hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "All-Around Programming (Level 11).",
+					"entries": [
+						"The Heart of Gears gains the ability to provide consistency in all that you do. You can use Clockwork Consistency on any D20 Test you make, not just attack rolls."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Proper Oiling (Level 15).",
+					"entries": [
+						"The Heart of Gears improves, having 6 charges instead of 4, regaining {@dice 1d4+2} charges daily at dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fine Tuned Machinery (Level 17).",
+					"entries": [
+						"The Heart of Gears improves allowing consistency all of the time. It has 8 charges instead of 6, and regains all charges daily at dawn. When you roll initiative while the heart has no charges remaining, it regains {@dice 1d4+1} charges."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Clockwork Mastery (Level 20).",
+					"entries": [
+						"The Heart of Gears learns when it is needed. When you make a D20 test, you can use a reaction to expend a charge to replace the number you roll with a 10."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legacy Rituals.",
+					"entries": [
+						"Three rituals are needed to unlock the abilities of the Heart of Gears.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Advanced Parts:} You must defeat a Construct of CR 6 or higher, and spend an hour to incorporate its components into the heart. This unlocks the Level 7-9 features.",
+								"{@b Mechanus Machinery:} You must defeat a Modron of CR 10 or higher, and spend an hour to incorporate its components into the heart. Alternatively, you can incorporate 10k gp worth of parts bought from Mechanus. This unlocks the level 11-15 features.",
+								"{@b Inevitability:} You must defeat an Inevitable of CR 20 or higher, and spend an hour to incorporate its components into the heart. This unlocks the level 17-20 features."
+							]
+						}
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Belt of One Mighty Blow",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"As a bonus action, you can activate this item, and the next time you hit with a melee weapon attack before the end of your turn, you deal extra damage determined by the type of weapon. A light weapon deals an extra {@dice 1d8} damage, a two-handed weapon deals an extra {@dice 3d6} damage, and all other attacks deal an extra {@dice 2d6} damage.",
+				"Once used, this item can't be used again until the next dawn.",
+				"{@note From 3.5e, ported by Aris}"
+			]
 		}
     ],
 	"reward": [
-		{
-			"name": "Test Charm",
-			"source": "WM4",
-			"type": "Charm",
-			"entries": [
-				"While you have this charm, you don't age naturally, and your skin gains the waxy complexion of a doll. Magical aging still affects you, however. This charm vanishes from you when you die."
-			]
-		},
-		{
-			"name": "Talent",
-			"source": "WM4",
-			"type": "Talent",
-			"rarity": "common",
-			"entries": [
-				"While you have this charm, you don't age naturally, and your skin gains the waxy complexion of a doll. Magical aging still affects you, however. This charm vanishes from you when you die."
-			]
-		},
         {
             "name": "Adaptable Artillery",
             "source": "WM4",
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "You can treat every ranged weapon as if it were a Simple melee weapon of your choice.",
 				"{@note Made by Landon}"
             ]
@@ -824,7 +974,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Hunter's Mark}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Hunter's Mark}",
                 "If you hit a creature marked by your Hunter's Mark with a weapon attack, you can choose to end the Hunter's Mark on the creature. If you do so, your attack deals an extra {@dice 4d6} damage.",
                 "If you have Foe Slayer, this instead becomes {@dice 4d10} damage.",
 				"{@note Made by Aris}"
@@ -836,7 +986,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "You treat every melee weapon as if it has the thrown property with a range of (20/60). After you make an attack, the weapon magically returns to your hand.",
 				"{@note Made by Chrys}"
             ]
@@ -847,7 +997,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Unarmored Defense}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Unarmored Defense}",
                 "You add your Strength Modifier to your Unarmored Defense calculations.",
 				"{@note Made by V}"
             ]
@@ -858,7 +1008,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "When a creature within 5 feet of you attempts to {@condition Grappled|XPHB|Grapple} you or subject you to an effect that would {@condition Grappled|XPHB|Grapple} you, you can use your reaction to make a melee weapon attack against that creature. If you hit, you deal {@dice 1d6} extra damage, and you automatically succeed against the effect.",
 				"{@note Made by Chrys}"
             ]
@@ -869,7 +1019,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "When you finish a Long Rest, you can choose {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, or {@skill Religion}. If you do not have Proficiency in that Skill, you gain Proficiency with that skill until the end of your next long rest. If you did have Proficiency, when you take the {@action study|XPHB|Study Action}, you have Advantage on Intelligence checks involving that Skill.",
 				"{@note Made by Landon}"
             ]
@@ -880,7 +1030,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "As a Bonus Action, you can throw irritating particles at a creature within 10 feet of you. It must make a Dexterity Saving throw, or become {@condition Blinded} until the end of your turn. The saving throw is equal to 8 + Your Proficiency Modifier + Your Dexterity modifier. ",
                 "Additionally, you have a +1 bonus to weapon damage rolls against {@condition Prone} creatures.",
 				"{@note Made by Landon}"
@@ -892,7 +1042,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
                 "You have advantage on saving throws made to avoid or resist traps.",
                 "You have resistance to the damage dealt by traps.",
@@ -905,7 +1055,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Pact of the Blade Invocation}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Pact of the Blade Invocation}",
                 "Your Pact of the Blade invocation can sustain two weapons at the same time, allowing you to keep up the pressure with dual-wielded weapons.",
 				"{@note Made by Lily}"
             ]
@@ -916,7 +1066,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Channel Divinity (Turn Undead)}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Channel Divinity (Turn Undead)}",
                 "The range of your Turn Undead is increased to 60 feet, and undead within 15 feet of you have disadvantage on the saving throw.",
 				"{@note Made by Chrys}"
             ]
@@ -927,7 +1077,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Flurry of Blows}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Flurry of Blows}",
                 "The first time you use Flurry of Blows after a short or long rest, you can do so without expending focus points. Additionally, you gain 2 more focus points to your total pool.",
 				"{@note Made by Chrys}"
             ]
@@ -938,7 +1088,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Cunning Strike}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Cunning Strike}",
                 "You have the following options added to your Cunning Strike feature:",
                 {
                     "type": "entries",
@@ -963,7 +1113,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "You always have the {@spell Find Familiar|XPHB} spell prepared. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a long rest.",
 				"{@note Made by Landon}"
             ]
@@ -974,7 +1124,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, {@class Wizard}}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, {@class Wizard}}",
                 "You can read twice as quickly as most people, and it takes you only half the time to copy spells into your book.",
 				"{@note Made by Lily}"
             ]
@@ -985,7 +1135,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "Whenever you roll initiative, you may immediately draw a weapon, and the first attack roll you make that combat has advantage. Additionally, you can don or doff a shield as an object interaction.",
 				"{@note Made by Lily}"
             ]
@@ -996,7 +1146,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Spellcasting}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Spellcasting}",
                 "When you cast an illusion spell that has a duration of 1 minute or longer, you can use a Magic Action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion.",
 				"{@note Made by Gavin}"
             ]
@@ -1007,7 +1157,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "Whenever you finish a short or long rest, you can choose a Language to know until you finish another short or long rest.",
 				"{@note Made by Landon}"
             ]
@@ -1018,7 +1168,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "Whenever a creature fails the saving throw against being Shoved by you, you can have it take bludgeoning damage equal to your strength modifier.",
 				"{@note Made by Landon}"
             ]
@@ -1029,7 +1179,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "You always have {@spell Dancing Lights}, {@spell Elementalism|XPHB}, {@spell Mending}, {@spell Prestidigitation}, and {@spell Thaumaturgy} prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this Gift).",
 				"{@note Made by Landon}"
             ]
@@ -1040,7 +1190,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
                 "Whenever you make an {@action Opportunity Attack|XPHB|Attack Of Opportunity} against a creature, you can choose to roll at advantage. If you land this attack, all allies within 15 feet of the creature gain a +1 bonus to their attack and damage rolls against the creature until the start of the creature's next turn.",
                 "You can use this ability a number of times equal to half of your Proficiency Bonus (rounded down), and regain expended uses at the end of a short or long rest.",
 				"{@note Made by Chrys}"
@@ -1052,7 +1202,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Hunter's Mark}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Hunter's Mark}",
                 "Creatures affected by your Hunter's Mark subtract {@dice 1d4} from their saving throws against your spells."    ,
 				"{@note Made by Chrys}"
             ]
@@ -1063,7 +1213,7 @@
             "type": "Gift",
             "rarity": "very rare",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
                 "When an attack you make reduces a creature to 0 hit points, you can target another creature within range and, if the original attack roll can hit it, applies any remaining damage to it. If that creature is likewise reduced to 0 hit points, repeat this process, carrying over the remaining damage until there are no valid targets, or until the damage carried over fails to reduce a creature to 0 hit points.",
 				"{@note Made by Landon}"    
             ]
@@ -1074,7 +1224,7 @@
             "type": "Gift",
             "rarity": "very rare",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward, Fighter}",
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}, Fighter}",
                 "You have mastery in all weapons.",
                 {
                     "type": "entries",
@@ -1092,7 +1242,7 @@
             "type": "Gift",
             "rarity": "very rare",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
                 "Immediately after you roll Initiative, you can take a Reaction to cast {@spell Scatter|XGE} without expending a spell slot.",
 				"{@note Made by Landon}"
             ]
@@ -1103,7 +1253,7 @@
             "type": "Gift",
             "rarity": "very rare",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward; Bard, Cleric or Druid}",
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}; Bard, Cleric or Druid}",
                 "When you restore Hit Points to a creature with a spell, any excess healing (Hit Points not healed due to being at maximum health), the target instead receives a number of Temporary Hit Points equal to the excess healing. These Temporary Hit Points cannot exceed the target's maximum Hit Points.",
                 "These Temporary Hit Points remain for 1 minute.",
 				"{@note Made by Chrys}"
@@ -1115,7 +1265,7 @@
             "type": "Gift",
             "rarity": "very rare",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
                 "You always have the {@spell Plane Shift} spell prepared. When you cast it, it doesn’t require components. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a long rest.",
                 "Intelligence, Wisdom, or Charisma is your spellcasting ability for this gift (choose when you receive it).",
 				"{@note Made by Aris}"
@@ -1196,7 +1346,7 @@
             "type": "Gift",
             "rarity": "uncommon",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
 				"You can attune to an additional magic item.",
 				"{@note Made by Gem}"
 			]
@@ -1207,7 +1357,7 @@
             "type": "Gift",
             "rarity": "very rare",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
 				"You can attune to an additional magic item. It only takes you 1 minute to end your attunement to an item.",
 				"You can use a {@action Magic|XPHB} Action to touch a magic item and immediately attune to it. Once you do so, you can't again until you finish a long rest.",
 				"{@note Made by Gem}"
@@ -1555,5 +1705,365 @@
 				"A Formula can detail instructions for one item, a list of items, or a category of items. If a Formula details instructions for multiple items, the character who has the Formula must choose one item from the list or category to create. Different items in the same formula can have different costs, ingredients, time to craft, and tool prerequisites. "
 			]
 		}
+	],
+	"table": [
+		{
+			"name": "Level 7 Gift Rewards",
+			"source": "WM4",
+			"colLabels": [
+				"Level 7 Gift Rewards"
+			],
+			"colStyles": [
+				"col-10"
+			],
+			"rows": [
+				[
+					"{@reward Adaptable Artillery|WM4}"
+				],
+				[
+					"{@reward Assassin's Mark|WM4}"
+				],
+				[
+					"{@reward Attunement Adept|WM4}"
+				],
+				[
+					"{@reward Brutal Thrower|WM4}"
+				],
+				[
+					"{@reward Bulwark|WM4}"
+				],
+				[
+					"{@reward Close Quarters Defense|WM4}"
+				],
+				[
+					"{@reward Cram Study|WM4}"
+				],
+				[
+					"{@reward Dirty Tactics|WM4}"
+				],
+				[
+					"{@reward Dungeon Adept|WM4}"
+				],
+				[
+					"{@reward Eldritch Akimbo|WM4}"
+				],
+				[
+					"{@reward Empowered Turning|WM4}"
+				],
+				[
+					"{@reward Enduring Focus|WM4}"
+				],
+				[
+					"{@reward Expanded Cunning Strikes|WM4}"
+				],
+				[
+					"{@reward Familiar Familiarity|WM4}"
+				],
+				[
+					"{@reward Fast Reader|WM4}"
+				],
+				[
+					"{@reward Hotswapper|WM4}"
+				],
+				[
+					"{@reward Malleable Illusions|WM4}"
+				],
+				[
+					"{@reward Polyglot|WM4}"
+				],
+				[
+					"{@reward Powerful Shove|WM4}"
+				],
+				[
+					"{@reward Sparks of Magic|WM4}"
+				],
+				[
+					"{@reward Tactical Opportunist|WM4}"
+				],
+				[
+					"{@reward Vexing Mark|WM4}"
+				]
+			]
+		},
+		{
+			"name": "Level 16 Gift Rewards",
+			"source": "WM4",
+			"colLabels": [
+				"Level 16 Gift Rewards"
+			],
+			"colStyles": [
+				"col-10"
+			],
+			"rows": [
+				[
+					"{@reward Attunement Expert|WM4}"
+				],
+				[
+					"{@reward Horde Slayer|WM4}"
+				],
+				[
+					"{@reward Master of All Weapons|WM4}"
+				],
+				[
+					"{@reward Planar Voyager|WM4}"
+				],
+				[
+					"{@reward Positional Master|WM4}"
+				],
+				[
+					"{@reward Positive Energy Flux|WM4}"
+				]
+			]
+		},
+		{
+			"name": "Level 6 Item Rewards",
+			"source": "WM4",
+			"colLabels": [
+				"Level 6 Item Rewards"
+			],
+			"colStyles": [
+				"col-10"
+			],
+			"rows": [
+				[
+					"{@item Boots of Striding and Springing|XDMG}"
+				],
+				[
+					"{@item Goggles of Night|XDMG}"
+				],
+				[
+					"{@item Gloves of Thievery|XDMG}"
+				],
+				[
+					"{@item Pearl of Power|XDMG}"
+				],
+				[
+					"{@item Ring of Water Walking|XDMG}"
+				],
+				[
+					"{@item Sending Stones|XDMG}"
+				],
+				[
+					"{@item +1 Wraps of Unarmed Power|XDMG}"
+				],
+				[
+					"{@item +1 Weapon|XDMG}"
+				],
+				[
+					"{@item +1 Shield|XDMG}"
+				],
+				[
+					"{@item +1 Amulet of the Devout|TCE} (Cleric, Paladin)"
+				],
+				[
+					"{@item +1 Arcane Grimoire|TCE} (Wizard)"
+				],
+				[
+					"{@item +1 Bloodwell Vial|TCE} (Sorcerer)"
+				],
+				[
+					"{@item +1 Dragonhide Belt|FTD} (Monk)"
+				],
+				[
+					"{@item +1 Rod of the Pact Keeper|XDMG} (Warlock)"
+				],
+				[
+					"{@item +1 Moon Sickle|TCE} (Druid, Ranger)"
+				],
+				[
+					"{@item +1 Anklet of Nature's Passage|WM4} (Ranger)"
+				],
+				[
+					"{@item +1 Bracelet of Nature's Will|WM4} (Druid)"
+				],
+				[
+					"{@item +1 Rhythm-Maker's Instrument|WM4} (Bard)"
+				],
+				[
+					"{@item +1 Vital Bandages|WM4} (Barbarian)"
+				],
+				[
+					"{@item +1 Fortune Clover|WM4} (Rogue)"
+				],
+				[
+					"{@item +1 Medal of Valor|WM4} (Fighter)"
+				]
+			]
+		},
+		{
+			"name": "Level 8 Item Rewards",
+			"source": "WM4",
+			"colLabels": [
+				"Level 8 Item Rewards"
+			],
+			"colStyles": [
+				"col-10"
+			],
+			"rows": [
+				[
+					"{@item Bracers of Archery|XDMG}"
+				],
+				[
+					"{@item Cloak of Elvenkind|XDMG}"
+				],
+				[
+					"{@item Cloak of Protection|XDMG}"
+				],
+				[
+					"{@item Eyes of the Eagle|XDMG}"
+				],
+				[
+					"{@item Javelin of Lightning|XDMG}"
+				],
+				[
+					"{@item Ring of Mind Shielding|XDMG}"
+				],
+				[
+					"{@item Slippers of Spider Climbing|XDMG}"
+				],
+				[
+					"{@item Stone of Good Luck|XDMG}"
+				],
+				[
+					"{@item Uncommon Glamerweave|ERLW}"
+				]
+			]
+		},
+		{
+			"name": "Level 12 Item Rewards",
+			"source": "WM4",
+			"colLabels": [
+				"Level 12 Item Rewards"
+			],
+			"colStyles": [
+				"col-10"
+			],
+			"rows": [
+				[
+					"{@item Boots of Speed|XDMG}"
+				],
+				[
+					"{@item Bracers of Defense|XDMG}"
+				],
+				[
+					"{@item Cape of the Mountebank|XDMG}"
+				],
+				[
+					"{@item Elven Chain|XDMG}"
+				],
+				[
+					"{@item Winged Boots|XDMG}"
+				],
+				[
+					"{@item +1 Armor|XDMG}"
+				],
+				[
+					"{@item +2 Wraps of Unarmed Power|XDMG}"
+				],
+				[
+					"{@item +2 Weapon|XDMG}"
+				],
+				[
+					"{@item +2 Shield|XDMG}"
+				],
+				[
+					"{@item +2 Amulet of the Devout|TCE} (Cleric, Paladin)"
+				],
+				[
+					"{@item +2 Arcane Grimoire|TCE} (Wizard)"
+				],
+				[
+					"{@item +2 Bloodwell Vial|TCE} (Sorcerer)"
+				],
+				[
+					"{@item +2 Dragonhide Belt|FTD} (Monk)"
+				],
+				[
+					"{@item +2 Rod of the Pact Keeper|XDMG} (Warlock)"
+				],
+				[
+					"{@item +2 Moon Sickle|TCE} (Druid, Ranger)"
+				],
+				[
+					"{@item +2 Anklet of Nature's Passage|WM4} (Ranger)"
+				],
+				[
+					"{@item +2 Bracelet of Nature's Will|WM4} (Druid)"
+				],
+				[
+					"{@item +2 Rhythm-Maker's Instrument|WM4} (Bard)"
+				],
+				[
+					"{@item +2 Vital Bandages|WM4} (Barbarian)"
+				],
+				[
+					"{@item +2 Fortune Clover|WM4} (Rogue)"
+				],
+				[
+					"{@item +2 Medal of Valor|WM4} (Fighter)"
+				]
+			]
+		},
+		{
+			"name": "Level 16 Item Rewards",
+			"source": "WM4",
+			"colLabels": [
+				"Level 16 Item Rewards"
+			],
+			"colStyles": [
+				"col-10"
+			],
+			"rows": [
+				[
+					"{@item +2 Armor|XDMG}"
+				],
+				[
+					"{@item +3 Wraps of Unarmed Power|XDMG}"
+				],
+				[
+					"{@item +3 Weapon|XDMG}"
+				],
+				[
+					"{@item +3 Shield|XDMG}"
+				],
+				[
+					"{@item +3 Amulet of the Devout|TCE} (Cleric, Paladin)"
+				],
+				[
+					"{@item +3 Arcane Grimoire|TCE} (Wizard)"
+				],
+				[
+					"{@item +3 Bloodwell Vial|TCE} (Sorcerer)"
+				],
+				[
+					"{@item +3 Dragonhide Belt|FTD} (Monk)"
+				],
+				[
+					"{@item +3 Rod of the Pact Keeper|XDMG} (Warlock)"
+				],
+				[
+					"{@item +3 Moon Sickle|TCE} (Druid, Ranger)"
+				],
+				[
+					"{@item +3 Anklet of Nature's Passage|WM4} (Ranger)"
+				],
+				[
+					"{@item +3 Bracelet of Nature's Will|WM4} (Druid)"
+				],
+				[
+					"{@item +3 Rhythm-Maker's Instrument|WM4} (Bard)"
+				],
+				[
+					"{@item +3 Vital Bandages|WM4} (Barbarian)"
+				],
+				[
+					"{@item +3 Fortune Clover|WM4} (Rogue)"
+				],
+				[
+					"{@item +3 Medal of Valor|WM4} (Fighter)"
+				]
+			]
+		}
 	]
+		
 }
