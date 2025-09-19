@@ -26,4 +26,4 @@ Turn notifications on for this thread. I should only be sending new messages whe
 
 That is all :3
 
-Last Updated: 9/15/25, Current Version: 1.1.0
+Last Updated: 9/19/25, Current Version: 1.2.0
