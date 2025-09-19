@@ -6,7 +6,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.1.1",
+				"version": "1.2.0",
 				"authors": [
 					"Various DMs"
 				],
@@ -292,6 +292,30 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Juggling Club",
+			"source": "WM4",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB"
+			],
+			"mastery": [
+				"Nick|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"{@note Made by Gem}"
 			]
 		}
     ],
@@ -591,6 +615,177 @@
 				"These two {@item rapier|XPHB} transform into boots when you put them on your feet as a {@action Utilize|XPHB} action. While they are boots, each can be wielded as a {@item rapier|XPHB} while on a foot. You can transform them back into a more normal {@item rapier|XPHB} form as {@action Utilize|XPHB} action.",
 				"They also have the Thrown (20/60) property in either form, and don't require a hand to be thrown while they're boots. In either form, they magically return at the end of your turn if what was used to throw them is free, whether that's to your hand or your feet. When they do so, you must succeed on a DC 5 Dexterity Saving Throw or take {@dice 1d4} piercing damage from them.",
 				"{@note Original Item by Aris}"
+			]
+		},
+		{
+			"name": "Potion of Tremorsense",
+			"source": "WM4",
+			"rarity": "common",
+			"type": "P",
+			"entries": [
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"When you drink this potion, you have {@sense Tremorsense|XPHB} out to 20 feet (unless it is already higher) for 10 minutes. You must be in contact with stone, mud, or dirt to use this {@sense Tremorsense|XPHB}.",
+				"{@i This potion is a grey liquid with dark particles floating within it.}",
+				"{@note Made by Chrys}"
+			]
+		},
+		{
+			"name": "Hog of Cranking",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"{@i Bear Witness!}",
+				"As a {@action magic|XPHB} action, you may begin cranking your hog. While cranking your hog, you cannot take reactions, as you are fully focused on cranking your hog. At the beginning of your next turn after beginning to crank your hog, 1 {@creature Boar|XMM} appears in the space where the Hog of Cranking was (or within 5 ft. of that space if the space it occupied is currently occupied by another creature). You stop cranking your hog when the {@creature Boar|XMM} is summoned, upon which the hog becomes non-magical. This {@creature Boar|XMM} is friendly to you and your allies and hostile to any creatures you may be hostile towards when you begin to crank your hog. The {@creature Boar|XMM} continues to fight said hostile creatures until it or the hostile creatures die or are knocked unconscious. If no more hostile creatures remain, the {@creature Boar|XMM} acts as typical for a {@creature Boar|XMM}, and it no longer follows an obligation to be friendly towards you or your allies.",
+				"{@note Made by Patrick}"
+			]
+		},
+		{
+			"name": "Bag of Boars",
+			"source": "WM4",
+			"rarity": "Uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@i This bag made from gray cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, pigskin object.}",
+				"You can take a {@action Magic|XPHB} action to pull the pigskin object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table below. See the Monster Manual for the creature's stat block. The creature vanishes at the next dawn or when it is reduced to 0 Hit Points.",
+				"The creature is Friendly to you and your allies, and it acts immediately after you on your Initiative count. You can take a Bonus Action to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
+				"Once three pigskin objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+				{
+					"type": "table",
+					"caption": "Bag of Boars",
+					"colLabels": [
+						"{@dice 1d8}",
+						"Creature"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"{@creature Pig|SKT|Pig (Trade Good)}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2,
+									"max": 5
+								}
+							},
+							"{@creature Boar|XMM}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 6,
+									"max": 7
+								}
+							},
+							"{@creature Giant Boar|XMM}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"{@creature Gorthok the Thunder Boar|DIP}  - if the pigskin transforms into Gorthok, the bag cannot be used again for 7 days. At the end of each of Gorthok's turns while he is {@status bloodied|XPHB}, you must make a DC 15 {@skill animal handling|XPHB} check. On a failure, Gorthok is now hostile to you and your allies and doesn't listen to your orders. He targets you in particular."
+						]
+					]
+				},
+				"{@note Made by Aris}"
+			]
+		},
+		{
+			"name": "Clockwork Spurs",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@i These spurs have a cog for a rowel, that rotates and makes clicking noises at timed intervals.}",
+				"While wearing these spurs and mounting a creature, you gain the following abilities:",
+				{
+					"type": "entries",
+					"name": "Perfect Command.",
+					"entries": [
+						"As a reaction when your steed would make a D20 Test, you can forgo rolling to get a 10 on the die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maintain Order.",
+					"entries": [
+						"Your mount has immunity to the {@condition charmed} and {@condition frightened} conditions."
+					]
+				},
+				"{@note Made by Aris}"
+			]
+		},
+		{
+			"name": "Expanding Shield",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"type": "S",
+			"entries": [
+				"{@i This shield is made of many connected gears, allowing it to expand to block off a space.}",
+				"As a {@action Magic|XPHB} Action, you can activate the shield, doffing it and placing it onto the tile you occupy. When you do so, choose a direction (North, East, South, or West). The shield expands, transforming into a 5 foot wide and 5 foot tall blockade in the direction you chose.",
+				{
+					"type": "entries",
+					"name": "Blockade.",
+					"entries": [
+						"The blockade is a medium object with 17 AC and 21 ({@dice 6d6}) hit points. It has immunity to Poison and Psychic damage, and Vulnerability to Thunder damage. Nothing is able to pass through the blockade. The blockade regains all hit points at dawn."
+					]
+				},
+				"The blockade is immobile, able to hold up 5,000lbs of weight. More weight causes the blockade to deactivate, transforming back into a shield. A creature can take a {@action Utilize|XPHB} action to make a DC 20 Strength ({@skill Athletics}) check, moving the fixed rod up to 10 feet on a successful check.",
+				"When the block is reduced to 0 hit points, it deactivates transforming back into a shield. It is unable to be reactivated until the next dawn.",
+				"As a {@action Magic|XPHB} Action, the creature who activated the shield can speak its command word, deactivating the blockade transforming it back into a shield. If the creature is within 5 feet of the blockade, it can don the shield as part of the same action.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Mend-O",
+			"source": "WM4",
+			"rarity": "common",
+			"type": "P",
+			"weight": 0.25,
+			"entries": [
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"{@i Developed on Mechanus, this vial of silvery liquid is able to repair anything it touches. Shaking the vial reveals it is full of many small flakes of metal.}",
+				"A vial of Mend-O can be applied to a tear in an object, or a damaged item. Applying Mend-O takes 1 minute, after which it magically seeps into whatever it is applied to, causing it to receive the benefits of a casting of {@spell Mending}.",
+				"Alternatively, as a Bonus Action, you can drink it or administer it to another willing creature within 5 feet of yourself. If the creature that drinks the Mend-O is a Construct, it regains {@dice 2d4+2|2d4+2 Hit Points}. If the creature is not a Construct, it must make a DC 13 Constitution saving throw, taking 14 ({@dice 4d6}) Poison damage on a failed save or half as much damage on a successful one.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Gelatin Cube",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"{@i By mixing a Gelatinous cube, hot salt water, and various goops you can make a sticky, acidic, and volatile gel. Using magic to shrink a chunk of it into a 2 inch cube allows it to become stable, until it is released again.}",
+				"As a {@action Magic|XPHB} Action, you can activate the cube and throw it to a point up to 60 feet away. Upon landing, it expands into a 10ft cube. If the space it is thrown is smaller than this, it expands to fill the space. The cube is partially transparent, allowing creatures to see through it as normal while still being visible. Attacks and spells can be made through the cube as if it wasn't there. The area covered by the cube is difficult terrain. The cube evaporates after 1 minute.",
+				"When it expands, every creature in the area of the cube must make a DC 13 Dexterity saving throw. On a failed saving throw, the creature takes 7 ({@dice 2d6}) Acid damage, and becomes engulfed by the cube. On a successful one, the creature takes no damage, but is moved to an unoccupied space within 5 feet of itself that is not inside the cube. If there is no unoccupied space available or the creature chooses to not move, it suffers the effects of failing the saving throw.",
+				"When a creature enters the cube's area or ends its turn there, it must make a DC 13 Constitution saving throw, taking 7 ({@dice 2d6}) Acid damage and becoming engulfed on a failed save or half as much damage on a successful one. A creature can only take this damage once per turn.",
+				{
+					"type": "entries",
+					"name": "Engulfed.",
+					"entries": [
+						"Any creature engulfed by the cube is {@hazard Suffocation|XPHB|suffocating}, can't cast spells with a Verbal component, and has the {@condition Restrained|XPHB} condition. An engulfed creature can try to escape by taking an action to make a DC 13 Strength ({@skill Athletics}) check. On a successful check, the creature escapes and enters the nearest unoccupied space, no longer being engulfed."	
+					]
+				},
+				"As an action, a creature within 5 feet of the cube can attempt to pull out an engulfed creature by succeeding on a DC 13 Strength ({@skill Athletics}) check, moving the creature to the nearest unoccupied space on a success, causing it to no longer be engulfed. The puller takes 7 ({@dice 2d6}) Acid damage whether or not it succeeds on the check.",
+				"{@note Made by Gem}"
 			]
 		}
     ],
@@ -955,6 +1150,68 @@
 				"Sorcerers cannot convert slots regained in this way into sorcery points. These slots cannot be used to refuel uses of other features, such as Wild Resurgence or Font of Inspiration.",
 				"{@note Made by Aris}"
 			]
+        },
+        {
+            "name": "Gorg is this real?",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"When you take the {@action Study|XPHB} action, you can ask Gorg for help. He responds if he happens to be within earshot.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Gork is this real?",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"When you take the {@action Magic|XPHB} action, you can ask Gork for help. He responds if he happens to be within earshot.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Juggling Training",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Proficiency in {@skill Sleight of Hand} or {@skill Performance}}",
+				"You can juggle a number of {@item Juggling Club|WM4|Juggling Clubs} or other small objects in one hand without needing to make an ability check. You can make weapon attacks using any of the {@item Juggling Club|WM4|Juggling Clubs} you are juggling. If you hit an attack with a {@item Juggling Club|WM4|juggling club} you were juggling, it returns to your hand.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Street Juggler",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: {@reward Juggling Training|WM4}}",
+				"You can use any object or item that weighs less than 1 lb as a {@item Juggling Club|WM4}.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Attunement Adept",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Level 7 Reward}",
+				"You can attune to an additional magic item.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Attunement Expert",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Prerequisite: Level 16 Reward}",
+				"You can attune to an additional magic item. It only takes you 1 minute to end your attunement to an item.",
+				"You can use a {@action Magic|XPHB} Action to touch a magic item and immediately attune to it. Once you do so, you can't again until you finish a long rest.",
+				"{@note Made by Gem}"
+			]
         }
 	],
     "condition": [
@@ -1190,6 +1447,26 @@
             ]
         }
     ],
+	"magicvariant": [
+		{
+			"name": "Unreliable Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Unreliable ",
+				"source": "WM4",
+				"rarity": "common",
+				"entries": [
+					"When you hit with an unreliable weapon, instead of adding an ability modifier to damage rolls, you deal an extra {@dice 1d6} damage of the same type.",
+					"{@note Made by Gavin}"
+				]
+			}
+		}
+	],
 	"variantrule": [
 		{
 			"name": "Gifts",
