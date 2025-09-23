@@ -6,7 +6,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.2.1",
+				"version": "1.3",
 				"authors": [
 					"Various DMs"
 				],
@@ -112,7 +112,7 @@
 									"exact": 1
 								}
 							},
-                            "Cold"
+                            "Acid"
 						]
 					]
 				},
@@ -954,8 +954,217 @@
 				"Once used, this item can't be used again until the next dawn.",
 				"{@note From 3.5e, ported by Aris}"
 			]
+		},
+		{
+			"name": "Abjurer's Necklace",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"reqAttune": "by a wizard",
+			"entries": [
+				"This enchanted amulet is popular among the wizards of Waterdeep. You can use the amulet to cast the {@spell shield|XPHB} spell. Once cast, the amulet can't be used again until the next dawn.",
+				"{@note From S3 and Adapted from Warriors of Waterdeep by Aris}"
+			]
+		},
+		{
+			"name": "Everburning Torch",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"When this torch is ignited, it cannot be extinguished unless a creature within 5 feet of the torch uses a {@action Magic|XPHB} action to do so.",
+				"{@note Made by Chrys}"
+			]
+		},
+		{
+			"name": "Gizmo!",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"{@i A strange assortment of magic runes and metal latticework. It's been given a haphazard shell and a safety seal of approval.}",
+				"While holding a Gizmo!, you can use it to cast either {@spell Prestidigitation|XPHB} or {@spell Thaumaturgy|XPHB}. After doing so, it falls apart.",
+				"{@note Made by Christopher}"
+			]
+		},
+		{
+			"name": "Rescue Ring",
+			"source": "WM4",
+			"rarity": "common",
+			"type": "RG",
+			"entries": [
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"Whenever you start your turn underwater and you are {@condition unconscious}, the Rescue Ring causes you to rise 60 feet toward the surface. The Rescue Ring prevents you from sinking deeper while you are {@condition unconscious}. Once you regain consciousness, the Rescue Ring becomes inoperable and is consumed, unless you die before regaining consciousness.",
+				"{@note Made by Patrick}"
+			]
+		},
+		{
+			"name": "Self-Replicating Truffle",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"As a {@action Magic|XPHB} Action while holding a Self-Replicating Truffle, you can cause a truffle (1/4lb of {@item rations|XPHB}) to appear next to it. Once you use this ability, it can't be used again until the next dawn.",
+				"You can also eat a Self-Replicating Truffle. It counts as 1 lb of {@item rations|XPHB}.",
+				"{@note Made by Christopher}"
+			]
+		},
+		{
+			"name": "Emergency Wound Closure Express",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
+				"Whenever you are reduced to 0 hit points and become {@condition unconscious} while wearing this amulet, you are immediately stabilized. Once the amulet is used this way, its magic is expended, and the item is consumed.",
+				"{@note Made by Patrick}"
+			]
+		},
+		{
+			"name": "Harpoon of Reeling",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"type": "M",
+			"baseItem": "javelin|XPHB",
+			"entries": [
+				"This magic javelin is attached by a rope, and immediately after the attack, the weapon flies back into your hand.",
+				"If you possess the weapon mastery feature and have selected the Javelin as one of your masteries, this javelin has the unique 'Pull' weapon mastery.",
+				{
+					"type": "entries",
+					"name": "Pull.",
+					"entries": [
+						"If you hit a creature with this weapon, you can pull the creature up to 10 feet straight towards yourself if it is Large or smaller."
+					]
+				},
+				"{@note Made by Patrick}"
+			]
 		}
     ],
+	"spell": [
+		{
+			"name": "Cryptmaster's Call",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"Convening with The Cryptmaster, played by the GM, the caster may write a single word, and The Cryptmaster creates a magical effect based on the word, or rejects the request completely.",
+				"Whatever word the caster writes must be able to replicate the effects of a cantrip or 1st-level spell, or have an equivalently powerful impact.",
+				"Examples of words to use include:",
+				"CRABS - Summon two CR 0 Crab monsters as an ally (Duration 10 mins, {@status Concentration|XPHB}).",
+				"BLOCK - Adds a +2 Magic Bonus to your Armor Class until the start of your next turn.",
+				"ZAP - Make a ranged spell attack against a target within 60 ft. The target takes {@damage 2d8} Lightning damage.",
+				"TRIP - Force a target within 30 ft. to make a strength saving throw. On a fail, the target becomes {@condition prone}.",
+				"LOOK - The Cryptmaster describes an object or location around you that you are unable to perceive via sight.",
+				"If you cast the spell more than once before finishing a Long Rest or make a request that displeases the Cryptmaster, there is a cumulative 25 percent chance for each casting after the first that you become unable to cast this spell again until the next dawn (The GM might also deny further castings at their will).",
+				"{@note Made by Patrick}"
+			],
+			"source": "WM4",
+			"meta": {
+				"ritual": true
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A quill dipped in ink"
+			},
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Legal Name Change",
+			"level": 9,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You endeavor to officially change the name of a willing creature you touch for the entire casting time, finishing by speaking their new name. This affects the creature's name, but not their magical true name, nor any titles and epithets. Any written mention of the original name is overwritten with the new one, and any memory of their old name is erased. Anyone who knew their old name now knows their new one, which functions as their real name for purposes such as the {@spell gate|XPHB} spell.",
+				"{@note Made by Lily}"
+			],
+			"source": "WM4",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A stack of paperwork as tall as the target"
+			}
+		}
+	],
 	"reward": [
         {
             "name": "Adaptable Artillery",
@@ -1362,6 +1571,541 @@
 				"You can use a {@action Magic|XPHB} Action to touch a magic item and immediately attune to it. Once you do so, you can't again until you finish a long rest.",
 				"{@note Made by Gem}"
 			]
+        },
+        {
+            "name": "Birthday Blessing!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"While it is your birthday (the PC's birthday), you add {@dice 1d4} to D20 Tests.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Looks at camera...",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You always know what direction to look at the camera.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Sloppy Style",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"When you make a Wisdom ({@item Cook's Utensils|XPHB}) check in order to prepare food, you can choose to roll a 1 on the die. When you do so the food becomes inedible, providing no nutrition.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Unleashing... My True... Power....!!!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"As a {@action Magic|XPHB} action, you can tense up, as a 10 foot Emanation amasses around you. You choose its appearance. This emanation remains until the end of your next turn.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Death Burst",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"You explode when you die. Each creature within a 5-foot emanation of you must succeed on a DC 10 Constitution saving throw or suffer {@dice 2d4} damage. The damage type is determined when you receive this talent.",
+				"Additionally: At gm's discretion, you also explode in extremely awkward social situations.",
+				"{@note Made by Xin}"
+			]
+        },
+        {
+            "name": "Fish Wrangler",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: Monk}",
+				"You may wield a creature grappled by you as an improvised weapon as long as they are at least 1 size category smaller than you. If the creature has a swim speed, it instead counts as a monk weapon for you.",
+				"{@note Made by Xin}"
+			]
+        },
+        {
+            "name": "Ley Line Initiate",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"In places of great magic, you can attune to the environment to draw upon it's power. When you finish a long rest in an area, you can attune to it as if it were a magic item until you finish another long rest. This fails if the area is not particularly full of magic.",
+				"When you attune to an area, you gain a Charm befitting to the area. This Charm goes away if you unattune to the area. The GM decides which Charm you receive. A GM could say that you are affected by the environment in a different way.",
+				"The default Charms are as follows:",
+				{
+					"type": "table",
+					"caption": "Default Charms",
+					"colLabels": [
+						"{@dice 1d6}",
+						"Charm"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"{@reward Charm of Vitality|XDMG}"	
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"{@reward Charm of the Slayer|XDMG}"	
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"{@reward Charm of Heroism|XDMG}"	
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"{@reward Charm of Feather Falling|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"{@reward Charm of Darkvision|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"{@reward Charm of the Water Bearer|CM}"
+						]
+					]
+				},
+				"Ley Lines and the energy that flows through them can be fickle, ever-shifting, and unpredictable, so your results may vary. (AKA: GM Discretion)",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Plug the Leaks!",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"Whenever you would make a check to repair a ship, you gain a +5 bonus to said check, with the assumption that the repairs you make are only intended to last a short while, and aren't sustainable in the long term.",
+				"You may use {@item Carpenter's Tools|XPHB} to attempt to repair a sailing vessel, so long as said sailing vessel is at a quarter of its maximum hitpoints or lower, as if you were proficient.",
+				"{@note Made by Patrick}"
+			]
+        },
+        {
+            "name": "Sign of the Kraken",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 1st Month, Hammer}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Strength ({@skill Athletics}) checks to swim."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Dexterity ({@skill Stealth}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to an {@item Aquamarine|XDMG}. If you do, you gain a +1 AC bonus against melee attacks."
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Basilisk",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 2nd Month, Alturiak}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Charisma ({@skill Intimidation}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Wisdom ({@skill Insight}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to a {@item Ruby|XDMG}. If you do, you gain a +2 bonus to saving throws against transmutation magic."
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Beholder",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 3rd Month, Ches}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Intelligence checks to decipher codes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Wisdom ({@skill Perception}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to an {@item Banded Agate|XDMG|Agate}. If you do, it grants you a +2 bonus to saving throws against illusion magic."
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Harpy",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 4th Month, Tarsakh}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Charisma ({@skill Performance}) checks that use your voice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Charisma ({@skill Deception}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to a {@item Turquoise|XDMG}. If you do, it grants you a +1 AC bonus against Ranged attacks."
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Ettin",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 5th Month, Mirtul}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Dexterity ({@skill Sleight of Hand}) checks during combat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Dexterity ({@item Thieves' Tools|XPHB}) checks to disable devices."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to an {@item Opal|XDMG}. If you do, it grants you a +1 AC bonus against Attacks of Opportunity."
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Dryad",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 6th Month, Kythorn}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Wisdom ({@skill Animal Handling}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Wisdom ({@skill Medicine}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to a {@item Pearl|XDMG}. If you do, it grants you a +1 AC bonus when there's a friendly creature within 5 feet of you. "
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Stirge",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 7th Month, Flamerule}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Intelligence ({@item Alchemist's Supplies|XPHB|Alchemy Tools}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Constitution saving throws to maintain concentration."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to an {@item Emerald|XDMG}. If you do, it grants you a +2 bonus to saving throws against enchantment magic."
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Wyvern",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 8th Month, Eleasis}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Wisdom ({@skill Survival}) checks to forage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Dexterity Saving throws to remain mounted."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to a {@item Blue Sapphire|XDMG|Sapphire}. If you do, it grants you a +1 AC bonus during a turn where you've moved more than 5 feet."	
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Dragon",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 9th Month, Eleint}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Intelligence ({@skill Investigation}) checks to appraise the value of objects."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Wisdom ({@skill Perception}) checks that require hearing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to a {@item Garnet|XDMG}. If you do, whenever you take the Help action, you gain a +1 AC bonus until the start of your next turn."	
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Unicorn",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 10th Month, Marpenoth}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Strength ({@skill Athletics}) checks to climb."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Strength ({@skill Athletics}) checks to Jump."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to a {@item Topaz|XDMG}. If you do, you gain a +2 bonus on saving throws against poison and disease. "	
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Hydra",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 11th Month, Uktar}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Charisma ({@skill Persuasion}) checks to ask for information."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Dexterity ({@skill Acrobatic}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to a {@item Diamond|XDMG}. If you do, you gain a +2 AC bonus against attacks made while you are {@condition Paralyzed} or {@condition Unconscious}."	
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Sign of the Chimera",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Born on the 12th Month, Nightal}",
+				"A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+				{
+					"type": "entries",
+					"name": "Optimal Career.",
+					"entries": [
+						"You have a +2 bonus on Charisma ({@skill Persuasion}) checks to make a first impression."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Action.",
+					"entries": [
+						"You have a +1 bonus to Dexterity ({@skill Stealth}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthstone.",
+					"entries": [
+						"You can attune to an {@item Amethyst|XDMG}. If you do, you gain a +2 bonus on saving throws against evocation magic."	
+					]
+				},
+				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
+			]
         }
 	],
     "condition": [
@@ -1613,6 +2357,24 @@
 				"entries": [
 					"When you hit with an unreliable weapon, instead of adding an ability modifier to damage rolls, you deal an extra {@dice 1d6} damage of the same type.",
 					"{@note Made by Gavin}"
+				]
+			}
+		},
+		{
+			"name": "Weapon of The Mariner's Catch",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of The Mariner's Catch",
+				"source": "WM4",
+				"rarity": "common",
+				"entries": [
+					"This magic weapon deals an additional {@dice 1d4} damage of its type when it is used to attack a beast with a swimming speed. Any beast damaged in this way remains pristine and fully intact for the sake of cooking and consuming.",
+					"{@note Made by Patrick}"
 				]
 			}
 		}
@@ -2061,6 +2823,82 @@
 				],
 				[
 					"{@item +3 Medal of Valor|WM4} (Fighter)"
+				]
+			]
+		},
+		{
+			"name": "Astrological Signs",
+			"source": "WM4",
+			"colLabels": [
+				"#",
+				"Month",
+				"Sign"
+			],
+			"colStyles": [
+				"col-1",
+				"col-1",
+				"col-8"
+			],
+			"rows": [
+				[
+					"1st",
+					"Hammer",
+					"{@reward Sign of the Kraken|WM4}"
+				],
+				[
+					"2nd",
+					"Alturiak",
+					"{@reward Sign of the Basilisk|WM4}"
+				],
+				[
+					"3rd",
+					"Ches",
+					"{@reward Sign of the Beholder|WM4}"
+				],
+				[
+					"4th",
+					"Tarsakh",
+					"{@reward Sign of the Harpy|WM4}"
+				],
+				[
+					"5th",
+					"Mirtul",
+					"{@reward Sign of the Ettin|WM4}"
+				],
+				[
+					"6th",
+					"Kythorn",
+					"{@reward Sign of the Dryad|WM4}"
+				],
+				[
+					"7th",
+					"Flamerule",
+					"{@reward Sign of the Stirge|WM4}"
+				],
+				[
+					"8th",
+					"Eleasis",
+					"{@reward Sign of the Wyvern|WM4}"
+				],
+				[
+					"9th",
+					"Eleint",
+					"{@reward Sign of the Dragon|WM4}"
+				],
+				[
+					"10th",
+					"Marpenoth",
+					"{@reward Sign of the Unicorn|WM4}"
+				],
+				[
+					"11th",
+					"Uktar",
+					"{@reward Sign of the Hydra|WM4}"
+				],
+				[
+					"12th",
+					"Nightal",
+					"{@reward Sign of the Chimera|WM4}"
 				]
 			]
 		}
