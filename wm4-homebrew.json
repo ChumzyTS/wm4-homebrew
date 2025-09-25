@@ -6,7 +6,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.3",
+				"version": "1.4",
 				"authors": [
 					"Various DMs"
 				],
@@ -317,7 +317,20 @@
 			"entries": [
 				"{@note Made by Gem}"
 			]
-		}
+		},
+        {
+            "name": "Sheet Music",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@i This piece of parchment teaches the reader how to play a specific written piece of music, so long as the user knows the notation.}",
+				"When you attempt to play the song written on this piece of sheet music and you are proficient with the instrument you are playing, any roll of 4 or lower on the D20 roll is treated as a 5 instead. Any given piece of sheet music must depict a specific song, and its benefits only apply to playing the given song.",
+				"This item may be copied and printed at a scriptorium.",
+				"{@note Made by Patrick}"
+            ]
+        }
     ],
     "item": [
 		{
@@ -769,6 +782,7 @@
 			"source": "WM4",
 			"rarity": "uncommon",
 			"type": "S",
+			"baseItem": "shield|XPHB",
 			"entries": [
 				"{@i This shield is made of many connected gears, allowing it to expand to block off a space.}",
 				"As a {@action Magic|XPHB} Action, you can activate the shield, doffing it and placing it onto the tile you occupy. When you do so, choose a direction (North, East, South, or West). The shield expands, transforming into a 5 foot wide and 5 foot tall blockade in the direction you chose.",
@@ -1042,6 +1056,259 @@
 					]
 				},
 				"{@note Made by Patrick}"
+			]
+		},
+		{
+			"name": "Coin of Delving",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This scintillating copper coin sheds dim light in a 5-foot Emanation. If dropped a distance greater than 5 feet, the coin issues a melodious ringing sound when it hits a surface. Any creature that can hear the chime can determine the distance the coin dropped based on the tone.",
+				"{@note From Explorer’s Guide to Wildemount}"
+			]
+		},
+		{
+			"name": "Redsmith Crucible Set",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This set of magic {@item smith's tools|XPHB} from the dwarven Redsmith family includes a stone crucible that's been enchanted with minor transmutation magic. If you are proficient with {@item smith's tools|XPHB} or are a dwarf, you can use a {@action Magic|XPHB} action to speak the tools' command word and lower a nonmagical weapon made of metal into the crucible and hold it there for 10 minutes. At the end of that time, make a DC 10 Strength check using the smith's tools. On a success, the weapon is magically reforged. A reforged weapon counts as magical, and when you pull the reforged weapon from the crucible, you can change it into another type of weapon that shares the same properties as the original one. For example, a {@item light hammer|XPHB} could become a {@item handaxe|XPHB}, or a {@item longsword|XPHB} could become a {@item warhammer|XPHB}. These benefits last for 24 hours, at which point the weapon becomes nonmagical once more and returns to its original form.",
+				"Once this property of the tools has been used, it can't be used again for 24 hours. In the meantime, the tools can still be used as magic {@item smith's tools|XPHB}.",
+				"{@note From the Griffon's Saddlebag 2.}"
+			]
+		},
+		{
+			"name": "Redsmith Hammer",
+			"source": "WM4",
+			"rarity": "common",
+			"type": "M",
+			"baseItem": "light hammer|XPHB",
+			"entries": [
+				"This dwarven smithing hammer has runes running from end to end. When beaten against an anvil, the runes around the hammer glow a bright red and emanate heat, allowing a blacksmith to use the hammer to mold weapons and armor using only the hammer and anvil.",
+				"{@note From the Griffon's Saddlebag 2.}"
+			]
+		},
+		{
+			"name": "Stinky Cheese",
+			"source": "WM4",
+			"rarity": "common",
+			"type": "FD",
+			"entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i A delicacy to rodents. It smells quite foul, but tastes very good. It's known to cause scuffles and violent crime.}",
+				"A creature that eats these cheese must make a DC 11 Wisdom saving throw. On a failed save the creature gains an uncontrollable desire to eat all stinky cheese it sees for the next hour.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Corroded Circuit",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"reqAttune": "by a Construct",
+			"age": "futuristic",
+			"entries": [
+				"{@note Unique: An item of which there is only one instance.}",
+				"{@i A metal wafer with impossibly small magic sigils running across it. It's half-melted, rusted, and blown to bits. You aren't *really* gonna stick this thing in your head, right?}",
+				{
+					"type": "entries",
+					"name": "Bludgeon Protocol.",
+					"entries": [
+						"You gain a +1 bonus to attack and damage rolls with unarmed strikes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Overclock.",
+					"entries": [
+						"As a bonus action, you can trigger a dangerous overclock, driving your body past its limits for 1 minute. For the duration, your unarmed strikes deal an extra {@dice 1d6} Force damage on a hit, and your movement speed increases by 10 feet. Once used, this bonus action can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Directive Corruption.",
+					"entries": [
+						"Alien instructions jab into your mind, filling your thoughts with confused, garbled messages. You have disadvantage on Intelligence saving throws."	
+					]
+				},
+				"(Note: you cannot attune to both this and an Eldritch Claw Tattoo.)",
+				"{@note Made by Christopher}"
+			]
+		},
+		{
+			"name": "Rat King's Crown",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"entries": [
+				"{@note Unique: An item of which there is only one instance.}",
+				"{@i This crown is made of matted fur from many different rats. Rats view those who wear the crown as powerful, but not a voice of authority.}",
+				"While wearing this crown, Hostile rodents become Indifferent to you. If you deal damage to one of these creatures, this effect is suppressed for 1 minute.",
+				{
+					"type": "entries",
+					"name": "Rodent Influence.",
+					"entries": [
+						"As a {@action Magic|XPHB} action while wearing the crown, you can cast {@spell Dominate Beast|XPHB} (Save DC 13), targeting a rodent that is not Hostile to you. When cast this way, the spell lasts up to 1 hour, but once the spell ends an affected creature becomes immune to it for 24 hours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conjure {@i RATS}.",
+					"entries": [
+						"As a {@action Magic|XPHB} action you summon a {@creature Swarm of Rats|XMM} at a point within 60 feet of yourself. It is Indifferent to you and your allies. This {@creature Swarm of Rats|XMM} disappears after a day or once it drops to 0 hit points. You cannot use this ability until the previous {@creature Swarm of Rats|XMM} created by it disappears."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cursed.",
+					"entries": [
+						"Your teeth and hair begin to grow rapidly. Each day you must spend 1 hour gnawing on an object to prevent your teeth from exceeding their natural length. If you let your teeth grow unimpeded for 3 days in a row, you transform into a {@creature Giant Rat|XMM} as if through {@spell polymorph|XPHB}. This form lasts until you have no Temporary Hit Points left, at which point you die and revert form. You can't remove the crown or end your attunement unless you have done an hour of gnawing within the last 24 hours."	
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Scallywag's Sash",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@i This harness, belt, or sash holds up to four flintlock pistol holsters, making for easy swapping between loaded firearms in a fight.}",
+				"While wearing the Scallywag's Sash, you may stow up to four pistols in its holsters. When you take the {@action attack|XPHB} action on your turn, you may draw a pistol from the Sash before you make an attack, and stow it in the sash once the attack resolves, independently from the Equipping and Unequipping Weapons part of your attack. This benefit only applies to flintlock (Renaissance) pistols.",
+				"{@note Made by Patrick}"
+			]
+		},
+		{
+			"name": "Shield of Blinding",
+			"source": "WM4",
+			"type": "S",
+			"baseItem": "shield|XPHB",
+			"rarity": "uncommon",
+			"entries": [
+				"This shield has three charges. When a creature within 5 feet of you misses you with a melee weapon attack, you may use your reaction to expend one charge of the shield. That creature must succeed on a DC 13 Constitution saving throw or be {@condition Blinded} until the end of its next turn. This shield regains {@dice 1d3} charges daily at dawn.",
+				"{@note Made by Chrys}"
+			]
+		},
+		{
+			"name": "Sporophore",
+			"source": "WM4",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"entries": [
+				"As a {@action Magic|XPHB} action, you can use this sporophore to spread spores in 5 foot square on a surface within 5 feet of you. The spores are of a fungi of your choice, and after 10 minutes, it fully sprouts, provided the area is in dim light or darkness for the entire duration. The fungus can be one of the following:",
+				{
+					"type": "list",
+					"items": [
+						"{@hazard Brown Mold|XDMG}",
+						"{@hazard Yellow Mold|XDMG}",
+						"Russet Mold",
+						"{@creature Violet Fungus|XMM}",
+						"{@creature Shrieker Fungus|XMM}",
+						"{@creature Gas Spore Fungus|XMM}",
+						"{@creature Myconid Sprout|XMM}",
+						"{@creature Campestri|wbtw}",
+						"{@creature Jammer Leech|BAM}",
+						"An Edible Fungi",
+						"An Exotic Fungi"
+					]
+				},
+				"A sporophore only contains enough spores for one fungi. It regains its spores daily at dusk.",
+				"{@note Made by Aris}"
+			]
+		},
+		{
+			"name": "History's Reflection",
+			"source": "WM4",
+			"wondrous": true,
+			"rarity": "rare",
+			"entries": [
+				"{@i The exact appearance of this item varies from item to item. Whether the case, it is an object that can read the imprints of time.}",
+				"As a {@action Magic|XPHB} action while holding this item, you can cast {@spell Legend Lore|XPHB} from it. To cast the spell in this way, you choose a place of great history that you're currently in. The information about the place, provided it is of legendary importance, is displayed on or from the item as if history was being replayed, though it may be abstract or symbolic. If the place is not of legendary importance, then the spell fails.",
+				"Once used, the item cannot use that area again for 1 year.",
+				"{@note Variant of Lorekeeper's Tome by Aris. Made by Landon}"
+			]
+		},
+		{
+			"name": "Remembrance of the Vaati",
+			"source": "WM4",
+			"rarity": "legacy",
+			"wondrous": true,
+			"reqAttune": "by a creature of non-chaotic alignment",
+			"entries": [
+				"{@i Most cannot recall the height of the Wind Duke’s empire. However, this circlet, over a millennia of age, remembers it well; both the empire’s gilded heights and its bloody fall during the war between Law and Chaos.}",
+				"While you are wearing and are attuned to the circlet, you gain the following benefits:",
+				"You can speak and understand Primordial (Auran). You can cast {@spell Gust|XGE}, {@spell Fog Cloud|XPHB}, and {@spell Dust Devil|XGE} from the circlet.",
+				"The spell save DC for spells attached to this item is equal to 8 + your proficiency bonus + your Intelligence, Wisdom, or your Charisma modifier (You choose when you attune to this item).",
+				{
+					"type": "entries",
+					"name": "Wergadeam (Level 5)",
+					"entries": [
+						"You take on an innate quality of the Wind Dukes. Your falls count as having fallen 60 less feet for the purposes of taking damage from falling (to a minimum of 0 feet)."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trygrideam (Level 7).",
+					"entries": [
+						"You recall the practices of the druidic sect of Wind Dukes that followed nature’s order. You can cast {@spell Druidcraft|XPHB} and {@spell Gust of Wind|XPHB} from the circlet. The circlet can't cast {@spell Gust of Wind|XPHB} again until the next dawn."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Haikjadeam (Level 9).",
+					"entries": [
+						"You recall the wrath of the Wind Dukes. When you hit with a weapon or spell attack, you deal an extra {@dice 1d6} Thunder damage. Against the following types of creatures, you instead deal {@dice 2d6} Thunder damage: Aberrations, Celestial Eladrin, Fey, and Demons."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kheirdeam (Level 11).",
+					"entries": [
+						"You recall the counsels of the Wind Dukes. You can cast {@spell Spare the Dying|XPHB} and {@spell Calm Emotions|XPHB} from the circlet. The circlet can't cast {@spell Calm Emotions|XPHB} again until the next dawn."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bledrudeam (Level 15).",
+					"entries": [
+						"Your mind is more resilient against the forces of chaos. You have Advantage on Intelligence, Wisdom, and Charisma Saving Throws on effects originating from the following types of creatures: Aberrations, Celestial Eladrin, Fey, and Demons."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wendeam (Level 17).",
+					"entries": [
+						"You recall the powers the exiled sect Wind Dukes dedicated to tracking the agents of chaos. You can cast {@spell Lightning Lure|TCE} and {@spell Mind Spike|XPHB} from the circlet. The circlet can't cast {@spell Mind Spike|XPHB} again until the next dawn."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vindeam (Level 20).",
+					"entries": [
+						"You take on more qualities of the Wind Dukes. You can take a {@action Magic|XPHB} action to give yourself a Flying speed equal to 60 feet for the next hour. Once you use this feature, you cannot do so for another {@dice 2d6} hours."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legacy Rituals.",
+					"entries": [
+						"Three rituals are needed to unlock the abilities of the Remembrance of the Vaati.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Law’s Vengeance:} You must defeat a Demon of CR 5 or higher and douse its corpse in {@item axiomatic water|WM4}. This unlocks the Level 7-9 features.",
+								"{@b Elemental Unity:} You must convince an Elemental of CR 6 or higher to swear fealty to you. This unlocks the level 11-15 features.",
+								"{@b Ancient Enemy:} You must defeat an avatar of either the Queen of Chaos or Miska the Wolf Spider. This unlocks the level 17-20 features."
+							]
+						}
+					]
+				},
+				"{@note Made by Chrys}"
 			]
 		}
     ],
@@ -1494,7 +1761,7 @@
             "source": "WM4",
             "type": "Perk",
             "entries": [
-				"You gain a +5 bonus to Intelligence ({@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}) checks you make about that topic. This bonus does not stack when using a {@item Book|XPHB}.",
+				"You gain a +5 bonus to ability checks you make about that topic. The checks must only apply if it makes sense to apply to the topic. This bonus does not stack when using a Book.",
 				"{@note Original by Aris, Reworked by Landon}"
             ]
         },
@@ -2106,6 +2373,248 @@
 				},
 				"{@note {@table Astrological Signs|WM4}, Made by Landon}"
 			]
+        },
+        {
+            "name": "Beast Treats",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: Beast Master}",
+				"You can take a {@action Magic|XPHB} action to feed your Primal Companion treats and expend a spell slot. After 1 minute, the beast has all its Hit Points restored.",
+				"(you can already do this but you have to kill the beast to do it normally)",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Evil Brand",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You are physically marked forever as a servant of an evil power greater than yourself or as a villain who does not care who knows that you seek only death, destruction, and misery for others. The symbol is unquestionable in its evil, and all who see it know beyond a doubt that the bearer is forever in the sway of the blackest powers.",
+				"Evil creatures automatically recognize the symbol now emblazoned upon you as a sign of your utter depravity or discipleship to a powerful patron, although the specific identity of the patron is not revealed.",
+				"You gain a +2 bonus on {@skill Persuasion} and {@skill Intimidation} checks made against evil creatures.",
+				"{@note From 3.5e, ported by Aris}"
+			]
+        },
+        {
+            "name": "Spore Master",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: Level 5, can cast {@spell animate dead|XPHB}}",
+				"When you cast {@spell animate dead|XPHB} targeting a corpse, you can choose to animate the corpse with spores instead of negative energy. When cast in this way, the target becomes a spore servant. A spore servant uses the {@creature zombie|XMM} statistics with the following changes:",
+				{
+					"type": "list",
+					"items": [
+						"The servant is a plant, not an undead",
+						"The servant's alignment becomes unaligned",
+						"The servant's Intelligence is 2 (-4) and its Charisma is 1 (-5)",
+						"The servant has {@sense blindsight} with a radius of 30 feet, and is blind beyond this radius",
+						"The servant loses the undead fortitude trait and its darkvision",
+						"The servant loses its languages"
+					]	
+				},
+				"You can target this spore servant with animate dead as if it was an undead creature. The spore servant remains animated for 30 days, or until it is reduced to 0 hit points. You cannot reanimate the corpse as a spore servant in this way again.",
+				"{@note Based on the spore servant template in the Monster Manual, and made in consideration of Spores Druids, which get animate dead as a spell. From S3. Made by Aris}"
+			]
+        },
+        {
+            "name": "Tamed Beast",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: Beast Master}",
+				"When your Beast of the Land or Sea hits, you can choose to not {@condition Prone} or {@condition Grappled|XPHB|Grapple} the target.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Rat Whisperer",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"You can cast {@spell Speak with Animals|XPHB} at will. When you cast it this way, you can only speak to {@creature rat|XMM|rats} that you are holding.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Mountable",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: Centaur}",
+				"Your anatomy allows you to be an Independent Mount.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Abyss-bound Soul",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+            "entries": [
+				"You have pledged your immortal soul to a particular demon lord in return for a gift that aids your evil works in life.",
+				"You are branded with the personal symbol of your demon lord patron, who watches over you from the Abyss. You gain a +2 bonus on saving throws made against good aligned spells. Additionally, a tiny portion of your patron’s power infuses your body, granting you an additional benefit. The exact benefit gained depends on who your patron is, as given below.",
+				{
+					"type": "entries",
+					"name": "Baphomet.",
+					"entries": [
+						"If you move at least 20 feet straight toward a creature and then hit it with an attack on the same turn, the target takes an extra {@dice 2d8} damage. You can gain this benefit only once per turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dagon.",
+					"entries": [
+						"You can breathe water as well as you can breathe air, and you can cast hunger of hadar once. You must finish a long rest before you can cast it again in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Demogorgon.",
+					"entries": [
+						"You can cast {@spell summon greater demon|XGE} once. You must finish a long rest before you can cast it again in this way. Additionally, the CR of the demon summoned cannot be higher than your proficiency bonus. The demon has disadvantage on its saving throw to resist."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fraz-Urb’luu.",
+					"entries": [
+						"Any spell slot you expend to cast an illusion spell counts as a spell slot of one level higher."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Graz’zt.",
+					"entries": [
+						"You are immune to the {@condition frightened} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Juiblex.",
+					"entries": [
+						"You gain resistance to acid damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kostchtchie.",
+					"entries": [
+						"You gain resistance to cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Malcanthet.",
+					"entries": [
+						"Any spell slot you expend to cast an enchantment spell counts as a spell slot of one level higher."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Miska.",
+					"entries": [
+						"You gain a climb speed equal to your walking speed, and can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Obox-ob.",
+					"entries": [
+						"You know the {@spell infestation|XGE} cantrip, and you are resistant to poison damage. You can cast {@spell giant insect|XPHB} once. You must finish a long rest before you can cast it again in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Orcus.",
+					"entries": [
+						"Any spell slot you expend to cast a necromancy spell counts as a spell slot of one level higher."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pale Night.",
+					"entries": [
+						"You have immunity to insanity, madness, and confusion effects, including the {@condition confused|WM4} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pazuzu.",
+					"entries": [
+						"While airborne, you have a +2 bonus to your dexterity saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Yeenoghu.",
+					"entries": [
+						"You gain a +1 bonus on attack and damage rolls made with your natural weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Zuggtmoy.",
+					"entries": [
+						"You are immune to additional damage from critical hits and sneak attacks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abyssal Doom.",
+					"entries": [
+						"When you die, your soul becomes claimed by your demon patron. You can be restored to life only by {@spell true resurrection|XPHB} or {@spell wish|XPHB}."
+					]
+				},
+				"Charisma is your spellcasting ability for any spells in this talent.",
+				"{@note Adapted from 3.5e by Aris}"
+			]
+        },
+        {
+            "name": "Spellbreaker",
+            "source": "WM4",
+            "type": "Gift",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+				"When a creature within reach casts a spell, you can use your reaction to make a melee attack with a weapon or an Unarmed Strike against that creature. On a hit, it must make a saving throw to maintain Concentration. On a failure, the creature's spell fails and has no effect. The action, Bonus Action, or Reaction used to cast it is wasted and, if the spell was cast using a spell slot, the slot is also wasted.",
+				"As with any saving throw to maintain Concentration, the DC equals 10 or half the damage the creature takes, whichever number is higher, to a maximum DC of 30.",
+				"{@note Adapted from MW3. Made by V}"
+			]
+        },
+        {
+            "name": "Nothing Ever Happens",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+				"{@i Well, would you look at the time...}",
+				"When a GM rolls on a random encounter table, you can expend a charge of this charm to instead have them roll a {@dice d100}. On a 1-36, nothing happens. On a 36-75, nothing happens. On a 75-99, nothing happens. On a 100, something happens, and they can roll again on their table.",
+				"While you have this charm, burgers are tasteless.",
+				"This charm comes with {@dice 1d4} charges. Once the last charge is expended, it disappears in a thoroughly disappointing and anticlimactic way.",
+				"{@note Repassing from S3, Made by Ryan}"
+			]
+        },
+        {
+            "name": "Something Just Happened",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+				"If you, the player, are aware of something happening that your character isn't, such as due to a party split, you can use an action to use this charm to roll a DC 15 Constitution ({@skill Perception}) check. On a success, your character knows that Something Just Happened, as well as a general direction to where it happened, but absolutely no further information. Once used, this charm vanishes from you.",
+				"{@note Repassing from WM3, Made by V}"
+			]
+        },
+        {
+            "name": "Something Will Happened",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+				"When a GM rolls for a Recharge ability, you can use this charm to have it automatically recharge the ability instead. Once you use this charm, it vanishes from you.",
+				"{@i I think something will happen!}",
+				"{@note Repassing from WM3, Made by Landon}"
+			]
         }
 	],
     "condition": [
@@ -2339,6 +2848,100 @@
                 "A creature immune to the Slowed condition is immune to the {@spell confusion} spell.",
 				"{@note Made by Aris}"
             ]
+        },
+        {
+			"name": "Mad Rat Disease",
+			"source": "WM4",
+			"srd52": true,
+			"type": "Magical Contagion",
+			"basicRules2024": true,
+			"entries": [
+				"When large quantities of rodents gather in areas of intense magic, they can start going insane, infecting the area with mad rat disease. Any beast or humanoid that is wounded by a creature that carries the contagion or comes into contact with contaminated filth must succeed on a DC 11 Constitution saving throw, or become infected. A creature that is infected suffers the following effects after {@dice 1d8} minutes.",
+				{
+					"type": "entries",
+					"name": "Maddening Failure.",
+					"entries": [
+						"Whenever an infected creature fails a D20 test, it must roll on the madness table below. If it rolls a 5 or lower, it does not roll on the table again until the start of its next turn."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Maddening Failure",
+					"colLabels": [
+						"{@dice 1d10}",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"The creature is {@condition Stunned} until the end of its next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"The creature becomes {@condition Frightened} of all creatures (other than itself) until the end of its next turn. On its next turn, it uses its action to make an attack against a random creature within its range. If no creature is within range, it can’t take an action this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"The creature becomes {@condition Dazed|WM4} until the end of its next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"The creature falls {@condition Prone}, and cannot get up until the end of its next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"The creature is {@condition Poisoned} until the end of its next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 6,
+                                    "max": 10
+								}
+							},
+                            "No effect"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fighting the Contagion.",
+					"entries": [
+						"When the creature finishes a long rest, it must make a DC 15 Constitution saving throw. On a success the contagion ends. Magic such as {@spell Heal|XPHB} or {@spell Lesser Restoration|XPHB} cures a creature of the contagion."
+					]
+				},
+				"{@note Made by Gem}"
+            ]
         }
     ],
 	"magicvariant": [
@@ -2375,6 +2978,30 @@
 				"entries": [
 					"This magic weapon deals an additional {@dice 1d4} damage of its type when it is used to attack a beast with a swimming speed. Any beast damaged in this way remains pristine and fully intact for the sake of cooking and consuming.",
 					"{@note Made by Patrick}"
+				]
+			}
+		},
+		{
+			"name": "Undertaker's Axe",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"name": "Battleaxe"
+				},
+				{
+					"name": "Greataxe"
+				},
+				{
+					"name": "Halberd"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Undertaker's ",
+				"source": "WM4",
+				"rarity": "common",
+				"entries": [
+					"You cannot knock a creature out with this axe. When you reduce a creature to 0 hit points with the Undertaker's Axe, you chop off their head, or another equivalent body part, if any.",
+					"{@note Made by Gavin}"
 				]
 			}
 		}
@@ -2535,6 +3162,9 @@
 				],
 				[
 					"{@reward Powerful Shove|WM4}"
+				],
+				[
+					"{@reward Spellbreaker|WM4}"
 				],
 				[
 					"{@reward Sparks of Magic|WM4}"
