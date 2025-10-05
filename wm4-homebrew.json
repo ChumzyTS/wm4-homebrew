@@ -336,6 +336,19 @@
 				"This item may be copied and printed at a scriptorium.",
 				"{@note Made by Patrick}"
             ]
+        },
+        {
+            "name": "Darkvision Powder",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "weight": 1,
+            "value": 3000,
+            "entries": [
+				"This plain gray powder clings to surfaces and cannot be seen with normal vision from more than 10 feet away. It glows brightly when viewed with {@sense darkvision}, and thus is useful for creatures that have {@sense darkvision} and wish to write messages that other creatures can’t read. Each vial contains enough powder for a message of up to 25 words. By adding a mixture of spider silk oil, an ink can be created with the same properties as the powder.",
+				"{@i This item can be crafted using {@item Alchemist's Supplies|XPHB|Alchemy Tools}.",
+				"{@note From S3, 3.5e Drow of the Underdark, ported by Aris}"
+            ]
         }
     ],
     "item": [
@@ -3344,6 +3357,453 @@
 				},
 				"{@note Made by Gem}"
 			]
+		},
+		{
+			"name": "Cinnabar Eye Cusps",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"These are pink lenses of polarized crystal that fit comfortably over your eyes. When worn in an area with an intense concentration of faerzress, the eye cusps enhance your vision. If you lack {@sense darkvision}, you gain {@sense darkvision} out to 120 feet. If you have {@sense darkvision}, your {@sense darkvision} extends through the entire faerzress-infused area.",
+				"{@note From 3.5e Drow of the Underdark, ported by Aris}"
+			]
+		},
+		{
+			"name": "Message in a Bottle",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"When you cast the {@spell message|XPHB} spell, you can choose to cast the spell into this bottle, provided it is empty and unsealed. When you speak the message, a scroll of paper with your message appears in the bottle, and a cork appears, sealing the bottle.",
+				"As a {@action Utilize|XPHB} action, a creature can open this bottle while a message is contained within. That creature hears the stored message as if it was cast targeting them. Then, the message and cork disappear.",
+				"When found, there's a 75% chance a message is already stored in the bottle.",
+				"{@note Made by Aris}"
+			]
+		},
+		{
+			"name": "Modron Earpiece",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"{@i A bronze, clockwork earpiece with a rudimentary microphone attached.}",
+				"When speaking Common into the audio receptor, the earpiece converts the Common speech into Modron, emitting a sequence of clicks and whirs. When Modron is spoken and can be heard by the earpiece, the earpiece translates Modron into Common, emitting what is said but in common into the ears of the wearer.",
+				"Mechanically, Common speech of the wearer can be heard as Modron, and Modron spoken in the vicinity of the wearer can be heard as Common by the wearer.",
+				"{@note Made by Sam}"
+			]
+		},
+		{
+			"name": "Quicktimer",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"You can use this timepiece to take a reaction when you have already taken a reaction before the start of your next turn. The reaction cannot be used to cast a spell. The quicktimer cannot be used again until the next dawn.",
+				"{@note Made by Aris}"
+			]
+		},
+		{
+			"name": "Sacrificial Dagger",
+			"source": "WM4",
+			"rarity": "common",
+			"type": "M",
+			"baseItem": "dagger|XPHB",
+			"entries": [
+				"{@i The dagger is covered in abyssal runes, depicting commitments of evil made in service of a demon lord.}",
+				"The wielder may take a Bonus Action to cut itself with the dagger, dealing {@dice 1d4} Piercing damage to itself that cannot be reduced. The wielder's hit point maximum is also reduced by this amount. The dagger then gains +1 to attacks and damage for 1 minute.",
+				"Additionally, while holding this dagger, you gain a +3 bonus to Intelligence ({@skill Religion}) checks made about rituals that require a knife.",
+				"{@note Made by Aris}"
+			]
+		},
+		{
+			"name": "Vulture Mask",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While wearing this mask, you can cast {@spell Cause Fear|XGE} with it (DC 10). The mask can't cast this spell again until the next dawn.",
+				"{@note Made by Chrys}"
+			]
+		},
+		{
+			"name": "Bent Silver Spoon",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"reqAttune": "by an Aberrant Sorcerer",
+			"wondrous": true,
+			"entries": [
+				"{@i This silver spoon has strange properties that channel psychic power.}",
+				"The spoon enhances the flavor of any soup or similarly spoonable dish by drawing out the more nuanced flavors that are often overlooked. It also tarnishes and dim when touched by a poison. If tarnished this way, the spoon remains so until the next dawn, when its normal luster magically reappears.",
+				"The spoon can be used as an Arcane Focus, and while you hold it, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells and your psionic features, such as Telekinetic.",
+				"If you are holding the spoon and you roll psychic damage, you can focus your attention on the spoon to deal maximum damage on one of the damage dice. Once this feature has been used, it can't be used again until the next dawn.",
+				"{@note Adapted From TGS2 by Landon}"
+			]
+		},
+		{
+			"name": "+1 Tool",
+			"source": "WM4",
+			"rarity": "common",
+			"type": "GV",
+			"entries": [
+				"You gain a +1 bonus to ability checks made using this tool.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "+2 Tool",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"type": "GV",
+			"entries": [
+				"You gain a +2 bonus to ability checks made using this tool.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "+3 Tool",
+			"source": "WM4",
+			"rarity": "rare",
+			"type": "GV",
+			"entries": [
+				"You gain a +3 bonus to ability checks made using this tool.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Crystalline Tool",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"type": "GV",
+			"property": [
+				"C|WM4"
+			],
+			"entries": [
+				"{@i This tool is sculpted out of fragile magic crystals. They are carved with very small runes that channel the magic of the crystals into the wielder allowing them to perform much better than they normally would.}",
+				"You gain a +5 bonus to ability checks made using this tool. After making the check, if you are proficient with the tool roll {@dice 1d6}. On a 1 the tool is destroyed. If you are not proficient with the tool, it's destroyed once.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Drow House Insignia",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@i Each drow house insignia is keyed to a specific noble house of a particular drow city, and is wrought to reflect the house that created it. Some might be stylized versions of crossbows, javelins, maces, or even just spiders.}",
+				"Insignias come in one of two variants: Spell or Transmitting.",
+				{
+					"type": "entries",
+					"name": "Spell.",
+					"entries": [
+						"You can use the insignia to cast a single level 1, 2, or 3 spell determined at its creation, with the more powerful spells reserved for drow of significant station or influence. Once the insignia casts the spell, it cannot cast it again until 24 hours have passed. These insignia typically contain one of the following spells: {@spell blur|XPHB}, {@spell enhance ability|XPHB}, {@spell comprehend languages|XPHB}, {@spell feather fall|XPHB}, {@spell jump|XPHB}, {@spell levitate|XPHB}, {@spell shield|XPHB}, {@spell spider climb|XPHB}, {@spell unseen servant|XPHB}, and {@spell water breathing|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transmitting.",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you can speak a command word and utter a short message of no more than 50 words or less into the insignia, which transmits it up to 1 mile away to another creature wearing an insignia of the same house. The recipient hears the message in its mind. To transmit the message, you must name the intended target as part of the command word. Should the target not be wearing its drow house insignia, the message is lost, but you have no way of knowing whether it successfully transmits or not. The insignia can transmit messages three times, and regains a use every 8 hours."
+					]
+				},
+				"Since each insignia is slightly different—even those from the same noble house—a person aware of the unique shape of an individual insignia can magically locate that amulet with a scrying or similar spell.",
+				{
+					"type": "entries",
+					"name": "Identifying an Insignia.",
+					"entries": [
+						" A DC 15 Intelligence ({@skill History}) check reveals the house to which an insignia is keyed. Drow gain a +5 bonus on these checks."
+					]
+				},
+				"{@note From 3.5e Drow of the Underdark, ported by Aris}"
+			]
+		},
+		{
+			"name": "Dude’s Rock",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@i Hell yeah, brother.}",
+				"Carved from the burning mass of a fallen star, this rock is striated with streaks of red, white, and blue. This rock has 2 charges. When you hold it, you can use a {@action Magic|XPHB} action to expend a charge and choose an effect from the following list:",
+				{
+					"type": "list",
+					"items": [
+						"Manifest a paper plate with one medium-well hamburger, eight buffalo wings, and two hot dogs in an unoccupied space within 5 feet of the rock. Consuming the food as a {@action Utilize|XPHB} action grants 5 temporary hitpoints.",
+						"A six-pack of beer bottles appears next to the rock. The taste is identical to Anheuser-Busch Natural Light. Consuming all six beers as a {@action Utilize|XPHB} action gives you advantage against the next saving throw you make against the {@condition Frightened} condition within the next hour.",
+						"The rock plays an otherworldly tune. The exact song is up to the discretion of the GM, but must fit under the umbrella of “Dad Rock.” You have advantage on the next unarmed strike you make within the next hour."
+					]
+				},
+				"The rock regains any expended charges at dawn.",
+				"{@note Made by Ryan}"
+			]
+		},
+		{
+			"name": "Lil' Locksmith",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@i I'm on it, boss!}",
+				"The Lil' Locksmith is sentient and has the personality of a locksmith artisan. Its alignment is determined by rolling on the alignment table in the \"Sentient Magic Items\" section in the Dungeon Master's Guide (or determined by the GM granting this item). Regardless of its alignment, the Lil' Locksmith uses the '{@creature Commoner|XMM}' stablock, with the exception that the Lil' Locksmith is of the tiny size category, and has expertise in thieves' tools. The Lil' Locksmith has its own goals and motivations, and might require an incentive to take orders from a wielder, such as payment, a task, or some other form of compensation.",
+				"{@note Made by Patrick}"
+			]
+		},
+		{
+			"name": "Shawl of the Reaper",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"property": [
+				"E|WM4"
+			],
+			"reqAttune": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reaper's Training.",
+					"entries": [
+						"When attuned to this shawl, you have proficiency with {@item sickle|XPHB|Sickles} and {@item glaive|XPHB|Glaives}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strength from Harvest.",
+					"entries": [
+						"When you reduce a creature to 0 Hit Points with a {@item Sickle|XPHB} or {@item Glaive|XPHB}, you gain {@dice 2d4} Temporary Hit Points."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blessing of Myrkul.",
+					"entries": [
+						"When you succeed on a saving throw against a spell from a spellcaster, the spellcaster takes Necrotic damage equal to twice the spell's level."
+					]
+				},
+				"{@note Made by Chrys}"
+			]
+		},
+		{
+			"name": "Tactical Rock Pouch",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@i Many underestimate the power of having a good rock between you and the mouth of a dragon.}",
+				"Whenever you roll initiative and are not {@status surprised|XPHB}, you can choose to deploy {@dice 2d4} tactical rocks from the pouch. You throw each of these to an unoccupied space within 120 feet of yourself, where they expand becoming medium sized {@object boulder|WM4|boulders} (Shown below). The {@object boulder|WM4|boulders} disappear after 10 minutes.",
+				"{@object Boulder|WM4}",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Tall Hat",
+			"source": "WM4",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"entries": [
+				"{@i These hats are almost always found in their smallest form, but through bloodlust and the love of the game, you can achieve hat perfection!}",
+				"This hat starts being 5 inches tall. Every time you kill a creature with an Intelligence of 2 or higher while wearing this hat, it grows 1/2 inch taller. As the hat grows taller, it gains new effects, retaining the effects of all heights smaller than it.",
+				{
+					"type": "entries",
+					"name": "5 inches.",
+					"entries": [
+						"{@i Your hat is of normal size.} Creatures who view your hat think that it is a normal thing to wear. Creatures who immune to the {@condition charmed} condition or mind altering effects are allowed to form their own opinions. Because of the heft of the hat, you have {@dice -1d4} to all initiative rolls."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "10 inches.",
+					"entries": [
+						"{@i Your hat is starting to become quite tall.} You have -1 to all {@skill stealth} checks you make, unless you are {@condition invisible} or otherwise fully hidden. As a {@action Magic|XPHB} action you can tip your hat at a creature within 30ft of yourself. The target must make a DC 5 Wisdom saving throw or be {@condition Charmed} by you until the start of your next turn. Once you use this ability, you can't until the next dawn."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "15 inches.",
+					"entries": [
+						"{@i This is a massive hat!} Whenever a creature rolls exactly 1 above your AC, your hat gets hit causing the attacker to take notice of its elegance. When your hat is hit, the attacking creature must make a DC 5 Charisma saving throw or be {@condition Charmed} by you until the end of your next turn. A creature that passes this save is immune to it for 24 hours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "24 inches.",
+					"entries": [
+						"{@i Your hat is comically large.} As a {@action Magic|XPHB} action you can pull your hat down onto yourself (Even if you are larger then it) causing you to go inside of it for a moment. While inside of the hat, you are considered to have half cover. Once you are hit, you are forced out of your hat (yet it remains on your head). You can only take this {@action Magic|XPHB} action once per day."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "36 inches.",
+					"entries": [
+						"{@i At 3 feet tall, your hat is too much to handle.} Whenever you fail an {@skill Acrobatics} check by 5 or more, your hat falls off of your head."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "48 inches.",
+					"entries": [
+						"{@i Four feet!} Your hat catches in the wind, causing it to become even more nimble. You can take any of the previous {@action Magic|XPHB} actions as a bonus action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "60 inches.",
+					"entries": [
+						"{@i FIVE WHOLE FEET!} When you enter a space that a creature one size larger of you can't fit into (or would have to squeeze into), you hat is knocked off of your head. You gain {@dice -1d4} to any check involving fitting into a small space."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "120 inches.",
+					"entries": [
+						"{@i TEN FEET!!!!!!!!} By reaching ten feet, you have achieved perfection in your hat causing it to turn gold. When you put your hat on the ground, you can climb it as if it were a {@item ladder|XPHB|10ft tall ladder}, or use it as a {@item pole|XPHB|10ft pole}. Selling a hat that is golden magically nets you an extra 500gp no matter what price you sold it for, however, the hat permanently loses its golden color."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "25,000 miles.",
+					"entries": [
+						"{@i Your hat is now large enough to stretch across all of Toril.} As a {@action Magic|XPHB} action while wearing the hat, you can launch yourself through it, teleporting yourself anywhere on the same planet, as if cast by the {@spell Teleport|XPHB} spell. Once you use this ability you can't use it again until the next dawn."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse.",
+					"entries": [
+						"Whenever this hat is knocked off of your head, you take {@dice 1d4} psychic damage and must make a DC 10 Wisdom saving through or be {@condition charmed} by the hat. On a fail, you must spend your next turn trying to pick up the hat."	
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Greater Piwafwi",
+			"source": "WM4",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"This dark spider-silk cloak is made by drow. It is a cloak of elvenkind. It also grants resistance to fire damage while you wear it. It loses its magic if exposed to sunlight for 1 hour without interruption.",
+				"While you wear this cloak, Wisdom ({@skill Perception}) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity ({@skill Stealth}) checks.",
+				"{@note From Out of the Abyss, Ported by Aris}"
+			]
+		},
+		{
+			"name": "Ring of Gnomekind",
+			"source": "WM4",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@i Legends hold that Garl Glittergold himself handed down these simple rings to his children (He didn't).}",
+				{
+					"type": "entries",
+					"name": "Gnome.",
+					"entries": [
+						"The Ring of Gnomekind transforms you into an average looking gnome of average height and weight. The ring chooses the physical characteristics of the form, such as age, gender, skin color, hair color, and voice. Except for size, your statistics and species traits don't change, nor do items worn or carried by you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gnomish.",
+					"entries": [
+						"You know Gnomish"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gnomish Cunning.",
+					"entries": [
+						"Your Intelligence score increases by 2. You have a +2 bonus to Dexterity ({@item Tinker's Tools|XPHB}) checks, and a +1 bonus to your spell save DCs for your Illusion spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Friend of Gnomekind.",
+					"entries": [
+						"You have Advantage on Charisma ({@skill Persuasion}) checks made to interact with gnomes and svirfneblin."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gnomish Darkvision.",
+					"entries": [
+						"You have {@sense Darkvision} with a range of 60 feet."
+					]
+				},
+				"{@note Made by Chrys}"
+			]
+		},
+		{
+			"name": "Step Two",
+			"source": "WM4",
+			"rarity": "rare",
+			"wondrous": true,
+			"property": [
+				"C|WM4"
+			],
+			"entries": [
+				"One vial of this oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature gains the following benefits for 8 hours.",
+				"The affected creature has a fly speed equal to its walking speed while it is under rainfall.",
+				"The affected creature is buoyant while underwater, rising 30 feet toward the surface at the start of each of its turns.",
+				"{@note Made by V}"
+			]
+		},
+		{
+			"name": "Bag of Rats",
+			"source": "WM4",
+			"rarity": "artifact",
+			"wondrous": true,
+			"entries": [
+				"{@i \"Only a fool would open this bag\" - Elminster}",
+				"{@i Sewn from the flesh of Sneel, former deity of rats, this bag is constantly thrashing. The inside of the bag has never been seen, but some say it is a portal to the Black Sewers, where Raxivort spends his days making rats from pure chaos.}",
+				"The Bag of Rats has an AC of 11, and 100 hit points. On Initiative 0, the Bag of Rats repairs itself, regaining all of its hit points.",
+				{
+					"type": "entries",
+					"name": "Interplanar Nature.",
+					"entries": [
+						"The Bag of Rats is unable to enter any space that prevents interplanar travel. If the Bag of Rats is in an area and a {@spell Gate Seal|SatO} or similar magic is cast on its space, it is summoned to the nearest place on the same plane that isn't protected from interplanar travel. If no such space exists on the current plane, the Bag of Rats is immediately summoned to a random plane of existence."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Nature.",
+					"entries": [
+						"All {@creature rat|XMM|Rats} and {@creature swarm of rats|XMM|Swarms of Rats} are friendly to all other {@creature rat|XMM|Rats} and have no allegiance to a creature that lets them out of the bag, often being hostile to it. "	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quick Grab.",
+					"entries": [
+						"As a {@action Magic|XPHB} action you reach into the bag, taking {@dice 1d4-2} (min 0) Piercing damage from being bit, to summon a {@creature Rat|XMM} in your hand. As part of the action you can throw the {@creature rat|XMM} up to 60 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deploy Rodents.",
+					"entries": [
+						"As a {@action Magic|XPHB} action you can attempt to quickly open and close the bag, launching out a {@creature swarm of rats|XMM} at a point you can see within 30 feet. A {@creature Swarm of Rats|XMM} is summoned from the bag at the point. Additionally make a DC 15 Strength ({@skill Athletics}) check. On a failure, you cannot close the bag. Every turn the bag is open, a {@creature Swarm of Rats|XMM} is summoned at the entrance of the bag. A creature can make a DC 15 {@skill Athletics} check to attempt to close the bag."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swarm Breach.",
+					"entries": [
+						"If the bag remains open for 1 minute or has 0 hit points, it ruptures exploding into a 5-foot-diameter portal. The portal functions as a permanent {@spell gate|XPHB} spell. One per round on initiative count 20, the portal summons a {@creature Swarm of Rats|XMM}. The Bag of Rats reforms {@dice 4d10} days after it ruptures, turning a random {@creature Swarm of Rats|XMM} on any plane into a new bag, ending the {@spell gate|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Destroying the Bag.",
+					"entries": [
+						"The bag of rats can only be destroyed if Raxivort is killed while the Swarm Breach gate is open, or a creature holds the bag shut for 5 years."
+					]
+				},
+				"{@note Made by Gem}"
+			]
 		}
     ],
 	"itemProperty": [
@@ -3387,6 +3847,26 @@
 						"An item of which there is only one instance."
 					]
 				}
+			]
+		}
+	],
+	"object": [
+		{
+			"name": "Boulder",
+			"source": "WM4",
+			"size": [
+				"M"
+			],
+			"ac": 17,
+			"hp": 50,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"entries": [
+				"Each boulder fills a 5ft cube, and is large enough to provide up to Three-Quarters Cover to a standing medium sized creature.",
+				"{@note Created by the {@item Tactical Rock Pouch|WM4}}",
+				"{@note Made by Gem}"
 			]
 		}
 	],
@@ -4693,6 +5173,521 @@
 				"{@i I think something will happen!}",
 				"{@note Repassing from WM3, Made by Landon}"
 			]
+        },
+        {
+            "name": "Anonymity",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You have advantage on Dexterity ({@skill Stealth}) checks made to hide in crowds of people.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Elysium Influence: Adequate Chef",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"No matter how low you roll for Wisdom ({@item Cook's Utensils|XPHB}) to prepare a meal, your food cannot taste terrible. It tastes mediocre at worst.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "I Own a Musket For Home Defense",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You have advantage on attack rolls with {@item musket|XPHB|muskets} while in your home, as the founding fathers intended.",
+				"{@note Made by Lily}"
+			]
+        },
+        {
+            "name": "Legacy Carpenter",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: {@item Carpenter's Tools|XPHB} proficiency}",
+				{
+					"type": "entries",
+					"name": "Fortify.",
+					"entries": [
+						"With 1 minute of work and raw materials, you can make a door or window harder to force open. Increase the DC needed to open it by 5."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Shelter.",
+					"entries": [
+						"As part of a Long Rest, you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses {@dice 1d3} days after being assembled."
+					]
+				},
+				"{@note From 2014, ported by Aris}"
+			]
+        },
+        {
+            "name": "Legacy Mason",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: {@item Mason's Tools|XPHB} proficiency}",
+				{
+					"type": "entries",
+					"name": "Demolition.",
+					"entries": [
+						"Your knowledge of masonry allows you to spot weak points in brick walls. You deal double damage to such structures with your weapon attacks."
+					]
+				},
+				"{@note From 2014, ported by Aris}"
+			]
+        },
+        {
+            "name": "Legacy Tinkerer",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: {@item Tinker's Tools|XPHB} proficiency}",
+				{
+					"type": "entries",
+					"name": "Repair.",
+					"entries": [
+						"You can restore 10 hit points to a damaged object for each hour of work. For any object, you need access to the raw materials required to repair it. For metal objects, you need access to an open flame hot enough to make the metal pliable."	
+					]
+				},
+				"{@note From 2014, ported by Aris}"
+			]
+        },
+        {
+            "name": "Opening Tap",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You can use any hard blunt object, such as a pommel of a blade or another lock, as {@item Thieves' Tools|XPHB} for the purposes of opening a nonmagical lock.",
+				"{@note Inspired by the 3.5e Opening Tap skill trick, Made by Aris}"
+			]
+        },
+        {
+            "name": "Owlbears are Owl Bears!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You can treat {@creature owlbear|XMM|Owlbears} as Beasts for the sake of your features and spells.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Ratapult",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: Can cast {@spell Catapult|XGE}}",
+				"When you cast {@spell Catapult|XGE}, you can target a {@creature Rat|XMM} to launch instead of an object.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Shielding Arm",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: {@item Shield|XPHB} Training",
+				"As an Action while your hand is empty, you can shift your stance to one of defense. While in this stance, you can use your empty hand as a donned {@item shield|XPHB}. While in this stance, you can't hold or manipulate items in that hand. You can exit this stance as an Action.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Shielding Stance",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: {@item Shield|XPHB} Training",
+				"As a {@action Utilize|XPHB} action while holding a weapon, you can shift the way you hold one of your weapons you are holding to a stance of defense. While in this stance, treat the weapon as a {@item shield|XPHB}. While in this stance, you can't make attacks with that weapon.",
+				"Additionally while in this stance, you can't be disarmed of that weapon, and it takes a {@action Utilize|XPHB} action to drop the weapon, thereby ending the stance. You can also exit this stance as a {@action Utilize|XPHB} action.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Spirit of Encouragement",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i In times of stress, a small incorporeal spirit manifests behind you, holding onto your back. This spirit provides encouragement and consoles negative emotions.}",
+				"When forced to make a saving throw to avoid falling into despair or otherwise allowing a form of sadness to take hold of you, you roll that saving throw with advantage.",
+				"In addition, a creature with this perk is convinced that luck is on their side, even when that might not be the case.",
+				"{@i Keep on rushing forward!}",
+				"{@note Made by Patrick}"
+			]
+        },
+        {
+            "name": "Up the Hill",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i \"When I was a kid I used to walk to school uphill both ways\"}",
+				"You can run up steep inclines or stairs without it costing extra movement (if the GM would rule it as costing extra movement).",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Up the Hill",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"You can cast {@spell Speak with Animals|XPHB} at will. When you cast it this way, you can only speak to {@creature rat|XMM|rats} that you are holding.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Theme Music",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"As a {@action Magic|XPHB} action, you can create music in a 120-foot Emanation from you. This music ends when you desire (no action required) or when you become {@condition Incapacitated}.",
+				"{@note Talent of {@item Wand of Conducting|XDMG}, Made by Landon}"
+			]
+        },
+        {
+            "name": "Non-Alcoholic Drinker",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"You can drink ale, wine, or any other nonmagical alcoholic beverage without becoming inebriated. This has no effect on magical liquids or harmful substances such as poison.",
+				"{@note Talent of {@item Tankard of Sobriety|XDMG}, Made by Marvin}"
+			]
+        },
+        {
+            "name": "Special Technique: Dropkick!",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"Whenever you make an Unarmed Strike against a creature, if you are not Prone or immune to the {@condition Prone} condition, you may attempt to dropkick your target. The attack deals an additional 2 Bludgeoning damage on a hit, but you become {@condition prone} after the attack. You may only make this special attack once per turn.",
+				"{@note Made by Patrick}"
+			]
+        },
+        {
+            "name": "The Spin!",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"You may treat individual {@item ball bearings|XPHB|ball bearings} from a pouch as a martial ranged weapon. {@item ball bearings|XPHB|Ball bearings} have the Finesse and Thrown (30/120 ft.) properties. {@item ball bearings|XPHB|Ball bearings} deal {@dice 1d6} bludgeoning damage on a hit. They have the Vex weapon mastery.",
+				"{@note Inspired by Jojo's Bizarre Adventure: Part 7 - Steel Ball Run, Reworked from WM3. Made by Patrick}"
+			]
+        },
+        {
+            "name": "Tidal Dash",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"When you take the {@action Dash|XPHB} action, you can move through the spaces of other creatures until the end of your turn. If you pass through the space of a creature of your size or smaller during this time, you can force the creature to make a DC 13 Strength saving throw. On a failure, you can push them 5 feet in a direction of your choice. A creature can be pushed only once a turn by this talent.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Arena Blood",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+			"property": [
+				"E|WM4"
+			],
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i The blood of an arena champion flows in your veins, giving you a thirst for glory and a drive to succeed.}",
+				"You get a +2 bonus on Charisma ({@skill Intimidation}) checks. In addition, if you successfully intimidate a Hostile creature using the {@action Influence|XPHB} action in combat, you gain {@dice 1d4} Temporary hit points. You lose these temporary hit points at the start of your next turn.",
+				"While fighting for the entertainment of onlookers, such as a fight in an arena or a sparring match, you gain a +2 bonus to your DCs to Grapple or Shove, and a +2 bonus to any Battlemaster Maneuvers or Weapon Masteries. The GM can determine what fights this applies to.",
+				"{@note From 3.5e, ported by Aris}"
+			]
+        },
+        {
+            "name": "Child of the Shadow",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+			"property": [
+				"E|WM4"
+			],
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i You're used to the streets and back alleys and have refined several talents and tricks valuable to survival in rougher neighborhoods.}",
+				"You know Sasserine’s black market quite well, and need not make checks to locate its outlets. Further, in other cities, you have a knack for rooting out the underground markets. You gain a +2 bonus on Charisma ({@skill Persuasion} and {@skill Investigation}) checks made to learn about a city’s black markets.",
+				"Your experience has also equipped you with several tricks you can use to ensure survival. You gain a +2 bonus to Initiative in urban environments. You are also adept at fighting in confined areas, such as narrow city alleyways or crowded taprooms. Your melee weapon attacks and Unarmed Strikes ignore Half and Three-Quarters Cover.",
+				"{@note From 3.5e, ported by Aris}"
+			]
+        },
+        {
+            "name": "Knack for Magic",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+			"property": [
+				"E|WM4"
+			],
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i Magic is not that mysterious to you, and its gifts have made your life a little easier.}",
+				"You get a +2 bonus to Intelligence (Arcana) checks made to identify spells. In addition, you have an innate talent for magic. You can cast the following spells: {@spell Prestidigitation|XPHB}, {@spell Light|XPHB}, {@spell Detect Magic|XPHB}.",
+				"Once you cast a spell with this talent, you cannot cast that spell again until you finish a long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this talent's spells (choose when you gain this talent).",
+				"{@note From 3.5e, ported by Aris}"
+			]
+        },
+        {
+            "name": "Merchant’s Tongue",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+			"property": [
+				"E|WM4"
+			],
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i Your practices in trade made you glib and gave you a keen eye for value.}",
+				"You have a +2 bonus to checks made to identify an object, and you can automatically determine the monetary value of any treasure (art object) you see.",
+				"In addition, whenever you sell an object, you can take the {@action Influence|XPHB} Action (DC 20) as if the creature was Hesitant. On a success, you can sell the object for up to 20% over its asking price.",
+				"{@note From 3.5e, ported by Aris}"
+			]
+        },
+        {
+            "name": "Student of Nature",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+			"property": [
+				"E|WM4"
+			],
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i The wild has always excited you with its simple beauty and majestic creatures. It is no wonder that many of your talents let you better enjoy the natural world.}",
+				"You get a +1 bonus to Wisdom ({@skill Animal Handling} or {@skill Survival}), and Intelligence ({@skill Nature}) checks. You also get a +2 bonus on Constitution saving throws made to resist effects originating from a Plant creature.",
+				"{@note From 3.5e, ported by Aris}"
+			]
+        },
+        {
+            "name": "Suspicious Eye",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+			"property": [
+				"E|WM4"
+			],
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i You are always on the lookout for treachery and wrongdoing.}",
+				"You gain a +2 bonus to Wisdom ({@skill Insight}) checks made to determine a creature's intentions with you.",
+				"In addition, you have a +5 bonus to your Passive Perception against attempts to pickpocket or steal from you. If you notice the creature, you can make an opportunity attack against that creature.",
+				"{@note From 3.5e, ported by Aris}"
+			]
+        },
+        {
+            "name": "Water Rat",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+			"property": [
+				"E|WM4"
+			],
+            "entries": [
+				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+				"{@i You've learned to swim well, and take to the water as easily as land.}",
+				"You gain a +2 bonus on Strength ({@skill Athletics}) checks made to swim. When wearing light or no armor and not Encumbered or {@condition Exhaustion|XPHB|Exhausted}, you have a swim speed equal to your walking speed. If you already have a swim speed, it is increased by 10 feet. While swimming, you gain a +2 bonus to Initiative.",
+				"{@note From 3.5e, ported by Aris}"
+			]
+        },
+        {
+            "name": "Blessing of Increased Ability",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "Choose an Ability Score. It increases by 2, up to a maximum of 20.",
+				"When you finish a long rest, you can change which Ability Score you increase with this gift.",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Dropkick of Doom",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@reward Special Technique: Dropkick!|WM4} talent}",
+				"When you dropkick a creature, the creature is pushed 5 feet away from you if it is no more than one size larger than you. In addition, you may make any of your unarmed strikes into a dropkick attack, instead of one per turn.",
+				"{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Oiled Up",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i 3rd Level Curse}",
+				"Your hair and skin is constantly oily. You sweat oil.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "You First.",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i 5th Level Curse}",
+				"Whether it's because you are aura farming, are overly polite, or just have a godlike reaction speed, whenever you would roll initiative, you instead get an initiative of 0. If you still go before someone else, you can point and laugh at them.",
+				"{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Pretty Bad Medicine, Actually",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i 5th Level Curse}",
+				"{@i This is serious, asshole.}",
+				"Whenever you, the player, laugh, your character takes {@dice 1d6} psychic damage.",
+				"{@note Inspired by Legends of Avantris, Made by Lily}"
+            ]
+        },
+        {
+            "name": "Lycanthropy (shark)",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i 5th Level Curse}",
+				"{@i You are heavily swayed to a Neutral Evil alignment, become a Monstrosity (Lycanthrope), and gain minor shark-like features.}",
+				{
+					"type": "entries",
+					"name": "Shape-Shift",
+					"entries": [
+						"As a Bonus Action, you can shape-shift into a Shark or Shark-Hybrid. While a Shark or Shark-Hybrid, you have a blindsight of 30 feet, a swim speed of 40 feet. While as a Shark-Hybrid, you can breathe air and water. While as a Shark, you are Large and can breathe only underwater. Your game statistics are otherwise the same in each form, though you cannot speak if you are a Shark. Any equipment you are wearing or carrying isn't transformed. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear or wield a piece of equipment. You can use another Bonus Action to shape-shift back."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"While you are a Shark or Shark Hybrid, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal. You have advantage on attack rolls with this weapon against {@status Bloodied|XPHB} creatures.",
+						"It deals {@dice 2d8} piercing damage on a hit. A damaged creature is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target gains this curse. Success: The target is immune to your curse for 24 hours. A creature automatically succeeds if it cannot become a Lycanthrope, like most non-Humanoids."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transformation",
+					"entries": [
+						"When you start your turn next to a {@status bloodied|XPHB} enemy, you must make a DC 15 Wisdom saving throw. On a failure, you lose control of yourself and shape-shift into a Shark or Shark-Hybrid, and cannot shape-shift back into your true form until there are no {@status Bloodied|XPHB} creatures other than you within 120 feet of you. You have no memory of your actions during this time, the GM having control over those actions instead."
+					]
+				},
+				"{@note Formatted like Landon's Lycanthropy curse, Made by Aris}"
+            ]
+        },
+        {
+            "name": "Endless Dreamer",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Special Curse}",
+				"Your dreams often stretch on endlessly, and years could pass in your dreams when only hours pass in reality. You remember most of your dreams, even if somewhat hazy.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Vile Damage",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Special Curse}",
+				"Vile damage is a special curse. Every point of vile damage reduces your current hit points by 1. These lost hit points can only be restored by healing magic in a consecrated area such as the Hallow spell. Vile damage represents such an evil violation to a character’s body or soul that only in a holy place can healing magic repair the damage.",
+				"Vile damage is usually done in increments of 1 damage per infliction",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Arms Dealer Dealer",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You’ve earned the respect of Castil, premier gunsmith of Westgate. He offers a small discount at his shop, access to more select merchandise, and more jobs when he has them.",
+				"{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "Dingy Hospitality",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You have the protection of Balabar Smenk, an upstart criminal from Westgate. When in Westgate, you can find a place to hide, rest, or recuperate within the criminal network, unless you have shown yourself to be a danger to those who are sheltering you. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.",
+				"{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Efreeti's Serf",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"{@i Your soul is binded to an {@creature Efreeti|XMM} in order to do its whims.}",
+				"You are {@condition Charmed} by that {@creature Efreeti|XMM}. They have a telepathic link with you.",
+				"As a {@action Magic|XPHB} action, that {@creature Efreeti|XMM} can deal {@dice 5d10} Fire damage to you. This damage cannot be reduced in any way.",
+				"When you deal Fire damage to a creature, you can have that creature start burning. Once you use this feature, you cannot do so again until you finish a long rest.",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Greased Hog Lightning",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"The Hoggler is known throughout Raven's Bluff to have killed a goblin under the Crossed Quils' House while covered in Grease. Local legends are formed around this event.",
+				"{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Vow of Kindness to Beasts",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You have promised to never harm a beast.",
+				"You have a +1 to Wisdom ({@skill Animal Handling}) checks. If you ever willingly harm a beast except in self-defense, you instead have a -5 penalty to Wisdom ({@skill Animal Handling}) checks.",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Starmantle's Gratitude",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You've extinguished the inferno and felled the first Machine. As such, you have the deepest thanks of Starmantle's people.",
+				"{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Banned for Life (SMP)",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You have committed a dastardly crime against The Scholars of Millenniums Past, and have been banned from their libraries permanently. If you are found out to be banned while trespassing onto their property, hostile action will be taken. While other libraries don't immediately take this as proof of bad book lending, many will be hesitant to let you visit.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Card Holder (SMP)",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You have been recognized as responsible enough to check out books from any Scholars of Millenniums Past' library. As a highly prestigious library organization, many non-associated libraries accept this membership as well.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Scholar (SMP)",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"Due to your dedication or assistance to The Scholars of Millenniums Past, you have shown yourself to be trustworthy. You receive preferential treatment over simple Card Holders. Additionally, you are allowed to start your own library under their name, and they will provide aid to do such.",
+				"{@note Made by Gem}"
+            ]
         }
 	],
     "condition": [
@@ -5192,6 +6187,9 @@
 				],
 				[
 					"{@reward Attunement Adept|WM4}"
+				],
+				[
+					"{@reward Blessing of Increased Ability|WM4}"
 				],
 				[
 					"{@reward Brutal Thrower|WM4}"
