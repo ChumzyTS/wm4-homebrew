@@ -6,7 +6,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.4",
+				"version": "1.4.1",
 				"authors": [
 					"Various DMs"
 				],
@@ -137,8 +137,10 @@
             "source": "WM4",
             "type": "G",
             "rarity": "none",
+			"property": [
+				"E|WM4"
+			],
             "entries": [
-				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
 				"{@i To create a cheaper, more easily produced version of the popular Fish Suit, gnomish inventor Nadul DaRoni created the Crab Suit, a suit of armor made to handle deep water pressure.}",
 				"This bulky suit, which fully encases your head and body, takes 10 minutes to don or doff. While worn, it enables you to breathe in an airless environment and renders you immune to the harmful effects of any gas that surrounds you for up to 8 hours.",
 				"Once worn for 8 total hours, the suit's property is unusable unless the suit is recharged for 1 hour in an elemental air node (or dedicated Crab Suit Recharger).",
@@ -152,8 +154,10 @@
             "source": "WM4",
             "type": "G",
             "rarity": "none",
+			"property": [
+				"E|WM4"
+			],
             "entries": [
-				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
 				"{@i Comprised of an airtight mask, goggles, and an air tank, the Diving Mask was made as a portable solution to air deprivation and light underwater travel.}",
 				"The Diving Mask allows the user to connect to an air tank, expanding their breathing capacity and prolonging suffocation. A full air tank connected to a diving mask provides 6 hours' worth of breathable air.",
 				"{@note Made by Patrick}"
@@ -323,8 +327,10 @@
             "source": "WM4",
             "type": "G",
             "rarity": "none",
+			"property": [
+				"E|WM4"
+			],
             "entries": [
-				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
                 "{@i This piece of parchment teaches the reader how to play a specific written piece of music, so long as the user knows the notation.}",
 				"When you attempt to play the song written on this piece of sheet music and you are proficient with the instrument you are playing, any roll of 4 or lower on the D20 roll is treated as a 5 instead. Any given piece of sheet music must depict a specific song, and its benefits only apply to playing the given song.",
 				"This item may be copied and printed at a scriptorium.",
@@ -668,9 +674,10 @@
 			"source": "WM4",
 			"rarity": "common",
 			"type": "P",
-			"entries": [
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
-				"When you drink this potion, you have {@sense Tremorsense|XPHB} out to 20 feet (unless it is already higher) for 10 minutes. You must be in contact with stone, mud, or dirt to use this {@sense Tremorsense|XPHB}.",
+			"property": [
+				"C|WM4"
+			],
+			"entries": ["When you drink this potion, you have {@sense Tremorsense|XPHB} out to 20 feet (unless it is already higher) for 10 minutes. You must be in contact with stone, mud, or dirt to use this {@sense Tremorsense|XPHB}.",
 				"{@i This potion is a grey liquid with dark particles floating within it.}",
 				"{@note Made by Chrys}"
 			]
@@ -680,8 +687,10 @@
 			"source": "WM4",
 			"rarity": "common",
 			"wondrous": true,
+			"property": [
+				"C|WM4"
+			],
 			"entries": [
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
 				"{@i Bear Witness!}",
 				"As a {@action magic|XPHB} action, you may begin cranking your hog. While cranking your hog, you cannot take reactions, as you are fully focused on cranking your hog. At the beginning of your next turn after beginning to crank your hog, 1 {@creature Boar|XMM} appears in the space where the Hog of Cranking was (or within 5 ft. of that space if the space it occupied is currently occupied by another creature). You stop cranking your hog when the {@creature Boar|XMM} is summoned, upon which the hog becomes non-magical. This {@creature Boar|XMM} is friendly to you and your allies and hostile to any creatures you may be hostile towards when you begin to crank your hog. The {@creature Boar|XMM} continues to fight said hostile creatures until it or the hostile creatures die or are knocked unconscious. If no more hostile creatures remain, the {@creature Boar|XMM} acts as typical for a {@creature Boar|XMM}, and it no longer follows an obligation to be friendly towards you or your allies.",
 				"{@note Made by Patrick}"
@@ -805,8 +814,10 @@
 			"rarity": "common",
 			"type": "P",
 			"weight": 0.25,
+			"property": [
+				"C|WM4"
+			],
 			"entries": [
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
 				"{@i Developed on Mechanus, this vial of silvery liquid is able to repair anything it touches. Shaking the vial reveals it is full of many small flakes of metal.}",
 				"A vial of Mend-O can be applied to a tear in an object, or a damaged item. Applying Mend-O takes 1 minute, after which it magically seeps into whatever it is applied to, causing it to receive the benefits of a casting of {@spell Mending}.",
 				"Alternatively, as a Bonus Action, you can drink it or administer it to another willing creature within 5 feet of yourself. If the creature that drinks the Mend-O is a Construct, it regains {@dice 2d4+2|2d4+2 Hit Points}. If the creature is not a Construct, it must make a DC 13 Constitution saving throw, taking 14 ({@dice 4d6}) Poison damage on a failed save or half as much damage on a successful one.",
@@ -818,8 +829,10 @@
 			"source": "WM4",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"property": [
+				"C|WM4"
+			],
 			"entries": [
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
 				"{@i By mixing a Gelatinous cube, hot salt water, and various goops you can make a sticky, acidic, and volatile gel. Using magic to shrink a chunk of it into a 2 inch cube allows it to become stable, until it is released again.}",
 				"As a {@action Magic|XPHB} Action, you can activate the cube and throw it to a point up to 60 feet away. Upon landing, it expands into a 10ft cube. If the space it is thrown is smaller than this, it expands to fill the space. The cube is partially transparent, allowing creatures to see through it as normal while still being visible. Attacks and spells can be made through the cube as if it wasn't there. The area covered by the cube is difficult terrain. The cube evaporates after 1 minute.",
 				"When it expands, every creature in the area of the cube must make a DC 13 Dexterity saving throw. On a failed saving throw, the creature takes 7 ({@dice 2d6}) Acid damage, and becomes engulfed by the cube. On a successful one, the creature takes no damage, but is moved to an unoccupied space within 5 feet of itself that is not inside the cube. If there is no unoccupied space available or the creature chooses to not move, it suffers the effects of failing the saving throw.",
@@ -840,8 +853,10 @@
 			"source": "WM4",
 			"rarity": "varies",
 			"wondrous": true,
+			"property": [
+				"C|WM4"
+			],
 			"entries": [
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
 				"A creature can study the manual in order to learn a new Talent. The amount of time it takes depends on the rarity of the manual. Once a manual is used, it becomes nonmagical. If a creature does not meet the prerequisites for the Talent, it does not gain the Talent and the manual is still consumed.",
 				"The Talent the manual gives is chosen by the GM when it is given out. The item is of the same rarity as the Talent.",
 				{
@@ -995,9 +1010,11 @@
 			"source": "WM4",
 			"rarity": "common",
 			"wondrous": true,
+			"property": [
+				"C|WM4",
+				"E|WM4"
+			],
 			"entries": [
-				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
 				"{@i A strange assortment of magic runes and metal latticework. It's been given a haphazard shell and a safety seal of approval.}",
 				"While holding a Gizmo!, you can use it to cast either {@spell Prestidigitation|XPHB} or {@spell Thaumaturgy|XPHB}. After doing so, it falls apart.",
 				"{@note Made by Christopher}"
@@ -1008,8 +1025,10 @@
 			"source": "WM4",
 			"rarity": "common",
 			"type": "RG",
+			"property": [
+				"C|WM4"
+			],
 			"entries": [
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
 				"Whenever you start your turn underwater and you are {@condition unconscious}, the Rescue Ring causes you to rise 60 feet toward the surface. The Rescue Ring prevents you from sinking deeper while you are {@condition unconscious}. Once you regain consciousness, the Rescue Ring becomes inoperable and is consumed, unless you die before regaining consciousness.",
 				"{@note Made by Patrick}"
 			]
@@ -1019,9 +1038,11 @@
 			"source": "WM4",
 			"rarity": "common",
 			"wondrous": true,
+			"property": [
+				"C|WM4",
+				"E|WM4"
+			],
 			"entries": [
-				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
 				"As a {@action Magic|XPHB} Action while holding a Self-Replicating Truffle, you can cause a truffle (1/4lb of {@item rations|XPHB}) to appear next to it. Once you use this ability, it can't be used again until the next dawn.",
 				"You can also eat a Self-Replicating Truffle. It counts as 1 lb of {@item rations|XPHB}.",
 				"{@note Made by Christopher}"
@@ -1033,8 +1054,10 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"reqAttune": true,
+			"property": [
+				"C|WM4"
+			],
 			"entries": [
-				"{@note Consumable: An item that is permanently expended once used, such as a potion.}",
 				"Whenever you are reduced to 0 hit points and become {@condition unconscious} while wearing this amulet, you are immediately stabilized. Once the amulet is used this way, its magic is expended, and the item is consumed.",
 				"{@note Made by Patrick}"
 			]
@@ -1095,8 +1118,10 @@
 			"source": "WM4",
 			"rarity": "common",
 			"type": "FD",
+			"property": [
+				"E|WM4"
+			],
 			"entries": [
-				"{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
 				"{@i A delicacy to rodents. It smells quite foul, but tastes very good. It's known to cause scuffles and violent crime.}",
 				"A creature that eats these cheese must make a DC 11 Wisdom saving throw. On a failed save the creature gains an uncontrollable desire to eat all stinky cheese it sees for the next hour.",
 				"{@note Made by Gem}"
@@ -1109,8 +1134,10 @@
 			"wondrous": true,
 			"reqAttune": "by a Construct",
 			"age": "futuristic",
+			"property": [
+				"U|WM4"
+			],
 			"entries": [
-				"{@note Unique: An item of which there is only one instance.}",
 				"{@i A metal wafer with impossibly small magic sigils running across it. It's half-melted, rusted, and blown to bits. You aren't *really* gonna stick this thing in your head, right?}",
 				{
 					"type": "entries",
@@ -1144,8 +1171,10 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"curse": true,
+			"property": [
+				"U|WM4"
+			],
 			"entries": [
-				"{@note Unique: An item of which there is only one instance.}",
 				"{@i This crown is made of matted fur from many different rats. Rats view those who wear the crown as powerful, but not a voice of authority.}",
 				"While wearing this crown, Hostile rodents become Indifferent to you. If you deal damage to one of these creatures, this effect is suppressed for 1 minute.",
 				{
@@ -1310,8 +1339,2057 @@
 				},
 				"{@note Made by Chrys}"
 			]
+		},
+		{
+			"name": "Mystery Potion (Common)",
+			"source": "WM4",
+			"type": "P",
+			"rarity": "common",
+			"property": [
+				"C|WM4"
+			],
+			"entries": [
+				"{@i Typically made as a byproduct by alchemists, this potion is fully unpredictable. Swirling this liquid causes its color to change rapidly between a variety of vibrant colors. Its smell is purely alchemical, providing no insight as to what could be inside.}",
+				"When you drink this potion, roll on the table below, gaining the effects of drinking or applying the rolled potion.",
+				"A creature can spend 1 hour studying the potion to attempt to identify and stabilize its effects. After the hour is done, the creature must make a DC 10 Intelligence ({@item Alchemist's Supplies|XPHB}) check. On a pass, roll on the table transforming the Mystery Potion into the rolled potion.",
+				{
+					"type": "table",
+					"caption": "Mystery Potion (Common)",
+					"colLabels": [
+						"{@dice 1d4}",
+						"Potion Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"{@item Potion of Climbing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"{@item Potion of Comprehension|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"{@item Potion of Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"{@item Potion of Watchful Rest|WDMM}"
+						]
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Anchor",
+			"source": "WM4",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"baseItem": "greataxe|XPHB",
+			"entries": [
+				"This greataxe is a massive anchor on a chain, and as such, deals bludgeoning or piercing damage instead of slashing.",
+				"When you make an attack with it on your turn, your reach with the weapon is increased by 10 feet. When you hit a target with this weapon, you can choose to pull the target up to 10 feet towards you.",
+				"While holding this weapon, effects cannot forcibly push you or knock you prone against your will.",
+				"{@note Made by Aris}"
+			]
+		},
+		{
+			"name": "Mystery Potion (Uncommon)",
+			"source": "WM4",
+			"type": "P",
+			"rarity": "uncommon",
+			"property": [
+				"C|WM4"
+			],
+			"entries": [
+				"{@i Typically made as a byproduct by alchemists, this potion is fully unpredictable. Swirling this liquid causes its color to change rapidly between a variety of vibrant colors. Its smell is purely alchemical, providing no insight as to what could be inside.}",
+				"When you drink this potion, roll on the table below, gaining the effects of drinking or applying the rolled potion.",
+				"A creature can spend 1 hour studying the potion to attempt to identify and stabilize its effects. After the hour is done, the creature must make a DC 15 Intelligence ({@item Alchemist's Supplies|XPHB}) check. On a pass, roll on the table transforming the Mystery Potion into the rolled potion.",
+				{
+					"type": "table",
+					"caption": "Mystery Potion (Uncommon)",
+					"colLabels": [
+						"{@dice 1d100}",
+						"Potion Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1,
+									"max": 3
+								}
+							},
+							"{@item Potion of Climbing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4,
+									"max": 6
+								}
+							},
+							"{@item Potion of Comprehension|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7,
+									"max": 9
+								}
+							},
+							"{@item Potion of Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 10,
+									"max": 12
+								}
+							},
+							"{@item Potion of Watchful Rest|WDMM}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 13,
+									"max": 15
+								}
+							},
+							"{@item Bottled Breath|PotA}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 16,
+									"max": 18
+								}
+							},
+							"{@item Oil of Slipperiness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 19,
+									"max": 21
+								}
+							},
+							"{@item Philter of Love|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 22,
+									"max": 24
+								}
+							},
+							"{@item Potion of Acid Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 25,
+									"max": 27
+								}
+							},
+							"{@item Potion of Advantage|WBtW}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 28,
+									"max": 30
+								}
+							},
+							"{@item Potion of Animal Friendship|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 31,
+									"max": 33
+								}
+							},
+							"{@item Potion of Cold Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 34,
+									"max": 36
+								}
+							},
+							"{@item Potion of Fire Breath|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 37,
+									"max": 39
+								}
+							},
+							"{@item Potion of Fire Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 40,
+									"max": 42
+								}
+							},
+							"{@item Potion of Force Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 43,
+									"max": 45
+								}
+							},
+							"{@item Potion of Greater Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 46,
+									"max": 48
+								}
+							},
+							"{@item Potion of Growth|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 49,
+									"max": 51
+								}
+							},
+							"{@item Potion of Hill Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 52,
+									"max": 54
+								}
+							},
+							"{@item Potion of Lightning Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 55,
+									"max": 57
+								}
+							},
+							"{@item Potion of Necrotic Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 58,
+									"max": 60
+								}
+							},
+							"{@item Potion of Poison|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 61,
+									"max": 63
+								}
+							},
+							"{@item Potion of Poison Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 64,
+									"max": 66
+								}
+							},
+							"{@item Potion of Polychromy|DitLCoT}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 67,
+									"max": 69
+								}
+							},
+							"{@item Potion of Psionic Fortitude|PaBTSO}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 70,
+									"max": 72
+								}
+							},
+							"{@item Potion of Psychic Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 73,
+									"max": 75
+								}
+							},
+							"{@item Potion of Pugilism|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 76,
+									"max": 78
+								}
+							},
+							"{@item Potion of Radiant Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 79,
+									"max": 81
+								}
+							},
+							"{@item Potion of Thunder Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 82,
+									"max": 84
+								}
+							},
+							"{@item Potion of Water Breathing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 85,
+									"max": 100
+								}
+							},
+							"Roll Again"
+						]
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Mystery Potion (Rare)",
+			"source": "WM4",
+			"type": "P",
+			"rarity": "rare",
+			"property": [
+				"C|WM4"
+			],
+			"entries": [
+				"{@i Typically made as a byproduct by alchemists, this potion is fully unpredictable. Swirling this liquid causes its color to change rapidly between a variety of vibrant colors. Its smell is purely alchemical, providing no insight as to what could be inside.}",
+				"When you drink this potion, roll on the table below, gaining the effects of drinking or applying the rolled potion.",
+				"A creature can spend 1 hour studying the potion to attempt to identify and stabilize its effects. After the hour is done, the creature must make a DC 20 Intelligence ({@item Alchemist's Supplies|XPHB}) check. On a pass, roll on the table transforming the Mystery Potion into the rolled potion.",
+				{
+					"type": "table",
+					"caption": "Mystery Potion (Rare)",
+					"colLabels": [
+						"{@dice 1d100}",
+						"Potion Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1,
+									"max": 2
+								}
+							},
+							"{@item Potion of Climbing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 3,
+									"max": 4
+								}
+							},
+							"{@item Potion of Comprehension|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5,
+									"max": 6
+								}
+							},
+							"{@item Potion of Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7,
+									"max": 8
+								}
+							},
+							"{@item Potion of Watchful Rest|WDMM}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9,
+									"max": 10
+								}
+							},
+							"{@item Bottled Breath|PotA}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 11,
+									"max": 12
+								}
+							},
+							"{@item Oil of Slipperiness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 13,
+									"max": 14
+								}
+							},
+							"{@item Philter of Love|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 15,
+									"max": 16
+								}
+							},
+							"{@item Potion of Acid Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 17,
+									"max": 18
+								}
+							},
+							"{@item Potion of Advantage|WBtW}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 19,
+									"max": 20
+								}
+							},
+							"{@item Potion of Animal Friendship|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 21,
+									"max": 22
+								}
+							},
+							"{@item Potion of Cold Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 23,
+									"max": 24
+								}
+							},
+							"{@item Potion of Fire Breath|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 25,
+									"max": 26
+								}
+							},
+							"{@item Potion of Fire Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 27,
+									"max": 28
+								}
+							},
+							"{@item Potion of Force Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 29,
+									"max": 30
+								}
+							},
+							"{@item Potion of Greater Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 31,
+									"max": 32
+								}
+							},
+							"{@item Potion of Growth|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 33,
+									"max": 34
+								}
+							},
+							"{@item Potion of Hill Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 35,
+									"max": 36
+								}
+							},
+							"{@item Potion of Lightning Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 37,
+									"max": 38
+								}
+							},
+							"{@item Potion of Necrotic Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 39,
+									"max": 40
+								}
+							},
+							"{@item Potion of Poison|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 41,
+									"max": 42
+								}
+							},
+							"{@item Potion of Poison Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 43,
+									"max": 44
+								}
+							},
+							"{@item Potion of Polychromy|DitLCoT}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 45,
+									"max": 46
+								}
+							},
+							"{@item Potion of Psionic Fortitude|PaBTSO}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 47,
+									"max": 48
+								}
+							},
+							"{@item Potion of Psychic Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 49,
+									"max": 50
+								}
+							},
+							"{@item Potion of Pugilism|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 51,
+									"max": 52
+								}
+							},
+							"{@item Potion of Radiant Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 53,
+									"max": 54
+								}
+							},
+							"{@item Potion of Thunder Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 55,
+									"max": 56
+								}
+							},
+							"{@item Potion of Water Breathing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 57,
+									"max": 58
+								}
+							},
+							"{@item Elixir of Health|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 59,
+									"max": 60
+								}
+							},
+							"{@item Oil of Etherealness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 59,
+									"max": 60
+								}
+							},
+							"{@item Oil of Etherealness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 61,
+									"max": 62
+								}
+							},
+							"{@item Potion of Clairvoyance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 63,
+									"max": 64
+								}
+							},
+							"{@item Potion of Diminution|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 65,
+									"max": 66
+								}
+							},
+							"{@item Potion of Fire Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 67,
+									"max": 68
+								}
+							},
+							"{@item Potion of Frost Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 69,
+									"max": 70
+								}
+							},
+							"{@item Potion of Gaseous Form|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 71,
+									"max": 72
+								}
+							},
+							"{@item Potion of Heroism|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 73,
+									"max": 74
+								}
+							},
+							"{@item Potion of Invisibility|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 75,
+									"max": 76
+								}
+							},
+							"{@item Potion of Invulnerability|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 77,
+									"max": 78
+								}
+							},
+							"{@item Potion of Mind Control (beast)|TftYP}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 79,
+									"max": 80
+								}
+							},
+							"{@item Potion of Mind Control (humanoid)|TftYP}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 81,
+									"max": 82
+								}
+							},
+							"{@item Potion of Mind Reading|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 83,
+									"max": 84
+								}
+							},
+							"{@item Potion of Stone Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 85,
+									"max": 86
+								}
+							},
+							"{@item Potion of Superior Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 87,
+									"max": 100
+								}
+							},
+							"Roll Again"
+						]
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Mystery Potion (Very Rare)",
+			"source": "WM4",
+			"type": "P",
+			"rarity": "very rare",
+			"property": [
+				"C|WM4"
+			],
+			"entries": [
+				"{@i Typically made as a byproduct by alchemists, this potion is fully unpredictable. Swirling this liquid causes its color to change rapidly between a variety of vibrant colors. Its smell is purely alchemical, providing no insight as to what could be inside.}",
+				"When you drink this potion, roll on the table below, gaining the effects of drinking or applying the rolled potion.",
+				"A creature can spend 1 hour studying the potion to attempt to identify and stabilize its effects. After the hour is done, the creature must make a DC 25 Intelligence ({@item Alchemist's Supplies|XPHB}) check. On a pass, roll on the table transforming the Mystery Potion into the rolled potion.",
+				{
+					"type": "table",
+					"caption": "Mystery Potion (Rare)",
+					"colLabels": [
+						"{@dice 1d100}",
+						"Potion Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"{@item Potion of Climbing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"{@item Potion of Comprehension|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"{@item Potion of Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"{@item Potion of Watchful Rest|WDMM}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"{@item Bottled Breath|PotA}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"{@item Oil of Slipperiness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"{@item Philter of Love|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"{@item Potion of Acid Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								}
+							},
+							"{@item Potion of Advantage|WBtW}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								}
+							},
+							"{@item Potion of Animal Friendship|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 11
+								}
+							},
+							"{@item Potion of Cold Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 12
+								}
+							},
+							"{@item Potion of Fire Breath|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 13
+								}
+							},
+							"{@item Potion of Fire Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 14
+								}
+							},
+							"{@item Potion of Force Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 15
+								}
+							},
+							"{@item Potion of Greater Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 16
+								}
+							},
+							"{@item Potion of Growth|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 17
+								}
+							},
+							"{@item Potion of Hill Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 18
+								}
+							},
+							"{@item Potion of Lightning Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 19
+								}
+							},
+							"{@item Potion of Necrotic Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 20
+								}
+							},
+							"{@item Potion of Poison|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 21
+								}
+							},
+							"{@item Potion of Poison Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 22
+								}
+							},
+							"{@item Potion of Polychromy|DitLCoT}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 23
+								}
+							},
+							"{@item Potion of Psionic Fortitude|PaBTSO}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 23
+								}
+							},
+							"{@item Potion of Psychic Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 24
+								}
+							},
+							"{@item Potion of Pugilism|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 25
+								}
+							},
+							"{@item Potion of Radiant Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 26
+								}
+							},
+							"{@item Potion of Thunder Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 27
+								}
+							},
+							"{@item Potion of Water Breathing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 28
+								}
+							},
+							"{@item Elixir of Health|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 29
+								}
+							},
+							"{@item Oil of Etherealness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 30
+								}
+							},
+							"{@item Oil of Etherealness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 31
+								}
+							},
+							"{@item Potion of Clairvoyance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 32
+								}
+							},
+							"{@item Potion of Diminution|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 33
+								}
+							},
+							"{@item Potion of Fire Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 34
+								}
+							},
+							"{@item Potion of Frost Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 35
+								}
+							},
+							"{@item Potion of Gaseous Form|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 36
+								}
+							},
+							"{@item Potion of Heroism|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 37
+								}
+							},
+							"{@item Potion of Invisibility|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 38
+								}
+							},
+							"{@item Potion of Invulnerability|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 39
+								}
+							},
+							"{@item Potion of Mind Control (beast)|TftYP}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 40
+								}
+							},
+							"{@item Potion of Mind Control (humanoid)|TftYP}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 41
+								}
+							},
+							"{@item Potion of Mind Reading|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 42
+								}
+							},
+							"{@item Potion of Stone Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 43
+								}
+							},
+							"{@item Potion of Superior Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 43
+								}
+							},
+							"{@item Oil of Sharpness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 44
+								}
+							},
+							"{@item Potion of Cloud Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 45
+								}
+							},
+							"{@item Potion of Flying|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 46
+								}
+							},
+							"{@item Potion of Greater Invisibility|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 47
+								}
+							},
+							"{@item Potion of Longevity|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 48
+								}
+							},
+							"{@item Potion of Mind Control (monster)|TftYP}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 49
+								}
+							},
+							"{@item Potion of Speed|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 50
+								}
+							},
+							"{@item Potion of Supreme Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 51
+								}
+							},
+							"{@item Potion of Vitality|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 52,
+									"max": 100
+								}
+							},
+							"Roll Again"
+						]
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Mystery Potion (Legendary)",
+			"source": "WM4",
+			"type": "P",
+			"rarity": "legendary",
+			"property": [
+				"C|WM4"
+			],
+			"entries": [
+				"{@i Typically made as a byproduct by alchemists, this potion is fully unpredictable. Swirling this liquid causes its color to change rapidly between a variety of vibrant colors. Its smell is purely alchemical, providing no insight as to what could be inside.}",
+				"When you drink this potion, roll on the table below, gaining the effects of drinking or applying the rolled potion.",
+				"A creature can spend 1 hour studying the potion to attempt to identify and stabilize its effects. After the hour is done, the creature must make a DC 30 Intelligence ({@item Alchemist's Supplies|XPHB}) check. On a pass, roll on the table transforming the Mystery Potion into the rolled potion.",
+				{
+					"type": "table",
+					"caption": "Mystery Potion (Rare)",
+					"colLabels": [
+						"{@dice 1d100}",
+						"Potion Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"{@item Potion of Climbing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"{@item Potion of Comprehension|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"{@item Potion of Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"{@item Potion of Watchful Rest|WDMM}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"{@item Bottled Breath|PotA}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"{@item Oil of Slipperiness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"{@item Philter of Love|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"{@item Potion of Acid Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								}
+							},
+							"{@item Potion of Advantage|WBtW}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								}
+							},
+							"{@item Potion of Animal Friendship|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 11
+								}
+							},
+							"{@item Potion of Cold Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 12
+								}
+							},
+							"{@item Potion of Fire Breath|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 13
+								}
+							},
+							"{@item Potion of Fire Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 14
+								}
+							},
+							"{@item Potion of Force Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 15
+								}
+							},
+							"{@item Potion of Greater Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 16
+								}
+							},
+							"{@item Potion of Growth|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 17
+								}
+							},
+							"{@item Potion of Hill Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 18
+								}
+							},
+							"{@item Potion of Lightning Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 19
+								}
+							},
+							"{@item Potion of Necrotic Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 20
+								}
+							},
+							"{@item Potion of Poison|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 21
+								}
+							},
+							"{@item Potion of Poison Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 22
+								}
+							},
+							"{@item Potion of Polychromy|DitLCoT}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 23
+								}
+							},
+							"{@item Potion of Psionic Fortitude|PaBTSO}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 23
+								}
+							},
+							"{@item Potion of Psychic Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 24
+								}
+							},
+							"{@item Potion of Pugilism|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 25
+								}
+							},
+							"{@item Potion of Radiant Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 26
+								}
+							},
+							"{@item Potion of Thunder Resistance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 27
+								}
+							},
+							"{@item Potion of Water Breathing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 28
+								}
+							},
+							"{@item Elixir of Health|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 29
+								}
+							},
+							"{@item Oil of Etherealness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 30
+								}
+							},
+							"{@item Oil of Etherealness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 31
+								}
+							},
+							"{@item Potion of Clairvoyance|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 32
+								}
+							},
+							"{@item Potion of Diminution|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 33
+								}
+							},
+							"{@item Potion of Fire Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 34
+								}
+							},
+							"{@item Potion of Frost Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 35
+								}
+							},
+							"{@item Potion of Gaseous Form|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 36
+								}
+							},
+							"{@item Potion of Heroism|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 37
+								}
+							},
+							"{@item Potion of Invisibility|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 38
+								}
+							},
+							"{@item Potion of Invulnerability|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 39
+								}
+							},
+							"{@item Potion of Mind Control (beast)|TftYP}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 40
+								}
+							},
+							"{@item Potion of Mind Control (humanoid)|TftYP}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 41
+								}
+							},
+							"{@item Potion of Mind Reading|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 42
+								}
+							},
+							"{@item Potion of Stone Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 43
+								}
+							},
+							"{@item Potion of Superior Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 43
+								}
+							},
+							"{@item Oil of Sharpness|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 44
+								}
+							},
+							"{@item Potion of Cloud Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 45
+								}
+							},
+							"{@item Potion of Flying|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 46
+								}
+							},
+							"{@item Potion of Greater Invisibility|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 47
+								}
+							},
+							"{@item Potion of Longevity|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 48
+								}
+							},
+							"{@item Potion of Mind Control (monster)|TftYP}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 49
+								}
+							},
+							"{@item Potion of Speed|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 50
+								}
+							},
+							"{@item Potion of Supreme Healing|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 51
+								}
+							},
+							"{@item Potion of Vitality|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 52
+								}
+							},
+							"{@item Potion of Dragon's Majesty|FTD}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 53
+								}
+							},
+							"{@item Potion of Giant Size|SKT}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 54
+								}
+							},
+							"{@item Potion of Storm Giant Strength|XDMG}"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 55,
+									"max": 100
+								}
+							},
+							"Roll Again"
+						]
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Mystery Potion (Artifact)",
+			"source": "WM4",
+			"rarity": "artifact",
+			"type": "P",
+			"property": [
+				"C|WM4"
+			],
+			"entries": [
+				"{@i Mystra help you. This potion was made by the world's greatest alchemist when she accidentally inverted her bag of holding full of supplies into Iggwilv's Cauldron. The resulting concoction was bottled many times and transported across the realms.}",
+				"When you drink this you gain the effects of every potion on the {@item Mystery Potion (Legendary)|WM4} table (ignoring roll again).",
+				{
+					"type": "entries",
+					"name": "Destroying the Potion.",
+					"entries": [
+						"The potion can only be destroyed by being drunk by a creature, where it immediately becomes an empty bottle."
+					]
+				},
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Mystery Potion (Legacy)",
+			"source": "WM4",
+			"rarity": "legacy",
+			"type": "P",
+			"reqAttune": true,
+			"entries": [
+				"{@i Passed down from generations from one great alchemist to another. It's like a forever stew.}",
+				"This potion is filled with a Mystery Potion (Uncommon). Once drunk in this form, it instead is filled with {@item Mystery Potion (Common)|WM4}. When drunk as a {@item Mystery Potion (Common)|WM4}, the potion becomes empty, refilling as the highest unlocked rarity mystery potion at the next dawn.",
+				{
+					"type": "entries",
+					"name": "Crazy (Level 5).",
+					"entries": [
+						"The potion starts filled with {@item Mystery Potion (Rare)|WM4}. When drunk in this form, it is refilled with {@item Mystery Potion (Uncommon)|WM4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crazier (Level 11).",
+					"entries": [
+						"The potion starts filled with {@item Mystery Potion (Very Rare)|WM4}. When drunk in this form, it is refilled with {@item Mystery Potion (Rare)|WM4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Craziest (Level 17).",
+					"entries": [
+						"The potion starts filled with {@item Mystery Potion (Legendary)|WM4}. When drunk in this form, it is refilled with {@item Mystery Potion (Very Rare)|WM4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legacy Rituals.",
+					"entries": [
+						"Three rituals are needed to unlock the abilities of the Mystery Potion (Legacy).",
+						{
+							"type": "list",
+							"items": [
+								"{@b A bit of this.} You must mix in the hair of a CR 5 or higher creature that is chaotically aligned. This unlocks the level 5 feature.",
+								"{@b Tad of that.} You must mix in the nail of a CR 11 or higher creature that is chaotically aligned. This unlocks the level 11 feature.",
+								"{@b And a drop of whatever.} You must mix in the blood of a CR 17 or higher creature that is chaotically aligned. This unlocks the level 17 feature."
+							]
+						}
+					]
+				},
+				"{@note Made by Gem}"
+			]
 		}
     ],
+	"itemProperty": [
+		{
+			"abbreviation": "C",
+			"source": "WM4",
+			"template": "{@i {{prop_name}}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Consumable",
+					"entries": [
+						"An item that is permanently expended once used, such as a potion."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "E",
+			"source": "WM4",
+			"template": "{@i {{prop_name}}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Exotic",
+					"entries": [
+						"An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "U",
+			"source": "WM4",
+			"template": "{@i {{prop_name}}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Unique",
+					"entries": [
+						"An item of which there is only one instance."
+					]
+				}
+			]
+		}
+	],
 	"spell": [
 		{
 			"name": "Cryptmaster's Call",
