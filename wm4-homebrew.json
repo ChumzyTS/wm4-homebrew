@@ -6,7 +6,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.5",
+				"version": "1.5.1",
 				"authors": [
 					"Various DMs"
 				],
@@ -357,6 +357,13 @@
 			"source": "WM4",
 			"rarity": "uncommon",
 			"reqAttune": "by a ranger",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
 			"wondrous": true,
 			"entries": [
                 "While wearing this magic item, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your Ranger spells.",
@@ -369,6 +376,13 @@
 			"rarity": "rare",
 			"reqAttune": "by a ranger",
 			"wondrous": true,
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
 			"entries": [
                 "While wearing this magic item, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your Ranger spells.",
                 "While you wear this anklet, your walking speed is increased by 10 feet."
@@ -380,6 +394,13 @@
 			"rarity": "very rare",
 			"reqAttune": "by a ranger",
 			"wondrous": true,
+			"bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
 			"entries": [
                 "While wearing this magic item, you gain a +3 bonus to spell attack rolls and the saving throw DCs of your Ranger spells.",
                 "While you wear this anklet, your walking speed is increased by 10 feet."
@@ -390,6 +411,13 @@
 			"source": "WM4",
 			"rarity": "uncommon",
 			"reqAttune": "by a druid",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				}
+			],
 			"wondrous": true,
 			"entries": [
                 "While wearing this magic item, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your Druid spells.",
@@ -401,6 +429,13 @@
 			"source": "WM4",
 			"rarity": "rare",
 			"reqAttune": "by a druid",
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				}
+			],
 			"wondrous": true,
 			"entries": [
                 "While wearing this magic item, you gain +2 bonus to spell attack rolls and the saving throw DCs of your Druid spells.",
@@ -412,6 +447,13 @@
 			"source": "WM4",
 			"rarity": "very rare",
 			"reqAttune": "by a druid",
+			"bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				}
+			],
 			"wondrous": true,
 			"entries": [
                 "While wearing this magic item, you gain +3 bonus to spell attack rolls and the saving throw DCs of your Druid spells.",
@@ -424,6 +466,11 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"reqAttune": "by a rogue",
+			"reqAttuneTags": [
+				{
+					"class": "rogue"
+				}
+			],
 			"entries": [
                 "You gain a +1 bonus to the saving throw DCs of your Rogue features and your Weapon Masteries.",
                 "When you hit with an attack roll, if you haven't used the Sneak Attack feature this turn, you can apply your Sneak Attack. Once this property is used, it can't be used again until the next dawn."
@@ -435,6 +482,11 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"reqAttune": "by a rogue",
+			"reqAttuneTags": [
+				{
+					"class": "rogue"
+				}
+			],
 			"entries": [
                 "You gain a +2 bonus to the saving throw DCs of your Rogue features and your Weapon Masteries.",
                 "When you hit with an attack roll, if you haven't used the Sneak Attack feature this turn, you can apply your Sneak Attack. Once this property is used, it can't be used again until the next dawn."
@@ -446,6 +498,11 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"reqAttune": "by a rogue",
+			"reqAttuneTags": [
+				{
+					"class": "rogue"
+				}
+			],
 			"entries": [
                 "You gain a +3 bonus to the saving throw DCs of your Rogue features and your Weapon Masteries.",
                 "When you hit with an attack roll, if you haven't used the Sneak Attack feature this turn, you can apply your Sneak Attack. Once this property is used, it can't be used again until the next dawn."
@@ -457,6 +514,11 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"reqAttune": "by a fighter",
+			"reqAttuneTags": [
+				{
+					"class": "fighter"
+				}
+			],
 			"entries": [
                 "You gain a +1 bonus to the saving throw DCs of your Fighter features and your Weapon Masteries.",
                 "When you use your Action Surge feature, you have Advantage on your next Attack roll before the end of your next turn."
@@ -468,6 +530,11 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"reqAttune": "by a fighter",
+			"reqAttuneTags": [
+				{
+					"class": "fighter"
+				}
+			],
 			"entries": [
                 "You gain a +2 bonus to the saving throw DCs of your Fighter features and your Weapon Masteries.",
                 "When you use your Action Surge feature, you have Advantage on your next Attack roll before the end of your next turn."
@@ -479,6 +546,11 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"reqAttune": "by a fighter",
+			"reqAttuneTags": [
+				{
+					"class": "fighter"
+				}
+			],
 			"entries": [
                 "You gain a +3 bonus to the saving throw DCs of your Fighter features and your Weapon Masteries.",
                 "When you use your Action Surge feature, you have Advantage on your next Attack roll before the end of your next turn."
@@ -490,6 +562,13 @@
 			"rarity": "uncommon",
             "type": "INS",
 			"reqAttune": "by a bard",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
 			"entries": [
                 "As an Action, you can touch the item and transform it into any type of instrument of your choice.",
                 "While holding this instrument, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your Bard spells.",
@@ -502,6 +581,13 @@
 			"rarity": "rare",
             "type": "INS",
 			"reqAttune": "by a bard",
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
 			"entries": [
                 "As an Action, you can touch the item and transform it into any type of instrument of your choice.",
                 "While holding this instrument, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your Bard spells.",
@@ -514,6 +600,13 @@
 			"rarity": "very rare",
             "type": "INS",
 			"reqAttune": "by a bard",
+			"bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
 			"entries": [
                 "As an Action, you can touch the item and transform it into any type of instrument of your choice.",
                 "While holding this instrument, you gain a +3 bonus to spell attack rolls and the saving throw DCs of your Bard spells.",
@@ -526,6 +619,11 @@
 			"rarity": "uncommon",
             "wondrous": true,
 			"reqAttune": "by a barbarian",
+			"reqAttuneTags": [
+				{
+					"class": "barbarian"
+				}
+			],
 			"entries": [
                 "You gain a +1 bonus to the saving throw DCs of your Barbarian features and your Weapon Masteries.",
                 "While you wear these bandages, you can use your Rage feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
@@ -537,6 +635,11 @@
 			"rarity": "rare",
             "wondrous": true,
 			"reqAttune": "by a barbarian",
+			"reqAttuneTags": [
+				{
+					"class": "barbarian"
+				}
+			],
 			"entries": [
                 "You gain a +2 bonus to the saving throw DCs of your Barbarian features and your Weapon Masteries.",
                 "While you wear these bandages, you can use your Rage feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
@@ -548,6 +651,11 @@
 			"rarity": "very rare",
             "wondrous": true,
 			"reqAttune": "by a barbarian",
+			"reqAttuneTags": [
+				{
+					"class": "barbarian"
+				}
+			],
 			"entries": [
                 "You gain a +3 bonus to the saving throw DCs of your Barbarian features and your Weapon Masteries.",
                 "While you wear these bandages, you can use your Rage feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
@@ -1003,6 +1111,11 @@
 			"rarity": "common",
 			"wondrous": true,
 			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
 			"entries": [
 				"This enchanted amulet is popular among the wizards of Waterdeep. You can use the amulet to cast the {@spell shield|XPHB} spell. Once cast, the amulet can't be used again until the next dawn.",
 				"{@note From S3 and Adapted from Warriors of Waterdeep by Aris}"
@@ -3409,6 +3522,7 @@
 			"rarity": "common",
 			"type": "M",
 			"baseItem": "dagger|XPHB",
+			"bonusWeapon": "+1",
 			"entries": [
 				"{@i The dagger is covered in abyssal runes, depicting commitments of evil made in service of a demon lord.}",
 				"The wielder may take a Bonus Action to cut itself with the dagger, dealing {@dice 1d4} Piercing damage to itself that cannot be reduced. The wielder's hit point maximum is also reduced by this amount. The dagger then gains +1 to attacks and damage for 1 minute.",
@@ -3431,6 +3545,11 @@
 			"source": "WM4",
 			"rarity": "uncommon",
 			"reqAttune": "by an Aberrant Sorcerer",
+			"reqAttuneTags": [
+				{
+					"class": "sorcerer"
+				}
+			],
 			"wondrous": true,
 			"entries": [
 				"{@i This silver spoon has strange properties that channel psychic power.}",
