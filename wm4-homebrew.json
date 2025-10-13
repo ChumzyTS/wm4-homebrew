@@ -6,7 +6,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.5.1",
+				"version": "1.6",
 				"authors": [
 					"Various DMs"
 				],
@@ -3923,6 +3923,121 @@
 				},
 				"{@note Made by Gem}"
 			]
+		},
+		{
+			"name": "Axe",
+			"source": "WM4",
+			"rarity": "none",
+			"type": "G",
+			"value": 200,
+			"weight": 4,
+			"entries": [
+				"Working for 10 minutes, you can use an Axe to cut down a tree less than 5 ft in diameter. Working for 1 hour, you can use an Axe to dig a hole that is 5 feet on each side in wood or similar material.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Paxel",
+			"source": "WM4",
+			"rarity": "none",
+			"type": "G",
+			"weight": 5,
+			"property": [
+				"E|WM4"
+			],
+			"entries": [
+				"The Paxel is a tool that combines the utility of a shovel, an axe, and a pickaxe. Working for 1 hour, you can use the Paxel to displace a 5ft cube of soil, stone, or wood.",
+				"{@note From WM3, Made by Jarod}"
+			]
+		},
+		{
+			"name": "Pickaxe",
+			"source": "WM4",
+			"rarity": "none",
+			"type": "G",
+			"value": 200,
+			"weight": 10,
+			"entries": [
+				"Working for 1 hour, you can use a Pickaxe to mine a hole that is 5 feet on each side in soft rock, or 8 hours for hard rock. Using a Pickaxe gives you Advantage on Strength checks to remove gems and minerals from stone.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Adamantine Axe",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"baseItem": "Axe|WM4",
+			"entries": [
+				"An Adamantine Axe is twice as efficient as a regular {@item axe|WM4}, being able to cut down trees up to 10ft in diameter in 10 minutes, and clearing out twice the amount of material in the same amount of time.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Adamantine Paxel",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"baseItem": "Paxel|WM4",
+			"entries": [
+				"An Adamantine Paxel is twice as efficient as a regular {@item Paxel|WM4}, clearing out twice the amount of material in the same amount of time.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Adamantine Pickaxe",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"baseItem": "pickaxe|WM4",
+			"entries": [
+				"An Adamantine Pickaxe is twice as efficient as a regular {@item pickaxe|WM4}, clearing out twice the amount of material in the same amount of time.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Adamantine Shovel",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"baseItem": "shovel|WM4",
+			"entries": [
+				"An Adamantine Shovel is twice as efficient as a regular {@item shovel|XPHB}, clearing out twice the amount of material in the same amount of time",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Beast Mode Indicator Vestments",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This shirt reads “Beast Mode: Off”. As you enter a temporarily heightened state, such as a Rage or a physical transformation, you may choose to rip this shirt off to reveal another shirt underneath that reads “Beast Mode: On”. Once this state ends, the destroyed shirt reappears on you, undamaged.",
+				"{@note Made by V}"
+			]
+		},
+		{
+			"name": "Pot of Growing",
+			"source": "WM4",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This 10-pound pot can grow any small nonmagical plant. It magically provides nutrients and water to the plant.",
+				"As a {@action Magic|XPHB} action, you can touch the pot and cause a glass dome to appear over the plants growing in it. While the dome is up, the plant is treated as if it was planted in its proper environment, with the dome providing sunlight, temperature, humidity, and all other environmental factor control. You can remove the dome as a {@action Magic|XPHB} action.",
+				"{@note Made by Gem}"
+			]
+		},
+		{
+			"name": "Shield Gauntlets",
+			"source": "WM4",
+			"rarity": "common",
+			"type": "S",
+			"baseItem":"shield|XPHB",
+			"entries": [
+				"Unlike a regular shield, a hand with this equipped counts as a free hand but does not passively confer a bonus to AC.",
+				"If a hand wearing these gauntlets is free, you can use a bonus action to gain a +2 bonus to AC until the start of your next turn. You do not gain this benefit if you have another shield donned.",
+				"{@note Made by V}"
+			]
 		}
     ],
 	"itemProperty": [
@@ -5805,6 +5920,17 @@
             "type": "Story Record",
             "entries": [
 				"Due to your dedication or assistance to The Scholars of Millenniums Past, you have shown yourself to be trustworthy. You receive preferential treatment over simple Card Holders. Additionally, you are allowed to start your own library under their name, and they will provide aid to do such.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Well-Studied Illusionist",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Illusionist Wizard}",
+				"{@spell Silence|XPHB} is added to your spell list, and is treated as a Wizard spell for you.",
 				"{@note Made by Gem}"
             ]
         }
