@@ -1,0 +1,329 @@
+{
+    "condition": [
+        {
+			"name": "Asleep",
+			"source": "WM4",
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"While you have the Asleep condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Unconscious.",
+							"entries": [
+								"You are {@condition unconscious}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Waking Up.",
+							"entries": [
+								"A creature that is asleep wakes up if it takes damage or someone within 5 feet of it takes an action to shake it awake."
+							]
+						}
+					]
+				},
+                "Creatures that don't sleep, such as elves, or that have Immunity to the {@condition Exhaustion} condition are immune to the Asleep condition. Creatures immune to the Asleep condition are immune to the {@spell Sleep} spell.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+			"name": "Immobilized",
+			"source": "WM4",
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"While you have the Immobilized condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Can't Move.",
+							"entries": [
+								"Your speed is 0 and can't increase."
+							]
+						}
+                    ]
+                },
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+			"name": "Enfeebled",
+			"source": "WM4",
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"While Enfeebled, you experience the following effects:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Strength Affected.",
+							"entries": [
+								"You have Disadvantage on Strength-based D20 Tests."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Reduced Damage.",
+							"entries": [
+								"You subtract {@dice 1d8} from all your damage rolls."
+							]
+						}
+                    ]
+                },
+                "A creature immune to the Enfeebled condition is immune to the {@spell ray of enfeeblement} spell. ",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+			"name": "Confused",
+			"source": "WM4",
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"While Confused, you experience the following effects:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Reactions Gone.",
+							"entries": [
+								"You cannot take reactions."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Random Activity.",
+							"entries": [
+								"You must roll a {@dice d10} at the start of each of your turns to determine your behavior for that turn."
+							]
+						}
+                    ]
+                },
+                {
+					"type": "table",
+					"caption": "Confusion Behavior",
+					"colLabels": [
+						"{@dice 1d10}",
+						"Behavior"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an action this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2,
+									"max": 6
+								}
+							},
+                            "The creature doesn't move or take actions this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7,
+									"max": 8
+								}
+							},
+                            "The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9,
+                                    "max": 10
+								}
+							},
+                            "The creature can act and move normally"
+						]
+					]
+				},
+                "A creature immune to the Confused condition is immune to the {@spell confusion} spell.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+			"name": "Dazed",
+			"source": "WM4",
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"While Dazed, you experience the following effect:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Limited Activity.",
+							"entries": [
+								"You can Move or take one action on your turn, not both. You also can't take a Bonus Action or a Reaction."
+							]
+						}
+                    ]
+                },
+                "{@note Version in 2024 UA}"
+            ]
+        },
+        {
+			"name": "Slowed",
+			"source": "WM4",
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"While you have the Slowed condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Reduced Speed.",
+							"entries": [
+								"Your Speed is halved"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Reaction Time.",
+							"entries": [
+								"You take a -2 penalty to AC and Dexterity saving throws, and you can't take reactions"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Limited Activity.",
+							"entries": [
+								"On your turns, you can take either an Action or a Bonus Action, not both, and you can make only one attack if you take the Attack action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sluggish Somatics.",
+							"entries": [
+								"If you cast a spell with a Somatic component, there is a {@dice 1d100|25 percent} chance the spell fails as a result of you making the spell's gestures too slowly."
+							]
+						}
+                    ]
+                },
+                "A creature immune to the Slowed condition is immune to the {@spell confusion} spell.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+			"name": "Mad Rat Disease",
+			"source": "WM4",
+			"srd52": true,
+			"type": "Magical Contagion",
+			"basicRules2024": true,
+			"entries": [
+				"When large quantities of rodents gather in areas of intense magic, they can start going insane, infecting the area with mad rat disease. Any beast or humanoid that is wounded by a creature that carries the contagion or comes into contact with contaminated filth must succeed on a DC 11 Constitution saving throw, or become infected. A creature that is infected suffers the following effects after {@dice 1d8} minutes.",
+				{
+					"type": "entries",
+					"name": "Maddening Failure.",
+					"entries": [
+						"Whenever an infected creature fails a D20 test, it must roll on the madness table below. If it rolls a 5 or lower, it does not roll on the table again until the start of its next turn."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Maddening Failure",
+					"colLabels": [
+						"{@dice 1d10}",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"The creature is {@condition Stunned} until the end of its next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"The creature becomes {@condition Frightened} of all creatures (other than itself) until the end of its next turn. On its next turn, it uses its action to make an attack against a random creature within its range. If no creature is within range, it can’t take an action this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"The creature becomes {@condition Dazed|WM4} until the end of its next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"The creature falls {@condition Prone}, and cannot get up until the end of its next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"The creature is {@condition Poisoned} until the end of its next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 6,
+                                    "max": 10
+								}
+							},
+                            "No effect"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fighting the Contagion.",
+					"entries": [
+						"When the creature finishes a long rest, it must make a DC 15 Constitution saving throw. On a success the contagion ends. Magic such as {@spell Heal|XPHB} or {@spell Lesser Restoration|XPHB} cures a creature of the contagion."
+					]
+				},
+				"{@note Made by Gem}"
+            ]
+        }
+    ]
+}

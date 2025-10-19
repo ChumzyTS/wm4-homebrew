@@ -1,0 +1,122 @@
+{
+    "spell": [
+		{
+			"name": "Cryptmaster's Call",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"Convening with The Cryptmaster, played by the GM, the caster may write a single word, and The Cryptmaster creates a magical effect based on the word, or rejects the request completely.",
+				"Whatever word the caster writes must be able to replicate the effects of a cantrip or 1st-level spell, or have an equivalently powerful impact.",
+				"Examples of words to use include:",
+				"CRABS - Summon two CR 0 Crab monsters as an ally (Duration 10 mins, {@status Concentration|XPHB}).",
+				"BLOCK - Adds a +2 Magic Bonus to your Armor Class until the start of your next turn.",
+				"ZAP - Make a ranged spell attack against a target within 60 ft. The target takes {@damage 2d8} Lightning damage.",
+				"TRIP - Force a target within 30 ft. to make a strength saving throw. On a fail, the target becomes {@condition prone}.",
+				"LOOK - The Cryptmaster describes an object or location around you that you are unable to perceive via sight.",
+				"If you cast the spell more than once before finishing a Long Rest or make a request that displeases the Cryptmaster, there is a cumulative 25 percent chance for each casting after the first that you become unable to cast this spell again until the next dawn (The GM might also deny further castings at their will).",
+				"{@note Made by Patrick}"
+			],
+			"source": "WM4",
+			"meta": {
+				"ritual": true
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A quill dipped in ink"
+			},
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Legal Name Change",
+			"level": 9,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You endeavor to officially change the name of a willing creature you touch for the entire casting time, finishing by speaking their new name. This affects the creature's name, but not their magical true name, nor any titles and epithets. Any written mention of the original name is overwritten with the new one, and any memory of their old name is erased. Anyone who knew their old name now knows their new one, which functions as their real name for purposes such as the {@spell gate|XPHB} spell.",
+				"{@note Made by Lily}"
+			],
+			"source": "WM4",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A stack of paperwork as tall as the target"
+			}
+		}
+	]
+}

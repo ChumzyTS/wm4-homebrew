@@ -1,0 +1,22 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "WM4",
+				"abbreviation": "WMUTD",
+				"full": "Westmarch UTD",
+				"version": "1.6",
+				"authors": [
+					"Various DMs"
+				],
+				"convertedBy": [
+					"Gem"
+				],
+				"color": "1b607e"
+			}
+		],
+		"dateAdded": 1742975531,
+		"dateLastModified": 1742975531,
+		"edition": "classic"
+	}
+}

@@ -1,0 +1,46 @@
+{
+    "itemProperty": [
+        {
+            "abbreviation": "C",
+            "source": "WM4",
+            "template": "{@i {{prop_name}}}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Consumable",
+                    "entries": [
+                        "An item that is permanently expended once used, such as a potion."
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "E",
+            "source": "WM4",
+            "template": "{@i {{prop_name}}}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Exotic",
+                    "entries": [
+                        "An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances."
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "U",
+            "source": "WM4",
+            "template": "{@i {{prop_name}}}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Unique",
+                    "entries": [
+                        "An item of which there is only one instance."
+                    ]
+                }
+            ]
+        }
+    ]
+}
