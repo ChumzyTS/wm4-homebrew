@@ -324,6 +324,27 @@
 				},
 				"{@note Made by Gem}"
             ]
+        },
+        {
+			"name": "Silenced",
+			"source": "WM4",
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"While Silenced, you experience the following effect:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Limited Activity.",
+							"entries": [
+								"You are unable to verbally speak, and cannot cast spells that include a Verbal component.."
+							]
+						}
+                    ]
+                }
+            ]
         }
     ]
 }

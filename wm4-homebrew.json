@@ -674,6 +674,27 @@
                 },
                 "{@note Made by Gem}"
             ]
+        },
+        {
+            "name": "Silenced",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "entries": [
+                "While Silenced, you experience the following effect:",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Limited Activity.",
+                            "entries": [
+                                "You are unable to verbally speak, and cannot cast spells that include a Verbal component.."
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "item": [
@@ -1619,7 +1640,7 @@
         {
             "name": "Rat King's Crown",
             "source": "WM4",
-            "rarity": "common",
+            "rarity": "uncommon",
             "wondrous": true,
             "reqAttune": true,
             "curse": true,
@@ -4472,6 +4493,181 @@
             }
         }
     ],
+    "monster": [
+        {
+            "name": "Plant Spirit",
+            "source": "WM4",
+            "summonedBySpellLevel": 2,
+            "summonedBySpell": "Summon Plant|WM4",
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "type": "plant",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "special": "11 + the spell's level"
+                }
+            ],
+            "hp": {
+                "special": "20 (Fungus or Vine) or 30 (Tree only) + 5 for each spell level above 2"
+            },
+            "speed": {
+                "walk": 15
+            },
+            "str": 18,
+            "dex": 5,
+            "con": 16,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "senses": [
+                "blindsight 10 ft."
+            ],
+            "passive": 10,
+            "languages": [
+                "understands the languages you know"
+            ],
+            "pbNote": "equals your Proficiency Bonus",
+            "trait": [
+                {
+                    "name": "False Appearance",
+                    "entries": [
+                        "While the plant spirit remains motionless, it is indistinguishable from a normal plant"
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The spirit makes a number of attacks equal to half this spell's level (round down)."
+                    ]
+                },
+                {
+                    "name": "Slam (Tree Only)",
+                    "entries": [
+                        "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d6 + 4 + summonSpellLevel} Bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Constricting Vine (Vine Only)",
+                    "entries": [
+                        "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d4 + 4 + summonSpellLevel} Bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition Grappled} condition (escape DC equals your spell save DC). Until the grapple ends, the target takes 2 ({@dice 1d4}) Bludgeoning damage at the start of each of its turns, and the vine can't make Constricting Vine attacks."
+                    ]
+                },
+                {
+                    "name": "Rotting Touch (Fungus Only)",
+                    "entries": [
+                        "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d8 + 4 + summonSpellLevel} Necrotic damage."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "False Appearance"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "B",
+                "N"
+            ],
+            "miscTags": [
+                "MA"
+            ],
+            "_versions": [
+                {
+                    "name": "Plant Spirit (Fungus)",
+                    "source": "XPHB",
+                    "_mod": {
+                        "trait": [
+                            {
+                                "mode": "removeArr",
+                                "names": [
+                                    "Slam (Tree Only)",
+                                    "Constricting Vine (Vine Only)"
+                                ]
+                            },
+                            {
+                                "mode": "renameArr",
+                                "renames": {
+                                    "rename": "Rotting Touch (Fungus Only)",
+                                    "with": "Rotting Touch"
+                                }
+                            }
+                        ]
+                    },
+                    "size": [
+                        "S"
+                    ],
+                    "hp": {
+                        "special": "20 + 5 for each spell level above 2"
+                    }
+                },
+                {
+                    "name": "Plant Spirit (Vine)",
+                    "source": "XPHB",
+                    "_mod": {
+                        "trait": [
+                            {
+                                "mode": "removeArr",
+                                "names": [
+                                    "Slam (Tree Only)",
+                                    "Rotting Touch (Fungus Only)"
+                                ]
+                            },
+                            {
+                                "mode": "renameArr",
+                                "renames": {
+                                    "rename": "Constricting Vine (Vine Only)",
+                                    "with": "Constricting Vine"
+                                }
+                            }
+                        ]
+                    },
+                    "size": [
+                        "M"
+                    ],
+                    "hp": {
+                        "special": "20 + 5 for each spell level above 2"
+                    }
+                },
+                {
+                    "name": "Plant Spirit (Tree)",
+                    "source": "XPHB",
+                    "_mod": {
+                        "trait": [
+                            {
+                                "mode": "removeArr",
+                                "names": [
+                                    "Constricting Vine (Vine Only)",
+                                    "Rotting Touch (Fungus Only)"
+                                ]
+                            },
+                            {
+                                "mode": "renameArr",
+                                "renames": {
+                                    "rename": "Slam (Tree Only)",
+                                    "with": "Slam"
+                                }
+                            }
+                        ]
+                    },
+                    "size": [
+                        "M"
+                    ],
+                    "hp": {
+                        "special": "30 + 5 for each spell level above 2"
+                    }
+                }
+            ]
+        }
+    ],
     "object": [
         {
             "name": "Boulder",
@@ -6229,7 +6425,7 @@
                 "fromClassList": [
                     {
                         "name": "Wizard",
-                        "source": "PHB"
+                        "source": "XPHB"
                     },
                     {
                         "name": "Bard",
@@ -6247,9 +6443,34 @@
                         "name": "Cleric",
                         "source": "XPHB"
                     }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
                 ]
             },
             "entries": [
+                "{@note Made by Patrick}",
                 "Convening with The Cryptmaster, played by the GM, the caster may write a single word, and The Cryptmaster creates a magical effect based on the word, or rejects the request completely.",
                 "Whatever word the caster writes must be able to replicate the effects of a cantrip or 1st-level spell, or have an equivalently powerful impact.",
                 "Examples of words to use include:",
@@ -6258,8 +6479,7 @@
                 "ZAP - Make a ranged spell attack against a target within 60 ft. The target takes {@damage 2d8} Lightning damage.",
                 "TRIP - Force a target within 30 ft. to make a strength saving throw. On a fail, the target becomes {@condition prone}.",
                 "LOOK - The Cryptmaster describes an object or location around you that you are unable to perceive via sight.",
-                "If you cast the spell more than once before finishing a Long Rest or make a request that displeases the Cryptmaster, there is a cumulative 25 percent chance for each casting after the first that you become unable to cast this spell again until the next dawn (The GM might also deny further castings at their will).",
-                "{@note Made by Patrick}"
+                "If you cast the spell more than once before finishing a Long Rest or make a request that displeases the Cryptmaster, there is a cumulative 25 percent chance for each casting after the first that you become unable to cast this spell again until the next dawn (The GM might also deny further castings at their will)."
             ],
             "source": "WM4",
             "meta": {
@@ -6299,7 +6519,7 @@
                 "fromClassList": [
                     {
                         "name": "Wizard",
-                        "source": "PHB"
+                        "source": "XPHB"
                     },
                     {
                         "name": "Sorcerer",
@@ -6309,17 +6529,1533 @@
                         "name": "Cleric",
                         "source": "XPHB"
                     }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
                 ]
             },
             "entries": [
-                "You endeavor to officially change the name of a willing creature you touch for the entire casting time, finishing by speaking their new name. This affects the creature's name, but not their magical true name, nor any titles and epithets. Any written mention of the original name is overwritten with the new one, and any memory of their old name is erased. Anyone who knew their old name now knows their new one, which functions as their real name for purposes such as the {@spell gate|XPHB} spell.",
-                "{@note Made by Lily}"
+                "{@note Made by Lily}",
+                "You endeavor to officially change the name of a willing creature you touch for the entire casting time, finishing by speaking their new name. This affects the creature's name, but not their magical true name, nor any titles and epithets. Any written mention of the original name is overwritten with the new one, and any memory of their old name is erased. Anyone who knew their old name now knows their new one, which functions as their real name for purposes such as the {@spell gate|XPHB} spell."
             ],
             "source": "WM4",
             "components": {
                 "v": true,
                 "s": true,
                 "m": "A stack of paperwork as tall as the target"
+            }
+        },
+        {
+            "name": "Vile Dagger",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                "{@note Made by Aris}",
+                "A shard of evil appears within your hand. You are Proficient with this {@item dagger|XPHB}, and no other creature is Proficient with it.",
+                "All damage dealt by the {@item dagger|XPHB} is vile damage.",
+                "(vile damage is just like other damage but that is very difficult to heal)"
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Cantrip Upgrade",
+                    "entries": [
+                        "When you reach 5th level, you gain a +1 to attack and damage rolls made with the {@item dagger|XPHB}. This bonus increases to +2 at 11th level, and +3 at 17th level."
+                    ]
+                }
+            ],
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            }
+        },
+        {
+            "name": "Book Sense",
+            "level": 1,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                "{@note Made by Gem}",
+                "When you cast this spell you can name a topic. For the duration, you can see a faint aura on any books, tomes, or other objects that contain writing related to the topic within 60 feet of yourself. If it is written in a language you do not understand or is concealed by magic, you are unable to sense it.",
+                "Additionally you can take the {@action Magic|XPHB} action to touch a book, tome, or other object containing writing. If it is in a language you understand and not concealed by magic, you learn a brief summary of what the writing is about. "
+            ],
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A set of glasses"
+            }
+        },
+        {
+            "name": "Preserve Work",
+            "level": 1,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "dispel"
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                "{@note Made by Gem}",
+                "When you cast this spell, you touch a nonmagical book, tome, artwork, or other physical work. The work becomes protected from damage and wear. The work is unable to be damaged by nonmagical means. Whenever the work is damaged by magical means, it reforms the damaged section to its exact form when the spell was cast over the course of 10 minutes. ",
+                "If the work is fully destroyed before it has time to reform, the spell ends and the work is destroyed."
+            ],
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A piece of fresh parchment, a bottle of ink, a lead weight, and a block of clear wax"
+            }
+        },
+        {
+            "name": "Scholar's Touch",
+            "level": 1,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a scrap of parchment, a pinch of tinder, and a thin crystal disk worth at least 50 gp"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note From 3.5e, Ported by Aris}",
+                "You touch a book or scroll and absorb the knowledge contained within as if you had just read it. This is equivalent to a solid reading but not deep study\u2014you do not gain perfect recall of the information, only whatever you would have gotten from reading it completely once.",
+                "If you can't read the language of the source, the spell has no effect. This spell cannot be used to prepare spells or to cast magical scrolls, nor does it have any effect when reading a magical book"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shush",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "One creature that you can see within range must succeed on a Wisdom saving throw, or it has the {@condition Silenced|WM4} condition.",
+                "A {@condition Silenced|WM4} target makes another Wisdom saving throw at the end of each of its turns. On a success the spell ends. If the creature fails against this spell three times, it stops making saving throws to break free, being {@condition Silenced|WM4} until the spell ends normally."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "Your {@status Concentration|XPHB} can last longer with a spell slot of level 3+ (1 hour) or 5+ (8 hours), or 7+ (24 hours)."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "52 Pickup",
+            "level": 2,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a deck of cards"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You spray a 15-foot cone of spectral cards. Each creature in the area when you cast the spell must succeed on a Wisdom saving throw or have the {@condition Prone} condition until the spell ends. A Prone creature can take an action to make a Dexterity ({@skill Sleight of Hand}) check against your spell save DC. On a success, it frees itself from the task of picking up cards an can get up from {@condition Prone}.",
+                "At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. On a successful save, the spell ends on that creature. "
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shush",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "One creature that you can see within range must succeed on a Wisdom saving throw, or it has the {@condition Silenced|WM4} condition.",
+                "A {@condition Silenced|WM4} target makes another Wisdom saving throw at the end of each of its turns. On a success the spell ends. If the creature fails against this spell three times, it stops making saving throws to break free, being {@condition Silenced|WM4} until the spell ends normally."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "Your Concentration can last longer with a spell slot of level 3+ (1 hour) or 5+ (8 hours), or 7+ (24 hours)."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "52 Pickup",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a deck of cards"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You spray a 15-foot cone of spectral cards. Each creature in the area when you cast the spell must succeed on a Wisdom saving throw or have the {@condition Prone} condition until the spell ends. A Prone creature can take an action to make a Dexterity ({@skill Sleight of Hand}) check against your spell save DC. On a success, it frees itself from the task of picking up cards an can get up from {@condition Prone}.",
+                "At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. On a successful save, the spell ends on that creature. "
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Desecrate",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a vial of unholy water and powdered silver worth at least 25gp, which the spell consumes"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e, Made by Aris}",
+                "You choose a point within range and infuse an area around it with negative energy. The area can have an Emanation up to 20 feet, and the spell fails if the Emanation includes an area already under the effect of a Desecrate spell or the {@spell Hallow|XPHB} spell. The affected area is subject to the following effects.",
+                "The ground within the area of this spell is considered desecrated ground. Undead standing on desecrated ground have Advantage on all saving throws.",
+                "In addition, an undead creature raised or created within, or summoned into the area gains a number of Temporary Hit Points equal to your spellcasting ability modifier.",
+                "A {@item Holy Water|XPHB|vial of holy water} purifies a 10-foot-square area of desecrated ground when sprinkled on it, and a {@spell Hallow|XPHB} (holy) spell purifies desecrated ground within its area.",
+                "If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron or deity, the desecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not grant the benefits to undead listed above.",
+                "If you cast Desecrate on an area that includes consecrated ground from a {@spell Consecrate|WM4} spell, the {@spell Consecrate|WM4} spell is dispelled."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Consecrate",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a vial of holy water and powdered silver worth at least 25gp, which the spell consumes."
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e, Made by Aris}",
+                "You choose a point within range and bless an area around it with positive energy. The area can have an Emanation up to 20 feet, and the spell fails if the Emanation includes an area already under the effect of a Consecrate spell or the {@spell Hallow|XPHB} spell. The affected area is subject to the following effects.",
+                "The ground within the area of this spell is considered consecrated ground. Undead standing on consecrated ground have Disadvantage on all saving throws.",
+                "In addition, undead cannot be raised or created within, or summoned into the area.",
+                "A {@item unholy water|WM4|vial of unholy water} defiles a 10-foot-square area of consecrated ground when sprinkled on it, and a {@spell Hallow|XPHB} (unholy) spell defiles consecrated ground within its area.",
+                "If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron or deity, the consecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not grant the penalties to undead listed above.",
+                "If you cast consecrate on an area that includes desecrated ground from a {@spell Desecrate|WM4} spell, the {@spell Desecrate|WM4} spell is dispelled."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Entice Gift",
+            "source": "WMUTD",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e, Made by Chrys}",
+                "By asking nicely, you can compel a non hostile creature to give you what it's holding. The creature must make a Wisdom saving throw. On a failed save, it must spend its next turn moving as close to you as it can and hand (or toss if it's too far to hand) it to you.",
+                "Creatures immune to the {@condition Charmed} condition automatically succeed the saving throw."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Psychometry",
+            "source": "WMUTD",
+            "level": 2,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "emanation",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1,
+                        "upTo": true
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Aris}",
+                "You sense psychic impressions left by events in an area around you. The types of events most likely to leave psychic impressions are those that elicited strong emotions: battles, betrayals, marriages, murders, births, great pain, or any other event where one emotion dominates. Everyday occurrences leave little residue for you to detect.",
+                "The vision of the event is dreamlike and shadowy. Your vision is vague but you might be able to read large banners or other writing if they are in your language.",
+                "You can spend a minute studying, and make a DC 20 Intelligence ({@skill History} or {@skill Investigation}) or Wisdom ({@skill Insight} or {@skill Perception}) check (your choice). On a successful check, you can choose to learn one of the following pieces of information about the event:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The number of creatures to pass through the area.",
+                        "The type of creatures to pass through the area.",
+                        "The general alignment of the creatures that were in the area.",
+                        "What direction the creatures came from to get to the area.",
+                        "What the creatures did while they were in the area.",
+                        "What direction the creatures went when they left the area.",
+                        "The dominant emotion experienced by the creatures."
+                    ]
+                },
+                "You sense the most recent of such an event. After {@status Concentration|XPHB|Concentrating} on an event for at least 10 minutes, you can shift to sensing the next most recent distinct event, if any such events exist to be sensed.",
+                "Creatures under the {@spell Mind Blank|XPHB} spell currently or while they were in the area in the past, are not detected by Psychometry."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, you can become more attuned to this sense. You can choose to sense either psychic impressions of powerful emotions, or psychic impressions of the most recent creatures to pass through the area."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Knowledge Domain",
+                            "shortName": "Knowledge",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Snow Cloud",
+            "level": 2,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You create a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} cloud of snow centered on a point within range. The Sphere is {@variantrule Heavily Obscured|XPHB}. It lasts for the duration or until a strong wind (such as one created by {@spell Gust of Wind|XPHB}) disperses it.",
+                "Each creature that starts its turn in the Sphere must succeed on a Constitution saving throw or take {@dice 2d4} Cold damage and have its Speed reduced by 15 feet until the start of its next turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The fog's radius increases by 10 feet for each spell slot level above 2."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Summon Elysian Thrush",
+            "level": 2,
+            "school": "C",
+            "time": [
+                {
+                    "number": 10,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    }
+                }
+            ],
+            "entries": [
+                "{@note From 3.5e, Made by Aris}",
+                "You summon an Elysian Thrush within range. The Elysian Thrush is {@variantrule Friendly [Attitude]|XPHB|friendly} to you and your allies. It obeys your commands, though it refuses to fight in combat, instead fleeing from perceived danger.",
+                "The Elysian Thrush uses the {@creature raven|XMM} statblock but is a Celestial, and their song is magically enchanting and beautiful. Any creature that finishes a {@variantrule Short Rest|XPHB} while within 30 feet of a singing Elysian Thrush rolls the maximum number on any hit dice it rolls to regain Hit Points."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Summon Plant",
+            "level": 2,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "hour"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 90
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A pot of dirt worth 100+ gp"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You call forth a {@creature Plant Spirit|WM4}. It manifests in an unoccupied space that you can see within range and uses the Plant Spirit stat block (see below). When you cast the spell, choose {@creature Plant spirit (Fungus)|WM4|Fungus (Small)}, {@creature Plant spirit (Tree)|WM4|Tree (Large)}, or {@creature Plant spirit (Vine)|WM4|Vine (Medium)}. The creature resembles a Plant of that kind, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.",
+                "The creature is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Use the spell slot's level for the spell's level in the stat block."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Vision of Entropy",
+            "level": 2,
+            "school": "I",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e. Made by Aris}",
+                "You form a vision of the seething, maddening chaos of the Abyss within a creature's mind. Choose a creature within range. At the start of each of the creature's turns, it must make a Wisdom saving throw. On a failure, the creature becomes {@condition Frightened} for the duration. If it fails a second time, it is no longer {@condition Frightened}, and becomes {@condition Confused|WM4} instead. If it fails its saving throw for a third time, it is no longer confused but gains a randomly determined short term madness for the duration.",
+                "Casting {@spell Lesser Restoration|XPHB}, {@spell Dispel Magic}, or any spell that removes madness from a target creature ends the effects of the spell.",
+                "Demons and creatures under the effects of the {@spell Calm Emotions|XPHB} or {@spell Protection from Evil and Good|XPHB} spells automatically succeed on all saving throws against the spell, as do creatures immune to {@condition Frightened}, {@condition Confused|WM4}, or madness."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Awaken Sin",
+            "level": 3,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Adapted from Dragon Magazine 315. Made by Landon}",
+                "You show a creature the error of its ways. Choose a Humanoid, Fey, Giant, or Monstrosity within range. If it is Evil, it must make a Wisdom saving throw. On a Success, it is momentarily distracted by the weight of its sins and has a -1 penalty to D20 tests until the end of its next turn. On a Failure, it is instead {@condition Stunned} until the end of its next turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Investiture of the Kyton",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a chunk of brimstone"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Based off of Investiture of the Chain Devil (3.5e), Made by Chrys}",
+                "With a rush of red light and the faint clanking of many chains, you invest the target creature with the power of a chain devil. The target creature gains Resistance to Fire damage and once on it's turns, can choose the following option when taking the {@action Attack|XPHB} action (The DC equal to your spell save DC):",
+                {
+                    "type": "entries",
+                    "name": "Conjure Infernal Chain.",
+                    "entries": [
+                        "You target a creature within 60 feet of you as you summon a fiery chain to bind it. That creature must make a Dexterity saving throw. On a failed save, the creature takes {@dice 2d4 + your Strength modifier} Fire damage and is {@condition Restrained} until the end of your next turn. If the target is Large or smaller, you move the target up to 30 feet straight toward yourself to an unoccupied space."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Magic Vestment",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note From 3.5e, Made by Chrys}",
+                "You touch a nonmagical armor or shield. Until the spell ends, that armor or shield becomes a magic armor or shield with a +1 bonus to AC. The spell ends early if you cast it again."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The bonus increases to +2 with a level 4-6 spell slot. The bonus increases to +3 with a level 7+ spell slot."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Paladin",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "War Domain",
+                            "shortName": "War",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
             }
         }
     ],

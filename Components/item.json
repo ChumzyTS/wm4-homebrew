@@ -941,7 +941,7 @@
         {
             "name": "Rat King's Crown",
             "source": "WM4",
-            "rarity": "common",
+            "rarity": "uncommon",
             "wondrous": true,
             "reqAttune": true,
             "curse": true,

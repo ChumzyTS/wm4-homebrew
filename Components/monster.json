@@ -1,0 +1,177 @@
+{
+    "monster": [
+		{
+			"name": "Plant Spirit",
+			"source": "WM4",
+			"summonedBySpellLevel": 2,
+			"summonedBySpell": "Summon Plant|WM4",
+			"size": [
+                "S",
+				"M",
+                "L"
+			],
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "11 + the spell's level"
+				}
+			],
+			"hp": {
+				"special": "20 (Fungus or Vine) or 30 (Tree only) + 5 for each spell level above 2"
+			},
+			"speed": {
+				"walk": 15
+			},
+			"str": 18,
+			"dex": 5,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"understands the languages you know"
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+                {
+                    "name": "False Appearance",
+                    "entries": [
+                        "While the plant spirit remains motionless, it is indistinguishable from a normal plant"
+                    ]
+                }
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The spirit makes a number of attacks equal to half this spell's level (round down)."
+					]
+				},
+				{
+					"name": "Slam (Tree Only)",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d6 + 4 + summonSpellLevel} Bludgeoning damage."
+					]
+				},
+				{
+					"name": "Constricting Vine (Vine Only)",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d4 + 4 + summonSpellLevel} Bludgeoning damage. If the target is a Large or smaller creature, it has the {@condition Grappled} condition (escape DC equals your spell save DC). Until the grapple ends, the target takes 2 ({@dice 1d4}) Bludgeoning damage at the start of each of its turns, and the vine can't make Constricting Vine attacks."
+					]
+				},
+				{
+					"name": "Rotting Touch (Fungus Only)",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d8 + 4 + summonSpellLevel} Necrotic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+                "N"
+			],
+			"miscTags": [
+				"MA"
+			],
+			"_versions": [
+				{
+					"name": "Plant Spirit (Fungus)",
+					"source": "XPHB",
+					"_mod": {
+						"trait": [
+							{
+								"mode": "removeArr",
+								"names": [
+									"Slam (Tree Only)",
+									"Constricting Vine (Vine Only)"
+								]
+							},
+							{
+								"mode": "renameArr",
+								"renames": {
+									"rename": "Rotting Touch (Fungus Only)",
+									"with": "Rotting Touch"
+								}
+							}
+						]
+					},
+                    "size": [
+                        "S"
+                    ],
+					"hp": {
+						"special": "20 + 5 for each spell level above 2"
+					}
+				},
+				{
+					"name": "Plant Spirit (Vine)",
+					"source": "XPHB",
+					"_mod": {
+						"trait": [
+							{
+								"mode": "removeArr",
+								"names": [
+									"Slam (Tree Only)",
+									"Rotting Touch (Fungus Only)"
+								]
+							},
+							{
+								"mode": "renameArr",
+								"renames": {
+									"rename": "Constricting Vine (Vine Only)",
+									"with": "Constricting Vine"
+								}
+							}
+						]
+					},
+                    "size": [
+                        "M"
+                    ],
+					"hp": {
+						"special": "20 + 5 for each spell level above 2"
+					}
+				},
+				{
+					"name": "Plant Spirit (Tree)",
+					"source": "XPHB",
+					"_mod": {
+						"trait": [
+							{
+								"mode": "removeArr",
+								"names": [
+									"Constricting Vine (Vine Only)",
+									"Rotting Touch (Fungus Only)"
+								]
+							},
+							{
+								"mode": "renameArr",
+								"renames": {
+									"rename": "Slam (Tree Only)",
+									"with": "Slam"
+								}
+							}
+						]
+					},
+                    "size": [
+                        "M"
+                    ],
+					"hp": {
+						"special": "30 + 5 for each spell level above 2"
+					}
+				}
+			]
+		}
+    ]
+}
