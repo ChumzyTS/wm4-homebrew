@@ -10,92 +10,92 @@
             "entries": [
                 "When you take the Attack action, you can replace one of your attacks with throwing a flask of Anarchic Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} damage if it is a Construct. Roll a {@dice d8} for the damage type.",
                 {
-					"type": "table",
-					"caption": "Damage Type",
-					"colLabels": [
-						"{@dice 1d8}",
-						"Damage Type"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 8
-								}
-							},
-							"Thunder"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 7
-								}
-							},
+                    "type": "table",
+                    "caption": "Damage Type",
+                    "colLabels": [
+                        "{@dice 1d8}",
+                        "Damage Type"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 8
+                                }
+                            },
+                            "Thunder"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 7
+                                }
+                            },
                             "Psychic"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 6
-								}
-							},
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 6
+                                }
+                            },
                             "Poison"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 5
-								}
-							},
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 5
+                                }
+                            },
                             "Lightning"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 4
-								}
-							},
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 4
+                                }
+                            },
                             "Force"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 3
-								}
-							},
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 3
+                                }
+                            },
                             "Fire"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 2
-								}
-							},
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 2
+                                }
+                            },
                             "Cold"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 1
-								}
-							},
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 1
+                                }
+                            },
                             "Acid"
-						]
-					]
-				},
-				"{@note Made by Aris}"
+                        ]
+                    ]
+                },
+                "{@note Made by Aris}"
             ]
         },
         {
@@ -107,41 +107,39 @@
             "value": 2500,
             "entries": [
                 "When you take the Attack action, you can replace one of your attacks with throwing a flask of Axiomatic Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Force damage if it is an Aberration or an Elemental.",
-				"{@note Made by Aris}"
+                "{@note Made by Aris}"
             ]
         },
-		{
-			
+        {
             "name": "Crab Suit",
             "source": "WM4",
             "type": "G",
             "rarity": "none",
-			"property": [
-				"E|WM4"
-			],
+            "property": [
+                "E|WM4"
+            ],
             "entries": [
-				"{@i To create a cheaper, more easily produced version of the popular Fish Suit, gnomish inventor Nadul DaRoni created the Crab Suit, a suit of armor made to handle deep water pressure.}",
-				"This bulky suit, which fully encases your head and body, takes 10 minutes to don or doff. While worn, it enables you to breathe in an airless environment and renders you immune to the harmful effects of any gas that surrounds you for up to 8 hours.",
-				"Once worn for 8 total hours, the suit's property is unusable unless the suit is recharged for 1 hour in an elemental air node (or dedicated Crab Suit Recharger).",
-				"The Crab Suit allows the user to withstand depth pressures of up to 750m, with more resistant models able to withstand even greater pressure.",
-				"{@note Made by Patrick}"
-			]
-		},
-		{
-			
+                "{@i To create a cheaper, more easily produced version of the popular Fish Suit, gnomish inventor Nadul DaRoni created the Crab Suit, a suit of armor made to handle deep water pressure.}",
+                "This bulky suit, which fully encases your head and body, takes 10 minutes to don or doff. While worn, it enables you to breathe in an airless environment and renders you immune to the harmful effects of any gas that surrounds you for up to 8 hours.",
+                "Once worn for 8 total hours, the suit's property is unusable unless the suit is recharged for 1 hour in an elemental air node (or dedicated Crab Suit Recharger).",
+                "The Crab Suit allows the user to withstand depth pressures of up to 750m, with more resistant models able to withstand even greater pressure.",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
             "name": "Diving Mask",
             "source": "WM4",
             "type": "G",
             "rarity": "none",
-			"property": [
-				"E|WM4"
-			],
+            "property": [
+                "E|WM4"
+            ],
             "entries": [
-				"{@i Comprised of an airtight mask, goggles, and an air tank, the Diving Mask was made as a portable solution to air deprivation and light underwater travel.}",
-				"The Diving Mask allows the user to connect to an air tank, expanding their breathing capacity and prolonging suffocation. A full air tank connected to a diving mask provides 6 hours' worth of breathable air.",
-				"{@note Made by Patrick}"
-			]
-		},
+                "{@i Comprised of an airtight mask, goggles, and an air tank, the Diving Mask was made as a portable solution to air deprivation and light underwater travel.}",
+                "The Diving Mask allows the user to connect to an air tank, expanding their breathing capacity and prolonging suffocation. A full air tank connected to a diving mask provides 6 hours' worth of breathable air.",
+                "{@note Made by Patrick}"
+            ]
+        },
         {
             "name": "Unholy Water",
             "source": "WM4",
@@ -151,7 +149,7 @@
             "value": 2500,
             "entries": [
                 "When you take the Attack action, you can replace one of your attacks with throwing a flask of Unholy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Necrotic damage if it is a Celestial or a Plant.",
-				"{@note Made by Aris}"
+                "{@note Made by Aris}"
             ]
         },
         {
@@ -163,7 +161,7 @@
             "value": 1000,
             "entries": [
                 "These boots can be wielded as a {@item dagger|XPHB} while on your feet. However, they have a -2 to hit, unless the boot is wielded in a hand, you are airborne, or the attack is made against a {@condition prone} creature.",
-				"{@note Made by Aris}"
+                "{@note Made by Aris}"
             ]
         },
         {
@@ -175,145 +173,145 @@
             "value": 100,
             "entries": [
                 "These clothes are treated to be water resistant, quick drying, stretchy, and low absorption, great for swimming in!",
-				"{@note Made by Landon}"
+                "{@note Made by Landon}"
             ]
         },
-		{
-			"name": "Performance Prop",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"edition": "one",
-			"type": "INS|XPHB",
-			"rarity": "none",
-			"weight": 1,
-			"value": 3000,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Put on a rehearsed show ({@dc 10}), or improvise a show ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Megaphone",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"edition": "one",
-			"type": "INS|XPHB",
-			"rarity": "none",
-			"weight": 1,
-			"value": 300,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Sing a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Oration Book",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"edition": "one",
-			"type": "INS|XPHB",
-			"rarity": "none",
-			"weight": 5,
-			"value": 2500,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Put on a rehearsed performance ({@dc 10}), or improvise a performance ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Juggling Club",
-			"source": "WM4",
-			"type": "R|XPHB",
-			"rarity": "none",
-			"weight": 0.25,
-			"value": 100,
-			"weaponCategory": "simple",
-			"property": [
-				"F|XPHB",
-				"L|XPHB",
-				"T|XPHB"
-			],
-			"mastery": [
-				"Nick|XPHB"
-			],
-			"range": "20/60",
-			"dmg1": "1d4",
-			"dmgType": "B",
-			"weapon": true,
-			"entries": [
-				"{@note Made by Gem}"
-			]
-		},
+        {
+            "name": "Performance Prop",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "edition": "one",
+            "type": "INS|XPHB",
+            "rarity": "none",
+            "weight": 1,
+            "value": 3000,
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "name": "Ability:",
+                            "type": "item",
+                            "entries": [
+                                "Charisma"
+                            ]
+                        },
+                        {
+                            "name": "Utilize:",
+                            "type": "item",
+                            "entries": [
+                                "Put on a rehearsed show ({@dc 10}), or improvise a show ({@dc 15})"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Megaphone",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "edition": "one",
+            "type": "INS|XPHB",
+            "rarity": "none",
+            "weight": 1,
+            "value": 300,
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "name": "Ability:",
+                            "type": "item",
+                            "entries": [
+                                "Charisma"
+                            ]
+                        },
+                        {
+                            "name": "Utilize:",
+                            "type": "item",
+                            "entries": [
+                                "Sing a known tune ({@dc 10}), or improvise a song ({@dc 15})"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oration Book",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "edition": "one",
+            "type": "INS|XPHB",
+            "rarity": "none",
+            "weight": 5,
+            "value": 2500,
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "name": "Ability:",
+                            "type": "item",
+                            "entries": [
+                                "Charisma"
+                            ]
+                        },
+                        {
+                            "name": "Utilize:",
+                            "type": "item",
+                            "entries": [
+                                "Put on a rehearsed performance ({@dc 10}), or improvise a performance ({@dc 15})"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Juggling Club",
+            "source": "WM4",
+            "type": "R|XPHB",
+            "rarity": "none",
+            "weight": 0.25,
+            "value": 100,
+            "weaponCategory": "simple",
+            "property": [
+                "F|XPHB",
+                "L|XPHB",
+                "T|XPHB"
+            ],
+            "mastery": [
+                "Nick|XPHB"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "B",
+            "weapon": true,
+            "entries": [
+                "{@note Made by Gem}"
+            ]
+        },
         {
             "name": "Sheet Music",
             "source": "WM4",
             "type": "G",
             "rarity": "none",
-			"property": [
-				"E|WM4"
-			],
+            "property": [
+                "E|WM4"
+            ],
             "entries": [
                 "{@i This piece of parchment teaches the reader how to play a specific written piece of music, so long as the user knows the notation.}",
-				"When you attempt to play the song written on this piece of sheet music and you are proficient with the instrument you are playing, any roll of 4 or lower on the D20 roll is treated as a 5 instead. Any given piece of sheet music must depict a specific song, and its benefits only apply to playing the given song.",
-				"This item may be copied and printed at a scriptorium.",
-				"{@note Made by Patrick}"
+                "When you attempt to play the song written on this piece of sheet music and you are proficient with the instrument you are playing, any roll of 4 or lower on the D20 roll is treated as a 5 instead. Any given piece of sheet music must depict a specific song, and its benefits only apply to playing the given song.",
+                "This item may be copied and printed at a scriptorium.",
+                "{@note Made by Patrick}"
             ]
         },
         {
@@ -324,51 +322,51 @@
             "weight": 1,
             "value": 3000,
             "entries": [
-				"This plain gray powder clings to surfaces and cannot be seen with normal vision from more than 10 feet away. It glows brightly when viewed with {@sense darkvision}, and thus is useful for creatures that have {@sense darkvision} and wish to write messages that other creatures can’t read. Each vial contains enough powder for a message of up to 25 words. By adding a mixture of spider silk oil, an ink can be created with the same properties as the powder.",
-				"{@i This item can be crafted using {@item Alchemist's Supplies|XPHB|Alchemy Tools}.",
-				"{@note From S3, 3.5e Drow of the Underdark, ported by Aris}"
+                "This plain gray powder clings to surfaces and cannot be seen with normal vision from more than 10 feet away. It glows brightly when viewed with {@sense darkvision}, and thus is useful for creatures that have {@sense darkvision} and wish to write messages that other creatures can\u2019t read. Each vial contains enough powder for a message of up to 25 words. By adding a mixture of spider silk oil, an ink can be created with the same properties as the powder.",
+                "{@i This item can be crafted using {@item Alchemist's Supplies|XPHB|Alchemy Tools}.",
+                "{@note From S3, 3.5e Drow of the Underdark, ported by Aris}"
             ]
         },
-		{
+        {
             "name": "Messenger Pigeon (Trained)",
             "source": "WM4",
             "type": "G",
             "rarity": "none",
             "value": 2500,
             "entries": [
-				"{@creature Messenger Pigeon|WM4}",
-				"{@note Made by Patrick}"
+                "{@creature Messenger Pigeon|WM4}",
+                "{@note Made by Patrick}"
             ]
-		},
-		{
+        },
+        {
             "name": "Messenger Pigeon (Untrained)",
             "source": "WM4",
             "type": "G",
             "rarity": "none",
             "value": 1500,
             "entries": [
-				"Can be {@item Messenger Pigeon (Trained)|WM4|trained} as a bastion turn.",
-				"{@creature Messenger Pigeon|WM4}",
-				"{@note Made by Patrick}"
+                "Can be {@item Messenger Pigeon (Trained)|WM4|trained} as a bastion turn.",
+                "{@creature Messenger Pigeon|WM4}",
+                "{@note Made by Patrick}"
             ]
-		},
-		{
-			"name": "Urchin Venom",
-			"source": "WM4",
-			"type": "G|XPHB",
-			"rarity": "none",
-			"value": 2500,
-			"poison": true,
+        },
+        {
+            "name": "Urchin Venom",
+            "source": "WM4",
+            "type": "G|XPHB",
+            "rarity": "none",
+            "value": 2500,
+            "poison": true,
             "property": [
                 "E|WM4"
             ],
-			"poisonTypes": [
-				"injury"
-			],
-			"entries": [
-				"A creature subjected to Urchin Venom must succeed on a DC 11 Constitution saving throw or have the {@condition Poisoned} condition for 1 minute.",
-				"{@note Made by Aris. Adapted from 3.5e There Is No Honor}"
-			]
-		}
+            "poisonTypes": [
+                "injury"
+            ],
+            "entries": [
+                "A creature subjected to Urchin Venom must succeed on a DC 11 Constitution saving throw or have the {@condition Poisoned} condition for 1 minute.",
+                "{@note Made by Aris. Adapted from 3.5e There Is No Honor}"
+            ]
+        }
     ]
 }

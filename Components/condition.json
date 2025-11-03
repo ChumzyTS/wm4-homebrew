@@ -1,439 +1,439 @@
 {
     "condition": [
         {
-			"name": "Asleep",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"entries": [
-				"While you have the Asleep condition, you experience the following effects.",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Unconscious.",
-							"entries": [
-								"You are {@condition unconscious}"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Waking Up.",
-							"entries": [
-								"A creature that is asleep wakes up if it takes damage or someone within 5 feet of it takes an action to shake it awake."
-							]
-						}
-					]
-				},
-                "Creatures that don't sleep, such as elves, or that have Immunity to the {@condition Exhaustion} condition are immune to the Asleep condition. Creatures immune to the Asleep condition are immune to the {@spell Sleep} spell.",
-				"{@note Made by Aris}"
-            ]
-        },
-        {
-			"name": "Immobilized",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"entries": [
-				"While you have the Immobilized condition, you experience the following effects.",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Can't Move.",
-							"entries": [
-								"Your speed is 0 and can't increase."
-							]
-						}
+            "name": "Asleep",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "entries": [
+                "While you have the Asleep condition, you experience the following effects.",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Unconscious.",
+                            "entries": [
+                                "You are {@condition unconscious}"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Waking Up.",
+                            "entries": [
+                                "A creature that is asleep wakes up if it takes damage or someone within 5 feet of it takes an action to shake it awake."
+                            ]
+                        }
                     ]
                 },
-				"{@note Made by Aris}"
+                "Creatures that don't sleep, such as elves, or that have Immunity to the {@condition Exhaustion} condition are immune to the Asleep condition. Creatures immune to the Asleep condition are immune to the {@spell Sleep} spell.",
+                "{@note Made by Aris}"
             ]
         },
         {
-			"name": "Enfeebled",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"entries": [
-				"While Enfeebled, you experience the following effects:",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Strength Affected.",
-							"entries": [
-								"You have Disadvantage on Strength-based D20 Tests."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Reduced Damage.",
-							"entries": [
-								"You subtract {@dice 1d8} from all your damage rolls."
-							]
-						}
+            "name": "Immobilized",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "entries": [
+                "While you have the Immobilized condition, you experience the following effects.",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Can't Move.",
+                            "entries": [
+                                "Your speed is 0 and can't increase."
+                            ]
+                        }
+                    ]
+                },
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Enfeebled",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "entries": [
+                "While Enfeebled, you experience the following effects:",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Strength Affected.",
+                            "entries": [
+                                "You have Disadvantage on Strength-based D20 Tests."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Reduced Damage.",
+                            "entries": [
+                                "You subtract {@dice 1d8} from all your damage rolls."
+                            ]
+                        }
                     ]
                 },
                 "A creature immune to the Enfeebled condition is immune to the {@spell ray of enfeeblement} spell. ",
-				"{@note Made by Aris}"
+                "{@note Made by Aris}"
             ]
         },
         {
-			"name": "Confused",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"entries": [
-				"While Confused, you experience the following effects:",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Reactions Gone.",
-							"entries": [
-								"You cannot take reactions."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Random Activity.",
-							"entries": [
-								"You must roll a {@dice d10} at the start of each of your turns to determine your behavior for that turn."
-							]
-						}
+            "name": "Confused",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "entries": [
+                "While Confused, you experience the following effects:",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Reactions Gone.",
+                            "entries": [
+                                "You cannot take reactions."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Random Activity.",
+                            "entries": [
+                                "You must roll a {@dice d10} at the start of each of your turns to determine your behavior for that turn."
+                            ]
+                        }
                     ]
                 },
                 {
-					"type": "table",
-					"caption": "Confusion Behavior",
-					"colLabels": [
-						"{@dice 1d10}",
-						"Behavior"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 1
-								}
-							},
-							"The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an action this turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"min": 2,
-									"max": 6
-								}
-							},
+                    "type": "table",
+                    "caption": "Confusion Behavior",
+                    "colLabels": [
+                        "{@dice 1d10}",
+                        "Behavior"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 1
+                                }
+                            },
+                            "The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an action this turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "min": 2,
+                                    "max": 6
+                                }
+                            },
                             "The creature doesn't move or take actions this turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"min": 7,
-									"max": 8
-								}
-							},
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "min": 7,
+                                    "max": 8
+                                }
+                            },
                             "The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"min": 9,
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "min": 9,
                                     "max": 10
-								}
-							},
+                                }
+                            },
                             "The creature can act and move normally"
-						]
-					]
-				},
+                        ]
+                    ]
+                },
                 "A creature immune to the Confused condition is immune to the {@spell confusion} spell.",
-				"{@note Made by Aris}"
+                "{@note Made by Aris}"
             ]
         },
         {
-			"name": "Dazed",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"entries": [
-				"While Dazed, you experience the following effect:",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Limited Activity.",
-							"entries": [
-								"You can Move or take one action on your turn, not both. You also can't take a Bonus Action or a Reaction."
-							]
-						}
+            "name": "Dazed",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "entries": [
+                "While Dazed, you experience the following effect:",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Limited Activity.",
+                            "entries": [
+                                "You can Move or take one action on your turn, not both. You also can't take a Bonus Action or a Reaction."
+                            ]
+                        }
                     ]
                 },
                 "{@note Version in 2024 UA}"
             ]
         },
         {
-			"name": "Slowed",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"entries": [
-				"While you have the Slowed condition, you experience the following effects.",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Reduced Speed.",
-							"entries": [
-								"Your Speed is halved"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Reaction Time.",
-							"entries": [
-								"You take a -2 penalty to AC and Dexterity saving throws, and you can't take reactions"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Limited Activity.",
-							"entries": [
-								"On your turns, you can take either an Action or a Bonus Action, not both, and you can make only one attack if you take the Attack action."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Sluggish Somatics.",
-							"entries": [
-								"If you cast a spell with a Somatic component, there is a {@dice 1d100|25 percent} chance the spell fails as a result of you making the spell's gestures too slowly."
-							]
-						}
+            "name": "Slowed",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "entries": [
+                "While you have the Slowed condition, you experience the following effects.",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Reduced Speed.",
+                            "entries": [
+                                "Your Speed is halved"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Reaction Time.",
+                            "entries": [
+                                "You take a -2 penalty to AC and Dexterity saving throws, and you can't take reactions"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Limited Activity.",
+                            "entries": [
+                                "On your turns, you can take either an Action or a Bonus Action, not both, and you can make only one attack if you take the Attack action."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Sluggish Somatics.",
+                            "entries": [
+                                "If you cast a spell with a Somatic component, there is a {@dice 1d100|25 percent} chance the spell fails as a result of you making the spell's gestures too slowly."
+                            ]
+                        }
                     ]
                 },
                 "A creature immune to the Slowed condition is immune to the {@spell confusion} spell.",
-				"{@note Made by Aris}"
+                "{@note Made by Aris}"
             ]
         },
         {
-			"name": "Mad Rat Disease",
-			"source": "WM4",
-			"srd52": true,
-			"type": "Magical Contagion",
-			"basicRules2024": true,
-			"entries": [
-				"When large quantities of rodents gather in areas of intense magic, they can start going insane, infecting the area with mad rat disease. Any beast or humanoid that is wounded by a creature that carries the contagion or comes into contact with contaminated filth must succeed on a DC 11 Constitution saving throw, or become infected. A creature that is infected suffers the following effects after {@dice 1d8} minutes.",
-				{
-					"type": "entries",
-					"name": "Maddening Failure.",
-					"entries": [
-						"Whenever an infected creature fails a D20 test, it must roll on the madness table below. If it rolls a 5 or lower, it does not roll on the table again until the start of its next turn."
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Maddening Failure",
-					"colLabels": [
-						"{@dice 1d10}",
-						"Effect"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 1
-								}
-							},
-							"The creature is {@condition Stunned} until the end of its next turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 2
-								}
-							},
-							"The creature becomes {@condition Frightened} of all creatures (other than itself) until the end of its next turn. On its next turn, it uses its action to make an attack against a random creature within its range. If no creature is within range, it can’t take an action this turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 3
-								}
-							},
-							"The creature becomes {@condition Dazed|WM4} until the end of its next turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 4
-								}
-							},
-							"The creature falls {@condition Prone}, and cannot get up until the end of its next turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 5
-								}
-							},
-							"The creature is {@condition Poisoned} until the end of its next turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"min": 6,
+            "name": "Mad Rat Disease",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Magical Contagion",
+            "basicRules2024": true,
+            "entries": [
+                "When large quantities of rodents gather in areas of intense magic, they can start going insane, infecting the area with mad rat disease. Any beast or humanoid that is wounded by a creature that carries the contagion or comes into contact with contaminated filth must succeed on a DC 11 Constitution saving throw, or become infected. A creature that is infected suffers the following effects after {@dice 1d8} minutes.",
+                {
+                    "type": "entries",
+                    "name": "Maddening Failure.",
+                    "entries": [
+                        "Whenever an infected creature fails a D20 test, it must roll on the madness table below. If it rolls a 5 or lower, it does not roll on the table again until the start of its next turn."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "caption": "Maddening Failure",
+                    "colLabels": [
+                        "{@dice 1d10}",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 1
+                                }
+                            },
+                            "The creature is {@condition Stunned} until the end of its next turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 2
+                                }
+                            },
+                            "The creature becomes {@condition Frightened} of all creatures (other than itself) until the end of its next turn. On its next turn, it uses its action to make an attack against a random creature within its range. If no creature is within range, it can\u2019t take an action this turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 3
+                                }
+                            },
+                            "The creature becomes {@condition Dazed|WM4} until the end of its next turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 4
+                                }
+                            },
+                            "The creature falls {@condition Prone}, and cannot get up until the end of its next turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 5
+                                }
+                            },
+                            "The creature is {@condition Poisoned} until the end of its next turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "min": 6,
                                     "max": 10
-								}
-							},
+                                }
+                            },
                             "No effect"
-						]
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fighting the Contagion.",
-					"entries": [
-						"When the creature finishes a long rest, it must make a DC 15 Constitution saving throw. On a success the contagion ends. Magic such as {@spell Heal|XPHB} or {@spell Lesser Restoration|XPHB} cures a creature of the contagion."
-					]
-				},
-				"{@note Made by Gem}"
+                        ]
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fighting the Contagion.",
+                    "entries": [
+                        "When the creature finishes a long rest, it must make a DC 15 Constitution saving throw. On a success the contagion ends. Magic such as {@spell Heal|XPHB} or {@spell Lesser Restoration|XPHB} cures a creature of the contagion."
+                    ]
+                },
+                "{@note Made by Gem}"
             ]
         },
         {
-			"name": "Silenced",
-			"source": "WM4",
-			"srd52": true,
-			"basicRules2024": true,
-			"entries": [
-				"While Silenced, you experience the following effect:",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Limited Activity.",
-							"entries": [
-								"You are unable to verbally speak, and cannot cast spells that include a Verbal component.."
-							]
-						}
+            "name": "Silenced",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "entries": [
+                "While Silenced, you experience the following effect:",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Limited Activity.",
+                            "entries": [
+                                "You are unable to verbally speak, and cannot cast spells that include a Verbal component.."
+                            ]
+                        }
                     ]
                 }
             ]
         },
         {
-			"name": "Weave Fray",
-			"source": "WM4",
-			"srd52": true,
-			"type": "Magical Contagion",
-			"basicRules2024": true,
-			"entries": [
-				"{@i It's unknown why, but occasionally when a creature returns from a dead magic zone, they don't properly return to the fabric of magic.}",
-				"This Magical Contagion is able to affect all creatures, even those typically immune to Magical Contagions, and is unable to be cured through magical means. A creature suffers the following effects immediately upon infection.",
-				{
-					"type": "entries",
-					"name": "Fatigue.",
-					"entries": [
-						"The creature gains 1 {@condition Exhaustion} level. Every day the creature spends not in an {@spell Antimagic Field|XPHB}, it gains another level of {@condition Exhaustion}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Magic Sickness.",
-					"entries": [
-						"Whenever the creature attempts to cast a spell, has a spell cast on it, or takes a {@action Magic|XPHB} action, it takes {@dice 2d6} Necrotic damage per level of {@condition Exhaustion} it has. This damage cannot be reduced.",
-						"Additionally when it casts a spell, or takes a {@action Magic|XPHB} action it must succeed on a DC 13 Constitution saving throw, or it fails wasting any resources expended."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fighting the Contagion.",
-					"entries": [
-						"A creature must spend a day in an {@spell Antimagic Field|XPHB}, after which it can exit and attempt to properly connect to the Weave. It must make a DC 15 Charisma saving throw. On a success the contagion is cured. On a failure, it continues to suffer the effects and must wait another day in order to attempt the save again."	
-					]
-				},
-				"{@note Made by Gem}"
+            "name": "Weave Fray",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Magical Contagion",
+            "basicRules2024": true,
+            "entries": [
+                "{@i It's unknown why, but occasionally when a creature returns from a dead magic zone, they don't properly return to the fabric of magic.}",
+                "This Magical Contagion is able to affect all creatures, even those typically immune to Magical Contagions, and is unable to be cured through magical means. A creature suffers the following effects immediately upon infection.",
+                {
+                    "type": "entries",
+                    "name": "Fatigue.",
+                    "entries": [
+                        "The creature gains 1 {@condition Exhaustion} level. Every day the creature spends not in an {@spell Antimagic Field|XPHB}, it gains another level of {@condition Exhaustion}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Magic Sickness.",
+                    "entries": [
+                        "Whenever the creature attempts to cast a spell, has a spell cast on it, or takes a {@action Magic|XPHB} action, it takes {@dice 2d6} Necrotic damage per level of {@condition Exhaustion} it has. This damage cannot be reduced.",
+                        "Additionally when it casts a spell, or takes a {@action Magic|XPHB} action it must succeed on a DC 13 Constitution saving throw, or it fails wasting any resources expended."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fighting the Contagion.",
+                    "entries": [
+                        "A creature must spend a day in an {@spell Antimagic Field|XPHB}, after which it can exit and attempt to properly connect to the Weave. It must make a DC 15 Charisma saving throw. On a success the contagion is cured. On a failure, it continues to suffer the effects and must wait another day in order to attempt the save again."
+                    ]
+                },
+                "{@note Made by Gem}"
             ]
         },
         {
-			"name": "Helminthomania",
-			"source": "WM4",
-			"srd52": true,
-			"type": "Mania",
-			"basicRules2024": true,
-			"entries": [
-				"You must make a DC 13 Wisdom saving throw whenever you start your turn within 30 feet of a worm that you can see. On a failed save, you are {@condition Charmed|XPHB} by the worm. While {@condition Charmed|XPHB}, you must use your movement on your turns to get as close as possible to the worm, moving by the safest route. If you are within 5 feet of the worm, you cannot willingly move away. At the end of each minute, you can reroll the saving throw. If you succeed on any saving throw against this Mania, you automatically succeed on saves against Helminthomania for the next hour.",
-				"{@note Made by Chrys}"
+            "name": "Helminthomania",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Mania",
+            "basicRules2024": true,
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 30 feet of a worm that you can see. On a failed save, you are {@condition Charmed|XPHB} by the worm. While {@condition Charmed|XPHB}, you must use your movement on your turns to get as close as possible to the worm, moving by the safest route. If you are within 5 feet of the worm, you cannot willingly move away. At the end of each minute, you can reroll the saving throw. If you succeed on any saving throw against this Mania, you automatically succeed on saves against Helminthomania for the next hour.",
+                "{@note Made by Chrys}"
             ]
         },
         {
-			"name": "Merinthokleptomania",
-			"source": "WM4",
-			"type": "Mania",
-			"entries": [
-				"You must make a DC 13 Wisdom saving throw whenever you start your turn within 30 feet of a Small or smaller chain or binding implement that you can see and that isn't being worn or carried. On a failed save, you are {@condition Charmed|XPHB} by the object. While {@condition Charmed|XPHB} you must do everything to steal the object. Once you have the object you can repeat the saving throw. On a failure, you are unwilling to part with the object. If you succeed on any saving throw against this Mania, you automatically succeed on saves against Kleptomania for the next hour.",
-				"{@note Made by Chrys}"
+            "name": "Merinthokleptomania",
+            "source": "WM4",
+            "type": "Mania",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 30 feet of a Small or smaller chain or binding implement that you can see and that isn't being worn or carried. On a failed save, you are {@condition Charmed|XPHB} by the object. While {@condition Charmed|XPHB} you must do everything to steal the object. Once you have the object you can repeat the saving throw. On a failure, you are unwilling to part with the object. If you succeed on any saving throw against this Mania, you automatically succeed on saves against Kleptomania for the next hour.",
+                "{@note Made by Chrys}"
             ]
         },
         {
-			"name": "Astraphobia",
-			"source": "WM4",
-			"type": "Phobia",
-			"entries": [
-				"You must make a DC 13 Wisdom saving throw whenever you start your turn in a storm, see a storm from a distance, or hear a storm from a distance. On a failed save, you are {@condition Frightened} of the storm. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Astraphobia for the next hour.",
-				"{@note Made by Chrys}"
+            "name": "Astraphobia",
+            "source": "WM4",
+            "type": "Phobia",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn in a storm, see a storm from a distance, or hear a storm from a distance. On a failed save, you are {@condition Frightened} of the storm. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Astraphobia for the next hour.",
+                "{@note Made by Chrys}"
             ]
         },
         {
-			"name": "Megalophobia",
-			"source": "WM4",
-			"type": "Phobia",
-			"entries": [
-				"You must make a DC 13 Wisdom saving throw whenever you start your turn within 300 feet of a Huge or greater sized creature that you can see or when you see a Colossal or greater sized creature from a distance greater than that. On a failed save, you are {@condition Frightened} of that creature. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Megalophobia for the next hour.",
-				"{@note Made by Chrys}"
+            "name": "Megalophobia",
+            "source": "WM4",
+            "type": "Phobia",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 300 feet of a Huge or greater sized creature that you can see or when you see a Colossal or greater sized creature from a distance greater than that. On a failed save, you are {@condition Frightened} of that creature. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Megalophobia for the next hour.",
+                "{@note Made by Chrys}"
             ]
         },
         {
-			"name": "Merinthophobia",
-			"source": "WM4",
-			"type": "Phobia",
-			"entries": [
-				"You must make a DC 13 Wisdom saving throw whenever you start your turn {@condition Grappled} or {@condition Restrained}. On a failed save, you are {@condition Frightened} of the source of the condition. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Merinthophobia for the next hour.",
-				"{@note Made by Chrys}"
+            "name": "Merinthophobia",
+            "source": "WM4",
+            "type": "Phobia",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn {@condition Grappled} or {@condition Restrained}. On a failed save, you are {@condition Frightened} of the source of the condition. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Merinthophobia for the next hour.",
+                "{@note Made by Chrys}"
             ]
         },
         {
-			"name": "Panphobia",
-			"source": "WM4",
-			"type": "Phobia",
-			"entries": [
-				"You must make a DC 13 Wisdom saving throw whenever you start your turn. On a failed save, you are {@condition Frightened} of everything. As an Action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Panphobia for the next hour.",
-				"{@note Made by Landon}"
+            "name": "Panphobia",
+            "source": "WM4",
+            "type": "Phobia",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn. On a failed save, you are {@condition Frightened} of everything. As an Action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Panphobia for the next hour.",
+                "{@note Made by Landon}"
             ]
         }
     ]

@@ -2,9 +2,10 @@ import os
 import json
 
 # File Paths
-homebrewFolder = "C:\\Users\\James\\Documents\\DnD\\wm4-homebrew\\"
-componentsFolder = homebrewFolder + "Components\\"
-outputFile = homebrewFolder + "wm4-homebrew.json"
+scriptsFolder = os.path.dirname(os.path.abspath(__file__))
+homebrewFolder = os.path.dirname(scriptsFolder)
+componentsFolder = homebrewFolder + "\\Components\\"
+outputFile = homebrewFolder + "\\wm4-homebrew.json"
 
 # Combine
 parts = os.listdir(componentsFolder)

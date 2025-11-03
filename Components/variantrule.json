@@ -1,91 +1,91 @@
 {
     "variantrule": [
-		{
-			"name": "Gifts",
-			"source": "WM4",
-			"ruleType": "C",
-			"entries": [
-				"Gifts are special features that can be bestowed during a session or as a level reward. PCs start with 0 Gift slots. A PC gains 1 Gift slot at Level 7. A PC gains another Gift slot at Level 16. A character can have up to two active Gifts at a time. A PC can swap between the active and inactive ones at the end of a long rest."
-			]
-		},
-		{
-			"name": "Talents",
-			"source": "WM4",
-			"ruleType": "C",
-			"entries": [
-				"Talents are additional features that might be given to a PC! They are essentially an additional feature. They have rarities to distinguish their general power level. Characters can have any number of Talents. Activating a Talent is considered 'using a magic item' for the purposes of abilities such as Fast Hands and the Magic Action rules."
-			]
-		},
-		{
-			"name": "Perks",
-			"source": "WM4",
-			"ruleType": "C",
-			"entries": [
-				"Perks are like {@variantrule Talents|WM4} and {@variantrule Gifts|WM4}, but generally very weak or not particularly very mechanically useful."
-			]
-		},
-		{
-			"name": "Story Records",
-			"source": "WM4",
-			"ruleType": "C",
-			"entries": [
-				"Story Records are a kind of reward that can be given out in sessions. They typically have little or no mechanical benefit. A story record is a way to mark certain states of a character, such as being an ally or member of a faction, or having your soul pledged to a fiend, or being an enemy of all followers of Lolth (etc. etc.), and will mostly be an easy way for GMs to check the status or relationship of a character, and their achievements in a story."
-			]
-		},
-		{
-			"name": "Epic Spells",
-			"source": "WM4",
-			"ruleType": "C",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Preparing Epic Spells.",
-					"entries": [
-						"A developed Epic Spell becomes an indelible part of the caster and may be Prepared without a spellbook (if a wizard is the caster). A spellcaster can have one Epic Spell Prepared at a time, and can prepare a different epic level spell at the end of a long rest.",
-						"If an Epic Spell is given out in a session, you must spend resources during your downtime developing it in order to be able to Prepare the spell. The resources you must expend are listed under the Development section in the spell."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Using an Epic Spell.",
-					"entries": [
-						"An Epic Spell is a 9th-level spell."
-					]
-				},
-				"A character cannot prepare an {@variantrule Epic Techniques|WM4|Epic Technique} and an {@variantrule Epic Spells|WM4|Epic level spell} at the same time. It can have only one or the other prepared."
-			]
-		},
-		{
-			"name": "Epic Techniques",
-			"source": "WM4",
-			"ruleType": "C",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Preparing Epic Techniques.",
-					"entries": [
-						"A creature can have one Epic Technique prepared at a time, and can prepare a different Epic Technique at the end of a long rest. If an Epic Technique is given out in a session, you must spend resources during your downtime developing it in order to be able to prepare the technique. The resources you must expend are listed under the Development section in the technique. You can only prepare Epic Techniques once you reach level 17."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Using an Epic Technique.",
-					"entries": [
-						"Each epic level technique requires a different commitment to activate. Once an Epic Technique is activated, it cannot be used again until you finish a long rest unless noted otherwise."
-					]
-				},
-				"A character cannot prepare an {@variantrule Epic Techniques|WM4|Epic Technique} and an {@variantrule Epic Spells|WM4|Epic level spell} at the same time. It can have only one or the other prepared."
-			]
-		},
-		{
-			"name": "Formulas",
-			"source": "WM4",
-			"ruleType": "C",
-			"entries": [
-				"GMs can give out Formulas, details regarding the creation of items, as session rewards. A Formula can be used to create an item. Formulas are single use, and must detail the time it takes to create an item--generally, a long rest or a bastion turn.",
-				"A Formula can have specific tool proficiency prerequisites in order to craft an item detailed within it, such as a {@item Smith's Tools|XPHB} proficiency to craft a metal item, or {@item Alchemist's Supplies|XPHB} or {@item Herbalism Kit|XPHB} proficiency to craft a potion. Additionally, they can require special ingredients or a gold cost that must be gathered before the detailed item can be made.",
-				"A Formula can detail instructions for one item, a list of items, or a category of items. If a Formula details instructions for multiple items, the character who has the Formula must choose one item from the list or category to create. Different items in the same formula can have different costs, ingredients, time to craft, and tool prerequisites. "
-			]
-		}
-	]
+        {
+            "name": "Gifts",
+            "source": "WM4",
+            "ruleType": "C",
+            "entries": [
+                "Gifts are special features that can be bestowed during a session or as a level reward. PCs start with 0 Gift slots. A PC gains 1 Gift slot at Level 7. A PC gains another Gift slot at Level 16. A character can have up to two active Gifts at a time. A PC can swap between the active and inactive ones at the end of a long rest."
+            ]
+        },
+        {
+            "name": "Talents",
+            "source": "WM4",
+            "ruleType": "C",
+            "entries": [
+                "Talents are additional features that might be given to a PC! They are essentially an additional feature. They have rarities to distinguish their general power level. Characters can have any number of Talents. Activating a Talent is considered 'using a magic item' for the purposes of abilities such as Fast Hands and the Magic Action rules."
+            ]
+        },
+        {
+            "name": "Perks",
+            "source": "WM4",
+            "ruleType": "C",
+            "entries": [
+                "Perks are like {@variantrule Talents|WM4} and {@variantrule Gifts|WM4}, but generally very weak or not particularly very mechanically useful."
+            ]
+        },
+        {
+            "name": "Story Records",
+            "source": "WM4",
+            "ruleType": "C",
+            "entries": [
+                "Story Records are a kind of reward that can be given out in sessions. They typically have little or no mechanical benefit. A story record is a way to mark certain states of a character, such as being an ally or member of a faction, or having your soul pledged to a fiend, or being an enemy of all followers of Lolth (etc. etc.), and will mostly be an easy way for GMs to check the status or relationship of a character, and their achievements in a story."
+            ]
+        },
+        {
+            "name": "Epic Spells",
+            "source": "WM4",
+            "ruleType": "C",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Preparing Epic Spells.",
+                    "entries": [
+                        "A developed Epic Spell becomes an indelible part of the caster and may be Prepared without a spellbook (if a wizard is the caster). A spellcaster can have one Epic Spell Prepared at a time, and can prepare a different epic level spell at the end of a long rest.",
+                        "If an Epic Spell is given out in a session, you must spend resources during your downtime developing it in order to be able to Prepare the spell. The resources you must expend are listed under the Development section in the spell."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Using an Epic Spell.",
+                    "entries": [
+                        "An Epic Spell is a 9th-level spell."
+                    ]
+                },
+                "A character cannot prepare an {@variantrule Epic Techniques|WM4|Epic Technique} and an {@variantrule Epic Spells|WM4|Epic level spell} at the same time. It can have only one or the other prepared."
+            ]
+        },
+        {
+            "name": "Epic Techniques",
+            "source": "WM4",
+            "ruleType": "C",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Preparing Epic Techniques.",
+                    "entries": [
+                        "A creature can have one Epic Technique prepared at a time, and can prepare a different Epic Technique at the end of a long rest. If an Epic Technique is given out in a session, you must spend resources during your downtime developing it in order to be able to prepare the technique. The resources you must expend are listed under the Development section in the technique. You can only prepare Epic Techniques once you reach level 17."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Using an Epic Technique.",
+                    "entries": [
+                        "Each epic level technique requires a different commitment to activate. Once an Epic Technique is activated, it cannot be used again until you finish a long rest unless noted otherwise."
+                    ]
+                },
+                "A character cannot prepare an {@variantrule Epic Techniques|WM4|Epic Technique} and an {@variantrule Epic Spells|WM4|Epic level spell} at the same time. It can have only one or the other prepared."
+            ]
+        },
+        {
+            "name": "Formulas",
+            "source": "WM4",
+            "ruleType": "C",
+            "entries": [
+                "GMs can give out Formulas, details regarding the creation of items, as session rewards. A Formula can be used to create an item. Formulas are single use, and must detail the time it takes to create an item--generally, a long rest or a bastion turn.",
+                "A Formula can have specific tool proficiency prerequisites in order to craft an item detailed within it, such as a {@item Smith's Tools|XPHB} proficiency to craft a metal item, or {@item Alchemist's Supplies|XPHB} or {@item Herbalism Kit|XPHB} proficiency to craft a potion. Additionally, they can require special ingredients or a gold cost that must be gathered before the detailed item can be made.",
+                "A Formula can detail instructions for one item, a list of items, or a category of items. If a Formula details instructions for multiple items, the character who has the Formula must choose one item from the list or category to create. Different items in the same formula can have different costs, ingredients, time to craft, and tool prerequisites. "
+            ]
+        }
+    ]
 }
