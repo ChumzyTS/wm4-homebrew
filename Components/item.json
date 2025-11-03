@@ -3686,6 +3686,800 @@
                 "If a hand wearing these gauntlets is free, you can use a bonus action to gain a +2 bonus to AC until the start of your next turn. You do not gain this benefit if you have another shield donned.",
                 "{@note Made by V}"
             ]
+        },
+        {
+            "name": "Heroic Costume",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "baseItem":"Costume|XPHB",
+            "entries": [
+                "{@i With the popularity of Liar's Night continuing to grow across Toril, people have begun to create a variety of magical costumes. This costume was made to imbue confidence in the wearer, depicting a famous adventurer or fantastical hero.}",
+                "While wearing this costume, you can use a {@action Magic|XPHB} action to cast {@spell Heroism|XPHB}. When cast in this way, it has a range of Self and does not grant {@variantrule Temporary Hit Points|XPHB}. Once the spell is cast, it can't be cast from the costume again until the next sunset.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Mini-Mii",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "It's a little construct of a person. As a {@action Magic|XPHB} action, a Construct can install this Mini-Mii inside of them. While a Construct has one installed, they have the personality of the Mini-Mii. A Construct can eject a Mini-Mii as a {@action Magic|XPHB} action. If a Construct has multiple installed, their behavior might become....complicated. When not installed, it has the statistics of a {@creature Tiny Servant|XGE}, though retaining its personality.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Ornate Costume",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "baseItem":"Costume|XPHB",
+            "entries": [
+                "{@i With the popularity of Liar's Night continuing to grow across Toril, people have begun to create a variety of magical costumes. This costume was made to impress others, sewn with fancy techniques and wealth.}",
+                "While wearing this costume, you can use a {@action Magic|XPHB} action to cast {@spell Charm Person|XPHB} (Save DC 10). When cast in this way, it requires {@status Concentration|XPHB} and has a duration of 1 minute. Once the spell is cast, it can't be cast from the costume again until the next sunset.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Pole of Angling and Collapsing",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "While holding this 10-foot pole, you can speak a command word and transform it into a fishing pole with a hook, a line, and a reel. Speaking the command word again changes the fishing pole back into a normal {@item pole|XPHB|10-foot pole}.",
+                "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod, for ease of storage. The pole's weight doesn't change. You can use an action to speak a different command word and cause the rod to revert to a {@item pole|XPHB}; however, the rod will elongate only as far as the surrounding space allows.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Potion of Air Breathing",
+            "source": "WM4",
+            "rarity": "common",
+            "type": "P",
+            "entries": [
+                "You can breathe above water for 24 hours after drinking this potion.",
+                "This potion smells and tastes like dirt.",
+                "{@note Made by Gavin}"
+            ]
+        },
+        {
+            "name": "Psychic Lance",
+            "source": "WM4",
+            "rarity": "common",
+            "type": "M",
+            "baseItem": "Lance|XPHB",
+            "entries": [
+                "{@i This lance appears to be made out of shimmering glass. It leaves no physical wounds when it strikes, instead passing right through its targets. Despite this, any would-be wielders can hold it without issue.}",
+                {
+                    "type": "entries",
+                    "name": "Ψ-Weapon.",
+                    "entries": [
+                        "This weapon deals Psychic damage instead of Piercing damage."
+                    ]
+                },
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Scary Soda",
+            "source": "WM4",
+            "rarity": "common",
+            "type": "P",
+            "entries": [
+                "{@i This bubbly soda tastes like freshly picked grapefruit with a hint of lime. It's a pretty good soda, but the effects aren't pleasant.}",
+                "When you drink the soda, you become {@condition Frightened} of it for one minute. A creature {@condition Frightened} by the soda is inclined to scream.",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Sinister Potion",
+            "source": "WM4",
+            "rarity": "common",
+            "type": "P",
+            "entries": [
+                "{@i Often forbidden to sell, this potion seems Sinister to whoever dares to lay their eyes upon it.}",
+                "When you would drink the potion, you must first make a DC 10 Wisdom saving throw. On a failed save, the act is too scary for you, and you waste whatever action or Bonus action you used to attempt to drink it. On a success, you drink the potion and you also gain its Sinister quality, gaining a +5 bonus to Charisma ({@skill Intimidation}) checks for the next minute.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Spooky Costume",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "baseItem":"Costume|XPHB",
+            "entries": [
+                "{@i With the popularity of Liar's Night continuing to grow across Toril, people have begun to create a variety of magical costumes. This costume was made to scare all who see it, depicting a vile monster or other terrifying figure.}",
+                "While wearing this costume, you can use a {@action Magic|XPHB} action to cast {@spell Cause Fear|XGE} (Save DC 10). Once the spell is cast, it can't be cast from the costume again until the next sunset.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Bead of Night",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i A concentrated pearl of pure black. It feels like rippling glass.}",
+                {
+                    "type": "entries",
+                    "name": "Fragile.",
+                    "entries": [
+                        "A Bead of Night has 1 hit point and 10 AC. A creature holding it can take a {@action Utilize|XPHB} Action to crush it, destroying it."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Throw.",
+                    "entries": [
+                        "Alternatively, as a {@action Utilize|XPHB} Action, you can throw a Bead of Night to a spot you can see within 30 feet of you, destroying it."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkness.",
+                    "entries": [
+                        "Whenever a Bead of Night is destroyed, it casts {@spell Darkness|XPHB} on the point that it was destroyed at (no {@status Concentration|XPHB} required). When cast in this way, it lasts 1 minute instead of 10."
+                    ]
+                },
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Blast Disk",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can activate this blast disk and place it on an unoccupied space within 5 feet of you. When you activate the blast disk, you can set the trigger to either proximity or a timer.",
+                {
+                    "type": "entries",
+                    "name": "Proximity.",
+                    "entries": [
+                        "The next creature of small size or larger that enters the space of the blast disk triggers an explosion."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Timer.",
+                    "entries": [
+                        "You can set a number of rounds until the disk explodes. This number can't be less than 1 or greater than 10. At the start of your turn after that many rounds have passed, the disk explodes."
+                    ]
+                },
+                "When the disk explodes, all creatures within 10 feet of the disk must make a DC 14 Dexterity save. The creature takes {@dice 5d6} Fire damage on a failure, or half as much on a success. This explosion also damages objects in the area, and destroys this item.",
+                "{@note From 3.5e, Made by Aris}"
+            ]
+        },
+        {
+            "name": "Boots of Snowsense",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "While wearing these boots you have a {@sense Tremorsense|XPHB} of 30 feet. You must be on snow to use this {@sense Tremorsense|XPHB}.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Coalescence Creator",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "{@i A magical bowl that shreds and mixes edible organic material placed within.}",
+                "After placing a pound of two or more different sources of edible organic material within (to a maximum of 5 lbs.), you can spend 10 minutes to create a Smoothie with this bowl. A creature can consume this Smoothie as a {@action Utilize|XPHB} Action. Consuming this Smoothie restores 1 Hit Point, and the Smoothie provides enough nourishment to sustain a creature for one day.",
+                "A Smoothie created this way looses its magical properties if it isn't consumed within 24 hours.",
+                "{@note Made by Marvin}"
+            ]
+        },
+        {
+            "name": "Dream Viewer",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can use this lens to begin viewing the dreams of an {@condition Asleep|WM4} creature within 5 feet of you (if it has any). This requires {@status Concentration|XPHB}, as if it was a spell. Your {@status Concentration|XPHB} also breaks if you are no longer within 5 feet of the creature or if the creature is no longer {@condition Asleep|WM4}. This is considered divination magic.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Fool's Scepter",
+            "source": "WM4",
+            "rarity": "uncommon",
+			"type": "M|XPHB",
+            "staff": true,
+            "baseItem": "staff|XPHB",
+            "entries": [
+                "{@i The Nilbog spirit loves convincing goblins to make these funny staffs.}",
+                "As a {@action Magic|XPHB} action, you can use the scepter to mock a creature within 60 feet. It must make a DC 12 Wisdom saving throw. On a fail it takes {@dice 2d4} Psychic damage and has Disadvantage on its next Attack Roll before the end of its next turn.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Frozen Memories",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "wondrous": true,
+			"grantsProficiency": true,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i You can feel the memories of bygone beings resonating in this shard of black ice.}",
+                "While holding this shard, you can draw on the memories stored in the ice as a {@action Magic|XPHB} action. Choose one skill in which you lack proficiency. For the next hour, you have proficiency in the chosen skill. Drawing upon these memories takes a toll on your own. After the hour is up, you lose proficiency in two randomly determined skills. You can only gain one proficiency in a skill at a time.",
+                "If you have less than two proficiencies in a skill, you cannot use this item. You regain all lost proficiencies after completing a Long Rest.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Horns of Taurus",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "These massive black horns are incredibly difficult to hold on your head, but imbue you with a building rage.",
+                {
+                    "type": "entries",
+                    "name": "Bulky",
+                    "entries": [
+                        "Your speed is reduced by 10 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Building Rage",
+                    "entries": [
+                        "While in {@variantrule Initiative|XPHB}, your speed increases by 15 feet at the end of each of your turns, up to a maximum of 60 movement speed. Your speed resets if you are {@condition Incapacitated|XPHB} or you leave {@variantrule Initiative|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Raging Charge",
+                    "entries": [
+                        "At the start of your turn, if you have 60 feet of movement speed, you gain the following until the end of your next turn:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You cannot cast spells, concentrate on spells, or make ranged attacks.",
+                                "The first melee attack you hit as part of an {@action Attack|XPHB} action deals an extra {@dice 1d8} damage of the weapon's damage type."
+                            ]
+                        },
+                        "Once this effect triggers, it cannot be triggered until you roll Initiative again."
+                    ]
+                },
+                "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
+            ]
+        },
+        {
+            "name": "Jester Hat",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "While wearing this hat, you can use a {@action Magic|XPHB} action to cast {@spell Tasha's Hideous Laughter|XPHB} (Save DC 13). It can be used twice, regaining all uses daily at dawn.",
+                "Whenever you make a Charisma ({@skill Performance}) check, you can add 1d4 to the roll.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Pendant of Bloody Gust",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "reqAttune": true,
+            "property":[
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i May your rage bring haste.}",
+                "A blood agate in the shape of a curling mote of wind, fashioned into a necklace or ring. It reacts to the presence of its holder's blood.",
+                "While you are {@status Bloodied|XPHB}, you gain 10 additional movement speed.",
+                "Additionally, as a {@action Magic|XPHB} action while you are {@status Bloodied|XPHB}, or as a Reaction to gaining the {@status Bloodied|XPHB} condition, you can cast {@spell Haste|XPHB} using this stone, targeting yourself. When you do so, the stone becomes nonmagical.",
+                "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
+            ]
+        },
+        {
+            "name": "Poofy Snowball",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "As a {@action Magic|XPHB} action you can cast {@spell Snow Cloud|WM4} (Save DC 13) by throwing the ball at a place within 60 feet.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Slugger",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "type": "M",
+            "baseItem": "Greatclub|XPHB",
+            "entries": [
+                "When you score a {@variantrule Critical Hit|XPHB} with this weapon, you can choose to summon a {@creature Giant Snail|WBtW|Giant Slug} within 5ft of yourself. It uses the {@creature Giant Snail|WBtW} statblock, however it lacks the Shell Defense action.",
+                "The {@creature Giant Snail|WBtW|Giant Slug} is an ally to you and your allies. In combat, the {@creature Giant Snail|WBtW|Giant Slug} shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger. The {@creature Giant Snail|WBtW|Giant Slug} disappears when it takes damage or at the start of your next turn.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Stratagem Ball: OPS",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "Stratagem Balls are handheld beacons that can be thrown to call down various forms of support. This one has been modified for long-range transmit, allowing use outside of SEAF operations. As a Bonus action, you can throw a Stratagem Ball up to 60 feet away. Stratagem Balls can only be used outdoors.",
+                "After throwing the Ball, an artillery shell lands at the same spot at the start of your next turn. Any creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must make a DC 13 Dexterity save or take {@dice 6d6} fire damage, or half on a success.",
+                "{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "Stratagem Ball: ESR",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "Stratagem Balls are handheld beacons that can be thrown to call down various forms of support. This one has been modified for long-range transmit, allowing use outside of SEAF operations. As a Bonus action, you can throw a Stratagem Ball up to 60 feet away. Stratagem Balls can only be used outdoors.",
+                "After throwing the Ball, a strafing run lands at the end of your turn. Any creature in a 5-foot wide, 20-foot long line starting from the ball and pointing away from you must make a DC 13 Dexterity save or take {@dice 4d4} Piercing damage, or half on a success.",
+                "{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "Stratagem Ball: ENS",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "Stratagem Balls are handheld beacons that can be thrown to call down various forms of support. This one has been modified for long-range transmit, allowing use outside of SEAF operations. As a Bonus action, you can throw a Stratagem Ball up to 60 feet away. Stratagem Balls can only be used outdoors.",
+                "After throwing the Ball, a napalm strike lands at the start of your next turn. Rr napalm lands in a 5-foot wide, 30-foot long line originating from the ball in a direction of your choice. Any creature in the napalm when it lands must make a DC 13 Dex save or take {@dice 4d8} fire damage, or half on a success. The napalm remains for one minute, and any creature that enters the napalm or starts its turn there takes {@dice 1d8} Fire damage.",
+                "{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "The Belt",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "type": "M",
+            "baseItem": "Whip|XPHB",
+            "property":[
+                "U|WM4"
+            ],
+            "entries": [
+                "{@i \"Speed up!\"}",
+                "A manifestation of a scared mind, this leather belt is exceptionally long.",
+                "You can take a {@action Magic|XPHB} action to crack the belt. When you do so, creatures of your choice within 30 feet must make a DC 14 Wisdom saving throw or become {@condition Frightened} by you for 1 minute. Creatures that can't hear automatically pass the save.",
+                "Creatures that are {@condition Frightened} in this way have their speed increased by 10 feet. {@condition Frightened} creatures can repeat the saving throw at the end of each of their turns, ending the effect on a success.",
+                "Once you use this ability, it can only be used again after an hour.",
+                "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
+            ]
+        },
+        {
+            "name": "Trap Powder",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property":[
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i This bag is full of magical dust. When released, the dust explodes quickly covering every nearby object and sneaking its way into traps.}",
+                "As a {@action Magic|XPHB} action, you can open the bag to cast {@spell Find Traps|XPHB}. When cast in this way, it has a range of Self and only senses traps within 60 feet of the caster. The dust glows red for a moment if it detects a trap, filling the space with Dim Light until the end of your turn. The dust magically disappears at the end of your turn.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Umbral Hood",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property":[
+                "U|WM4"
+            ],
+            "age": "futuristic",
+            "reqAttune": true,
+            "entries": [
+                "A black, silky cloak. Thin etchings are traced along its fabric, leading to a metallic device at the cloak's heart.",
+                {
+                    "type": "entries",
+                    "name": "Shadow Circuit",
+                    "entries": [
+                        "As a {@action Magic|XPHB} Action, you can activate the cloak, causing its fabric to bleed blackness. You gain the following benefits for 1 hour:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Darkrhythm.} You can feel the ebb and flow of shadows, as well as whatever may disturb them. While you are in Dim Light or Darkness, you have {@sense Blindsight} with a range of 15 feet. This {@sense Blindsight} does not extend into areas not in Dim Light or Darkness.",
+                                "{@b Shroud of Night.} The cloak seems to melt into darkness, and you along with it. While you are in Dim Light or Darkness, Wisdom ({@skill Perception}) checks made to perceive you have Disadvantage, and you have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth}) checks."
+                            ]
+                        }
+                    ]
+                },
+                "Once used, this item can't be used again in this way until the next dawn.",
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Automapper",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "property":[
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i This magical quill is able to create {@item map|XPHB|maps} for you, freeing up your hands for important adventuring duties.}",
+                "The automapper is able to draft rudimentary {@item map|XPHB|maps} as you travel, as if through {@item Cartographer's Tools|XPHB}. It is able to scribe a visible area up to 150 feet away from you. If you are traveling at a Fast pace, the automapper is unable to keep up with your movement, not producing a {@item map|XPHB|maps}.",
+                "The automapper creates maps in 1 square mile pages. It can be enabled or disabled as a {@action Magic|XPHB} action.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Black Candle",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "{@i This black wax candle burns with a faint, shadowy flame that sheds no light. The wax never diminishes, and the cold iron chamberstick that holds it is perpetually cool to the touch.}",
+                "While you are attuned to the Black Candle and are holding it, the candle automatically ignites and remains lit. It continues to burn for up to 8 hours when not held, upon which the flame extinguishes. While the candle is lit, you are immune to the effects of any curses affecting you. This does not prevent you from being cursed—any curses you gain while the candle is lit take effect once the flame is extinguished.",
+                "In addition, while holding the lit candle, you can end your attunement to a cursed magic item at will, as long as it can be ended by a {@spell Remove Curse|XPHB} spell. This property does not remove the curse itself, nor does it end any other magical effects of the cursed item.",
+                "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
+            ]
+        },
+        {
+            "name": "Bone Heart",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "property":[
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i A fragile vessel for health, a bony cage that increases vitality while it remains intact.}",
+                {
+                    "type": "entries",
+                    "name": "Fragile Vitality.",
+                    "entries": [
+                        "When you finish a {@variantrule Long Rest|XPHB}, you gain 5 {@variantrule Temporary Hit Points|XPHB}. When your {@variantrule Temporary Hit Points|XPHB} are reduced to 0 due to taking damage, you may negate any additional damage dealt to your {@variantrule Hit Points|XPHB}, upon which the Bone Heart crumbles and is consumed."
+                    ]
+                },
+                "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
+            ]
+        },
+        {
+            "name": "Environment Emulator",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "property":[
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Originally designed by a group of kobold tinkerers, this device has seen widespread use for its simulation ability. Many report that it is the most practical way to get hands-on training in any environment, often used for exercise, spars, and military training. Some have attempted to use it as a home, but its illusionary nature and bad upkeep time results in this being impractical.}",
+                "It takes 8 hours to enable an Environment Emulator. While enabled, the emulator is immovable and indiscernible. A creature can spend 10 minutes to disable it. If {@spell Dispel Magic|XPHB} is cast on it, it also disables.",
+                "While enabled, a creature can spend 1 minute to cast {@spell Mirage Arcane|XPHB} centered on the emulator. When cast in this way, it can only cover a 200 foot square and the spell has a duration of 10 minutes. The emulator glows blue if a creature within the illusion is using {@sense Truesight} to see through it.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Dryad's Sandals",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": "by a Druid or Ranger",
+            "entries": [
+                "You can move through {@variantrule Difficult Terrain|XPHB} composed of vegetation, such as foliage and thorns, without it costing extra movement.",
+                "Additionally once per turn while wearing these boots, you can walk into any inanimate plant of a size category larger than you, and immediately exit out of another plant of that size or larger within 60 ft of yourself by using 5 feet of movement.",
+                "{@note Taken (accidentally) from Pathfinder, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Inquisitor's Notebook",
+            "source": "WM4",
+            "wondrous": true,
+            "rarity": "rare",
+            "entries": [
+                "While holding this notebook, you can cast {@spell Legend Lore|XPHB} from it. To cast the spell in this way, you must choose a creature that you can see within 10 feet of you. The information about that creature, provided it is of legendary importance, appears written in the pages of the notebook.",
+                "Once used, the notebook cannot use that creature again for 1 year.",
+                "{@note Variant of Lorekeeper's Tome by Aris. Made by Landon}"
+            ]
+        },
+        {
+            "name": "Nos Erac Ekat",
+            "source": "WM4",
+            "wondrous": true,
+            "rarity": "rare",
+            "reqAttune": "by a Soulknife Rogue",
+            "entries": [
+                "A paintbrush fashioned from a crooked bone, with frayed brushhairs grasping out like fingers. It fits in your hand perfectly.",
+                {
+                    "type": "entries",
+                    "name": "Vivid Paints.",
+                    "entries": [
+                        "You have a +1 bonus to attack rolls and damage rolls made with your {@item Psychic Blade|XPHB|Psychic Blades}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Violet Bloom.",
+                    "entries": [
+                        "You have a mental palette of red and blue that you can splash across your masterworks. Whenever you manifest a {@item Psychic Blade|XPHB|Psychic Blades}, you can change its damage type to Cold or Fire damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Vantablack.",
+                    "entries": [
+                        "While holding Nos Erac Ekat, you can cast {@spell Creation|XPHB}, as you paint the object from pure black. Once used, this item can't be used again in this way until the next dawn."
+                    ]
+                },
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Megaton",
+            "source": "WM4",
+            "type": "M",
+            "baseItem": "Maul|XPHB",
+            "rarity": "rare",
+            "reqAttune": "by a Path of the Giant Barbarian",
+            "age": "futuristic",
+            "property": [
+                "U|WM4"
+            ],
+            "entries": [
+                "A maul of colossal proportion, like an entire planet held aloft by a metal rod. Its rectangular hammerhead is segmented by lines of thrumming energy, indicating the advanced technology lurking within it.",
+                {
+                    "type": "entries",
+                    "name": "Colossus Circuit.",
+                    "entries": [
+                        "Whenever you enter your Rage, if your size increases from either your Giant's Havoc or Demiurgic Colossus feature, this weapon increases in size alongside you and gains the following benefits for the duration of the Rage:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Weight of the World.} When you hit a creature with an attack using this weapon, the weapon deals an extra {@dice 1d6} damage of the same type as its normal damage. This extra damage is increased to {@dice 2d6} if the hit creature is smaller than you.",
+                                "{@b Atom Smash.} As a {@action Magic|XPHB} action, you can attempt to deal a skull-shattering blow. Make a melee weapon attack using Megaton against a creature that is smaller than you within range. On a hit, they suffer the normal effects of the attack and additionally must make a Constitution saving throw (DC 8 + your Strength modifier + your Proficiency Bonus). On a fail, it is {@condition Slowed|WM4} until the end of your next turn. Once used, this item can't be used again in this way until the next dawn."
+                            ]
+                        }
+                    ]
+                },
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Potion of Poison Immunity",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "P",
+            "entries": [
+                "When you drink this potion, you have {@variantrule Immunity|XPHB} to Poison damage and the {@condition Poisoned|XPHB} condition for 1 hour.",
+                "This potion looks like a golden-hued liquid, and glows faintly in darkness.",
+                "{@note Made by Gavin}"
+            ]
+        },
+        {
+            "name": "Ring of Mystery Keys",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "This key ring always has many {@item Mystery Key|XDMG|Mystery Keys} on it. Inserting a key from the key ring into a lock has a 5 percent chance of unlocking it. If the first inserted key doesn't unlock the lock, none of the keys on the ring can. Once the key ring has unlocked a lock, it cannot unlock another lock for {@dice 1d4} hours.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Tobor",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This {@item Chest of Preserving|WDMM} has been outfitted with wheels and magic-induced locomotion, allowing it to act as a delivery unit for whatever it contains.",
+                "As a {@action Magic|XPHB} Action while within 15 feet of it, you can verbally command it to travel to a location you are familiar with or to stop traveling (if it is already en route). The location must be within 1 mile of its current location, unmoving, and on the same plane of existence. The target location must be clearly described, and effects that block divination magic block its pathfinding.",
+                "It has a movement speed of 15 feet per turn and is blocked by {@variantrule Difficult Terrain|XPHB}, objects, creatures, and vertical drops. If for some awful reason it enters {@variantrule Initiative|XPHB}, it takes its movement at the end of the round, but does not have a turn of its own (as it is not a creature).",
+                "If it cannot find a path to its location after it has begun to travel, it will stop moving and wait until a feasible path exists.",
+                "It's unclear why it's called a Tobor.",
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Tome of Language Imparted",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "After reading this scroll, book, or tome (typically takes an hour, but a GM could rule it takes days or even weeks), you are magically imparted a language. You gain that language, and can speak it at a natural level. The language is obscure. It cannot be any of the standard or exotic languages in the phb, nor can it be Druidic or Thieves' Cant.",
+                "Once a language has been magically imparted, the tome becomes nonmagical, though it might contain nonmagical lessons in the language.",
+                "Examples of adequate languages: Ice Toad, Gnoll, Giant Eagle, Chondathan, Worg...",
+                "It is said that the final ingredient of crafting this item is fluency in a language. A creature fluent in a language gives up the language in its entirety, to be passed on to another. The language cannot be learned by that creature again.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Worn Card: 0 - The Fool",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "WC|WM4"
+            ],
+            "entries": [
+                "{@i 'Where journey begins.'}",
+                "As a {@action Magic|XPHB} action, you may brandish this card to cast {@spell Word of Recall|XPHB} without any components. If you do not have a designated sanctuary, the spell fails and the card is not consumed. Once you use the card, it disintegrates into dust."
+            ]
+        },
+        {
+            "name": "Worn Card: I - The Magician",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "WC|WM4"
+            ],
+            "entries": [
+                "{@i 'May you never miss your goal.'}",
+                "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to gain {@variantrule Advantage|XPHB} on attack rolls for 1 minute. Once you use the card, it disintegrates into dust."
+            ]
+        },
+        {
+            "name": "Worn Card: V - The Hierophant",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "WC|WM4"
+            ],
+            "entries": [
+                "{@i 'Two prayers for the lost.'}",
+                "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to gain 10 {@variantrule Temporary Hit Points|XPHB}. Once you use the card, it disintegrates into dust."
+            ]
+        },
+        {
+            "name": "Worn Card: VI - The Lovers",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "WC|WM4"
+            ],
+            "entries": [
+                "{@i 'May you prosper and be in good health.'}",
+                "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to spend an amount of your {@variantrule Hit Point Die|XPHB} less than or equal to your proficiency bonus. For each {@variantrule Hit Point Die|XPHB} you spend in this way, roll the die and add your Constitution modifier to it. You regain {@variantrule Hit Points|XPHB} equal to the total (minimum of 1 Hit Point). Once you use the card, it disintegrates into dust."
+            ]
+        },
+        {
+            "name": "Worn Card: VII - The Chariot",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "WC|WM4"
+            ],
+            "entries": [
+                "{@i 'May nothing stand before you.'}",
+                "As an Action or Bonus Action, you may brandish this card to gain the following effects until the end of your next turn:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your movement speed becomes 60 feet.",
+                        "You cannot cast spells, {@status concentration|XPHB|Concentrate} on spells, or make ranged attacks.",
+                        "The first melee attack you hit as part of an Attack action deals an extra 1d8 damage of the weapon's damage type."
+                    ]
+                },
+                "Once you use the card, it disintegrates into dust."
+            ]
+        },
+        {
+            "name": "Worn Card: V - The Hierophant?",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "WC|WM4"
+            ],
+            "entries": [
+                "{@i 'Two prayers for the lost.'}",
+                "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to gain 5 {@variantrule Temporary Hit Points|XPHB}. When these {@variantrule Temporary Hit Points|XPHB} are reduced to 0, you may negate any additional damage dealt to yourself. Once you use the card, it disintegrates into dust."
+            ]
+        },
+        {
+            "name": "ɹǝlɓuoɹɥ⊥ ǝɥ⊥",
+            "source": "WM4",
+            "rarity": "legacy",
+            "wondrous": true,
+            "reqAttune": "by an Abberant Sorcerer",
+            "entries": [
+                "{@i A coalescence of power beyond this mortal realm, too luck upon this is invite madness upon yourself.}",
+                "While attuned to this item, you gain 1 long term madness. When you complete a long rest, you may attempt a DC 15 wisdom saving throw, rerolling on the madness table on a success. Indefinite madness's you gained from this item cannot be removed in any way while you are attuned to this item.",
+                {
+                    "type": "entries",
+                    "name": "˙uoısıɔxƎ",
+                    "entries": [
+                        "You can use this item as a focus for your spells, and you gain a +1 bonus to spell attack rolls and to the saving throws of your spell DCs while attuned to this item."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "˙ɯnʇɐɹʇsqnS (Level 6)",
+                    "entries": [
+                        "As a {@action Magic|XPHB} action, you may regain all your expended sorcery points. When you regain sorcery points in this way, you gain 1 long term madness. This item can't be used in this way again until the next Dusk."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "˙ᴎoiƚɒqiꙅꙅiᗡ (Level 11)",
+                    "entries": [
+                        "At the start of your turn, while you are {@condition Incapacitated}, you may expend 3 sorcery points to immediately end that condition on yourself and gain 1 random indefinite madness and 1 random long term madness."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "˙ʎʇıɹǝΛ (Level 15)",
+                    "entries": [
+                        "As a {@action Magic|XPHB} action, you may inflict madness on one willing creature you are touching. While this madness lasts, the creature has resistance to psychic damage, and shares the benefits of Revelation in Flesh while it's active and they are within 60 ft of you. Only 1 creature can benefit from this feature at a time, and a creature cannot benefit from this feature more than once a week."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "˙ɥʇıuǝZ (Level 19)",
+                    "entries": [
+                        "You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells instead of a +1. As a {@action Magic|XPHB} action, you may unleash the horrors in a 30 ft {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. All creatures (Including you) in the emanation must succeed on a Wisdom saving throw against your sorcerer spell save DC or suffer 1 short term madness. This item can't be used in this way again until the next Dusk."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "˙ǝlɓuoɹɥ⊥(Level 23)",
+                    "entries": [
+                        "You touch 1 creature and attempt to Throngle them. Make a melee spell attack against a creature within 5 ft of you. On a hit, the creature is {@condition Slowed|WM4} for 1 minute. A {@condition Slowed|WM4} creature may repeat the save at the end of its turn, ending the condition on itself on a success. If a creature fails the save 3 times, it is Throngled for 1 minute. A Throngled creature has every official condition. After you successfully Throngle a creature, your alignment changes randomly, and you gain 3 indefinite madnesses. This item can't be used in this way again until the next Dusk."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Legacy Rituals.",
+                    "entries": [
+                        "These 2 rituals must be completed to unlock s,ɹǝlɓuoɹɥ⊥ ǝɥ⊥ features.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Eldritch Truth.} Expose yourself to the horrors of the far realm, without protection or resistance. This unlocks the level 6-15 features.",
+                                "{@b Gift of Throngling.} Create a new far realm entity and infuse it into a cadaver. This unlocks the level 19-23 features."
+                            ]
+                        }
+                    ]
+                },
+                "{@note Made by Xin}"
+            ]
         }
     ]
 }

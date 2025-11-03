@@ -438,6 +438,44 @@
 					"{@reward Sign of the Chimera|WM4}"
 				]
 			]
+		},
+		{
+			"name": "Worn Cards",
+			"source": "WM4",
+			"colLabels": [
+				"#",
+				"Card"
+			],
+			"colStyles": [
+				"col-1",
+				"col-9"
+			],
+			"rows": [
+				[
+					"0",
+					"{@item Worn Card: 0 - The Fool|WM4|The Fool}"
+				],
+				[
+					"I",
+					"{@item Worn Card: I - The Magician|WM4|The Magician}"
+				],
+				[
+					"V",
+					"{@item Worn Card: V - The Hierophant|WM4|The Hierophant}"
+				],
+				[
+					"V?",
+					"{@item Worn Card: V - The Hierophant?|WM4|The Hierophant?}"
+				],
+				[
+					"VI",
+					"{@item Worn Card: VI - The Lovers|WM4|The Lovers}"
+				],
+				[
+					"VII",
+					"{@item Worn Card: VII - The Chariot|WM4|The Chariot}"
+				]
+			]
 		}
 	]
 }

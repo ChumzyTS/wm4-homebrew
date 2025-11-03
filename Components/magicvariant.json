@@ -59,6 +59,77 @@
 					"{@note Made by Gavin}"
 				]
 			}
+		},
+		{
+			"name": "Noble Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Noble ",
+				"source": "WM4",
+				"rarity": "common",
+				"entries": [
+					"{@i A weapon furnished with platinum and gold, giving it a regal presence. It shines brighter in the hands of those with great conviction.}",
+					{
+						"type": "entries",
+						"name": "Glory Strike",
+						"entries": [
+							"When you score a {@variantrule Critical Hit|XPHB} with this weapon, you deal an extra {@dice 1d6} Radiant damage. This extra damage is not doubled by the {@variantrule Critical Hit|XPHB}."
+						]
+					},
+					"{@note Made by Christoper}"
+				]
+			}
+		},
+		{
+			"name": "Frostine Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Frostine ",
+				"source": "WM4",
+				"rarity": "common",
+				"property": [
+					"E|WM4"
+				],
+				"entries": [
+					"{@i This weapon is made from Frostine crystals, a cream colored gemstone that is perpetually cold.}",
+					"This weapon is cold enough to keep the temperature within 5 feet of it at 32 degrees Fahrenheit (0 degrees Celsius). It deals Cold damage instead of its normal type.",
+					"{@note Made by Gem}"
+				]
+			}
+		},
+		{
+			"name": "Frostine Armor",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Frostine ",
+				"source": "WM4",
+				"rarity": "rare",
+				"reqAttune": true,
+				"property": [
+					"E|WM4"
+				],
+				"entries": [
+					"{@i A set of armor made out of pure Frostine crystals.}",
+					"This armor is cold enough to keep the temperature within 5 feet of it at 32 degrees Fahrenheit (0 degrees Celsius). While wearing this armor you have {@variantrule Resistance|XPHB} to Cold damage and automatically pass any saves against cold weather.",
+					"A creature wearing the armor can take a {@action Magic|XPHB} action to cast {@spell Rime's Binding Ice|FTD} (DC 14). This property of the armor can't be used again until the next dawn.",
+					"{@note Made by Gem}"
+				]
+			}
 		}
 	]
 }

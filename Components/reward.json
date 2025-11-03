@@ -1534,7 +1534,6 @@
             "source": "WM4",
             "type": "Curse",
             "entries": [
-                "{@i 3rd Level Curse}",
 				"Your hair and skin is constantly oily. You sweat oil.",
 				"{@note Made by Gem}"
             ]
@@ -1544,7 +1543,6 @@
             "source": "WM4",
             "type": "Curse",
             "entries": [
-                "{@i 5th Level Curse}",
 				"Whether it's because you are aura farming, are overly polite, or just have a godlike reaction speed, whenever you would roll initiative, you instead get an initiative of 0. If you still go before someone else, you can point and laugh at them.",
 				"{@note Made by Christopher}"
             ]
@@ -1554,7 +1552,6 @@
             "source": "WM4",
             "type": "Curse",
             "entries": [
-                "{@i 5th Level Curse}",
 				"{@i This is serious, asshole.}",
 				"Whenever you, the player, laugh, your character takes {@dice 1d6} psychic damage.",
 				"{@note Inspired by Legends of Avantris, Made by Lily}"
@@ -1565,7 +1562,6 @@
             "source": "WM4",
             "type": "Curse",
             "entries": [
-                "{@i 5th Level Curse}",
 				"{@i You are heavily swayed to a Neutral Evil alignment, become a Monstrosity (Lycanthrope), and gain minor shark-like features.}",
 				{
 					"type": "entries",
@@ -1672,7 +1668,7 @@
             ]
         },
         {
-            "name": "Banned for Life (SMP)",
+            "name": "[SMP] Banned for Life",
             "source": "WM4",
             "type": "Story Record",
             "entries": [
@@ -1681,7 +1677,7 @@
             ]
         },
         {
-            "name": "Card Holder (SMP)",
+            "name": "[SMP] Card Holder",
             "source": "WM4",
             "type": "Story Record",
             "entries": [
@@ -1690,7 +1686,7 @@
             ]
         },
         {
-            "name": "Scholar (SMP)",
+            "name": "[SMP] Scholar",
             "source": "WM4",
             "type": "Story Record",
             "entries": [
@@ -1708,6 +1704,797 @@
 				"{@spell Silence|XPHB} is added to your spell list, and is treated as a Wizard spell for you.",
 				"{@note Made by Gem}"
             ]
+        },
+        {
+            "name": "Abyssal Influence: Bloody Ichor",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"When you die, you leave a puddle of demon ichor in your space. It dissolves after 24 hours.",
+				"(can only be given with the players' permission)",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Bottleable",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: Ooze}",
+				"As a {@action Magic|XPHB} action you are to shrink your form in order to fit into an open bottle, flask, vial, or other tiny container. While in the bottle, you are able to be concealed by another creature, allowing you to share its Dexterity ({@skill Stealth}) checks to remain unseen. If the container is open, you can leave it using half of your movement. If the container is nonmagically sealed, you are unable to leave but can use an action to make a DC 10 Strength saving throw in order to break out of the container. If the container is magically sealed, you are unable to break out in this way.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Monster Masher",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You have Advantage on Charisma ({@skill Performance}, {@skill Persuasion}) checks made to convince a Monstrosity or Undead to join an ongoing dance.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Dice Goblin",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You can attune to multiple {@item Charlatan's Die|XDMG} at once, and they all count as the same attunement.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Door Buster",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i You are adept in knocking doors off their hinges}",
+				"You gain a +4 bonus to Strength checks to break down doors. This bonus does not stack with a Portable Ram.",
+				"{@note Perk of {@item Portable Ram|XPHB}, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Evil Brand: Mark of Chains",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You are physically marked forever as a servant of an evil power greater than yourself or as a villain who does not care who knows that you seek only death, destruction, and misery for others. The symbol is unquestionable in its evil, and all who see it know beyond a doubt that the bearer is forever in the sway of the blackest powers.",
+				"If you already have {@reward Evil Brand|WM4} when you receive this Perk, you can choose for this Perk's features to replace {@reward Evil Brand|WM4|Evil Brand's}; else, this Perk has no effect.",
+				"Evil creatures automatically recognize the chain link symbol now emblazoned upon you as a sign of your utter depravity or discipleship to a powerful patron, although the specific identity of the patron is not revealed.",
+				"You gain a +1 bonus on your save DCs to Grapple and Escape a Grapple.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Food Feelings",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"When you take the {@action Search|XPHB} action, you can target a creature and make a Wisdom ({@skill Insight}) check against their Passive Charisma ({@skill Deception}). On a success, you learn what their Super All-Time Favorite Food is, and their Worst Most Hated Food ever is. On a failure, that creature becomes immune to this ability for 24 hours.",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Hand-Eye Coordination",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"Your hands function as a {@item Spyglass|XPHB} when positioned in front of an eye as one.",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Juggler",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"When you hit another creature of one size larger than you or smaller with a weapon attack, you can cause that creature to not fall until the end of your next turn.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Kyton's Chains",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You can use {@item Manacles|XPHB} or {@item chain|XPHB|Chains} on a creature within 10 feet of yourself, rather than 5.",
+				"Additionally, you can use {@item chain|XPHB|Chains} as a {@item Whip|XPHB}, dealing either Bludgeoning or Slashing damage on a hit (depending on the nature of the chain).",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Let's get the facts!",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"When you take the {@action Search|XPHB} action, you have {@variantrule Advantage|XPHB} on the next {@action Study|XPHB} action you make before the end of your next turn if you {@action Study|XPHB} whatever you {@action Search|XPHB|Searched}.",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Looks away from camera...",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You always know what direction to look away from the camera.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Mag-nificent!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You have {@variantrule Advantage|XPHB} on any ability check made to appraise or inspect a highly detailed item. You can also light a fire with if you have light as bright as sunlight to focus, tinder to ignite. It takes about 5 minutes for the fire to ignite.",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Neurotoxin",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: Cunning Strike, Soulknife Rogue}",
+				"You do not need a {@item Poisoner's Kit|XPHB} on your person to use the Poison option of Cunning Strike on attacks with your {@item Psychic Blade|XPHB|Psychic Blades}.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Question for the Producer...",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"When a session finishes, you (the player) can ask the GM 1 question. The GM must answer (though not necessarily truthfully)",
+				"{@i Wait, you could always just do this.}",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Silly Guy",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You have a tiny spirit resembling a creature (Chosen when you receive this perk) that constantly follows you. It can emote in response to what is going on around you, but it has no statblock, cannot perform any actions, and cannot convey any useful information. The Silly Guy adapts to any environment, changing its form to accommodate including allowing it to swim, fly, or move in any other way. If it is ever more than 60 ft from you, it instantly teleports to your side.",
+				"As a {@action Magic|XPHB} action you can dismiss any number of Silly Guys you have. You can resummon any number of Silly Guys as a {@action Magic|XPHB} action.",
+				"You can receive this perk multiple times, gaining a different Silly Guy of the DMs choice each time.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Slap of Life",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You can take the {@action Help|XPHB} action to try to stabilize via slap a creature with 0 Hit Points, which requires a successful DC 10 Strength ({@skill Athletics|XPHB}) check.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Stabilizer",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"{@i Prerequisite: {@skill Medicine} Proficiency}",
+				"You can take the {@action Help|XPHB} action to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom ({@skill Medicine}) check.",
+				"{@note Perk of {@item Healer's Kit|XPHB}. Made by Gem}"
+            ]
+        },
+        {
+            "name": "Tactical Backflip",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"Whenever you're subjected to an effect that allows you to make a Dexterity saving throw, you can take a Reaction to do a cool backflip. If you do, you get a -1 penalty to that saving throw.",
+				"{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Taxi!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"As an {@action Influence|XPHB} action, you can try to summon private transportation. Sometime between your next turn and forever later, up to GM's discretion, such transportation will arrive, though they will still charge a fare. (Regular fees are 3 cp per mile, or 1 cp for inner-city travel).",
+				"{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Thrall to Demon",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You formally supplicate yourself to a demon prince. In return for this obedience, you gain a small measure of the demon prince's power.",
+				"While performing an evil or chaotic act, you can call upon your demonic patron and gain a +1 bonus on {@variantrule D20 test|XPHB}. Once you gain this benefit, you cannot do so again until you finish a Long Rest.",
+				"{@note From 3.5e. Made by Aris}"
+            ]
+        },
+        {
+            "name": "Vecna's Most Vile Technique",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Sleight of Hand}) checks to steal candy from a baby.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Well Traveled",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+				"You have expert knowledge on the layout of an area (Chosen when you receive this perk).",
+				"You have a +5 bonus to Wisdom ({@skill Survival}) checks you make to find your way in the area. This bonus does not stack with {@item Map|XPHB|Maps}.",
+				"You can receive this perk multiple times, gaining knowledge in a different area.",
+				"{@note Perk of {@item Map|XPHB}, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Dark Speech Novice",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"You have managed to learn a word in Dark Speech, though you lack the proper magical protection to speak it. As a {@action Magic|XPHB} action, you can attempt to speak this word, and you die.",
+				"{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Freaky",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"You are considered {@variantrule Proficiency|XPHB|Proficient} with your tongue.",
+				"{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Lucky Thief",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i No amount of Expertise can stop some good old fashioned Luck}",
+				"You can use a {@action Magic|XPHB} action to attempt to unlock a locked door. This has a 5 percent chance of unlocking any lock. Once you use this ability, you can't use it again until you finish a {@variantrule Long Rest|XPHB}.",
+				"{@note Talent of {@item Mystery Key|XDMG} Made by Gem}"
+            ]
+        },
+        {
+            "name": "Ough, Sour...",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"{@i Prerequisite: Ooze}",
+				"You have learned how to become a living weapon, a sapient amalgam of unripe fruits and scrunched facial expressions. When you are hit by a Bite attack, you may have the attacker take 1 Acid damage.",
+				"{@note Made by Christopher}"
+			]
+        },
+        {
+            "name": "Tracker's Sense",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"Through some magical means, you are able to detect the presence of a certain type of creature, determined when you gain this talent. Once determined, the creature type can't be changed.",
+				"You know when you are within 300 feet of any creature of that type. This presence could be indicated by varying means, depending on the nature that you gained this talent, and it can be a visual indicator.",
+				"{@note Talent of {@item Lantern of Tracking|IDRotF}. Made by Aris}"
+			]
+        },
+        {
+            "name": "Tummy Vision",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "common",
+            "entries": [
+				"When you take the {@action Search|XPHB} action, you can target a creature within 5 feet and make a DC 15 Wisdom ({@skill Medicine}) check. On a success, you can reason what they last ate in the last 24 hours.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "1500 XXL Westmarch Cypher",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"At the GM’s discretion, you can record a 30 second to 1 minute long freestyle rap in character. The beat is up to the discretion of the GM (a sample beat is provided here). At the conclusion of the freestyle, the GM decides if you produced a banger. If you did, you heal {@dice 2d10} Hit Points, if you didn’t, you take {@dice 2d10} Fire damage. The GM may require that you post the recording in ⁠#wm-discussion to benefit. Once this talent is used, it cannot be used again until one week has passed.",
+				"{@note Made by Ryan Gabrillo}"
+			]
+        },
+        {
+            "name": "Aerial Fighting",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"You can use the momentum of your strikes to keep you airborne. When you hit a creature with a melee weapon attack while airborne, you can choose to not fall until the end of your next turn.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Blasphemous",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"You can cast {@spell Desecrate|WM4} (spellcasting ability mod +3) with this talent. When you cast {@spell Desecrate|WM4} this way, the Duration is 1 minute. You can't cast this spell again with this talent until you finish a {@variantrule Long Rest|XPHB}.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Demon Eye",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"You have {@sense Darkvision} out to 60 feet. If you already have {@sense Darkvision}, its range increases by 60 feet.",
+				"When you take the {@action Search|XPHB} action and roll a 1 on the die, you are {@condition Blinded} for the next 10 minutes.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Demon Leg",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Your leg is possessed by a demon, or demonic essence, transforming to become a more demonic form.}",
+				"Your {@variantrule Long Jump|XPHB} is increased by 20 feet, and your {@variantrule High Jump|XPHB} is increased by 10 feet, when you have a running start.",
+				"When you roll a 1 on a Strength or Dexterity saving throw, you lose control of your movement. At the start of your next turn, you must choose to either drop {@condition Prone|XPHB}, or to use all your movement to move in a random direction.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Eye for Secrets",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Through rigorous training, you have developed a keen eye for secrets and traps.}",
+				"As a {@action Magic|XPHB} action you can attempt to detect secrets. If a secret door or trap is within 60 feet of you, you sense the location of the one nearest to you.",
+				"You can use this {@variantrule Talents|WM4|Talent} a number of times equal to your Proficiency Bonus, regaining uses on a {@variantrule Long Rest|XPHB}.",
+				"{@note Talent of {@item Wand of Secrets|XDMG}, Made by Gem}"
+			]
+        },
+        {
+            "name": "Eyes of an Adventurer",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i \"You can see it in their eyes when an adventurer walks through the door\" - Random barkeep",
+				"You gain a {@sense Darkvision} of 60 ft if you do not already have one. Your eyes additionally reflect more light than usual, making them appear to glow in the dark.",
+				"You cannot benefit from wearing {@item Goggles of Night|XDMG}.",
+				"{@note Talent of {@item Goggles of Night|XDMG}, Made by Gem}"
+			]
+        },
+        {
+            "name": "Graceful Landing",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: {@skill Acrobatics} Proficiency}",
+				"Whenever you fall, you always land on your feet. Additionally, your falls count as having fallen 20 less feet for the purposes of taking damage from falling (to a minimum of 0 feet).",
+				"{@note Talent of Boots of Landing, Made by Gem}"
+			]
+        },
+        {
+            "name": "Maimer's Mercy",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"You have achieved mastery over your attacks, and can accurately navigate the line between life and death. You can knock out creatures with any attack, not just melee attacks.",
+				"Made by Corvus"
+			]
+        },
+        {
+            "name": "Meticulous Hands",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i You've learned to slow down and be precise with your movements.}",
+				"While you are not wearing gloves, you gain a +5 bonus to Dexterity ({@skill Sleight of Hand}) checks.",
+				"{@note Talent of {@item Gloves of Thievery|XDMG}, Made by Gem}"
+			]
+        },
+        {
+            "name": "Silent Shooter",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: Proficiency in Firearms or Martial weapons}",
+				"You know how to modify your firearms to fire silently. When you make an attack with a firearm, you can choose for it to make no sound.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Silken Anchor",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: {@item Weaver's Tools|XPHB} Proficiency}",
+				"You learn to use silk to anchor your thrown weapons to your person. When you make a ranged attack roll using a weapon that has the Thrown property, you can use a Bonus Action on the same turn to pull the weapon back to your empty hand.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Shattered Remains",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"When you kill a creature, you can choose for the creature's remains to turn into glass and shatter into pieces. The target can be revived only by a {@spell True Resurrection|XPHB} or a {@spell Wish|XPHB} spell.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Stiff Legs",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"You do not gain the {@condition Prone} condition from becoming {@condition Unconscious}.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Take chances, make mistakes, and get messy!",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"When you reroll a die with {@variantrule Heroic Inspiration|XPHB}, if it was a d20 as part of a {@variantrule D20 test|XPHB}, you can add {@dice 1d4} to the total.",
+				"Once you use this feature, you cannot do so again for the rest of the session.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Helm Breaker",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+            "entries": [
+				"Once per turn, when you hit an airborne creature one size larger than you or smaller with a melee weapon attack, you can push the creature up to 30 feet downward. If the creature collides with a solid surface, it takes damage as though it had fallen the distance it was pushed.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Maybe the back door is unlocked?",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+            "entries": [
+				"{@i Prerequisite: {@reward Lucky Thief|WM4}}",
+				"{@i If life gives you a locked door, find another one.}",
+				"You can use your {@reward Lucky Thief|WM4} talent an unlimited number of times, but only once per door.",
+				"{@note Talent of {@item Ring of Mystery Keys|WM4}, Made by Gem}"
+			]
+        },
+        {
+            "name": "Mists of the North Wind",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: Wild Shape feature}",
+				"As a Bonus action, you can expend a use of your Wild Shape to take on a gaseous shape. This functions as the {@spell Gaseous Form|XPHB} spell, except it targets only you, and does not require {@status Concentration|XPHB} to maintain. It lasts for a number of hours equal to half your Druid level (rounded down). You can revert to your normal form earlier by using a Bonus action on your turn. You automatically revert if you fall {@condition Unconscious}, drop to 0 {@variantrule Hit Points|XPHB}, or die.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Breeze of the South Wind",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: Cunning Action feature}",
+				"You can use the Bonus action granted by your Cunning Action to cast the {@spell Zephyr Strike|XGE} spell. When you cast it in this way, it doesn't require components nor a spell slot, and while under its effects you leave no tracks. Once you cast the spell, you cannot do so again with this {@variantrule Talents|WM4|Talent} until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Gale of the East Wind",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: Arcane Recovery feature}",
+				"When you gain the benefits of your arcane recovery feature, you can choose one of your spells that you have prepared that requires {@status Concentration|XPHB}. The next time you cast that spell and {@status Concentration|XPHB|Concentrate} on it, you also gain the benefits of the {@spell Warding Wind|XGE} spell for its duration.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Breath of the West Wind",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Prerequisite: Channel Divinity feature}",
+				"As a {@action Magic|XPHB} action, you can expend a use of your Channel Divinity, and bestow yourself or a creature within 30 feet of you the freedom of the winds. The creature gains the benefits of the {@spell Freedom of Movement|XPHB} spell, which lasts for 10 minutes.",
+				"{@note Made by Aris}"
+			]
+        },
+        {
+            "name": "Radiant Beams",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+            "entries": [
+				"{@i Prerequisite: {@spell Eldritch Blast|XPHB}}",
+				"You can deal Radiant damage instead of Force when you cast {@spell Eldritch Blast|XPHB}. If you change the damage type this way, the damage die becomes {@dice 1d8}.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Sorrow Taint",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "rare",
+            "entries": [
+				"{@i Tears streak down your face, staining your skin; Your sorrows and inhibitions heighten.}",
+				{
+					"type": "entries",
+					"name": "Weight of Grief.",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you point at a creature within 60 feet of you, filling it with deep sorrow. It must succeed on a Wisdom saving throw or have {@variantrule Disadvantage|XPHB} on {@variantrule D20 test|XPHB|D20 tests} until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heightened Empathy.",
+					"entries": [
+						"Your constant grief deepens your understanding of others’s feelings. You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Insight}) checks made to discern a creature’s emotions. If you roll a 20 on the die when making a Wisdom ({@skill Insight}) check, you are {@condition Dazed|WM4} and {@condition Immobilized|WM4} until the end of your next turn, as your own sorrows overtake you."	
+					]
+				},
+				"All DCs from this talent are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (your choice when you receive this talent).",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Spiral Taint",
+            "source": "WM4",
+            "type": "Talent",
+			"rarity": "very rare",
+            "entries": [
+				"{@i A constant and ever changing fractal has taken hold of your mind; spiral patterns form on your body with no consistency.}",
+				{
+					"type": "entries",
+					"name": "Sight of the Abyss.",
+					"entries": [
+						"You can cast {@spell Vision of Entropy|WM4} at will."	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Touch of Insanity.",
+					"entries": [
+						"Once on your turn, when you hit a creature with a melee attack or Unarmed Strike, you can force the creature to make a Wisdom saving throw. On a failure, the creature is {@condition Confused|WM4} until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fractal Mind.",
+					"entries": [
+						"There is nothing left to break. You automatically succeed on {@variantrule saving throw|XPHB|saving throws} made to retain your sanity. You have a -3 penalty on all Wisdom based {@variantrule ability check|XPHB|ability checks} and {@variantrule saving throw|XPHB|saving throws}; whenever you roll a 1 on a {@variantrule D20 test|XPHB}, you are {@condition Confused|WM4} until the end of your next turn."	
+					]
+				},
+				"All DCs from this talent are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (your choice when you receive this talent).",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Paladin's Wrath",
+            "source": "WM4",
+            "type": "Gift",
+			"rarity": "uncommon",
+            "entries": [
+				"{@i Replaces the Paladin's Smite feature}",
+				"You always have the {@spell Wrathful Smite|XPHB} spell prepared. When you cast {@spell Wrathful Smite|XPHB}, you deal Radiant damage instead of Necrotic, and you cast it as though it used a spell slot 2 levels higher, to a maximum of level 5. In addition, you can cast it without using a spell slot, but you must finish a {@variantrule Long Rest|XPHB} before you can cast it this way again.",
+				"{@note Made by Gavin}"
+			]
+        },
+        {
+            "name": "Vistani Evil Eye",
+            "source": "WM4",
+            "type": "Gift",
+			"rarity": "rare",
+            "entries": [
+				"{@i Prerequisite: Spellcasting Class Feature}",
+				{
+					"type": "entries",
+					"name": "Vistani Curse Magic.",
+					"entries": [
+						"You learn the spell {@spell Bestow Curse|XPHB} and always have it prepared. When you cast it this way, you instead make a Ranged Spell Attack with a Range of 30 feet, casting it at its Level 3 version. When the target fails the saving throw, you alternatively choose the nature of the curse from the following options:",
+						{
+							"type": "list",
+							"items": [
+								"The target is unable to perform a certain kind of act involving fine motor control, such as tying knots, writing, playing an instrument, sewing, or casting spells that have Somatic components. When this curse ends, you take {@dice 2d6} Psychic damage.",
+								"The target's appearance changes in a sinister yet purely cosmetic way. For example, the curse can place a scar on the target's face, turn the target's teeth into yellow fangs, or give the target bad breath. When this curse ends, you take {@dice 2d6} Psychic damage.",
+								"A nonmagical item in the target's possession (chosen by the DM) disappears and can't be found until the curse ends. The lost item can weigh no more than 1 pound. When this curse ends, you take {@dice 2d6} Psychic damage.",
+								"The target has {@variantrule Disadvantage|XPHB} on ability checks and saving throws tied to one ability score of your choice. When this curse ends, you take {@dice 6d6} Psychic damage.",
+								"The target's attunement to one magic item of your choice ends. When this curse ends, you take {@dice 10d6} Psychic damage, and the target automatically reattunes to the item.",
+								"The target is {@condition Blinded}, {@condition Deafened}, or both (your choice). When this curse ends, you take {@dice 10d6} Psychic damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evil Eye.",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you can target a creature within 10 feet that you can see. This magical ability, which the Vistani call the Evil Eye, duplicates the duration and effect of the {@spell Animal Friendship|XPHB}, {@spell Charm Person|XPHB}, or {@spell Hold Person|XPHB} spell (your choice), but requires neither Somatic nor Material components. If the target succeeds on the save, you are {@condition Blinded} until the end of your next turn. When you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+					]
+				},
+				"The DC for these effects uses your spellcasting DC.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Whirlwind Strike!",
+            "source": "WM4",
+            "type": "Gift",
+			"rarity": "rare",
+            "entries": [
+				"{@i Prerequisite: Extra Attack}",
+				"{@i don't cry because it's over. attack. attack everything around you. do spin attacks}",
+				"You can do spin attacks. You can use an Action to make a Melee Weapon Attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. You can make this attack twice, regaining one of its expended uses when you finish a {@variantrule Short Rest|XPHB}, and all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Terminal Terminal Velocity",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+				"There is no longer a maximum amount of damage you take from the Falling Hazard.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "The MacLeod Effect",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+				"Whenever you succeed on a Dexterity ({@skill Stealth}) check made to {@action Hide|XPHB}, Sneaky Snitch plays from around you and can be heard in a 30 foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Tears of Sorrow",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+				"{@i Special Curse}",
+				"You cannot stop crying. Everything that was; every wish for what could've been; the yearn of what you could be; all of these reverberate through your mind- through each action you take- as an incessant reminder of your loss and grief. These tears are shed and you cannot bring yourself to cease them.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "🗿",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+				"As a {@action Magic|XPHB} action you can expend this charm to give yourself the {@condition Petrified} condition.",
+				"{@note Made by Gem}"
+			]
+        },
+        {
+            "name": "Carcinization",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+				"{@i The Crab Cycle: there is only one step and it is crab.}",
+				"As a {@action Magic|XPHB} action, you can cast {@spell True Polymorph|XPHB} on yourself into a {@creature Crab|XMM}. When you do so, the duration of the spell is Until Dispelled. Once the charm is used, it vanishes from you.",
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "Minor Blessing",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+				"A god has noticed your prayers or some great deed you've undertaken, and given you their divine blessing.",
+				"When you receive this charm, the GM determines which ability is blessed. When you would fail a Skill Check which uses the blessed ability, you may use this charm to increase the result of the roll by 10.",
+				"{@note Made by Gavin}"
+			]
+        },
+        {
+            "name": "Nah, I Can't...",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+				"As a Bonus Action, you drop to 0 {@variantrule Hit Points|XPHB}. Once you do so, this Charm disappears from you.",
+				"{@note Made by Christopher}"
+			]
+        },
+        {
+            "name": "What are we gonna do?!?",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+				"You can cast {@spell Divination|XPHB} as a {@action Magic|XPHB} Action with this charm. When you do so, you can only ask about how to accomplish a goal or activity within the next 30 minutes. Once you do so, this Charm disappears from you.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Demon Spawn",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"For whatever benign reason, you have been transformed into a creature that carries the essence of evil itself. The traits gained from your species are replaced with the following:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Creature Type:} Your creature type is Fiend (Demon).",
+						"{@b Size:} Medium or Small.",
+						"{@b Speed:} 30 feet.}",
+						"{@b Abyssal Fortitude:} You are Resistant to Cold, Fire, and Lightning Damage.",
+						"{@b Alignment:} Your alignment is Chaotic Evil.",
+						"{@b Abyssal Corruption:} You gain a randomly determined flaw from the {@table Optional Rule: Abyssal Corruption; Abyssal Corruption|DMG|Abyssal Corruption table}, ignoring rolls of 10. You yearn for the Abyss; while not in the Abyss, you have a -1 to all {@variantrule D20 test|XPHB|D20 tests}."
+					]
+				},
+				"{@note Made by Chrys}"
+			]
+        },
+        {
+            "name": "[LOS] Breaker of Silence",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You've felled the third Machine, destroyed the Mass Shadow Engine, and returned both light and water to the streets of Perago.",
+				"{@note Made by Christopher}"
+			]
+        },
+        {
+            "name": "[LOS] Colossus Crusher",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You carry the renown of stopping the second Machine's rampage. The people of the Northern regions will speak of your great deed for many years.",
+				"{@note Made by Christopher}"
+			]
+        },
+        {
+            "name": "[LOS] Starmantle's Gratitude",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You've extinguished the inferno and felled the first Machine. As such, you have the deepest thanks of Starmantle's people.",
+				"{@note Made by Christopher}"
+			]
+        },
+        {
+            "name": "Saved Up Enough To Finally Go to Wildspace",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"If you have 10,000 gp, you can spend that much gp and a Bastion Turn to take a vacation to Wildspace. You receive a {@item Fish Suit|AAG} as a souvenir and this Story Record is replaced with {@reward Bought a Trip to Wildspace|WM4}.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "Bought a Trip to Wildspace",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You bought a trip to Wildspace! Nice.",
+				"{@note Made by Landon}"
+			]
+        },
+        {
+            "name": "[SEC] Dungeoneer",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+				"You have become an official member of the Scholar Exploration Corps and are able to go on expeditions with them.",
+				"Whenever you take the Guildhall: Dungeoneer bastion turn, you can choose to go on an expedition with SEC. If you do so, roll on the list twice and pick one of the items you rolled to receive (Rerolling duplicates).",
+				"{@note Made by Gem}"
+			]
         }
 	]
 }

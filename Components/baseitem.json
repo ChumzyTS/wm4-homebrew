@@ -328,6 +328,47 @@
 				"{@i This item can be crafted using {@item Alchemist's Supplies|XPHB|Alchemy Tools}.",
 				"{@note From S3, 3.5e Drow of the Underdark, ported by Aris}"
             ]
-        }
+        },
+		{
+            "name": "Messenger Pigeon (Trained)",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "value": 2500,
+            "entries": [
+				"{@creature Messenger Pigeon|WM4}",
+				"{@note Made by Patrick}"
+            ]
+		},
+		{
+            "name": "Messenger Pigeon (Untrained)",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "value": 1500,
+            "entries": [
+				"Can be {@item Messenger Pigeon (Trained)|WM4|trained} as a bastion turn.",
+				"{@creature Messenger Pigeon|WM4}",
+				"{@note Made by Patrick}"
+            ]
+		},
+		{
+			"name": "Urchin Venom",
+			"source": "WM4",
+			"type": "G|XPHB",
+			"rarity": "none",
+			"value": 2500,
+			"poison": true,
+            "property": [
+                "E|WM4"
+            ],
+			"poisonTypes": [
+				"injury"
+			],
+			"entries": [
+				"A creature subjected to Urchin Venom must succeed on a DC 11 Constitution saving throw or have the {@condition Poisoned} condition for 1 minute.",
+				"{@note Made by Aris. Adapted from 3.5e There Is No Honor}"
+			]
+		}
     ]
 }

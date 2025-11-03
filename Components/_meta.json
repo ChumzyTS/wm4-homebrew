@@ -5,7 +5,7 @@
 				"json": "WM4",
 				"abbreviation": "WMUTD",
 				"full": "Westmarch UTD",
-				"version": "1.6.1",
+				"version": "1.7",
 				"authors": [
 					"Various DMs"
 				],
@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1742975531,
-		"dateLastModified": 1742975531,
+		"dateLastModified": 1762159101,
 		"edition": "classic"
 	}
 }

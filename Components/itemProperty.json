@@ -9,7 +9,7 @@
                     "type": "entries",
                     "name": "Consumable",
                     "entries": [
-                        "An item that is permanently expended once used, such as a potion."
+                        "A reward that is permanently expended upon use."
                     ]
                 }
             ]
@@ -23,7 +23,7 @@
                     "type": "entries",
                     "name": "Exotic",
                     "entries": [
-                        "An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances."
+                        "A reward that can only be found or received under certain circumstances."
                     ]
                 }
             ]
@@ -37,7 +37,23 @@
                     "type": "entries",
                     "name": "Unique",
                     "entries": [
-                        "An item of which there is only one instance."
+                        "A reward where a very limited number of instances exist."
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "WC",
+            "source": "WM4",
+            "template": "{@i {{prop_name}}}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Worn Card",
+                    "entries": [
+                        "A series of old cards with distinct, intricate art and brown, patterned backs. Although many of them exist, they are almost never found in a complete set, and their old nature causes their powerful magics to only work once before they disintegrate into dust. Rumors mention their magic changing in the rare case of their art being oriented upside down, typically resulting in altered, stronger effects.",
+                        "{@note You can view all the worn cards on the {@table Worn Cards|WM4|Worn Card Table}}",
+                        "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
                     ]
                 }
             ]

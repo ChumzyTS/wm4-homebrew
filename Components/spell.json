@@ -1657,6 +1657,126 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Appraise",
+			"source": "WM4",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"entries": [
+				"You touch an object. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires {@variantrule Attunement|XPHB}, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name.",
+				"If you instead touch a creature, it can make a Charisma saving throw. On a failure, you reveal which ongoing spells or magical effects, if any, are currently affecting it, as well as one of the following characteristics of your choice:",
+				{
+					"type": "list",
+					"items": [
+						"Strength Score",
+						"Dexterity Score",
+						"Constitution Score",
+						"Intelligence Score",
+						"Wisdom Score",
+						"Charisma Score",
+						"Current Armor Class",
+						"Current hit points",
+						"Total class levels, if any",
+						"What classes it has, if any",
+						"One of its Traits",
+						"What spells it can cast"
+					]
+				},
+				"This information appears as a screen in front of you in a language that you know, following you for the duration of the spell unless you dismiss it, ending the spell (no action required).",
+				"{@note Made by Landon}"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Slot.",
+					"entries": [
+						"If you cast this spell using a level 3 spell slot or higher, you can learn an additional characteristic for each level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard ",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					}
+				]
+			}
 		}
 	]
 }
