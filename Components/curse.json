@@ -1,6 +1,6 @@
 {
     "_meta": {
-        "name": "reward",
+        "name": "condition",
         "sort": [
             {
                 "key": "name",
@@ -17,7 +17,13 @@
                 "{@i Special Curse}",
                 "Your dreams often stretch on endlessly, and years could pass in your dreams when only hours pass in reality. You remember most of your dreams, even if somewhat hazy.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Lycanthropy (shark)",
@@ -48,7 +54,13 @@
                     ]
                 },
                 "{@note Formatted like Landon's Lycanthropy curse, Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Oiled Up",
@@ -57,7 +69,13 @@
             "entries": [
                 "Your hair and skin is constantly oily. You sweat oil.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Pretty Bad Medicine, Actually",
@@ -67,7 +85,15 @@
                 "{@i This is serious, asshole.}",
                 "Whenever you, the player, laugh, your character takes {@dice 1d6} psychic damage.",
                 "{@note Inspired by Legends of Avantris, Made by Lily}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": [
+                    "Legends of Avantris"
+                ]
+            }
         },
         {
             "name": "Tears of Sorrow",
@@ -77,7 +103,13 @@
                 "{@i Special Curse}",
                 "You cannot stop crying. Everything that was; every wish for what could've been; the yearn of what you could be; all of these reverberate through your mind- through each action you take- as an incessant reminder of your loss and grief. These tears are shed and you cannot bring yourself to cease them.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Terminal Terminal Velocity",
@@ -86,7 +118,13 @@
             "entries": [
                 "There is no longer a maximum amount of damage you take from the Falling Hazard.",
                 "{@note Made by Landon}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "The MacLeod Effect",
@@ -95,7 +133,13 @@
             "entries": [
                 "Whenever you succeed on a Dexterity ({@skill Stealth}) check made to {@action Hide|XPHB}, Sneaky Snitch plays from around you and can be heard in a 30 foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Vile Damage",
@@ -106,7 +150,13 @@
                 "Vile damage is a special curse. Every point of vile damage reduces your current hit points by 1. These lost hit points can only be restored by healing magic in a consecrated area such as the Hallow spell. Vile damage represents such an evil violation to a character\u2019s body or soul that only in a holy place can healing magic repair the damage.",
                 "Vile damage is usually done in increments of 1 damage per infliction",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "You First.",
@@ -115,7 +165,13 @@
             "entries": [
                 "Whether it's because you are aura farming, are overly polite, or just have a godlike reaction speed, whenever you would roll initiative, you instead get an initiative of 0. If you still go before someone else, you can point and laugh at them.",
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

@@ -17,7 +17,13 @@
                 "{@i The Crab Cycle: there is only one step and it is crab.}",
                 "As a {@action Magic|XPHB} action, you can cast {@spell True Polymorph|XPHB} on yourself into a {@creature Crab|XMM}. When you do so, the duration of the spell is Until Dispelled. Once the charm is used, it vanishes from you.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Minor Blessing",
@@ -27,7 +33,13 @@
                 "A god has noticed your prayers or some great deed you've undertaken, and given you their divine blessing.",
                 "When you receive this charm, the GM determines which ability is blessed. When you would fail a Skill Check which uses the blessed ability, you may use this charm to increase the result of the roll by 10.",
                 "{@note Made by Gavin}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gavin"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Nah, I Can't...",
@@ -36,7 +48,13 @@
             "entries": [
                 "As a Bonus Action, you drop to 0 {@variantrule Hit Points|XPHB}. Once you do so, this Charm disappears from you.",
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Nothing Ever Happens",
@@ -48,7 +66,13 @@
                 "While you have this charm, burgers are tasteless.",
                 "This charm comes with {@dice 1d4} charges. Once the last charge is expended, it disappears in a thoroughly disappointing and anticlimactic way.",
                 "{@note Repassing from S3, Made by Ryan}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Ryan"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Something Just Happened",
@@ -57,7 +81,13 @@
             "entries": [
                 "If you, the player, are aware of something happening that your character isn't, such as due to a party split, you can use an action to use this charm to roll a DC 15 Constitution ({@skill Perception}) check. On a success, your character knows that Something Just Happened, as well as a general direction to where it happened, but absolutely no further information. Once used, this charm vanishes from you.",
                 "{@note Repassing from WM3, Made by V}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "V"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Something Will Happened",
@@ -67,7 +97,13 @@
                 "When a GM rolls for a Recharge ability, you can use this charm to have it automatically recharge the ability instead. Once you use this charm, it vanishes from you.",
                 "{@i I think something will happen!}",
                 "{@note Repassing from WM3, Made by Landon}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "What are we gonna do?!?",
@@ -76,7 +112,13 @@
             "entries": [
                 "You can cast {@spell Divination|XPHB} as a {@action Magic|XPHB} Action with this charm. When you do so, you can only ask about how to accomplish a goal or activity within the next 30 minutes. Once you do so, this Charm disappears from you.",
                 "{@note Made by Landon}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "\ud83d\uddff",
@@ -85,7 +127,13 @@
             "entries": [
                 "As a {@action Magic|XPHB} action you can expend this charm to give yourself the {@condition Petrified} condition.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

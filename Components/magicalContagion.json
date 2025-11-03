@@ -101,7 +101,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Weave Fray",
@@ -135,7 +141,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

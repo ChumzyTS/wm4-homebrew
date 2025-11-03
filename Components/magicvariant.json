@@ -31,6 +31,12 @@
                     "A creature wearing the armor can take a {@action Magic|XPHB} action to cast {@spell Rime's Binding Ice|FTD} (DC 14). This property of the armor can't be used again until the next dawn.",
                     "{@note Made by Gem}"
                 ]
+            },
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -53,6 +59,12 @@
                     "This weapon is cold enough to keep the temperature within 5 feet of it at 32 degrees Fahrenheit (0 degrees Celsius). It deals Cold damage instead of its normal type.",
                     "{@note Made by Gem}"
                 ]
+            },
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -78,6 +90,12 @@
                     },
                     "{@note Made by Christoper}"
                 ]
+            },
+            "credit": {
+                "gms": [
+                    "Christoper"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -102,6 +120,12 @@
                     "You cannot knock a creature out with this axe. When you reduce a creature to 0 hit points with the Undertaker's Axe, you chop off their head, or another equivalent body part, if any.",
                     "{@note Made by Gavin}"
                 ]
+            },
+            "credit": {
+                "gms": [
+                    "Gavin"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -120,6 +144,12 @@
                     "When you hit with an unreliable weapon, instead of adding an ability modifier to damage rolls, you deal an extra {@dice 1d6} damage of the same type.",
                     "{@note Made by Gavin}"
                 ]
+            },
+            "credit": {
+                "gms": [
+                    "Gavin"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -138,6 +168,12 @@
                     "This magic weapon deals an additional {@dice 1d4} damage of its type when it is used to attack a beast with a swimming speed. Any beast damaged in this way remains pristine and fully intact for the sake of cooking and consuming.",
                     "{@note Made by Patrick}"
                 ]
+            },
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
             }
         }
     ]

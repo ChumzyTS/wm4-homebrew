@@ -30,7 +30,13 @@
             "entries": [
                 "You gain a +1 bonus to ability checks made using this tool.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Abjurer's Necklace",
@@ -46,7 +52,15 @@
             "entries": [
                 "This enchanted amulet is popular among the wizards of Waterdeep. You can use the amulet to cast the {@spell shield|XPHB} spell. Once cast, the amulet can't be used again until the next dawn.",
                 "{@note From S3 and Adapted from Warriors of Waterdeep by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Warriors of Waterdeep"
+                ]
+            }
         },
         {
             "name": "Adamantine Axe",
@@ -57,7 +71,13 @@
             "entries": [
                 "An Adamantine Axe is twice as efficient as a regular {@item axe|WM4}, being able to cut down trees up to 10ft in diameter in 10 minutes, and clearing out twice the amount of material in the same amount of time.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Adamantine Paxel",
@@ -68,7 +88,13 @@
             "entries": [
                 "An Adamantine Paxel is twice as efficient as a regular {@item Paxel|WM4}, clearing out twice the amount of material in the same amount of time.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Adamantine Pickaxe",
@@ -79,7 +105,13 @@
             "entries": [
                 "An Adamantine Pickaxe is twice as efficient as a regular {@item pickaxe|WM4}, clearing out twice the amount of material in the same amount of time.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Adamantine Shovel",
@@ -90,7 +122,13 @@
             "entries": [
                 "An Adamantine Shovel is twice as efficient as a regular {@item shovel|XPHB}, clearing out twice the amount of material in the same amount of time",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Beast Mode Indicator Vestments",
@@ -100,7 +138,13 @@
             "entries": [
                 "This shirt reads \u201cBeast Mode: Off\u201d. As you enter a temporarily heightened state, such as a Rage or a physical transformation, you may choose to rip this shirt off to reveal another shirt underneath that reads \u201cBeast Mode: On\u201d. Once this state ends, the destroyed shirt reappears on you, undamaged.",
                 "{@note Made by V}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "V"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Cinnabar Eye Cusps",
@@ -110,7 +154,15 @@
             "entries": [
                 "These are pink lenses of polarized crystal that fit comfortably over your eyes. When worn in an area with an intense concentration of faerzress, the eye cusps enhance your vision. If you lack {@sense darkvision}, you gain {@sense darkvision} out to 120 feet. If you have {@sense darkvision}, your {@sense darkvision} extends through the entire faerzress-infused area.",
                 "{@note From 3.5e Drow of the Underdark, ported by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            }
         },
         {
             "name": "Coin of Delving",
@@ -120,7 +172,13 @@
             "entries": [
                 "This scintillating copper coin sheds dim light in a 5-foot Emanation. If dropped a distance greater than 5 feet, the coin issues a melodious ringing sound when it hits a surface. Any creature that can hear the chime can determine the distance the coin dropped based on the tone.",
                 "{@note From Explorer\u2019s Guide to Wildemount}"
-            ]
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "Explorer's Guide to Wildemount"
+                ]
+            }
         },
         {
             "name": "Corroded Circuit",
@@ -157,7 +215,13 @@
                 },
                 "(Note: you cannot attune to both this and an Eldritch Claw Tattoo.)",
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Doublet of Dramatic Demise",
@@ -168,7 +232,13 @@
                 "This striking satin jacket allows you to make the most of your dying moments. When you are Unconscious with 0 hit points while wearing this doublet, you can speak and communicate.",
                 "You make Death Saving Throws as normal, but if you roll a 1 on the {@dice d20}, you swoon with a loud gasp and die instantly.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Everburning Torch",
@@ -178,7 +248,13 @@
             "entries": [
                 "When this torch is ignited, it cannot be extinguished unless a creature within 5 feet of the torch uses a {@action Magic|XPHB} action to do so.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Gizmo!",
@@ -193,7 +269,13 @@
                 "{@i A strange assortment of magic runes and metal latticework. It's been given a haphazard shell and a safety seal of approval.}",
                 "While holding a Gizmo!, you can use it to cast either {@spell Prestidigitation|XPHB} or {@spell Thaumaturgy|XPHB}. After doing so, it falls apart.",
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Glasses of Transcription",
@@ -214,7 +296,13 @@
                 "{@i With the popularity of Liar's Night continuing to grow across Toril, people have begun to create a variety of magical costumes. This costume was made to imbue confidence in the wearer, depicting a famous adventurer or fantastical hero.}",
                 "While wearing this costume, you can use a {@action Magic|XPHB} action to cast {@spell Heroism|XPHB}. When cast in this way, it has a range of Self and does not grant {@variantrule Temporary Hit Points|XPHB}. Once the spell is cast, it can't be cast from the costume again until the next sunset.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Hog of Cranking",
@@ -228,7 +316,13 @@
                 "{@i Bear Witness!}",
                 "As a {@action magic|XPHB} action, you may begin cranking your hog. While cranking your hog, you cannot take reactions, as you are fully focused on cranking your hog. At the beginning of your next turn after beginning to crank your hog, 1 {@creature Boar|XMM} appears in the space where the Hog of Cranking was (or within 5 ft. of that space if the space it occupied is currently occupied by another creature). You stop cranking your hog when the {@creature Boar|XMM} is summoned, upon which the hog becomes non-magical. This {@creature Boar|XMM} is friendly to you and your allies and hostile to any creatures you may be hostile towards when you begin to crank your hog. The {@creature Boar|XMM} continues to fight said hostile creatures until it or the hostile creatures die or are knocked unconscious. If no more hostile creatures remain, the {@creature Boar|XMM} acts as typical for a {@creature Boar|XMM}, and it no longer follows an obligation to be friendly towards you or your allies.",
                 "{@note Made by Patrick}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Mend-O",
@@ -244,7 +338,13 @@
                 "A vial of Mend-O can be applied to a tear in an object, or a damaged item. Applying Mend-O takes 1 minute, after which it magically seeps into whatever it is applied to, causing it to receive the benefits of a casting of {@spell Mending}.",
                 "Alternatively, as a Bonus Action, you can drink it or administer it to another willing creature within 5 feet of yourself. If the creature that drinks the Mend-O is a Construct, it regains {@dice 2d4+2|2d4+2 Hit Points}. If the creature is not a Construct, it must make a DC 13 Constitution saving throw, taking 14 ({@dice 4d6}) Poison damage on a failed save or half as much damage on a successful one.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Message in a Bottle",
@@ -256,7 +356,13 @@
                 "As a {@action Utilize|XPHB} action, a creature can open this bottle while a message is contained within. That creature hears the stored message as if it was cast targeting them. Then, the message and cork disappear.",
                 "When found, there's a 75% chance a message is already stored in the bottle.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Mini-Mii",
@@ -266,7 +372,13 @@
             "entries": [
                 "It's a little construct of a person. As a {@action Magic|XPHB} action, a Construct can install this Mini-Mii inside of them. While a Construct has one installed, they have the personality of the Mini-Mii. A Construct can eject a Mini-Mii as a {@action Magic|XPHB} action. If a Construct has multiple installed, their behavior might become....complicated. When not installed, it has the statistics of a {@creature Tiny Servant|XGE}, though retaining its personality.",
                 "{@note Made by Landon}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Modron Earpiece",
@@ -278,7 +390,13 @@
                 "When speaking Common into the audio receptor, the earpiece converts the Common speech into Modron, emitting a sequence of clicks and whirs. When Modron is spoken and can be heard by the earpiece, the earpiece translates Modron into Common, emitting what is said but in common into the ears of the wearer.",
                 "Mechanically, Common speech of the wearer can be heard as Modron, and Modron spoken in the vicinity of the wearer can be heard as Common by the wearer.",
                 "{@note Made by Sam}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Sam"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Mystery Potion (Common)",
@@ -343,7 +461,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Ornate Costume",
@@ -355,7 +479,13 @@
                 "{@i With the popularity of Liar's Night continuing to grow across Toril, people have begun to create a variety of magical costumes. This costume was made to impress others, sewn with fancy techniques and wealth.}",
                 "While wearing this costume, you can use a {@action Magic|XPHB} action to cast {@spell Charm Person|XPHB} (Save DC 10). When cast in this way, it requires {@status Concentration|XPHB} and has a duration of 1 minute. Once the spell is cast, it can't be cast from the costume again until the next sunset.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Painter\u2019s Sun Hat",
@@ -365,7 +495,13 @@
             "entries": [
                 "This well-made hat can come in any shape, size, or form and from casual inspection seems to be mundane in nature. However, when the hat is placed on the ground as a {@action Magic|XPHB} action and its command word is spoken, it begins to float into the air. The hovering hat then produces an illusion of a humanoid of your choice that you are familiar with, with the caveat that the illusion is wearing the hat. The figure can't move and fails to hold up to physical inspection. The illusion remains until the hat is moved out of place, or until the command word is spoken once more, causing the hat to float back to the ground. If a creature uses the {@action Study|XPHB} action to examine the illusion, a DC 10 Intelligence ({@skill Investigation}) check reveals the figure is an illusion.",
                 "{@note From Obojima: Tales from the Tall Grass}"
-            ]
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "Obojima: Tales from the Tall Grass"
+                ]
+            }
         },
         {
             "name": "Plushie of Scent",
@@ -376,7 +512,13 @@
                 "{@i A tiny, soft plushy that emits a particular scent.}",
                 "This plushy emits a particular scent that can be perceived up to 10 feet away. You can change the scent to a scent of your choice with a {@action Magic|XPHB} action.",
                 "{@note Made by Marvin}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Plushie of Squeaking",
@@ -387,7 +529,13 @@
                 "{@i A tiny, soft, squeezable plushy.}",
                 "When you squeeze this plushy as a {@action Utilize|XPHB} action or a Bonus Action, it emits a squeaking sound that can be heard by creatures up to 10 feet away.",
                 "{@note Made by Marvin}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Plushie of Warmth",
@@ -398,7 +546,13 @@
                 "{@i A tiny, soft plushy that emits warmth.}",
                 "The plushy generates enough dry heat to keep the temperature within 10 feet of it at 95 degrees Fahrenheit (35 degrees Celsius).",
                 "{@note Made by Marvin}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Pole of Angling and Collapsing",
@@ -409,7 +563,13 @@
                 "While holding this 10-foot pole, you can speak a command word and transform it into a fishing pole with a hook, a line, and a reel. Speaking the command word again changes the fishing pole back into a normal {@item pole|XPHB|10-foot pole}.",
                 "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod, for ease of storage. The pole's weight doesn't change. You can use an action to speak a different command word and cause the rod to revert to a {@item pole|XPHB}; however, the rod will elongate only as far as the surrounding space allows.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Pot of Growing",
@@ -420,7 +580,13 @@
                 "This 10-pound pot can grow any small nonmagical plant. It magically provides nutrients and water to the plant.",
                 "As a {@action Magic|XPHB} action, you can touch the pot and cause a glass dome to appear over the plants growing in it. While the dome is up, the plant is treated as if it was planted in its proper environment, with the dome providing sunlight, temperature, humidity, and all other environmental factor control. You can remove the dome as a {@action Magic|XPHB} action.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Potion of Air Breathing",
@@ -431,7 +597,13 @@
                 "You can breathe above water for 24 hours after drinking this potion.",
                 "This potion smells and tastes like dirt.",
                 "{@note Made by Gavin}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gavin"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Potion of Tremorsense",
@@ -445,7 +617,13 @@
                 "When you drink this potion, you have {@sense Tremorsense|XPHB} out to 20 feet (unless it is already higher) for 10 minutes. You must be in contact with stone, mud, or dirt to use this {@sense Tremorsense|XPHB}.",
                 "{@i This potion is a grey liquid with dark particles floating within it.}",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Psychic Lance",
@@ -463,7 +641,13 @@
                     ]
                 },
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Quicktimer",
@@ -474,7 +658,13 @@
             "entries": [
                 "You can use this timepiece to take a reaction when you have already taken a reaction before the start of your next turn. The reaction cannot be used to cast a spell. The quicktimer cannot be used again until the next dawn.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Redsmith Crucible Set",
@@ -485,7 +675,13 @@
                 "This set of magic {@item smith's tools|XPHB} from the dwarven Redsmith family includes a stone crucible that's been enchanted with minor transmutation magic. If you are proficient with {@item smith's tools|XPHB} or are a dwarf, you can use a {@action Magic|XPHB} action to speak the tools' command word and lower a nonmagical weapon made of metal into the crucible and hold it there for 10 minutes. At the end of that time, make a DC 10 Strength check using the smith's tools. On a success, the weapon is magically reforged. A reforged weapon counts as magical, and when you pull the reforged weapon from the crucible, you can change it into another type of weapon that shares the same properties as the original one. For example, a {@item light hammer|XPHB} could become a {@item handaxe|XPHB}, or a {@item longsword|XPHB} could become a {@item warhammer|XPHB}. These benefits last for 24 hours, at which point the weapon becomes nonmagical once more and returns to its original form.",
                 "Once this property of the tools has been used, it can't be used again for 24 hours. In the meantime, the tools can still be used as magic {@item smith's tools|XPHB}.",
                 "{@note From the Griffon's Saddlebag 2.}"
-            ]
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "Griffon's Saddlebag 2"
+                ]
+            }
         },
         {
             "name": "Redsmith Hammer",
@@ -496,7 +692,13 @@
             "entries": [
                 "This dwarven smithing hammer has runes running from end to end. When beaten against an anvil, the runes around the hammer glow a bright red and emanate heat, allowing a blacksmith to use the hammer to mold weapons and armor using only the hammer and anvil.",
                 "{@note From the Griffon's Saddlebag 2.}"
-            ]
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "Griffon's Saddlebag 2"
+                ]
+            }
         },
         {
             "name": "Rescue Ring",
@@ -509,7 +711,13 @@
             "entries": [
                 "Whenever you start your turn underwater and you are {@condition unconscious}, the Rescue Ring causes you to rise 60 feet toward the surface. The Rescue Ring prevents you from sinking deeper while you are {@condition unconscious}. Once you regain consciousness, the Rescue Ring becomes inoperable and is consumed, unless you die before regaining consciousness.",
                 "{@note Made by Patrick}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Sacrificial Dagger",
@@ -523,7 +731,13 @@
                 "The wielder may take a Bonus Action to cut itself with the dagger, dealing {@dice 1d4} Piercing damage to itself that cannot be reduced. The wielder's hit point maximum is also reduced by this amount. The dagger then gains +1 to attacks and damage for 1 minute.",
                 "Additionally, while holding this dagger, you gain a +3 bonus to Intelligence ({@skill Religion}) checks made about rituals that require a knife.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Scary Soda",
@@ -534,7 +748,13 @@
                 "{@i This bubbly soda tastes like freshly picked grapefruit with a hint of lime. It's a pretty good soda, but the effects aren't pleasant.}",
                 "When you drink the soda, you become {@condition Frightened} of it for one minute. A creature {@condition Frightened} by the soda is inclined to scream.",
                 "{@note Made by Patrick}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Self-Replicating Truffle",
@@ -549,7 +769,13 @@
                 "As a {@action Magic|XPHB} Action while holding a Self-Replicating Truffle, you can cause a truffle (1/4lb of {@item rations|XPHB}) to appear next to it. Once you use this ability, it can't be used again until the next dawn.",
                 "You can also eat a Self-Replicating Truffle. It counts as 1 lb of {@item rations|XPHB}.",
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Shield Gauntlets",
@@ -561,7 +787,13 @@
                 "Unlike a regular shield, a hand with this equipped counts as a free hand but does not passively confer a bonus to AC.",
                 "If a hand wearing these gauntlets is free, you can use a bonus action to gain a +2 bonus to AC until the start of your next turn. You do not gain this benefit if you have another shield donned.",
                 "{@note Made by V}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "V"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Sinister Potion",
@@ -572,7 +804,13 @@
                 "{@i Often forbidden to sell, this potion seems Sinister to whoever dares to lay their eyes upon it.}",
                 "When you would drink the potion, you must first make a DC 10 Wisdom saving throw. On a failed save, the act is too scary for you, and you waste whatever action or Bonus action you used to attempt to drink it. On a success, you drink the potion and you also gain its Sinister quality, gaining a +5 bonus to Charisma ({@skill Intimidation}) checks for the next minute.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Spooky Costume",
@@ -584,7 +822,13 @@
                 "{@i With the popularity of Liar's Night continuing to grow across Toril, people have begun to create a variety of magical costumes. This costume was made to scare all who see it, depicting a vile monster or other terrifying figure.}",
                 "While wearing this costume, you can use a {@action Magic|XPHB} action to cast {@spell Cause Fear|XGE} (Save DC 10). Once the spell is cast, it can't be cast from the costume again until the next sunset.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Stinky Cheese",
@@ -598,7 +842,13 @@
                 "{@i A delicacy to rodents. It smells quite foul, but tastes very good. It's known to cause scuffles and violent crime.}",
                 "A creature that eats these cheese must make a DC 11 Wisdom saving throw. On a failed save the creature gains an uncontrollable desire to eat all stinky cheese it sees for the next hour.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Vulture Mask",
@@ -608,7 +858,13 @@
             "entries": [
                 "While wearing this mask, you can cast {@spell Cause Fear|XGE} with it (DC 10). The mask can't cast this spell again until the next dawn.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Ymrekh's Floating Lounge",
@@ -734,7 +990,13 @@
             "entries": [
                 "You gain a +2 bonus to ability checks made using this tool.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Adamantine Psychic Blade Gauntlets",
@@ -745,7 +1007,15 @@
                 "{@i Each of these heavy leather gloves bears a violet crystal set on a small plate of adamantine.}",
                 "These gloves enhance the psychic blades of Soulknifes. When you hit an object with an attack with your psychic blades, you deal force damage instead of psychic damage, and your hit is a Critical Hit.",
                 "{@note Inspired by Magic Item Compendium 3.5e, Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Magic Item Compendium 3.5e"
+                ]
+            }
         },
         {
             "name": "Anchor",
@@ -759,7 +1029,13 @@
                 "When you make an attack with it on your turn, your reach with the weapon is increased by 10 feet. When you hit a target with this weapon, you can choose to pull the target up to 10 feet towards you.",
                 "While holding this weapon, effects cannot forcibly push you or knock you prone against your will.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Bag of Boars",
@@ -824,7 +1100,13 @@
                     ]
                 },
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Bead of Night",
@@ -858,7 +1140,13 @@
                     ]
                 },
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Belt of One Mighty Blow",
@@ -869,7 +1157,15 @@
                 "As a bonus action, you can activate this item, and the next time you hit with a melee weapon attack before the end of your turn, you deal extra damage determined by the type of weapon. A light weapon deals an extra {@dice 1d8} damage, a two-handed weapon deals an extra {@dice 3d6} damage, and all other attacks deal an extra {@dice 2d6} damage.",
                 "Once used, this item can't be used again until the next dawn.",
                 "{@note From 3.5e, ported by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            }
         },
         {
             "name": "Bent Silver Spoon",
@@ -888,7 +1184,15 @@
                 "The spoon can be used as an Arcane Focus, and while you hold it, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells and your psionic features, such as Telekinetic.",
                 "If you are holding the spoon and you roll psychic damage, you can focus your attention on the spoon to deal maximum damage on one of the damage dice. Once this feature has been used, it can't be used again until the next dawn.",
                 "{@note Adapted From TGS2 by Landon}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": [
+                    "TGS2"
+                ]
+            }
         },
         {
             "name": "Blast Disk",
@@ -916,7 +1220,15 @@
                 },
                 "When the disk explodes, all creatures within 10 feet of the disk must make a DC 14 Dexterity save. The creature takes {@dice 5d6} Fire damage on a failure, or half as much on a success. This explosion also damages objects in the area, and destroys this item.",
                 "{@note From 3.5e, Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            }
         },
         {
             "name": "Boots of Snowsense",
@@ -926,7 +1238,13 @@
             "entries": [
                 "While wearing these boots you have a {@sense Tremorsense|XPHB} of 30 feet. You must be on snow to use this {@sense Tremorsense|XPHB}.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Clockwork Spurs",
@@ -951,7 +1269,13 @@
                     ]
                 },
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Coalescence Creator",
@@ -963,7 +1287,13 @@
                 "After placing a pound of two or more different sources of edible organic material within (to a maximum of 5 lbs.), you can spend 10 minutes to create a Smoothie with this bowl. A creature can consume this Smoothie as a {@action Utilize|XPHB} Action. Consuming this Smoothie restores 1 Hit Point, and the Smoothie provides enough nourishment to sustain a creature for one day.",
                 "A Smoothie created this way looses its magical properties if it isn't consumed within 24 hours.",
                 "{@note Made by Marvin}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Crystalline Tool",
@@ -977,7 +1307,13 @@
                 "{@i This tool is sculpted out of fragile magic crystals. They are carved with very small runes that channel the magic of the crystals into the wielder allowing them to perform much better than they normally would.}",
                 "You gain a +5 bonus to ability checks made using this tool. After making the check, if you are proficient with the tool roll {@dice 1d6}. On a 1 the tool is destroyed. If you are not proficient with the tool, it's destroyed once.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Dream Viewer",
@@ -987,7 +1323,13 @@
             "entries": [
                 "As a {@action Magic|XPHB} action, you can use this lens to begin viewing the dreams of an {@condition Asleep|WM4} creature within 5 feet of you (if it has any). This requires {@status Concentration|XPHB}, as if it was a spell. Your {@status Concentration|XPHB} also breaks if you are no longer within 5 feet of the creature or if the creature is no longer {@condition Asleep|WM4}. This is considered divination magic.",
                 "{@note Made by Landon}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Drow House Insignia",
@@ -1020,7 +1362,16 @@
                     ]
                 },
                 "{@note From 3.5e Drow of the Underdark, ported by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e",
+                    "Drow of the Underdark"
+                ]
+            }
         },
         {
             "name": "Dude\u2019s Rock",
@@ -1040,7 +1391,13 @@
                 },
                 "The rock regains any expended charges at dawn.",
                 "{@note Made by Ryan}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Ryan"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Emergency Wound Closure Express",
@@ -1054,7 +1411,13 @@
             "entries": [
                 "Whenever you are reduced to 0 hit points and become {@condition unconscious} while wearing this amulet, you are immediately stabilized. Once the amulet is used this way, its magic is expended, and the item is consumed.",
                 "{@note Made by Patrick}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Expanding Shield",
@@ -1076,7 +1439,13 @@
                 "When the block is reduced to 0 hit points, it deactivates transforming back into a shield. It is unable to be reactivated until the next dawn.",
                 "As a {@action Magic|XPHB} Action, the creature who activated the shield can speak its command word, deactivating the blockade transforming it back into a shield. If the creature is within 5 feet of the blockade, it can don the shield as part of the same action.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Fool's Scepter",
@@ -1089,7 +1458,13 @@
                 "{@i The Nilbog spirit loves convincing goblins to make these funny staffs.}",
                 "As a {@action Magic|XPHB} action, you can use the scepter to mock a creature within 60 feet. It must make a DC 12 Wisdom saving throw. On a fail it takes {@dice 2d4} Psychic damage and has Disadvantage on its next Attack Roll before the end of its next turn.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Frozen Memories",
@@ -1106,7 +1481,13 @@
                 "While holding this shard, you can draw on the memories stored in the ice as a {@action Magic|XPHB} action. Choose one skill in which you lack proficiency. For the next hour, you have proficiency in the chosen skill. Drawing upon these memories takes a toll on your own. After the hour is up, you lose proficiency in two randomly determined skills. You can only gain one proficiency in a skill at a time.",
                 "If you have less than two proficiencies in a skill, you cannot use this item. You regain all lost proficiencies after completing a Long Rest.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Gelatin Cube",
@@ -1130,7 +1511,13 @@
                 },
                 "As an action, a creature within 5 feet of the cube can attempt to pull out an engulfed creature by succeeding on a DC 13 Strength ({@skill Athletics}) check, moving the creature to the nearest unoccupied space on a success, causing it to no longer be engulfed. The puller takes 7 ({@dice 2d6}) Acid damage whether or not it succeeds on the check.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Harpoon of Reeling",
@@ -1149,7 +1536,13 @@
                     ]
                 },
                 "{@note Made by Patrick}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Horns of Taurus",
@@ -1189,7 +1582,15 @@
                     ]
                 },
                 "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Jester Hat",
@@ -1201,7 +1602,13 @@
                 "While wearing this hat, you can use a {@action Magic|XPHB} action to cast {@spell Tasha's Hideous Laughter|XPHB} (Save DC 13). It can be used twice, regaining all uses daily at dawn.",
                 "Whenever you make a Charisma ({@skill Performance}) check, you can add 1d4 to the roll.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Lil' Locksmith",
@@ -1212,7 +1619,13 @@
                 "{@i I'm on it, boss!}",
                 "The Lil' Locksmith is sentient and has the personality of a locksmith artisan. Its alignment is determined by rolling on the alignment table in the \"Sentient Magic Items\" section in the Dungeon Master's Guide (or determined by the GM granting this item). Regardless of its alignment, the Lil' Locksmith uses the '{@creature Commoner|XMM}' stablock, with the exception that the Lil' Locksmith is of the tiny size category, and has expertise in thieves' tools. The Lil' Locksmith has its own goals and motivations, and might require an incentive to take orders from a wielder, such as payment, a task, or some other form of compensation.",
                 "{@note Made by Patrick}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Mak\u2019Arrel\u2019s Riffmaker",
@@ -1236,7 +1649,13 @@
                     ]
                 },
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Mystery Potion (Uncommon)",
@@ -1555,7 +1974,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Pendant of Bloody Gust",
@@ -1572,7 +1997,15 @@
                 "While you are {@status Bloodied|XPHB}, you gain 10 additional movement speed.",
                 "Additionally, as a {@action Magic|XPHB} action while you are {@status Bloodied|XPHB}, or as a Reaction to gaining the {@status Bloodied|XPHB} condition, you can cast {@spell Haste|XPHB} using this stone, targeting yourself. When you do so, the stone becomes nonmagical.",
                 "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Pointe Stilettos",
@@ -1590,7 +2023,13 @@
                 "These two {@item rapier|XPHB} transform into boots when you put them on your feet as a {@action Utilize|XPHB} action. While they are boots, each can be wielded as a {@item rapier|XPHB} while on a foot. You can transform them back into a more normal {@item rapier|XPHB} form as {@action Utilize|XPHB} action.",
                 "They also have the Thrown (20/60) property in either form, and don't require a hand to be thrown while they're boots. In either form, they magically return at the end of your turn if what was used to throw them is free, whether that's to your hand or your feet. When they do so, you must succeed on a DC 5 Dexterity Saving Throw or take {@dice 1d4} piercing damage from them.",
                 "{@note Original Item by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Poofy Snowball",
@@ -1603,7 +2042,13 @@
             "entries": [
                 "As a {@action Magic|XPHB} action you can cast {@spell Snow Cloud|WM4} (Save DC 13) by throwing the ball at a place within 60 feet.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Rat King's Crown",
@@ -1640,7 +2085,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Scallywag's Sash",
@@ -1651,7 +2102,13 @@
                 "{@i This harness, belt, or sash holds up to four flintlock pistol holsters, making for easy swapping between loaded firearms in a fight.}",
                 "While wearing the Scallywag's Sash, you may stow up to four pistols in its holsters. When you take the {@action attack|XPHB} action on your turn, you may draw a pistol from the Sash before you make an attack, and stow it in the sash once the attack resolves, independently from the Equipping and Unequipping Weapons part of your attack. This benefit only applies to flintlock (Renaissance) pistols.",
                 "{@note Made by Patrick}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Shawl of the Reaper",
@@ -1685,7 +2142,13 @@
                     ]
                 },
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Shield of Blinding",
@@ -1696,7 +2159,13 @@
             "entries": [
                 "This shield has three charges. When a creature within 5 feet of you misses you with a melee weapon attack, you may use your reaction to expend one charge of the shield. That creature must succeed on a DC 13 Constitution saving throw or be {@condition Blinded} until the end of its next turn. This shield regains {@dice 1d3} charges daily at dawn.",
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Slugger",
@@ -1708,7 +2177,13 @@
                 "When you score a {@variantrule Critical Hit|XPHB} with this weapon, you can choose to summon a {@creature Giant Snail|WBtW|Giant Slug} within 5ft of yourself. It uses the {@creature Giant Snail|WBtW} statblock, however it lacks the Shell Defense action.",
                 "The {@creature Giant Snail|WBtW|Giant Slug} is an ally to you and your allies. In combat, the {@creature Giant Snail|WBtW|Giant Slug} shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger. The {@creature Giant Snail|WBtW|Giant Slug} disappears when it takes damage or at the start of your next turn.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Sporophore",
@@ -1735,7 +2210,13 @@
                 },
                 "A sporophore only contains enough spores for one fungi. It regains its spores daily at dusk.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Stratagem Ball: ENS",
@@ -1749,7 +2230,13 @@
                 "Stratagem Balls are handheld beacons that can be thrown to call down various forms of support. This one has been modified for long-range transmit, allowing use outside of SEAF operations. As a Bonus action, you can throw a Stratagem Ball up to 60 feet away. Stratagem Balls can only be used outdoors.",
                 "After throwing the Ball, a napalm strike lands at the start of your next turn. Rr napalm lands in a 5-foot wide, 30-foot long line originating from the ball in a direction of your choice. Any creature in the napalm when it lands must make a DC 13 Dex save or take {@dice 4d8} fire damage, or half on a success. The napalm remains for one minute, and any creature that enters the napalm or starts its turn there takes {@dice 1d8} Fire damage.",
                 "{@note Made by Lily}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Stratagem Ball: ESR",
@@ -1763,7 +2250,13 @@
                 "Stratagem Balls are handheld beacons that can be thrown to call down various forms of support. This one has been modified for long-range transmit, allowing use outside of SEAF operations. As a Bonus action, you can throw a Stratagem Ball up to 60 feet away. Stratagem Balls can only be used outdoors.",
                 "After throwing the Ball, a strafing run lands at the end of your turn. Any creature in a 5-foot wide, 20-foot long line starting from the ball and pointing away from you must make a DC 13 Dexterity save or take {@dice 4d4} Piercing damage, or half on a success.",
                 "{@note Made by Lily}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Stratagem Ball: OPS",
@@ -1777,7 +2270,13 @@
                 "Stratagem Balls are handheld beacons that can be thrown to call down various forms of support. This one has been modified for long-range transmit, allowing use outside of SEAF operations. As a Bonus action, you can throw a Stratagem Ball up to 60 feet away. Stratagem Balls can only be used outdoors.",
                 "After throwing the Ball, an artillery shell lands at the same spot at the start of your next turn. Any creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must make a DC 13 Dexterity save or take {@dice 6d6} fire damage, or half on a success.",
                 "{@note Made by Lily}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Tactical Rock Pouch",
@@ -1790,7 +2289,13 @@
                 "Whenever you roll initiative and are not {@status surprised|XPHB}, you can choose to deploy {@dice 2d4} tactical rocks from the pouch. You throw each of these to an unoccupied space within 120 feet of yourself, where they expand becoming medium sized {@object boulder|WM4|boulders} (Shown below). The {@object boulder|WM4|boulders} disappear after 10 minutes.",
                 "{@object Boulder|WM4}",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Tall Hat",
@@ -1873,7 +2378,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "The Belt",
@@ -1891,7 +2402,15 @@
                 "Creatures that are {@condition Frightened} in this way have their speed increased by 10 feet. {@condition Frightened} creatures can repeat the saving throw at the end of each of their turns, ending the effect on a success.",
                 "Once you use this ability, it can only be used again after an hour.",
                 "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Trap Powder",
@@ -1905,7 +2424,13 @@
                 "{@i This bag is full of magical dust. When released, the dust explodes quickly covering every nearby object and sneaking its way into traps.}",
                 "As a {@action Magic|XPHB} action, you can open the bag to cast {@spell Find Traps|XPHB}. When cast in this way, it has a range of Self and only senses traps within 60 feet of the caster. The dust glows red for a moment if it detects a trap, filling the space with Dim Light until the end of your turn. The dust magically disappears at the end of your turn.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Umbral Hood",
@@ -1935,7 +2460,13 @@
                 },
                 "Once used, this item can't be used again in this way until the next dawn.",
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "+2 Anklet of Nature's Passage",
@@ -2048,7 +2579,13 @@
             "entries": [
                 "You gain a +3 bonus to ability checks made using this tool.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Automapper",
@@ -2063,7 +2600,13 @@
                 "The automapper is able to draft rudimentary {@item map|XPHB|maps} as you travel, as if through {@item Cartographer's Tools|XPHB}. It is able to scribe a visible area up to 150 feet away from you. If you are traveling at a Fast pace, the automapper is unable to keep up with your movement, not producing a {@item map|XPHB|maps}.",
                 "The automapper creates maps in 1 square mile pages. It can be enabled or disabled as a {@action Magic|XPHB} action.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Black Candle",
@@ -2076,7 +2619,15 @@
                 "While you are attuned to the Black Candle and are holding it, the candle automatically ignites and remains lit. It continues to burn for up to 8 hours when not held, upon which the flame extinguishes. While the candle is lit, you are immune to the effects of any curses affecting you. This does not prevent you from being cursed\u2014any curses you gain while the candle is lit take effect once the flame is extinguished.",
                 "In addition, while holding the lit candle, you can end your attunement to a cursed magic item at will, as long as it can be ended by a {@spell Remove Curse|XPHB} spell. This property does not remove the curse itself, nor does it end any other magical effects of the cursed item.",
                 "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Bone Heart",
@@ -2097,7 +2648,15 @@
                     ]
                 },
                 "{@note Based on The Binding of Isaac: Repentance. Made by Miel}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Dryad's Sandals",
@@ -2109,7 +2668,15 @@
                 "You can move through {@variantrule Difficult Terrain|XPHB} composed of vegetation, such as foliage and thorns, without it costing extra movement.",
                 "Additionally once per turn while wearing these boots, you can walk into any inanimate plant of a size category larger than you, and immediately exit out of another plant of that size or larger within 60 ft of yourself by using 5 feet of movement.",
                 "{@note Taken (accidentally) from Pathfinder, Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Pathfinder"
+                ]
+            }
         },
         {
             "name": "Environment Emulator",
@@ -2124,7 +2691,13 @@
                 "It takes 8 hours to enable an Environment Emulator. While enabled, the emulator is immovable and indiscernible. A creature can spend 10 minutes to disable it. If {@spell Dispel Magic|XPHB} is cast on it, it also disables.",
                 "While enabled, a creature can spend 1 minute to cast {@spell Mirage Arcane|XPHB} centered on the emulator. When cast in this way, it can only cover a 200 foot square and the spell has a duration of 10 minutes. The emulator glows blue if a creature within the illusion is using {@sense Truesight} to see through it.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Greater Piwafwi",
@@ -2136,7 +2709,15 @@
                 "This dark spider-silk cloak is made by drow. It is a cloak of elvenkind. It also grants resistance to fire damage while you wear it. It loses its magic if exposed to sunlight for 1 hour without interruption.",
                 "While you wear this cloak, Wisdom ({@skill Perception}) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity ({@skill Stealth}) checks.",
                 "{@note From Out of the Abyss, Ported by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Out of the Abyss"
+                ]
+            }
         },
         {
             "name": "History's Reflection",
@@ -2148,7 +2729,13 @@
                 "As a {@action Magic|XPHB} action while holding this item, you can cast {@spell Legend Lore|XPHB} from it. To cast the spell in this way, you choose a place of great history that you're currently in. The information about the place, provided it is of legendary importance, is displayed on or from the item as if history was being replayed, though it may be abstract or symbolic. If the place is not of legendary importance, then the spell fails.",
                 "Once used, the item cannot use that area again for 1 year.",
                 "{@note Variant of Lorekeeper's Tome by Aris. Made by Landon}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Inquisitor's Notebook",
@@ -2159,7 +2746,13 @@
                 "While holding this notebook, you can cast {@spell Legend Lore|XPHB} from it. To cast the spell in this way, you must choose a creature that you can see within 10 feet of you. The information about that creature, provided it is of legendary importance, appears written in the pages of the notebook.",
                 "Once used, the notebook cannot use that creature again for 1 year.",
                 "{@note Variant of Lorekeeper's Tome by Aris. Made by Landon}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Megaton",
@@ -2189,7 +2782,13 @@
                     ]
                 },
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Mystery Potion (Rare)",
@@ -2668,7 +3267,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Nos Erac Ekat",
@@ -2700,7 +3305,13 @@
                     ]
                 },
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Potion of Poison Immunity",
@@ -2711,7 +3322,13 @@
                 "When you drink this potion, you have {@variantrule Immunity|XPHB} to Poison damage and the {@condition Poisoned|XPHB} condition for 1 hour.",
                 "This potion looks like a golden-hued liquid, and glows faintly in darkness.",
                 "{@note Made by Gavin}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gavin"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Ring of Gnomekind",
@@ -2757,7 +3374,13 @@
                     ]
                 },
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Ring of Mystery Keys",
@@ -2770,7 +3393,13 @@
             "entries": [
                 "This key ring always has many {@item Mystery Key|XDMG|Mystery Keys} on it. Inserting a key from the key ring into a lock has a 5 percent chance of unlocking it. If the first inserted key doesn't unlock the lock, none of the keys on the ring can. Once the key ring has unlocked a lock, it cannot unlock another lock for {@dice 1d4} hours.",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Step Two",
@@ -2785,7 +3414,13 @@
                 "The affected creature has a fly speed equal to its walking speed while it is under rainfall.",
                 "The affected creature is buoyant while underwater, rising 30 feet toward the surface at the start of each of its turns.",
                 "{@note Made by V}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "V"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Tobor",
@@ -2799,7 +3434,13 @@
                 "If it cannot find a path to its location after it has begun to travel, it will stop moving and wait until a feasible path exists.",
                 "It's unclear why it's called a Tobor.",
                 "{@note Made by Christopher}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Tome of Language Imparted",
@@ -2815,7 +3456,13 @@
                 "Examples of adequate languages: Ice Toad, Gnoll, Giant Eagle, Chondathan, Worg...",
                 "It is said that the final ingredient of crafting this item is fluency in a language. A creature fluent in a language gives up the language in its entirety, to be passed on to another. The language cannot be learned by that creature again.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "+3 Anklet of Nature's Passage",
@@ -3434,7 +4081,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Worn Card: 0 - The Fool",
@@ -3448,7 +4101,15 @@
             "entries": [
                 "{@i 'Where journey begins.'}",
                 "As a {@action Magic|XPHB} action, you may brandish this card to cast {@spell Word of Recall|XPHB} without any components. If you do not have a designated sanctuary, the spell fails and the card is not consumed. Once you use the card, it disintegrates into dust."
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Worn Card: I - The Magician",
@@ -3462,7 +4123,15 @@
             "entries": [
                 "{@i 'May you never miss your goal.'}",
                 "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to gain {@variantrule Advantage|XPHB} on attack rolls for 1 minute. Once you use the card, it disintegrates into dust."
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Worn Card: V - The Hierophant",
@@ -3476,7 +4145,15 @@
             "entries": [
                 "{@i 'Two prayers for the lost.'}",
                 "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to gain 10 {@variantrule Temporary Hit Points|XPHB}. Once you use the card, it disintegrates into dust."
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Worn Card: V - The Hierophant?",
@@ -3490,7 +4167,15 @@
             "entries": [
                 "{@i 'Two prayers for the lost.'}",
                 "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to gain 5 {@variantrule Temporary Hit Points|XPHB}. When these {@variantrule Temporary Hit Points|XPHB} are reduced to 0, you may negate any additional damage dealt to yourself. Once you use the card, it disintegrates into dust."
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Worn Card: VI - The Lovers",
@@ -3504,7 +4189,15 @@
             "entries": [
                 "{@i 'May you prosper and be in good health.'}",
                 "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to spend an amount of your {@variantrule Hit Point Die|XPHB} less than or equal to your proficiency bonus. For each {@variantrule Hit Point Die|XPHB} you spend in this way, roll the die and add your Constitution modifier to it. You regain {@variantrule Hit Points|XPHB} equal to the total (minimum of 1 Hit Point). Once you use the card, it disintegrates into dust."
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Worn Card: VII - The Chariot",
@@ -3527,7 +4220,15 @@
                     ]
                 },
                 "Once you use the card, it disintegrates into dust."
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
         },
         {
             "name": "Mystery Potion (Legendary)",
@@ -4070,7 +4771,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Bag of Rats",
@@ -4124,7 +4831,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Mystery Potion (Artifact)",
@@ -4145,7 +4858,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Heart of Gears",
@@ -4222,7 +4941,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Mystery Potion (Legacy)",
@@ -4270,7 +4995,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Remembrance of the Vaati",
@@ -4348,7 +5079,13 @@
                     ]
                 },
                 "{@note Made by Chrys}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "\u0279\u01ddl\u0253uo\u0279\u0265\u22a5 \u01dd\u0265\u22a5",
@@ -4416,45 +5153,13 @@
                     ]
                 },
                 "{@note Made by Xin}"
-            ]
-        },
-        {
-            "name": "Axe",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "value": 200,
-            "weight": 4,
-            "entries": [
-                "Working for 10 minutes, you can use an Axe to cut down a tree less than 5 ft in diameter. Working for 1 hour, you can use an Axe to dig a hole that is 5 feet on each side in wood or similar material.",
-                "{@note Made by Gem}"
-            ]
-        },
-        {
-            "name": "Paxel",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "weight": 5,
-            "property": [
-                "E|WM4"
             ],
-            "entries": [
-                "The Paxel is a tool that combines the utility of a shovel, an axe, and a pickaxe. Working for 1 hour, you can use the Paxel to displace a 5ft cube of soil, stone, or wood.",
-                "{@note From WM3, Made by Jarod}"
-            ]
-        },
-        {
-            "name": "Pickaxe",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "value": 200,
-            "weight": 10,
-            "entries": [
-                "Working for 1 hour, you can use a Pickaxe to mine a hole that is 5 feet on each side in soft rock, or 8 hours for hard rock. Using a Pickaxe gives you Advantage on Strength checks to remove gems and minerals from stone.",
-                "{@note Made by Gem}"
-            ]
+            "credit": {
+                "gms": [
+                    "Xin"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Training Manual: [Talent]",
@@ -4502,7 +5207,13 @@
                     ]
                 },
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

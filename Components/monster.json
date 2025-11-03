@@ -70,7 +70,13 @@
             "miscTags": [
                 "MA"
             ],
-            "familiar": true
+            "familiar": true,
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Plant Spirit",
@@ -243,7 +249,13 @@
                         "special": "30 + 5 for each spell level above 2"
                     }
                 }
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

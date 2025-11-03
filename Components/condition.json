@@ -37,7 +37,13 @@
                 },
                 "Creatures that don't sleep, such as elves, or that have Immunity to the {@condition Exhaustion} condition are immune to the Asleep condition. Creatures immune to the Asleep condition are immune to the {@spell Sleep} spell.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Confused",
@@ -120,7 +126,13 @@
                 },
                 "A creature immune to the Confused condition is immune to the {@spell confusion} spell.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Dazed",
@@ -142,7 +154,13 @@
                     ]
                 },
                 "{@note Version in 2024 UA}"
-            ]
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "2024 UA"
+                ]
+            }
         },
         {
             "name": "Enfeebled",
@@ -172,7 +190,13 @@
                 },
                 "A creature immune to the Enfeebled condition is immune to the {@spell ray of enfeeblement} spell. ",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Immobilized",
@@ -194,7 +218,13 @@
                     ]
                 },
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Silenced",
@@ -214,8 +244,15 @@
                             ]
                         }
                     ]
-                }
-            ]
+                },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         },
         {
             "name": "Slowed",
@@ -259,7 +296,13 @@
                 },
                 "A creature immune to the Slowed condition is immune to the {@spell confusion} spell.",
                 "{@note Made by Aris}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

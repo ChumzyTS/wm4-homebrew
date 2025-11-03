@@ -25,7 +25,13 @@
                 "Each boulder fills a 5ft cube, and is large enough to provide up to Three-Quarters Cover to a standing medium sized creature.",
                 "{@note Created by the {@item Tactical Rock Pouch|WM4}}",
                 "{@note Made by Gem}"
-            ]
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }
