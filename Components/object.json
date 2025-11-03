@@ -1,5 +1,14 @@
 {
-    "object": [
+    "_meta": {
+        "name": "object",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
         {
             "name": "Boulder",
             "source": "WM4",

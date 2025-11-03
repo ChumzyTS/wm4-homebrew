@@ -1,5 +1,18 @@
 {
-    "baseitem": [
+    "_meta": {
+        "name": "baseitem",
+        "sort": [
+            {
+                "key": "type",
+                "type": "a-z"
+            },
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
         {
             "name": "Anarchic Water",
             "source": "WM4",
@@ -127,6 +140,19 @@
             ]
         },
         {
+            "name": "Darkvision Powder",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "weight": 1,
+            "value": 3000,
+            "entries": [
+                "This plain gray powder clings to surfaces and cannot be seen with normal vision from more than 10 feet away. It glows brightly when viewed with {@sense darkvision}, and thus is useful for creatures that have {@sense darkvision} and wish to write messages that other creatures can\u2019t read. Each vial contains enough powder for a message of up to 25 words. By adding a mixture of spider silk oil, an ink can be created with the same properties as the powder.",
+                "{@i This item can be crafted using {@item Alchemist's Supplies|XPHB|Alchemy Tools}.",
+                "{@note From S3, 3.5e Drow of the Underdark, ported by Aris}"
+            ]
+        },
+        {
             "name": "Diving Mask",
             "source": "WM4",
             "type": "G",
@@ -141,15 +167,41 @@
             ]
         },
         {
-            "name": "Unholy Water",
+            "name": "Messenger Pigeon (Trained)",
             "source": "WM4",
             "type": "G",
             "rarity": "none",
-            "weight": 1,
             "value": 2500,
             "entries": [
-                "When you take the Attack action, you can replace one of your attacks with throwing a flask of Unholy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Necrotic damage if it is a Celestial or a Plant.",
-                "{@note Made by Aris}"
+                "{@creature Messenger Pigeon|WM4}",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Messenger Pigeon (Untrained)",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "value": 1500,
+            "entries": [
+                "Can be {@item Messenger Pigeon (Trained)|WM4|trained} as a bastion turn.",
+                "{@creature Messenger Pigeon|WM4}",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Sheet Music",
+            "source": "WM4",
+            "type": "G",
+            "rarity": "none",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i This piece of parchment teaches the reader how to play a specific written piece of music, so long as the user knows the notation.}",
+                "When you attempt to play the song written on this piece of sheet music and you are proficient with the instrument you are playing, any roll of 4 or lower on the D20 roll is treated as a 5 instead. Any given piece of sheet music must depict a specific song, and its benefits only apply to playing the given song.",
+                "This item may be copied and printed at a scriptorium.",
+                "{@note Made by Patrick}"
             ]
         },
         {
@@ -177,36 +229,33 @@
             ]
         },
         {
-            "name": "Performance Prop",
+            "name": "Unholy Water",
             "source": "WM4",
-            "srd52": true,
-            "basicRules2024": true,
-            "edition": "one",
-            "type": "INS|XPHB",
+            "type": "G",
             "rarity": "none",
             "weight": 1,
-            "value": 3000,
+            "value": 2500,
             "entries": [
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "name": "Ability:",
-                            "type": "item",
-                            "entries": [
-                                "Charisma"
-                            ]
-                        },
-                        {
-                            "name": "Utilize:",
-                            "type": "item",
-                            "entries": [
-                                "Put on a rehearsed show ({@dc 10}), or improvise a show ({@dc 15})"
-                            ]
-                        }
-                    ]
-                }
+                "When you take the Attack action, you can replace one of your attacks with throwing a flask of Unholy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take {@dice 2d8} Necrotic damage if it is a Celestial or a Plant.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Urchin Venom",
+            "source": "WM4",
+            "type": "G|XPHB",
+            "rarity": "none",
+            "value": 2500,
+            "poison": true,
+            "property": [
+                "E|WM4"
+            ],
+            "poisonTypes": [
+                "injury"
+            ],
+            "entries": [
+                "A creature subjected to Urchin Venom must succeed on a DC 11 Constitution saving throw or have the {@condition Poisoned} condition for 1 minute.",
+                "{@note Made by Aris. Adapted from 3.5e There Is No Honor}"
             ]
         },
         {
@@ -276,6 +325,39 @@
             ]
         },
         {
+            "name": "Performance Prop",
+            "source": "WM4",
+            "srd52": true,
+            "basicRules2024": true,
+            "edition": "one",
+            "type": "INS|XPHB",
+            "rarity": "none",
+            "weight": 1,
+            "value": 3000,
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "name": "Ability:",
+                            "type": "item",
+                            "entries": [
+                                "Charisma"
+                            ]
+                        },
+                        {
+                            "name": "Utilize:",
+                            "type": "item",
+                            "entries": [
+                                "Put on a rehearsed show ({@dc 10}), or improvise a show ({@dc 15})"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Juggling Club",
             "source": "WM4",
             "type": "R|XPHB",
@@ -297,75 +379,6 @@
             "weapon": true,
             "entries": [
                 "{@note Made by Gem}"
-            ]
-        },
-        {
-            "name": "Sheet Music",
-            "source": "WM4",
-            "type": "G",
-            "rarity": "none",
-            "property": [
-                "E|WM4"
-            ],
-            "entries": [
-                "{@i This piece of parchment teaches the reader how to play a specific written piece of music, so long as the user knows the notation.}",
-                "When you attempt to play the song written on this piece of sheet music and you are proficient with the instrument you are playing, any roll of 4 or lower on the D20 roll is treated as a 5 instead. Any given piece of sheet music must depict a specific song, and its benefits only apply to playing the given song.",
-                "This item may be copied and printed at a scriptorium.",
-                "{@note Made by Patrick}"
-            ]
-        },
-        {
-            "name": "Darkvision Powder",
-            "source": "WM4",
-            "type": "G",
-            "rarity": "none",
-            "weight": 1,
-            "value": 3000,
-            "entries": [
-                "This plain gray powder clings to surfaces and cannot be seen with normal vision from more than 10 feet away. It glows brightly when viewed with {@sense darkvision}, and thus is useful for creatures that have {@sense darkvision} and wish to write messages that other creatures can\u2019t read. Each vial contains enough powder for a message of up to 25 words. By adding a mixture of spider silk oil, an ink can be created with the same properties as the powder.",
-                "{@i This item can be crafted using {@item Alchemist's Supplies|XPHB|Alchemy Tools}.",
-                "{@note From S3, 3.5e Drow of the Underdark, ported by Aris}"
-            ]
-        },
-        {
-            "name": "Messenger Pigeon (Trained)",
-            "source": "WM4",
-            "type": "G",
-            "rarity": "none",
-            "value": 2500,
-            "entries": [
-                "{@creature Messenger Pigeon|WM4}",
-                "{@note Made by Patrick}"
-            ]
-        },
-        {
-            "name": "Messenger Pigeon (Untrained)",
-            "source": "WM4",
-            "type": "G",
-            "rarity": "none",
-            "value": 1500,
-            "entries": [
-                "Can be {@item Messenger Pigeon (Trained)|WM4|trained} as a bastion turn.",
-                "{@creature Messenger Pigeon|WM4}",
-                "{@note Made by Patrick}"
-            ]
-        },
-        {
-            "name": "Urchin Venom",
-            "source": "WM4",
-            "type": "G|XPHB",
-            "rarity": "none",
-            "value": 2500,
-            "poison": true,
-            "property": [
-                "E|WM4"
-            ],
-            "poisonTypes": [
-                "injury"
-            ],
-            "entries": [
-                "A creature subjected to Urchin Venom must succeed on a DC 11 Constitution saving throw or have the {@condition Poisoned} condition for 1 minute.",
-                "{@note Made by Aris. Adapted from 3.5e There Is No Honor}"
             ]
         }
     ]

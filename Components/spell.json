@@ -1,171 +1,18 @@
 {
-    "spell": [
-        {
-            "name": "Cryptmaster's Call",
-            "level": 1,
-            "school": "D",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "self"
-                }
+    "_meta": {
+        "name": "spell",
+        "sort": [
+            {
+                "key": "level",
+                "type": "a-z"
             },
-            "duration": [
-                {
-                    "type": "special"
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Wizard",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Bard",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Sorcerer",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Warlock",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Cleric",
-                        "source": "XPHB"
-                    }
-                ],
-                "fromSubclass": [
-                    {
-                        "class": {
-                            "name": "Fighter",
-                            "source": "XPHB"
-                        },
-                        "subclass": {
-                            "name": "Eldritch Knight",
-                            "shortName": "Eldritch Knight",
-                            "source": "XPHB"
-                        }
-                    },
-                    {
-                        "class": {
-                            "name": "Rogue",
-                            "source": "XPHB"
-                        },
-                        "subclass": {
-                            "name": "Arcane Trickster",
-                            "shortName": "Arcane Trickster",
-                            "source": "XPHB"
-                        }
-                    }
-                ]
-            },
-            "entries": [
-                "{@note Made by Patrick}",
-                "Convening with The Cryptmaster, played by the GM, the caster may write a single word, and The Cryptmaster creates a magical effect based on the word, or rejects the request completely.",
-                "Whatever word the caster writes must be able to replicate the effects of a cantrip or 1st-level spell, or have an equivalently powerful impact.",
-                "Examples of words to use include:",
-                "CRABS - Summon two CR 0 Crab monsters as an ally (Duration 10 mins, {@status Concentration|XPHB}).",
-                "BLOCK - Adds a +2 Magic Bonus to your Armor Class until the start of your next turn.",
-                "ZAP - Make a ranged spell attack against a target within 60 ft. The target takes {@damage 2d8} Lightning damage.",
-                "TRIP - Force a target within 30 ft. to make a strength saving throw. On a fail, the target becomes {@condition prone}.",
-                "LOOK - The Cryptmaster describes an object or location around you that you are unable to perceive via sight.",
-                "If you cast the spell more than once before finishing a Long Rest or make a request that displeases the Cryptmaster, there is a cumulative 25 percent chance for each casting after the first that you become unable to cast this spell again until the next dawn (The GM might also deny further castings at their will)."
-            ],
-            "source": "WM4",
-            "meta": {
-                "ritual": true
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "A quill dipped in ink"
-            },
-            "conditionInflict": [
-                "prone"
-            ]
-        },
-        {
-            "name": "Legal Name Change",
-            "level": 9,
-            "school": "T",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "hour"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "touch"
-                }
-            },
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Wizard",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Sorcerer",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Cleric",
-                        "source": "XPHB"
-                    }
-                ],
-                "fromSubclass": [
-                    {
-                        "class": {
-                            "name": "Fighter",
-                            "source": "XPHB"
-                        },
-                        "subclass": {
-                            "name": "Eldritch Knight",
-                            "shortName": "Eldritch Knight",
-                            "source": "XPHB"
-                        }
-                    },
-                    {
-                        "class": {
-                            "name": "Rogue",
-                            "source": "XPHB"
-                        },
-                        "subclass": {
-                            "name": "Arcane Trickster",
-                            "shortName": "Arcane Trickster",
-                            "source": "XPHB"
-                        }
-                    }
-                ]
-            },
-            "entries": [
-                "{@note Made by Lily}",
-                "You endeavor to officially change the name of a willing creature you touch for the entire casting time, finishing by speaking their new name. This affects the creature's name, but not their magical true name, nor any titles and epithets. Any written mention of the original name is overwritten with the new one, and any memory of their old name is erased. Anyone who knew their old name now knows their new one, which functions as their real name for purposes such as the {@spell gate|XPHB} spell."
-            ],
-            "source": "WM4",
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "A stack of paperwork as tall as the target"
+            {
+                "key": "name",
+                "type": "a-z"
             }
-        },
+        ]
+    },
+    "data": [
         {
             "name": "Vile Dagger",
             "level": 0,
@@ -332,6 +179,100 @@
                 "s": true,
                 "m": "A set of glasses"
             }
+        },
+        {
+            "name": "Cryptmaster's Call",
+            "level": 1,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "special"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                "{@note Made by Patrick}",
+                "Convening with The Cryptmaster, played by the GM, the caster may write a single word, and The Cryptmaster creates a magical effect based on the word, or rejects the request completely.",
+                "Whatever word the caster writes must be able to replicate the effects of a cantrip or 1st-level spell, or have an equivalently powerful impact.",
+                "Examples of words to use include:",
+                "CRABS - Summon two CR 0 Crab monsters as an ally (Duration 10 mins, {@status Concentration|XPHB}).",
+                "BLOCK - Adds a +2 Magic Bonus to your Armor Class until the start of your next turn.",
+                "ZAP - Make a ranged spell attack against a target within 60 ft. The target takes {@damage 2d8} Lightning damage.",
+                "TRIP - Force a target within 30 ft. to make a strength saving throw. On a fail, the target becomes {@condition prone}.",
+                "LOOK - The Cryptmaster describes an object or location around you that you are unable to perceive via sight.",
+                "If you cast the spell more than once before finishing a Long Rest or make a request that displeases the Cryptmaster, there is a cumulative 25 percent chance for each casting after the first that you become unable to cast this spell again until the next dawn (The GM might also deny further castings at their will)."
+            ],
+            "source": "WM4",
+            "meta": {
+                "ritual": true
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A quill dipped in ink"
+            },
+            "conditionInflict": [
+                "prone"
+            ]
         },
         {
             "name": "Preserve Work",
@@ -584,88 +525,6 @@
             }
         },
         {
-            "name": "52 Pickup",
-            "level": 2,
-            "school": "C",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "self"
-                }
-            },
-            "source": "WM4",
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a deck of cards"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "{@note Made by Gem}",
-                "You spray a 15-foot cone of spectral cards. Each creature in the area when you cast the spell must succeed on a Wisdom saving throw or have the {@condition Prone} condition until the spell ends. A Prone creature can take an action to make a Dexterity ({@skill Sleight of Hand}) check against your spell save DC. On a success, it frees itself from the task of picking up cards an can get up from {@condition Prone}.",
-                "At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. On a successful save, the spell ends on that creature. "
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Wizard",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Warlock",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Bard",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Sorcerer",
-                        "source": "XPHB"
-                    }
-                ],
-                "fromSubclass": [
-                    {
-                        "class": {
-                            "name": "Fighter",
-                            "source": "XPHB"
-                        },
-                        "subclass": {
-                            "name": "Eldritch Knight",
-                            "shortName": "Eldritch Knight",
-                            "source": "XPHB"
-                        }
-                    },
-                    {
-                        "class": {
-                            "name": "Rogue",
-                            "source": "XPHB"
-                        },
-                        "subclass": {
-                            "name": "Arcane Trickster",
-                            "shortName": "Arcane Trickster",
-                            "source": "XPHB"
-                        }
-                    }
-                ]
-            }
-        },
-        {
             "name": "Shush",
             "level": 1,
             "school": "E",
@@ -730,6 +589,88 @@
                     },
                     {
                         "name": "Ranger",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "52 Pickup",
+            "level": 2,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a deck of cards"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You spray a 15-foot cone of spectral cards. Each creature in the area when you cast the spell must succeed on a Wisdom saving throw or have the {@condition Prone} condition until the spell ends. A Prone creature can take an action to make a Dexterity ({@skill Sleight of Hand}) check against your spell save DC. On a success, it frees itself from the task of picking up cards an can get up from {@condition Prone}.",
+                "At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. On a successful save, the spell ends on that creature. "
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
                         "source": "XPHB"
                     }
                 ],
@@ -842,58 +783,121 @@
             }
         },
         {
-            "name": "Desecrate",
+            "name": "Appraise",
+            "source": "WM4",
             "level": 2,
-            "school": "E",
+            "school": "D",
             "time": [
                 {
                     "number": 1,
                     "unit": "action"
                 }
             ],
-            "meta": {
-                "ritual": true
-            },
             "range": {
                 "type": "point",
                 "distance": {
-                    "type": "feet",
-                    "amount": 30
+                    "type": "touch"
                 }
             },
-            "source": "WM4",
             "components": {
                 "v": true,
-                "s": true,
-                "m": "a vial of unholy water and powdered silver worth at least 25gp, which the spell consumes"
+                "s": true
             },
             "duration": [
                 {
-                    "type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 8
-                    }
+                    "number": 1,
+                    "unit": "minute"
                 }
             ],
             "entries": [
-                "{@note Adapted from 3.5e, Made by Aris}",
-                "You choose a point within range and infuse an area around it with negative energy. The area can have an Emanation up to 20 feet, and the spell fails if the Emanation includes an area already under the effect of a Desecrate spell or the {@spell Hallow|XPHB} spell. The affected area is subject to the following effects.",
-                "The ground within the area of this spell is considered desecrated ground. Undead standing on desecrated ground have Advantage on all saving throws.",
-                "In addition, an undead creature raised or created within, or summoned into the area gains a number of Temporary Hit Points equal to your spellcasting ability modifier.",
-                "A {@item Holy Water|XPHB|vial of holy water} purifies a 10-foot-square area of desecrated ground when sprinkled on it, and a {@spell Hallow|XPHB} (holy) spell purifies desecrated ground within its area.",
-                "If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron or deity, the desecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not grant the benefits to undead listed above.",
-                "If you cast Desecrate on an area that includes consecrated ground from a {@spell Consecrate|WM4} spell, the {@spell Consecrate|WM4} spell is dispelled."
+                "You touch an object. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires {@variantrule Attunement|XPHB}, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name.",
+                "If you instead touch a creature, it can make a Charisma saving throw. On a failure, you reveal which ongoing spells or magical effects, if any, are currently affecting it, as well as one of the following characteristics of your choice:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Strength Score",
+                        "Dexterity Score",
+                        "Constitution Score",
+                        "Intelligence Score",
+                        "Wisdom Score",
+                        "Charisma Score",
+                        "Current Armor Class",
+                        "Current hit points",
+                        "Total class levels, if any",
+                        "What classes it has, if any",
+                        "One of its Traits",
+                        "What spells it can cast"
+                    ]
+                },
+                "This information appears as a screen in front of you in a language that you know, following you for the duration of the spell unless you dismiss it, ending the spell (no action required).",
+                "{@note Made by Landon}"
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Slot.",
+                    "entries": [
+                        "If you cast this spell using a level 3 spell slot or higher, you can learn an additional characteristic for each level above 2nd."
+                    ]
+                }
             ],
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Warlock",
+                        "name": "Bard",
                         "source": "XPHB"
                     },
                     {
                         "name": "Cleric",
                         "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
                     }
                 ]
             }
@@ -941,6 +945,63 @@
                 "A {@item unholy water|WM4|vial of unholy water} defiles a 10-foot-square area of consecrated ground when sprinkled on it, and a {@spell Hallow|XPHB} (unholy) spell defiles consecrated ground within its area.",
                 "If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron or deity, the consecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not grant the penalties to undead listed above.",
                 "If you cast consecrate on an area that includes desecrated ground from a {@spell Desecrate|WM4} spell, the {@spell Desecrate|WM4} spell is dispelled."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Desecrate",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a vial of unholy water and powdered silver worth at least 25gp, which the spell consumes"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e, Made by Aris}",
+                "You choose a point within range and infuse an area around it with negative energy. The area can have an Emanation up to 20 feet, and the spell fails if the Emanation includes an area already under the effect of a Desecrate spell or the {@spell Hallow|XPHB} spell. The affected area is subject to the following effects.",
+                "The ground within the area of this spell is considered desecrated ground. Undead standing on desecrated ground have Advantage on all saving throws.",
+                "In addition, an undead creature raised or created within, or summoned into the area gains a number of Temporary Hit Points equal to your spellcasting ability modifier.",
+                "A {@item Holy Water|XPHB|vial of holy water} purifies a 10-foot-square area of desecrated ground when sprinkled on it, and a {@spell Hallow|XPHB} (holy) spell purifies desecrated ground within its area.",
+                "If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron or deity, the desecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not grant the benefits to undead listed above.",
+                "If you cast Desecrate on an area that includes consecrated ground from a {@spell Consecrate|WM4} spell, the {@spell Consecrate|WM4} spell is dispelled."
             ],
             "classes": {
                 "fromClassList": [
@@ -1659,14 +1720,13 @@
             }
         },
         {
-            "name": "Appraise",
-            "source": "WM4",
-            "level": 2,
-            "school": "D",
+            "name": "Legal Name Change",
+            "level": 9,
+            "school": "T",
             "time": [
                 {
                     "number": 1,
-                    "unit": "action"
+                    "unit": "hour"
                 }
             ],
             "range": {
@@ -1675,72 +1735,15 @@
                     "type": "touch"
                 }
             },
-            "components": {
-                "v": true,
-                "s": true
-            },
             "duration": [
                 {
-                    "number": 1,
-                    "unit": "minute"
-                }
-            ],
-            "entries": [
-                "You touch an object. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires {@variantrule Attunement|XPHB}, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name.",
-                "If you instead touch a creature, it can make a Charisma saving throw. On a failure, you reveal which ongoing spells or magical effects, if any, are currently affecting it, as well as one of the following characteristics of your choice:",
-                {
-                    "type": "list",
-                    "items": [
-                        "Strength Score",
-                        "Dexterity Score",
-                        "Constitution Score",
-                        "Intelligence Score",
-                        "Wisdom Score",
-                        "Charisma Score",
-                        "Current Armor Class",
-                        "Current hit points",
-                        "Total class levels, if any",
-                        "What classes it has, if any",
-                        "One of its Traits",
-                        "What spells it can cast"
-                    ]
-                },
-                "This information appears as a screen in front of you in a language that you know, following you for the duration of the spell unless you dismiss it, ending the spell (no action required).",
-                "{@note Made by Landon}"
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Using a Higher-Level Slot.",
-                    "entries": [
-                        "If you cast this spell using a level 3 spell slot or higher, you can learn an additional characteristic for each level above 2nd."
-                    ]
+                    "type": "instant"
                 }
             ],
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Bard",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Cleric",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Druid",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Paladin",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Ranger",
-                        "source": "XPHB"
-                    },
-                    {
-                        "name": "Warlock",
+                        "name": "Wizard",
                         "source": "XPHB"
                     },
                     {
@@ -1748,7 +1751,7 @@
                         "source": "XPHB"
                     },
                     {
-                        "name": "Wizard ",
+                        "name": "Cleric",
                         "source": "XPHB"
                     }
                 ],
@@ -1776,6 +1779,16 @@
                         }
                     }
                 ]
+            },
+            "entries": [
+                "{@note Made by Lily}",
+                "You endeavor to officially change the name of a willing creature you touch for the entire casting time, finishing by speaking their new name. This affects the creature's name, but not their magical true name, nor any titles and epithets. Any written mention of the original name is overwritten with the new one, and any memory of their old name is erased. Anyone who knew their old name now knows their new one, which functions as their real name for purposes such as the {@spell gate|XPHB} spell."
+            ],
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A stack of paperwork as tall as the target"
             }
         }
     ]

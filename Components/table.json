@@ -1,5 +1,330 @@
 {
-    "table": [
+    "_meta": {
+        "name": "table",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Astrological Signs",
+            "source": "WM4",
+            "colLabels": [
+                "#",
+                "Month",
+                "Sign"
+            ],
+            "colStyles": [
+                "col-1",
+                "col-1",
+                "col-8"
+            ],
+            "rows": [
+                [
+                    "1st",
+                    "Hammer",
+                    "{@reward Sign of the Kraken|WM4}"
+                ],
+                [
+                    "2nd",
+                    "Alturiak",
+                    "{@reward Sign of the Basilisk|WM4}"
+                ],
+                [
+                    "3rd",
+                    "Ches",
+                    "{@reward Sign of the Beholder|WM4}"
+                ],
+                [
+                    "4th",
+                    "Tarsakh",
+                    "{@reward Sign of the Harpy|WM4}"
+                ],
+                [
+                    "5th",
+                    "Mirtul",
+                    "{@reward Sign of the Ettin|WM4}"
+                ],
+                [
+                    "6th",
+                    "Kythorn",
+                    "{@reward Sign of the Dryad|WM4}"
+                ],
+                [
+                    "7th",
+                    "Flamerule",
+                    "{@reward Sign of the Stirge|WM4}"
+                ],
+                [
+                    "8th",
+                    "Eleasis",
+                    "{@reward Sign of the Wyvern|WM4}"
+                ],
+                [
+                    "9th",
+                    "Eleint",
+                    "{@reward Sign of the Dragon|WM4}"
+                ],
+                [
+                    "10th",
+                    "Marpenoth",
+                    "{@reward Sign of the Unicorn|WM4}"
+                ],
+                [
+                    "11th",
+                    "Uktar",
+                    "{@reward Sign of the Hydra|WM4}"
+                ],
+                [
+                    "12th",
+                    "Nightal",
+                    "{@reward Sign of the Chimera|WM4}"
+                ]
+            ]
+        },
+        {
+            "name": "Level 12 Item Rewards",
+            "source": "WM4",
+            "colLabels": [
+                "Level 12 Item Rewards"
+            ],
+            "colStyles": [
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "{@item Boots of Speed|XDMG}"
+                ],
+                [
+                    "{@item Bracers of Defense|XDMG}"
+                ],
+                [
+                    "{@item Cape of the Mountebank|XDMG}"
+                ],
+                [
+                    "{@item Elven Chain|XDMG}"
+                ],
+                [
+                    "{@item Winged Boots|XDMG}"
+                ],
+                [
+                    "{@item +1 Armor|XDMG}"
+                ],
+                [
+                    "{@item +2 Wraps of Unarmed Power|XDMG}"
+                ],
+                [
+                    "{@item +2 Weapon|XDMG}"
+                ],
+                [
+                    "{@item +2 Shield|XDMG}"
+                ],
+                [
+                    "{@item +2 Amulet of the Devout|TCE} (Cleric, Paladin)"
+                ],
+                [
+                    "{@item +2 Arcane Grimoire|TCE} (Wizard)"
+                ],
+                [
+                    "{@item +2 Bloodwell Vial|TCE} (Sorcerer)"
+                ],
+                [
+                    "{@item +2 Dragonhide Belt|FTD} (Monk)"
+                ],
+                [
+                    "{@item +2 Rod of the Pact Keeper|XDMG} (Warlock)"
+                ],
+                [
+                    "{@item +2 Moon Sickle|TCE} (Druid, Ranger)"
+                ],
+                [
+                    "{@item +2 Anklet of Nature's Passage|WM4} (Ranger)"
+                ],
+                [
+                    "{@item +2 Bracelet of Nature's Will|WM4} (Druid)"
+                ],
+                [
+                    "{@item +2 Rhythm-Maker's Instrument|WM4} (Bard)"
+                ],
+                [
+                    "{@item +2 Vital Bandages|WM4} (Barbarian)"
+                ],
+                [
+                    "{@item +2 Fortune Clover|WM4} (Rogue)"
+                ],
+                [
+                    "{@item +2 Medal of Valor|WM4} (Fighter)"
+                ]
+            ]
+        },
+        {
+            "name": "Level 16 Gift Rewards",
+            "source": "WM4",
+            "colLabels": [
+                "Level 16 Gift Rewards"
+            ],
+            "colStyles": [
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "{@reward Attunement Expert|WM4}"
+                ],
+                [
+                    "{@reward Horde Slayer|WM4}"
+                ],
+                [
+                    "{@reward Master of All Weapons|WM4}"
+                ],
+                [
+                    "{@reward Planar Voyager|WM4}"
+                ],
+                [
+                    "{@reward Positional Master|WM4}"
+                ],
+                [
+                    "{@reward Positive Energy Flux|WM4}"
+                ]
+            ]
+        },
+        {
+            "name": "Level 16 Item Rewards",
+            "source": "WM4",
+            "colLabels": [
+                "Level 16 Item Rewards"
+            ],
+            "colStyles": [
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "{@item +2 Armor|XDMG}"
+                ],
+                [
+                    "{@item +3 Wraps of Unarmed Power|XDMG}"
+                ],
+                [
+                    "{@item +3 Weapon|XDMG}"
+                ],
+                [
+                    "{@item +3 Shield|XDMG}"
+                ],
+                [
+                    "{@item +3 Amulet of the Devout|TCE} (Cleric, Paladin)"
+                ],
+                [
+                    "{@item +3 Arcane Grimoire|TCE} (Wizard)"
+                ],
+                [
+                    "{@item +3 Bloodwell Vial|TCE} (Sorcerer)"
+                ],
+                [
+                    "{@item +3 Dragonhide Belt|FTD} (Monk)"
+                ],
+                [
+                    "{@item +3 Rod of the Pact Keeper|XDMG} (Warlock)"
+                ],
+                [
+                    "{@item +3 Moon Sickle|TCE} (Druid, Ranger)"
+                ],
+                [
+                    "{@item +3 Anklet of Nature's Passage|WM4} (Ranger)"
+                ],
+                [
+                    "{@item +3 Bracelet of Nature's Will|WM4} (Druid)"
+                ],
+                [
+                    "{@item +3 Rhythm-Maker's Instrument|WM4} (Bard)"
+                ],
+                [
+                    "{@item +3 Vital Bandages|WM4} (Barbarian)"
+                ],
+                [
+                    "{@item +3 Fortune Clover|WM4} (Rogue)"
+                ],
+                [
+                    "{@item +3 Medal of Valor|WM4} (Fighter)"
+                ]
+            ]
+        },
+        {
+            "name": "Level 6 Item Rewards",
+            "source": "WM4",
+            "colLabels": [
+                "Level 6 Item Rewards"
+            ],
+            "colStyles": [
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "{@item Boots of Striding and Springing|XDMG}"
+                ],
+                [
+                    "{@item Goggles of Night|XDMG}"
+                ],
+                [
+                    "{@item Gloves of Thievery|XDMG}"
+                ],
+                [
+                    "{@item Pearl of Power|XDMG}"
+                ],
+                [
+                    "{@item Ring of Water Walking|XDMG}"
+                ],
+                [
+                    "{@item Sending Stones|XDMG}"
+                ],
+                [
+                    "{@item +1 Wraps of Unarmed Power|XDMG}"
+                ],
+                [
+                    "{@item +1 Weapon|XDMG}"
+                ],
+                [
+                    "{@item +1 Shield|XDMG}"
+                ],
+                [
+                    "{@item +1 Amulet of the Devout|TCE} (Cleric, Paladin)"
+                ],
+                [
+                    "{@item +1 Arcane Grimoire|TCE} (Wizard)"
+                ],
+                [
+                    "{@item +1 Bloodwell Vial|TCE} (Sorcerer)"
+                ],
+                [
+                    "{@item +1 Dragonhide Belt|FTD} (Monk)"
+                ],
+                [
+                    "{@item +1 Rod of the Pact Keeper|XDMG} (Warlock)"
+                ],
+                [
+                    "{@item +1 Moon Sickle|TCE} (Druid, Ranger)"
+                ],
+                [
+                    "{@item +1 Anklet of Nature's Passage|WM4} (Ranger)"
+                ],
+                [
+                    "{@item +1 Bracelet of Nature's Will|WM4} (Druid)"
+                ],
+                [
+                    "{@item +1 Rhythm-Maker's Instrument|WM4} (Bard)"
+                ],
+                [
+                    "{@item +1 Vital Bandages|WM4} (Barbarian)"
+                ],
+                [
+                    "{@item +1 Fortune Clover|WM4} (Rogue)"
+                ],
+                [
+                    "{@item +1 Medal of Valor|WM4} (Fighter)"
+                ]
+            ]
+        },
         {
             "name": "Level 7 Gift Rewards",
             "source": "WM4",
@@ -85,111 +410,6 @@
             ]
         },
         {
-            "name": "Level 16 Gift Rewards",
-            "source": "WM4",
-            "colLabels": [
-                "Level 16 Gift Rewards"
-            ],
-            "colStyles": [
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "{@reward Attunement Expert|WM4}"
-                ],
-                [
-                    "{@reward Horde Slayer|WM4}"
-                ],
-                [
-                    "{@reward Master of All Weapons|WM4}"
-                ],
-                [
-                    "{@reward Planar Voyager|WM4}"
-                ],
-                [
-                    "{@reward Positional Master|WM4}"
-                ],
-                [
-                    "{@reward Positive Energy Flux|WM4}"
-                ]
-            ]
-        },
-        {
-            "name": "Level 6 Item Rewards",
-            "source": "WM4",
-            "colLabels": [
-                "Level 6 Item Rewards"
-            ],
-            "colStyles": [
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "{@item Boots of Striding and Springing|XDMG}"
-                ],
-                [
-                    "{@item Goggles of Night|XDMG}"
-                ],
-                [
-                    "{@item Gloves of Thievery|XDMG}"
-                ],
-                [
-                    "{@item Pearl of Power|XDMG}"
-                ],
-                [
-                    "{@item Ring of Water Walking|XDMG}"
-                ],
-                [
-                    "{@item Sending Stones|XDMG}"
-                ],
-                [
-                    "{@item +1 Wraps of Unarmed Power|XDMG}"
-                ],
-                [
-                    "{@item +1 Weapon|XDMG}"
-                ],
-                [
-                    "{@item +1 Shield|XDMG}"
-                ],
-                [
-                    "{@item +1 Amulet of the Devout|TCE} (Cleric, Paladin)"
-                ],
-                [
-                    "{@item +1 Arcane Grimoire|TCE} (Wizard)"
-                ],
-                [
-                    "{@item +1 Bloodwell Vial|TCE} (Sorcerer)"
-                ],
-                [
-                    "{@item +1 Dragonhide Belt|FTD} (Monk)"
-                ],
-                [
-                    "{@item +1 Rod of the Pact Keeper|XDMG} (Warlock)"
-                ],
-                [
-                    "{@item +1 Moon Sickle|TCE} (Druid, Ranger)"
-                ],
-                [
-                    "{@item +1 Anklet of Nature's Passage|WM4} (Ranger)"
-                ],
-                [
-                    "{@item +1 Bracelet of Nature's Will|WM4} (Druid)"
-                ],
-                [
-                    "{@item +1 Rhythm-Maker's Instrument|WM4} (Bard)"
-                ],
-                [
-                    "{@item +1 Vital Bandages|WM4} (Barbarian)"
-                ],
-                [
-                    "{@item +1 Fortune Clover|WM4} (Rogue)"
-                ],
-                [
-                    "{@item +1 Medal of Valor|WM4} (Fighter)"
-                ]
-            ]
-        },
-        {
             "name": "Level 8 Item Rewards",
             "source": "WM4",
             "colLabels": [
@@ -225,217 +445,6 @@
                 ],
                 [
                     "{@item Uncommon Glamerweave|ERLW}"
-                ]
-            ]
-        },
-        {
-            "name": "Level 12 Item Rewards",
-            "source": "WM4",
-            "colLabels": [
-                "Level 12 Item Rewards"
-            ],
-            "colStyles": [
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "{@item Boots of Speed|XDMG}"
-                ],
-                [
-                    "{@item Bracers of Defense|XDMG}"
-                ],
-                [
-                    "{@item Cape of the Mountebank|XDMG}"
-                ],
-                [
-                    "{@item Elven Chain|XDMG}"
-                ],
-                [
-                    "{@item Winged Boots|XDMG}"
-                ],
-                [
-                    "{@item +1 Armor|XDMG}"
-                ],
-                [
-                    "{@item +2 Wraps of Unarmed Power|XDMG}"
-                ],
-                [
-                    "{@item +2 Weapon|XDMG}"
-                ],
-                [
-                    "{@item +2 Shield|XDMG}"
-                ],
-                [
-                    "{@item +2 Amulet of the Devout|TCE} (Cleric, Paladin)"
-                ],
-                [
-                    "{@item +2 Arcane Grimoire|TCE} (Wizard)"
-                ],
-                [
-                    "{@item +2 Bloodwell Vial|TCE} (Sorcerer)"
-                ],
-                [
-                    "{@item +2 Dragonhide Belt|FTD} (Monk)"
-                ],
-                [
-                    "{@item +2 Rod of the Pact Keeper|XDMG} (Warlock)"
-                ],
-                [
-                    "{@item +2 Moon Sickle|TCE} (Druid, Ranger)"
-                ],
-                [
-                    "{@item +2 Anklet of Nature's Passage|WM4} (Ranger)"
-                ],
-                [
-                    "{@item +2 Bracelet of Nature's Will|WM4} (Druid)"
-                ],
-                [
-                    "{@item +2 Rhythm-Maker's Instrument|WM4} (Bard)"
-                ],
-                [
-                    "{@item +2 Vital Bandages|WM4} (Barbarian)"
-                ],
-                [
-                    "{@item +2 Fortune Clover|WM4} (Rogue)"
-                ],
-                [
-                    "{@item +2 Medal of Valor|WM4} (Fighter)"
-                ]
-            ]
-        },
-        {
-            "name": "Level 16 Item Rewards",
-            "source": "WM4",
-            "colLabels": [
-                "Level 16 Item Rewards"
-            ],
-            "colStyles": [
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "{@item +2 Armor|XDMG}"
-                ],
-                [
-                    "{@item +3 Wraps of Unarmed Power|XDMG}"
-                ],
-                [
-                    "{@item +3 Weapon|XDMG}"
-                ],
-                [
-                    "{@item +3 Shield|XDMG}"
-                ],
-                [
-                    "{@item +3 Amulet of the Devout|TCE} (Cleric, Paladin)"
-                ],
-                [
-                    "{@item +3 Arcane Grimoire|TCE} (Wizard)"
-                ],
-                [
-                    "{@item +3 Bloodwell Vial|TCE} (Sorcerer)"
-                ],
-                [
-                    "{@item +3 Dragonhide Belt|FTD} (Monk)"
-                ],
-                [
-                    "{@item +3 Rod of the Pact Keeper|XDMG} (Warlock)"
-                ],
-                [
-                    "{@item +3 Moon Sickle|TCE} (Druid, Ranger)"
-                ],
-                [
-                    "{@item +3 Anklet of Nature's Passage|WM4} (Ranger)"
-                ],
-                [
-                    "{@item +3 Bracelet of Nature's Will|WM4} (Druid)"
-                ],
-                [
-                    "{@item +3 Rhythm-Maker's Instrument|WM4} (Bard)"
-                ],
-                [
-                    "{@item +3 Vital Bandages|WM4} (Barbarian)"
-                ],
-                [
-                    "{@item +3 Fortune Clover|WM4} (Rogue)"
-                ],
-                [
-                    "{@item +3 Medal of Valor|WM4} (Fighter)"
-                ]
-            ]
-        },
-        {
-            "name": "Astrological Signs",
-            "source": "WM4",
-            "colLabels": [
-                "#",
-                "Month",
-                "Sign"
-            ],
-            "colStyles": [
-                "col-1",
-                "col-1",
-                "col-8"
-            ],
-            "rows": [
-                [
-                    "1st",
-                    "Hammer",
-                    "{@reward Sign of the Kraken|WM4}"
-                ],
-                [
-                    "2nd",
-                    "Alturiak",
-                    "{@reward Sign of the Basilisk|WM4}"
-                ],
-                [
-                    "3rd",
-                    "Ches",
-                    "{@reward Sign of the Beholder|WM4}"
-                ],
-                [
-                    "4th",
-                    "Tarsakh",
-                    "{@reward Sign of the Harpy|WM4}"
-                ],
-                [
-                    "5th",
-                    "Mirtul",
-                    "{@reward Sign of the Ettin|WM4}"
-                ],
-                [
-                    "6th",
-                    "Kythorn",
-                    "{@reward Sign of the Dryad|WM4}"
-                ],
-                [
-                    "7th",
-                    "Flamerule",
-                    "{@reward Sign of the Stirge|WM4}"
-                ],
-                [
-                    "8th",
-                    "Eleasis",
-                    "{@reward Sign of the Wyvern|WM4}"
-                ],
-                [
-                    "9th",
-                    "Eleint",
-                    "{@reward Sign of the Dragon|WM4}"
-                ],
-                [
-                    "10th",
-                    "Marpenoth",
-                    "{@reward Sign of the Unicorn|WM4}"
-                ],
-                [
-                    "11th",
-                    "Uktar",
-                    "{@reward Sign of the Hydra|WM4}"
-                ],
-                [
-                    "12th",
-                    "Nightal",
-                    "{@reward Sign of the Chimera|WM4}"
                 ]
             ]
         },

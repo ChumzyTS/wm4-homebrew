@@ -1,0 +1,33 @@
+{
+    "_meta": {
+        "name": "condition",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Helminthomania",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Mania",
+            "basicRules2024": true,
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 30 feet of a worm that you can see. On a failed save, you are {@condition Charmed|XPHB} by the worm. While {@condition Charmed|XPHB}, you must use your movement on your turns to get as close as possible to the worm, moving by the safest route. If you are within 5 feet of the worm, you cannot willingly move away. At the end of each minute, you can reroll the saving throw. If you succeed on any saving throw against this Mania, you automatically succeed on saves against Helminthomania for the next hour.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Merinthokleptomania",
+            "source": "WM4",
+            "type": "Mania",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 30 feet of a Small or smaller chain or binding implement that you can see and that isn't being worn or carried. On a failed save, you are {@condition Charmed|XPHB} by the object. While {@condition Charmed|XPHB} you must do everything to steal the object. Once you have the object you can repeat the saving throw. On a failure, you are unwilling to part with the object. If you succeed on any saving throw against this Mania, you automatically succeed on saves against Kleptomania for the next hour.",
+                "{@note Made by Chrys}"
+            ]
+        }
+    ]
+}

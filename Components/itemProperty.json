@@ -1,5 +1,14 @@
 {
-    "itemProperty": [
+    "_meta": {
+        "name": "itemProperty",
+        "sort": [
+            {
+                "key": "abbreviation",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
         {
             "abbreviation": "C",
             "source": "WM4",

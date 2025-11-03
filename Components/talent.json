@@ -1,0 +1,1231 @@
+{
+    "_meta": {
+        "name": "reward",
+        "sort": [
+            {
+                "key": "rarity",
+                "type": "custom",
+                "order": {
+                    "common": 1,
+                    "uncommon": 2,
+                    "rare": 3,
+                    "very rare": 4,
+                    "legendary": 5,
+                    "artifact": 6,
+                    "legacy": 7
+                }
+            },
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Dark Speech Novice",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "You have managed to learn a word in Dark Speech, though you lack the proper magical protection to speak it. As a {@action Magic|XPHB} action, you can attempt to speak this word, and you die.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Freaky",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "You are considered {@variantrule Proficiency|XPHB|Proficient} with your tongue.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Juggling Training",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Proficiency in {@skill Sleight of Hand} or {@skill Performance}}",
+                "You can juggle a number of {@item Juggling Club|WM4|Juggling Clubs} or other small objects in one hand without needing to make an ability check. You can make weapon attacks using any of the {@item Juggling Club|WM4|Juggling Clubs} you are juggling. If you hit an attack with a {@item Juggling Club|WM4|juggling club} you were juggling, it returns to your hand.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Let's get the facts!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "When you take the {@action Search|XPHB} action, you have {@variantrule Advantage|XPHB} on the next {@action Study|XPHB} action you make before the end of your next turn if you {@action Study|XPHB} whatever you {@action Search|XPHB|Searched}.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Lucky Thief",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i No amount of Expertise can stop some good old fashioned Luck}",
+                "You can use a {@action Magic|XPHB} action to attempt to unlock a locked door. This has a 5 percent chance of unlocking any lock. Once you use this ability, you can't use it again until you finish a {@variantrule Long Rest|XPHB}.",
+                "{@note Talent of {@item Mystery Key|XDMG} Made by Gem}"
+            ]
+        },
+        {
+            "name": "Non-Alcoholic Drinker",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "You can drink ale, wine, or any other nonmagical alcoholic beverage without becoming inebriated. This has no effect on magical liquids or harmful substances such as poison.",
+                "{@note Talent of {@item Tankard of Sobriety|XDMG}, Made by Marvin}"
+            ]
+        },
+        {
+            "name": "Ough, Sour...",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Ooze}",
+                "You have learned how to become a living weapon, a sapient amalgam of unripe fruits and scrunched facial expressions. When you are hit by a Bite attack, you may have the attacker take 1 Acid damage.",
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Rat Whisperer",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "You can cast {@spell Speak with Animals|XPHB} at will. When you cast it this way, you can only speak to {@creature rat|XMM|rats} that you are holding.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Sign of the Basilisk",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 2nd Month, Alturiak}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Charisma ({@skill Intimidation}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Wisdom ({@skill Insight}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to a {@item Ruby|XDMG}. If you do, you gain a +2 bonus to saving throws against transmutation magic."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Beholder",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 3rd Month, Ches}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Intelligence checks to decipher codes."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Wisdom ({@skill Perception}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to an {@item Banded Agate|XDMG|Agate}. If you do, it grants you a +2 bonus to saving throws against illusion magic."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Chimera",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 12th Month, Nightal}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Charisma ({@skill Persuasion}) checks to make a first impression."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Dexterity ({@skill Stealth}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to an {@item Amethyst|XDMG}. If you do, you gain a +2 bonus on saving throws against evocation magic."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Dragon",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 9th Month, Eleint}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Intelligence ({@skill Investigation}) checks to appraise the value of objects."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Wisdom ({@skill Perception}) checks that require hearing."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to a {@item Garnet|XDMG}. If you do, whenever you take the Help action, you gain a +1 AC bonus until the start of your next turn."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Dryad",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 6th Month, Kythorn}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Wisdom ({@skill Animal Handling}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Wisdom ({@skill Medicine}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to a {@item Pearl|XDMG}. If you do, it grants you a +1 AC bonus when there's a friendly creature within 5 feet of you. "
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Ettin",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 5th Month, Mirtul}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Dexterity ({@skill Sleight of Hand}) checks during combat."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Dexterity ({@item Thieves' Tools|XPHB}) checks to disable devices."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to an {@item Opal|XDMG}. If you do, it grants you a +1 AC bonus against Attacks of Opportunity."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Harpy",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 4th Month, Tarsakh}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Charisma ({@skill Performance}) checks that use your voice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Charisma ({@skill Deception}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to a {@item Turquoise|XDMG}. If you do, it grants you a +1 AC bonus against Ranged attacks."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Hydra",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 11th Month, Uktar}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Charisma ({@skill Persuasion}) checks to ask for information."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Dexterity ({@skill Acrobatic}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to a {@item Diamond|XDMG}. If you do, you gain a +2 AC bonus against attacks made while you are {@condition Paralyzed} or {@condition Unconscious}."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Kraken",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 1st Month, Hammer}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Strength ({@skill Athletics}) checks to swim."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Dexterity ({@skill Stealth}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to an {@item Aquamarine|XDMG}. If you do, you gain a +1 AC bonus against melee attacks."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Stirge",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 7th Month, Flamerule}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Intelligence ({@item Alchemist's Supplies|XPHB|Alchemy Tools}) checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Constitution saving throws to maintain concentration."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to an {@item Emerald|XDMG}. If you do, it grants you a +2 bonus to saving throws against enchantment magic."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Unicorn",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 10th Month, Marpenoth}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Strength ({@skill Athletics}) checks to climb."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Strength ({@skill Athletics}) checks to Jump."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to a {@item Topaz|XDMG}. If you do, you gain a +2 bonus on saving throws against poison and disease. "
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sign of the Wyvern",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i Prerequisite: Born on the 8th Month, Eleasis}",
+                "A creature can attune to their birthstone, treating a gem worth at least 50 gp as an item requiring attunement to gain the benefits of, though it is not magical.",
+                {
+                    "type": "entries",
+                    "name": "Optimal Career.",
+                    "entries": [
+                        "You have a +2 bonus on Wisdom ({@skill Survival}) checks to forage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lucky Action.",
+                    "entries": [
+                        "You have a +1 bonus to Dexterity Saving throws to remain mounted."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Birthstone.",
+                    "entries": [
+                        "You can attune to a {@item Blue Sapphire|XDMG|Sapphire}. If you do, it grants you a +1 AC bonus during a turn where you've moved more than 5 feet."
+                    ]
+                },
+                "{@note {@table Astrological Signs|WM4}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Special Technique: Dropkick!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "Whenever you make an Unarmed Strike against a creature, if you are not Prone or immune to the {@condition Prone} condition, you may attempt to dropkick your target. The attack deals an additional 2 Bludgeoning damage on a hit, but you become {@condition prone} after the attack. You may only make this special attack once per turn.",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Theme Music",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can create music in a 120-foot Emanation from you. This music ends when you desire (no action required) or when you become {@condition Incapacitated}.",
+                "{@note Talent of {@item Wand of Conducting|XDMG}, Made by Landon}"
+            ]
+        },
+        {
+            "name": "Tracker's Sense",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "Through some magical means, you are able to detect the presence of a certain type of creature, determined when you gain this talent. Once determined, the creature type can't be changed.",
+                "You know when you are within 300 feet of any creature of that type. This presence could be indicated by varying means, depending on the nature that you gained this talent, and it can be a visual indicator.",
+                "{@note Talent of {@item Lantern of Tracking|IDRotF}. Made by Aris}"
+            ]
+        },
+        {
+            "name": "Tummy Vision",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "When you take the {@action Search|XPHB} action, you can target a creature within 5 feet and make a DC 15 Wisdom ({@skill Medicine}) check. On a success, you can reason what they last ate in the last 24 hours.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Up the Hill",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "You can cast {@spell Speak with Animals|XPHB} at will. When you cast it this way, you can only speak to {@creature rat|XMM|rats} that you are holding.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "1500 XXL Westmarch Cypher",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "At the GM\u2019s discretion, you can record a 30 second to 1 minute long freestyle rap in character. The beat is up to the discretion of the GM (a sample beat is provided here). At the conclusion of the freestyle, the GM decides if you produced a banger. If you did, you heal {@dice 2d10} Hit Points, if you didn\u2019t, you take {@dice 2d10} Fire damage. The GM may require that you post the recording in \u2060#wm-discussion to benefit. Once this talent is used, it cannot be used again until one week has passed.",
+                "{@note Made by Ryan Gabrillo}"
+            ]
+        },
+        {
+            "name": "Aerial Fighting",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You can use the momentum of your strikes to keep you airborne. When you hit a creature with a melee weapon attack while airborne, you can choose to not fall until the end of your next turn.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Blasphemous",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You can cast {@spell Desecrate|WM4} (spellcasting ability mod +3) with this talent. When you cast {@spell Desecrate|WM4} this way, the Duration is 1 minute. You can't cast this spell again with this talent until you finish a {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Breath of the West Wind",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Channel Divinity feature}",
+                "As a {@action Magic|XPHB} action, you can expend a use of your Channel Divinity, and bestow yourself or a creature within 30 feet of you the freedom of the winds. The creature gains the benefits of the {@spell Freedom of Movement|XPHB} spell, which lasts for 10 minutes.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Breeze of the South Wind",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Cunning Action feature}",
+                "You can use the Bonus action granted by your Cunning Action to cast the {@spell Zephyr Strike|XGE} spell. When you cast it in this way, it doesn't require components nor a spell slot, and while under its effects you leave no tracks. Once you cast the spell, you cannot do so again with this {@variantrule Talents|WM4|Talent} until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Death Burst",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You explode when you die. Each creature within a 5-foot emanation of you must succeed on a DC 10 Constitution saving throw or suffer {@dice 2d4} damage. The damage type is determined when you receive this talent.",
+                "Additionally: At gm's discretion, you also explode in extremely awkward social situations.",
+                "{@note Made by Xin}"
+            ]
+        },
+        {
+            "name": "Demon Eye",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You have {@sense Darkvision} out to 60 feet. If you already have {@sense Darkvision}, its range increases by 60 feet.",
+                "When you take the {@action Search|XPHB} action and roll a 1 on the die, you are {@condition Blinded} for the next 10 minutes.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Demon Leg",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Your leg is possessed by a demon, or demonic essence, transforming to become a more demonic form.}",
+                "Your {@variantrule Long Jump|XPHB} is increased by 20 feet, and your {@variantrule High Jump|XPHB} is increased by 10 feet, when you have a running start.",
+                "When you roll a 1 on a Strength or Dexterity saving throw, you lose control of your movement. At the start of your next turn, you must choose to either drop {@condition Prone|XPHB}, or to use all your movement to move in a random direction.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Eye for Secrets",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Through rigorous training, you have developed a keen eye for secrets and traps.}",
+                "As a {@action Magic|XPHB} action you can attempt to detect secrets. If a secret door or trap is within 60 feet of you, you sense the location of the one nearest to you.",
+                "You can use this {@variantrule Talents|WM4|Talent} a number of times equal to your Proficiency Bonus, regaining uses on a {@variantrule Long Rest|XPHB}.",
+                "{@note Talent of {@item Wand of Secrets|XDMG}, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Eyes of an Adventurer",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i \"You can see it in their eyes when an adventurer walks through the door\" - Random barkeep",
+                "You gain a {@sense Darkvision} of 60 ft if you do not already have one. Your eyes additionally reflect more light than usual, making them appear to glow in the dark.",
+                "You cannot benefit from wearing {@item Goggles of Night|XDMG}.",
+                "{@note Talent of {@item Goggles of Night|XDMG}, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Fish Wrangler",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Monk}",
+                "You may wield a creature grappled by you as an improvised weapon as long as they are at least 1 size category smaller than you. If the creature has a swim speed, it instead counts as a monk weapon for you.",
+                "{@note Made by Xin}"
+            ]
+        },
+        {
+            "name": "Gale of the East Wind",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Arcane Recovery feature}",
+                "When you gain the benefits of your arcane recovery feature, you can choose one of your spells that you have prepared that requires {@status Concentration|XPHB}. The next time you cast that spell and {@status Concentration|XPHB|Concentrate} on it, you also gain the benefits of the {@spell Warding Wind|XGE} spell for its duration.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Graceful Landing",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@skill Acrobatics} Proficiency}",
+                "Whenever you fall, you always land on your feet. Additionally, your falls count as having fallen 20 less feet for the purposes of taking damage from falling (to a minimum of 0 feet).",
+                "{@note Talent of Boots of Landing, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Ley Line Initiate",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "In places of great magic, you can attune to the environment to draw upon it's power. When you finish a long rest in an area, you can attune to it as if it were a magic item until you finish another long rest. This fails if the area is not particularly full of magic.",
+                "When you attune to an area, you gain a Charm befitting to the area. This Charm goes away if you unattune to the area. The GM decides which Charm you receive. A GM could say that you are affected by the environment in a different way.",
+                "The default Charms are as follows:",
+                {
+                    "type": "table",
+                    "caption": "Default Charms",
+                    "colLabels": [
+                        "{@dice 1d6}",
+                        "Charm"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 1
+                                }
+                            },
+                            "{@reward Charm of Vitality|XDMG}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 2
+                                }
+                            },
+                            "{@reward Charm of the Slayer|XDMG}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 3
+                                }
+                            },
+                            "{@reward Charm of Heroism|XDMG}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 4
+                                }
+                            },
+                            "{@reward Charm of Feather Falling|XDMG}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 5
+                                }
+                            },
+                            "{@reward Charm of Darkvision|XDMG}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 6
+                                }
+                            },
+                            "{@reward Charm of the Water Bearer|CM}"
+                        ]
+                    ]
+                },
+                "Ley Lines and the energy that flows through them can be fickle, ever-shifting, and unpredictable, so your results may vary. (AKA: GM Discretion)",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Maimer's Mercy",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You have achieved mastery over your attacks, and can accurately navigate the line between life and death. You can knock out creatures with any attack, not just melee attacks.",
+                "Made by Corvus"
+            ]
+        },
+        {
+            "name": "Meticulous Hands",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i You've learned to slow down and be precise with your movements.}",
+                "While you are not wearing gloves, you gain a +5 bonus to Dexterity ({@skill Sleight of Hand}) checks.",
+                "{@note Talent of {@item Gloves of Thievery|XDMG}, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Mists of the North Wind",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Wild Shape feature}",
+                "As a Bonus action, you can expend a use of your Wild Shape to take on a gaseous shape. This functions as the {@spell Gaseous Form|XPHB} spell, except it targets only you, and does not require {@status Concentration|XPHB} to maintain. It lasts for a number of hours equal to half your Druid level (rounded down). You can revert to your normal form earlier by using a Bonus action on your turn. You automatically revert if you fall {@condition Unconscious}, drop to 0 {@variantrule Hit Points|XPHB}, or die.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Mountable",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Centaur}",
+                "Your anatomy allows you to be an Independent Mount.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Plug the Leaks!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "Whenever you would make a check to repair a ship, you gain a +5 bonus to said check, with the assumption that the repairs you make are only intended to last a short while, and aren't sustainable in the long term.",
+                "You may use {@item Carpenter's Tools|XPHB} to attempt to repair a sailing vessel, so long as said sailing vessel is at a quarter of its maximum hitpoints or lower, as if you were proficient.",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Shattered Remains",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "When you kill a creature, you can choose for the creature's remains to turn into glass and shatter into pieces. The target can be revived only by a {@spell True Resurrection|XPHB} or a {@spell Wish|XPHB} spell.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Silent Shooter",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Proficiency in Firearms or Martial weapons}",
+                "You know how to modify your firearms to fire silently. When you make an attack with a firearm, you can choose for it to make no sound.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Silken Anchor",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@item Weaver's Tools|XPHB} Proficiency}",
+                "You learn to use silk to anchor your thrown weapons to your person. When you make a ranged attack roll using a weapon that has the Thrown property, you can use a Bonus Action on the same turn to pull the weapon back to your empty hand.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Stiff Legs",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You do not gain the {@condition Prone} condition from becoming {@condition Unconscious}.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Take chances, make mistakes, and get messy!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "When you reroll a die with {@variantrule Heroic Inspiration|XPHB}, if it was a d20 as part of a {@variantrule D20 test|XPHB}, you can add {@dice 1d4} to the total.",
+                "Once you use this feature, you cannot do so again for the rest of the session.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "The Spin!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You may treat individual {@item ball bearings|XPHB|ball bearings} from a pouch as a martial ranged weapon. {@item ball bearings|XPHB|Ball bearings} have the Finesse and Thrown (30/120 ft.) properties. {@item ball bearings|XPHB|Ball bearings} deal {@dice 1d6} bludgeoning damage on a hit. They have the Vex weapon mastery.",
+                "{@note Inspired by Jojo's Bizarre Adventure: Part 7 - Steel Ball Run, Reworked from WM3. Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Tidal Dash",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "When you take the {@action Dash|XPHB} action, you can move through the spaces of other creatures until the end of your turn. If you pass through the space of a creature of your size or smaller during this time, you can force the creature to make a DC 13 Strength saving throw. On a failure, you can push them 5 feet in a direction of your choice. A creature can be pushed only once a turn by this talent.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Well-Studied Illusionist",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Illusionist Wizard}",
+                "{@spell Silence|XPHB} is added to your spell list, and is treated as a Wizard spell for you.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Abyss-bound Soul",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "You have pledged your immortal soul to a particular demon lord in return for a gift that aids your evil works in life.",
+                "You are branded with the personal symbol of your demon lord patron, who watches over you from the Abyss. You gain a +2 bonus on saving throws made against good aligned spells. Additionally, a tiny portion of your patron\u2019s power infuses your body, granting you an additional benefit. The exact benefit gained depends on who your patron is, as given below.",
+                {
+                    "type": "entries",
+                    "name": "Baphomet.",
+                    "entries": [
+                        "If you move at least 20 feet straight toward a creature and then hit it with an attack on the same turn, the target takes an extra {@dice 2d8} damage. You can gain this benefit only once per turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dagon.",
+                    "entries": [
+                        "You can breathe water as well as you can breathe air, and you can cast hunger of hadar once. You must finish a long rest before you can cast it again in this way."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Demogorgon.",
+                    "entries": [
+                        "You can cast {@spell summon greater demon|XGE} once. You must finish a long rest before you can cast it again in this way. Additionally, the CR of the demon summoned cannot be higher than your proficiency bonus. The demon has disadvantage on its saving throw to resist."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fraz-Urb\u2019luu.",
+                    "entries": [
+                        "Any spell slot you expend to cast an illusion spell counts as a spell slot of one level higher."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Graz\u2019zt.",
+                    "entries": [
+                        "You are immune to the {@condition frightened} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Juiblex.",
+                    "entries": [
+                        "You gain resistance to acid damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Kostchtchie.",
+                    "entries": [
+                        "You gain resistance to cold damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Malcanthet.",
+                    "entries": [
+                        "Any spell slot you expend to cast an enchantment spell counts as a spell slot of one level higher."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Miska.",
+                    "entries": [
+                        "You gain a climb speed equal to your walking speed, and can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Obox-ob.",
+                    "entries": [
+                        "You know the {@spell infestation|XGE} cantrip, and you are resistant to poison damage. You can cast {@spell giant insect|XPHB} once. You must finish a long rest before you can cast it again in this way."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Orcus.",
+                    "entries": [
+                        "Any spell slot you expend to cast a necromancy spell counts as a spell slot of one level higher."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Pale Night.",
+                    "entries": [
+                        "You have immunity to insanity, madness, and confusion effects, including the {@condition confused|WM4} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Pazuzu.",
+                    "entries": [
+                        "While airborne, you have a +2 bonus to your dexterity saving throws."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Yeenoghu.",
+                    "entries": [
+                        "You gain a +1 bonus on attack and damage rolls made with your natural weapons."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Zuggtmoy.",
+                    "entries": [
+                        "You are immune to additional damage from critical hits and sneak attacks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Abyssal Doom.",
+                    "entries": [
+                        "When you die, your soul becomes claimed by your demon patron. You can be restored to life only by {@spell true resurrection|XPHB} or {@spell wish|XPHB}."
+                    ]
+                },
+                "Charisma is your spellcasting ability for any spells in this talent.",
+                "{@note Adapted from 3.5e by Aris}"
+            ]
+        },
+        {
+            "name": "Arena Blood",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@i The blood of an arena champion flows in your veins, giving you a thirst for glory and a drive to succeed.}",
+                "You get a +2 bonus on Charisma ({@skill Intimidation}) checks. In addition, if you successfully intimidate a Hostile creature using the {@action Influence|XPHB} action in combat, you gain {@dice 1d4} Temporary hit points. You lose these temporary hit points at the start of your next turn.",
+                "While fighting for the entertainment of onlookers, such as a fight in an arena or a sparring match, you gain a +2 bonus to your DCs to Grapple or Shove, and a +2 bonus to any Battlemaster Maneuvers or Weapon Masteries. The GM can determine what fights this applies to.",
+                "{@note From 3.5e, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Child of the Shadow",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@i You're used to the streets and back alleys and have refined several talents and tricks valuable to survival in rougher neighborhoods.}",
+                "You know Sasserine\u2019s black market quite well, and need not make checks to locate its outlets. Further, in other cities, you have a knack for rooting out the underground markets. You gain a +2 bonus on Charisma ({@skill Persuasion} and {@skill Investigation}) checks made to learn about a city\u2019s black markets.",
+                "Your experience has also equipped you with several tricks you can use to ensure survival. You gain a +2 bonus to Initiative in urban environments. You are also adept at fighting in confined areas, such as narrow city alleyways or crowded taprooms. Your melee weapon attacks and Unarmed Strikes ignore Half and Three-Quarters Cover.",
+                "{@note From 3.5e, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Helm Breaker",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "Once per turn, when you hit an airborne creature one size larger than you or smaller with a melee weapon attack, you can push the creature up to 30 feet downward. If the creature collides with a solid surface, it takes damage as though it had fallen the distance it was pushed.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Knack for Magic",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@i Magic is not that mysterious to you, and its gifts have made your life a little easier.}",
+                "You get a +2 bonus to Intelligence (Arcana) checks made to identify spells. In addition, you have an innate talent for magic. You can cast the following spells: {@spell Prestidigitation|XPHB}, {@spell Light|XPHB}, {@spell Detect Magic|XPHB}.",
+                "Once you cast a spell with this talent, you cannot cast that spell again until you finish a long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this talent's spells (choose when you gain this talent).",
+                "{@note From 3.5e, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Maybe the back door is unlocked?",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: {@reward Lucky Thief|WM4}}",
+                "{@i If life gives you a locked door, find another one.}",
+                "You can use your {@reward Lucky Thief|WM4} talent an unlimited number of times, but only once per door.",
+                "{@note Talent of {@item Ring of Mystery Keys|WM4}, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Merchant\u2019s Tongue",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@i Your practices in trade made you glib and gave you a keen eye for value.}",
+                "You have a +2 bonus to checks made to identify an object, and you can automatically determine the monetary value of any treasure (art object) you see.",
+                "In addition, whenever you sell an object, you can take the {@action Influence|XPHB} Action (DC 20) as if the creature was Hesitant. On a success, you can sell the object for up to 20% over its asking price.",
+                "{@note From 3.5e, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Radiant Beams",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: {@spell Eldritch Blast|XPHB}}",
+                "You can deal Radiant damage instead of Force when you cast {@spell Eldritch Blast|XPHB}. If you change the damage type this way, the damage die becomes {@dice 1d8}.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sorrow Taint",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Tears streak down your face, staining your skin; Your sorrows and inhibitions heighten.}",
+                {
+                    "type": "entries",
+                    "name": "Weight of Grief.",
+                    "entries": [
+                        "As a {@action Magic|XPHB} action, you point at a creature within 60 feet of you, filling it with deep sorrow. It must succeed on a Wisdom saving throw or have {@variantrule Disadvantage|XPHB} on {@variantrule D20 test|XPHB|D20 tests} until the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Heightened Empathy.",
+                    "entries": [
+                        "Your constant grief deepens your understanding of others\u2019s feelings. You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Insight}) checks made to discern a creature\u2019s emotions. If you roll a 20 on the die when making a Wisdom ({@skill Insight}) check, you are {@condition Dazed|WM4} and {@condition Immobilized|WM4} until the end of your next turn, as your own sorrows overtake you."
+                    ]
+                },
+                "All DCs from this talent are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (your choice when you receive this talent).",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Student of Nature",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@i The wild has always excited you with its simple beauty and majestic creatures. It is no wonder that many of your talents let you better enjoy the natural world.}",
+                "You get a +1 bonus to Wisdom ({@skill Animal Handling} or {@skill Survival}), and Intelligence ({@skill Nature}) checks. You also get a +2 bonus on Constitution saving throws made to resist effects originating from a Plant creature.",
+                "{@note From 3.5e, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Suspicious Eye",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@i You are always on the lookout for treachery and wrongdoing.}",
+                "You gain a +2 bonus to Wisdom ({@skill Insight}) checks made to determine a creature's intentions with you.",
+                "In addition, you have a +5 bonus to your Passive Perception against attempts to pickpocket or steal from you. If you notice the creature, you can make an opportunity attack against that creature.",
+                "{@note From 3.5e, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Water Rat",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@i You've learned to swim well, and take to the water as easily as land.}",
+                "You gain a +2 bonus on Strength ({@skill Athletics}) checks made to swim. When wearing light or no armor and not Encumbered or {@condition Exhaustion|XPHB|Exhausted}, you have a swim speed equal to your walking speed. If you already have a swim speed, it is increased by 10 feet. While swimming, you gain a +2 bonus to Initiative.",
+                "{@note From 3.5e, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Spiral Taint",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "very rare",
+            "entries": [
+                "{@i A constant and ever changing fractal has taken hold of your mind; spiral patterns form on your body with no consistency.}",
+                {
+                    "type": "entries",
+                    "name": "Sight of the Abyss.",
+                    "entries": [
+                        "You can cast {@spell Vision of Entropy|WM4} at will."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Touch of Insanity.",
+                    "entries": [
+                        "Once on your turn, when you hit a creature with a melee attack or Unarmed Strike, you can force the creature to make a Wisdom saving throw. On a failure, the creature is {@condition Confused|WM4} until the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fractal Mind.",
+                    "entries": [
+                        "There is nothing left to break. You automatically succeed on {@variantrule saving throw|XPHB|saving throws} made to retain your sanity. You have a -3 penalty on all Wisdom based {@variantrule ability check|XPHB|ability checks} and {@variantrule saving throw|XPHB|saving throws}; whenever you roll a 1 on a {@variantrule D20 test|XPHB}, you are {@condition Confused|WM4} until the end of your next turn."
+                    ]
+                },
+                "All DCs from this talent are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (your choice when you receive this talent).",
+                "{@note Made by Chrys}"
+            ]
+        }
+    ]
+}

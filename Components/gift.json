@@ -1,0 +1,469 @@
+{
+    "_meta": {
+        "name": "reward",
+        "sort": [
+            {
+                "key": "rarity",
+                "type": "custom",
+                "order": {
+                    "common": 1,
+                    "uncommon": 2,
+                    "rare": 3,
+                    "very rare": 4,
+                    "legendary": 5,
+                    "artifact": 6,
+                    "legacy": 7
+                }
+            },
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Adaptable Artillery",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You can treat every ranged weapon as if it were a Simple melee weapon of your choice.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Assassin's Mark",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Hunter's Mark}",
+                "If you hit a creature marked by your Hunter's Mark with a weapon attack, you can choose to end the Hunter's Mark on the creature. If you do so, your attack deals an extra {@dice 4d6} damage.",
+                "If you have Foe Slayer, this instead becomes {@dice 4d10} damage.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Attunement Adept",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You can attune to an additional magic item.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Blessing of Increased Ability",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "Choose an Ability Score. It increases by 2, up to a maximum of 20.",
+                "When you finish a long rest, you can change which Ability Score you increase with this gift.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Brutal Thrower",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You treat every melee weapon as if it has the thrown property with a range of (20/60). After you make an attack, the weapon magically returns to your hand.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Bulwark",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Unarmored Defense}",
+                "You add your Strength Modifier to your Unarmored Defense calculations.",
+                "{@note Made by V}"
+            ]
+        },
+        {
+            "name": "Close Quarters Defense",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "When a creature within 5 feet of you attempts to {@condition Grappled|XPHB|Grapple} you or subject you to an effect that would {@condition Grappled|XPHB|Grapple} you, you can use your reaction to make a melee weapon attack against that creature. If you hit, you deal {@dice 1d6} extra damage, and you automatically succeed against the effect.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Cram Study",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "When you finish a Long Rest, you can choose {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Nature}, or {@skill Religion}. If you do not have Proficiency in that Skill, you gain Proficiency with that skill until the end of your next long rest. If you did have Proficiency, when you take the {@action study|XPHB|Study Action}, you have Advantage on Intelligence checks involving that Skill.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Dirty Tactics",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "As a Bonus Action, you can throw irritating particles at a creature within 10 feet of you. It must make a Dexterity Saving throw, or become {@condition Blinded} until the end of your turn. The saving throw is equal to 8 + Your Proficiency Modifier + Your Dexterity modifier. ",
+                "Additionally, you have a +1 bonus to weapon damage rolls against {@condition Prone} creatures.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Dropkick of Doom",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@reward Special Technique: Dropkick!|WM4} talent}",
+                "When you dropkick a creature, the creature is pushed 5 feet away from you if it is no more than one size larger than you. In addition, you may make any of your unarmed strikes into a dropkick attack, instead of one per turn.",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Dungeon Adept",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
+                "You have advantage on saving throws made to avoid or resist traps.",
+                "You have resistance to the damage dealt by traps.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Eldritch Akimbo",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Pact of the Blade Invocation}",
+                "Your Pact of the Blade invocation can sustain two weapons at the same time, allowing you to keep up the pressure with dual-wielded weapons.",
+                "{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "Empowered Turning",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Channel Divinity (Turn Undead)}",
+                "The range of your Turn Undead is increased to 60 feet, and undead within 15 feet of you have disadvantage on the saving throw.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Enduring Focus",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Flurry of Blows}",
+                "The first time you use Flurry of Blows after a short or long rest, you can do so without expending focus points. Additionally, you gain 2 more focus points to your total pool.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Expanded Cunning Strikes",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Cunning Strike}",
+                "You have the following options added to your Cunning Strike feature:",
+                {
+                    "type": "entries",
+                    "name": "Lacerate (cost 1d6).",
+                    "entries": [
+                        "The target must succeed on a Constitution saving throw or suffer {@dice 3d6} Piercing damage at the start of its next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hamstring (cost 2d6).",
+                    "entries": [
+                        "The target must succeed on a Strength saving throw or have its speed reduced by 15 feet."
+                    ]
+                },
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Familiar Familiarity",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You always have the {@spell Find Familiar|XPHB} spell prepared. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a long rest.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Fast Reader",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, {@class Wizard}}",
+                "You can read twice as quickly as most people, and it takes you only half the time to copy spells into your book.",
+                "{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "Hotswapper",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "Whenever you roll initiative, you may immediately draw a weapon, and the first attack roll you make that combat has advantage. Additionally, you can don or doff a shield as an object interaction.",
+                "{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "Malleable Illusions",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Spellcasting}",
+                "When you cast an illusion spell that has a duration of 1 minute or longer, you can use a Magic Action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion.",
+                "{@note Made by Gavin}"
+            ]
+        },
+        {
+            "name": "Paladin's Wrath",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Replaces the Paladin's Smite feature}",
+                "You always have the {@spell Wrathful Smite|XPHB} spell prepared. When you cast {@spell Wrathful Smite|XPHB}, you deal Radiant damage instead of Necrotic, and you cast it as though it used a spell slot 2 levels higher, to a maximum of level 5. In addition, you can cast it without using a spell slot, but you must finish a {@variantrule Long Rest|XPHB} before you can cast it this way again.",
+                "{@note Made by Gavin}"
+            ]
+        },
+        {
+            "name": "Polyglot",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "Whenever you finish a short or long rest, you can choose a Language to know until you finish another short or long rest.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Powerful Shove",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "Whenever a creature fails the saving throw against being Shoved by you, you can have it take bludgeoning damage equal to your strength modifier.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Sparks of Magic",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You always have {@spell Dancing Lights}, {@spell Elementalism|XPHB}, {@spell Mending}, {@spell Prestidigitation}, and {@spell Thaumaturgy} prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this Gift).",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Spellbreaker",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "When a creature within reach casts a spell, you can use your reaction to make a melee attack with a weapon or an Unarmed Strike against that creature. On a hit, it must make a saving throw to maintain Concentration. On a failure, the creature's spell fails and has no effect. The action, Bonus Action, or Reaction used to cast it is wasted and, if the spell was cast using a spell slot, the slot is also wasted.",
+                "As with any saving throw to maintain Concentration, the DC equals 10 or half the damage the creature takes, whichever number is higher, to a maximum DC of 30.",
+                "{@note Adapted from MW3. Made by V}"
+            ]
+        },
+        {
+            "name": "Spellheart",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Spellcasting feature}",
+                "If you have no spell slots remaining for an entire minute, you regain a 1st level spell slot.",
+                "Sorcerers cannot convert slots regained in this way into sorcery points. These slots cannot be used to refuel uses of other features, such as Wild Resurgence or Font of Inspiration.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Tactical Opportunist",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "Whenever you make an {@action Opportunity Attack|XPHB|Attack Of Opportunity} against a creature, you can choose to roll at advantage. If you land this attack, all allies within 15 feet of the creature gain a +1 bonus to their attack and damage rolls against the creature until the start of the creature's next turn.",
+                "You can use this ability a number of times equal to half of your Proficiency Bonus (rounded down), and regain expended uses at the end of a short or long rest.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Vexing Mark",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, Hunter's Mark}",
+                "Creatures affected by your Hunter's Mark subtract {@dice 1d4} from their saving throws against your spells.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Vistani Evil Eye",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: Spellcasting Class Feature}",
+                {
+                    "type": "entries",
+                    "name": "Vistani Curse Magic.",
+                    "entries": [
+                        "You learn the spell {@spell Bestow Curse|XPHB} and always have it prepared. When you cast it this way, you instead make a Ranged Spell Attack with a Range of 30 feet, casting it at its Level 3 version. When the target fails the saving throw, you alternatively choose the nature of the curse from the following options:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The target is unable to perform a certain kind of act involving fine motor control, such as tying knots, writing, playing an instrument, sewing, or casting spells that have Somatic components. When this curse ends, you take {@dice 2d6} Psychic damage.",
+                                "The target's appearance changes in a sinister yet purely cosmetic way. For example, the curse can place a scar on the target's face, turn the target's teeth into yellow fangs, or give the target bad breath. When this curse ends, you take {@dice 2d6} Psychic damage.",
+                                "A nonmagical item in the target's possession (chosen by the DM) disappears and can't be found until the curse ends. The lost item can weigh no more than 1 pound. When this curse ends, you take {@dice 2d6} Psychic damage.",
+                                "The target has {@variantrule Disadvantage|XPHB} on ability checks and saving throws tied to one ability score of your choice. When this curse ends, you take {@dice 6d6} Psychic damage.",
+                                "The target's attunement to one magic item of your choice ends. When this curse ends, you take {@dice 10d6} Psychic damage, and the target automatically reattunes to the item.",
+                                "The target is {@condition Blinded}, {@condition Deafened}, or both (your choice). When this curse ends, you take {@dice 10d6} Psychic damage."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Evil Eye.",
+                    "entries": [
+                        "As a {@action Magic|XPHB} action, you can target a creature within 10 feet that you can see. This magical ability, which the Vistani call the Evil Eye, duplicates the duration and effect of the {@spell Animal Friendship|XPHB}, {@spell Charm Person|XPHB}, or {@spell Hold Person|XPHB} spell (your choice), but requires neither Somatic nor Material components. If the target succeeds on the save, you are {@condition Blinded} until the end of your next turn. When you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ]
+                },
+                "The DC for these effects uses your spellcasting DC.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Whirlwind Strike!",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: Extra Attack}",
+                "{@i don't cry because it's over. attack. attack everything around you. do spin attacks}",
+                "You can do spin attacks. You can use an Action to make a Melee Weapon Attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. You can make this attack twice, regaining one of its expended uses when you finish a {@variantrule Short Rest|XPHB}, and all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Attunement Expert",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
+                "You can attune to an additional magic item. It only takes you 1 minute to end your attunement to an item.",
+                "You can use a {@action Magic|XPHB} Action to touch a magic item and immediately attune to it. Once you do so, you can't again until you finish a long rest.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Horde Slayer",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
+                "When an attack you make reduces a creature to 0 hit points, you can target another creature within range and, if the original attack roll can hit it, applies any remaining damage to it. If that creature is likewise reduced to 0 hit points, repeat this process, carrying over the remaining damage until there are no valid targets, or until the damage carried over fails to reduce a creature to 0 hit points.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Master of All Weapons",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}, Fighter}",
+                "You have mastery in all weapons.",
+                {
+                    "type": "entries",
+                    "name": "A Little Bit of Everything.",
+                    "entries": [
+                        "You may unequip and equip a weapon after each attack when you take the Attack Action on your turn. Once per turn, when you do this, you may attack an additional time if the weapon you equipped has a different mastery property than the one you unequipped."
+                    ]
+                },
+                "{@note Made by Gavin}"
+            ]
+        },
+        {
+            "name": "Planar Voyager",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
+                "You always have the {@spell Plane Shift} spell prepared. When you cast it, it doesn\u2019t require components. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a long rest.",
+                "Intelligence, Wisdom, or Charisma is your spellcasting ability for this gift (choose when you receive it).",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Positional Master",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
+                "Immediately after you roll Initiative, you can take a Reaction to cast {@spell Scatter|XGE} without expending a spell slot.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Positive Energy Flux",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}; Bard, Cleric or Druid}",
+                "When you restore Hit Points to a creature with a spell, any excess healing (Hit Points not healed due to being at maximum health), the target instead receives a number of Temporary Hit Points equal to the excess healing. These Temporary Hit Points cannot exceed the target's maximum Hit Points.",
+                "These Temporary Hit Points remain for 1 minute.",
+                "{@note Made by Chrys}"
+            ]
+        }
+    ]
+}

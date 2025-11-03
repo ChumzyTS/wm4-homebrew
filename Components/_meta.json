@@ -1,5 +1,8 @@
 {
     "_meta": {
+        "name": "_meta"
+    },
+    "data": {
         "sources": [
             {
                 "json": "WM4",
@@ -16,7 +19,6 @@
             }
         ],
         "dateAdded": 1742975531,
-        "dateLastModified": 1762159101,
         "edition": "classic"
     }
 }

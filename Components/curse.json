@@ -1,0 +1,121 @@
+{
+    "_meta": {
+        "name": "reward",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Endless Dreamer",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Special Curse}",
+                "Your dreams often stretch on endlessly, and years could pass in your dreams when only hours pass in reality. You remember most of your dreams, even if somewhat hazy.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Lycanthropy (shark)",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i You are heavily swayed to a Neutral Evil alignment, become a Monstrosity (Lycanthrope), and gain minor shark-like features.}",
+                {
+                    "type": "entries",
+                    "name": "Shape-Shift",
+                    "entries": [
+                        "As a Bonus Action, you can shape-shift into a Shark or Shark-Hybrid. While a Shark or Shark-Hybrid, you have a blindsight of 30 feet, a swim speed of 40 feet. While as a Shark-Hybrid, you can breathe air and water. While as a Shark, you are Large and can breathe only underwater. Your game statistics are otherwise the same in each form, though you cannot speak if you are a Shark. Any equipment you are wearing or carrying isn't transformed. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear or wield a piece of equipment. You can use another Bonus Action to shape-shift back."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite",
+                    "entries": [
+                        "While you are a Shark or Shark Hybrid, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal. You have advantage on attack rolls with this weapon against {@status Bloodied|XPHB} creatures.",
+                        "It deals {@dice 2d8} piercing damage on a hit. A damaged creature is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target gains this curse. Success: The target is immune to your curse for 24 hours. A creature automatically succeeds if it cannot become a Lycanthrope, like most non-Humanoids."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Transformation",
+                    "entries": [
+                        "When you start your turn next to a {@status bloodied|XPHB} enemy, you must make a DC 15 Wisdom saving throw. On a failure, you lose control of yourself and shape-shift into a Shark or Shark-Hybrid, and cannot shape-shift back into your true form until there are no {@status Bloodied|XPHB} creatures other than you within 120 feet of you. You have no memory of your actions during this time, the GM having control over those actions instead."
+                    ]
+                },
+                "{@note Formatted like Landon's Lycanthropy curse, Made by Aris}"
+            ]
+        },
+        {
+            "name": "Oiled Up",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Your hair and skin is constantly oily. You sweat oil.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Pretty Bad Medicine, Actually",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i This is serious, asshole.}",
+                "Whenever you, the player, laugh, your character takes {@dice 1d6} psychic damage.",
+                "{@note Inspired by Legends of Avantris, Made by Lily}"
+            ]
+        },
+        {
+            "name": "Tears of Sorrow",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Special Curse}",
+                "You cannot stop crying. Everything that was; every wish for what could've been; the yearn of what you could be; all of these reverberate through your mind- through each action you take- as an incessant reminder of your loss and grief. These tears are shed and you cannot bring yourself to cease them.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Terminal Terminal Velocity",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "There is no longer a maximum amount of damage you take from the Falling Hazard.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "The MacLeod Effect",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Whenever you succeed on a Dexterity ({@skill Stealth}) check made to {@action Hide|XPHB}, Sneaky Snitch plays from around you and can be heard in a 30 foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Vile Damage",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Special Curse}",
+                "Vile damage is a special curse. Every point of vile damage reduces your current hit points by 1. These lost hit points can only be restored by healing magic in a consecrated area such as the Hallow spell. Vile damage represents such an evil violation to a character\u2019s body or soul that only in a holy place can healing magic repair the damage.",
+                "Vile damage is usually done in increments of 1 damage per infliction",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "You First.",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Whether it's because you are aura farming, are overly polite, or just have a godlike reaction speed, whenever you would roll initiative, you instead get an initiative of 0. If you still go before someone else, you can point and laugh at them.",
+                "{@note Made by Christopher}"
+            ]
+        }
+    ]
+}

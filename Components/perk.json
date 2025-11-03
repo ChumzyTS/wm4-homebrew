@@ -1,0 +1,515 @@
+{
+    "_meta": {
+        "name": "reward",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Abyssal Influence: Bloody Ichor",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you die, you leave a puddle of demon ichor in your space. It dissolves after 24 hours.",
+                "(can only be given with the players' permission)",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Anonymity",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have advantage on Dexterity ({@skill Stealth}) checks made to hide in crowds of people.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Beast Treats",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Beast Master}",
+                "You can take a {@action Magic|XPHB} action to feed your Primal Companion treats and expend a spell slot. After 1 minute, the beast has all its Hit Points restored.",
+                "(you can already do this but you have to kill the beast to do it normally)",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Birthday Blessing!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "While it is your birthday (the PC's birthday), you add {@dice 1d4} to D20 Tests.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Bottleable",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Ooze}",
+                "As a {@action Magic|XPHB} action you are to shrink your form in order to fit into an open bottle, flask, vial, or other tiny container. While in the bottle, you are able to be concealed by another creature, allowing you to share its Dexterity ({@skill Stealth}) checks to remain unseen. If the container is open, you can leave it using half of your movement. If the container is nonmagically sealed, you are unable to leave but can use an action to make a DC 10 Strength saving throw in order to break out of the container. If the container is magically sealed, you are unable to break out in this way.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Dice Goblin",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can attune to multiple {@item Charlatan's Die|XDMG} at once, and they all count as the same attunement.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Door Buster",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i You are adept in knocking doors off their hinges}",
+                "You gain a +4 bonus to Strength checks to break down doors. This bonus does not stack with a Portable Ram.",
+                "{@note Perk of {@item Portable Ram|XPHB}, Made by Gem}"
+            ]
+        },
+        {
+            "name": "Elysium Influence: Adequate Chef",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "No matter how low you roll for Wisdom ({@item Cook's Utensils|XPHB}) to prepare a meal, your food cannot taste terrible. It tastes mediocre at worst.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Evil Brand",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You are physically marked forever as a servant of an evil power greater than yourself or as a villain who does not care who knows that you seek only death, destruction, and misery for others. The symbol is unquestionable in its evil, and all who see it know beyond a doubt that the bearer is forever in the sway of the blackest powers.",
+                "Evil creatures automatically recognize the symbol now emblazoned upon you as a sign of your utter depravity or discipleship to a powerful patron, although the specific identity of the patron is not revealed.",
+                "You gain a +2 bonus on {@skill Persuasion} and {@skill Intimidation} checks made against evil creatures.",
+                "{@note From 3.5e, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Evil Brand: Mark of Chains",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You are physically marked forever as a servant of an evil power greater than yourself or as a villain who does not care who knows that you seek only death, destruction, and misery for others. The symbol is unquestionable in its evil, and all who see it know beyond a doubt that the bearer is forever in the sway of the blackest powers.",
+                "If you already have {@reward Evil Brand|WM4} when you receive this Perk, you can choose for this Perk's features to replace {@reward Evil Brand|WM4|Evil Brand's}; else, this Perk has no effect.",
+                "Evil creatures automatically recognize the chain link symbol now emblazoned upon you as a sign of your utter depravity or discipleship to a powerful patron, although the specific identity of the patron is not revealed.",
+                "You gain a +1 bonus on your save DCs to Grapple and Escape a Grapple.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Food Feelings",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you take the {@action Search|XPHB} action, you can target a creature and make a Wisdom ({@skill Insight}) check against their Passive Charisma ({@skill Deception}). On a success, you learn what their Super All-Time Favorite Food is, and their Worst Most Hated Food ever is. On a failure, that creature becomes immune to this ability for 24 hours.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Gorg is this real?",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you take the {@action Study|XPHB} action, you can ask Gorg for help. He responds if he happens to be within earshot.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Gork is this real?",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you take the {@action Magic|XPHB} action, you can ask Gork for help. He responds if he happens to be within earshot.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Hand-Eye Coordination",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Your hands function as a {@item Spyglass|XPHB} when positioned in front of an eye as one.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "I Own a Musket For Home Defense",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have advantage on attack rolls with {@item musket|XPHB|muskets} while in your home, as the founding fathers intended.",
+                "{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "Juggler",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you hit another creature of one size larger than you or smaller with a weapon attack, you can cause that creature to not fall until the end of your next turn.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Kyton's Chains",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can use {@item Manacles|XPHB} or {@item chain|XPHB|Chains} on a creature within 10 feet of yourself, rather than 5.",
+                "Additionally, you can use {@item chain|XPHB|Chains} as a {@item Whip|XPHB}, dealing either Bludgeoning or Slashing damage on a hit (depending on the nature of the chain).",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Legacy Carpenter",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@item Carpenter's Tools|XPHB} proficiency}",
+                {
+                    "type": "entries",
+                    "name": "Fortify.",
+                    "entries": [
+                        "With 1 minute of work and raw materials, you can make a door or window harder to force open. Increase the DC needed to open it by 5."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Temporary Shelter.",
+                    "entries": [
+                        "As part of a Long Rest, you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses {@dice 1d3} days after being assembled."
+                    ]
+                },
+                "{@note From 2014, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Legacy Mason",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@item Mason's Tools|XPHB} proficiency}",
+                {
+                    "type": "entries",
+                    "name": "Demolition.",
+                    "entries": [
+                        "Your knowledge of masonry allows you to spot weak points in brick walls. You deal double damage to such structures with your weapon attacks."
+                    ]
+                },
+                "{@note From 2014, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Legacy Tinkerer",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@item Tinker's Tools|XPHB} proficiency}",
+                {
+                    "type": "entries",
+                    "name": "Repair.",
+                    "entries": [
+                        "You can restore 10 hit points to a damaged object for each hour of work. For any object, you need access to the raw materials required to repair it. For metal objects, you need access to an open flame hot enough to make the metal pliable."
+                    ]
+                },
+                "{@note From 2014, ported by Aris}"
+            ]
+        },
+        {
+            "name": "Let\u2019s Get This Out Onto A Tray",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You never tire of eating rations and have Advantage on Saving Throws against the Poisoned condition from consuming spoiled or old rations. Nice.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Looks at camera...",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You always know what direction to look at the camera.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Looks away from camera...",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You always know what direction to look away from the camera.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Mag-nificent!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have {@variantrule Advantage|XPHB} on any ability check made to appraise or inspect a highly detailed item. You can also light a fire with if you have light as bright as sunlight to focus, tinder to ignite. It takes about 5 minutes for the fire to ignite.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Monster Masher",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have Advantage on Charisma ({@skill Performance}, {@skill Persuasion}) checks made to convince a Monstrosity or Undead to join an ongoing dance.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Neurotoxin",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Cunning Strike, Soulknife Rogue}",
+                "You do not need a {@item Poisoner's Kit|XPHB} on your person to use the Poison option of Cunning Strike on attacks with your {@item Psychic Blade|XPHB|Psychic Blades}.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Opening Tap",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can use any hard blunt object, such as a pommel of a blade or another lock, as {@item Thieves' Tools|XPHB} for the purposes of opening a nonmagical lock.",
+                "{@note Inspired by the 3.5e Opening Tap skill trick, Made by Aris}"
+            ]
+        },
+        {
+            "name": "Owlbears are Owl Bears!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can treat {@creature owlbear|XMM|Owlbears} as Beasts for the sake of your features and spells.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Question for the Producer...",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When a session finishes, you (the player) can ask the GM 1 question. The GM must answer (though not necessarily truthfully)",
+                "{@i Wait, you could always just do this.}",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Ratapult",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Can cast {@spell Catapult|XGE}}",
+                "When you cast {@spell Catapult|XGE}, you can target a {@creature Rat|XMM} to launch instead of an object.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Shielding Arm",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@item Shield|XPHB} Training",
+                "As an Action while your hand is empty, you can shift your stance to one of defense. While in this stance, you can use your empty hand as a donned {@item shield|XPHB}. While in this stance, you can't hold or manipulate items in that hand. You can exit this stance as an Action.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Shielding Stance",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@item Shield|XPHB} Training",
+                "As a {@action Utilize|XPHB} action while holding a weapon, you can shift the way you hold one of your weapons you are holding to a stance of defense. While in this stance, treat the weapon as a {@item shield|XPHB}. While in this stance, you can't make attacks with that weapon.",
+                "Additionally while in this stance, you can't be disarmed of that weapon, and it takes a {@action Utilize|XPHB} action to drop the weapon, thereby ending the stance. You can also exit this stance as a {@action Utilize|XPHB} action.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Silly Guy",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have a tiny spirit resembling a creature (Chosen when you receive this perk) that constantly follows you. It can emote in response to what is going on around you, but it has no statblock, cannot perform any actions, and cannot convey any useful information. The Silly Guy adapts to any environment, changing its form to accommodate including allowing it to swim, fly, or move in any other way. If it is ever more than 60 ft from you, it instantly teleports to your side.",
+                "As a {@action Magic|XPHB} action you can dismiss any number of Silly Guys you have. You can resummon any number of Silly Guys as a {@action Magic|XPHB} action.",
+                "You can receive this perk multiple times, gaining a different Silly Guy of the DMs choice each time.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Slap of Life",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can take the {@action Help|XPHB} action to try to stabilize via slap a creature with 0 Hit Points, which requires a successful DC 10 Strength ({@skill Athletics|XPHB}) check.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Sloppy Style",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you make a Wisdom ({@item Cook's Utensils|XPHB}) check in order to prepare food, you can choose to roll a 1 on the die. When you do so the food becomes inedible, providing no nutrition.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Specific Knowledge: [Topic]",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You gain a +5 bonus to ability checks you make about that topic. The checks must only apply if it makes sense to apply to the topic. This bonus does not stack when using a Book.",
+                "{@note Original by Aris, Reworked by Landon}"
+            ]
+        },
+        {
+            "name": "Spirit of Encouragement",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i In times of stress, a small incorporeal spirit manifests behind you, holding onto your back. This spirit provides encouragement and consoles negative emotions.}",
+                "When forced to make a saving throw to avoid falling into despair or otherwise allowing a form of sadness to take hold of you, you roll that saving throw with advantage.",
+                "In addition, a creature with this perk is convinced that luck is on their side, even when that might not be the case.",
+                "{@i Keep on rushing forward!}",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Spore Master",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Level 5, can cast {@spell animate dead|XPHB}}",
+                "When you cast {@spell animate dead|XPHB} targeting a corpse, you can choose to animate the corpse with spores instead of negative energy. When cast in this way, the target becomes a spore servant. A spore servant uses the {@creature zombie|XMM} statistics with the following changes:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The servant is a plant, not an undead",
+                        "The servant's alignment becomes unaligned",
+                        "The servant's Intelligence is 2 (-4) and its Charisma is 1 (-5)",
+                        "The servant has {@sense blindsight} with a radius of 30 feet, and is blind beyond this radius",
+                        "The servant loses the undead fortitude trait and its darkvision",
+                        "The servant loses its languages"
+                    ]
+                },
+                "You can target this spore servant with animate dead as if it was an undead creature. The spore servant remains animated for 30 days, or until it is reduced to 0 hit points. You cannot reanimate the corpse as a spore servant in this way again.",
+                "{@note Based on the spore servant template in the Monster Manual, and made in consideration of Spores Druids, which get animate dead as a spell. From S3. Made by Aris}"
+            ]
+        },
+        {
+            "name": "Stabilizer",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@skill Medicine} Proficiency}",
+                "You can take the {@action Help|XPHB} action to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom ({@skill Medicine}) check.",
+                "{@note Perk of {@item Healer's Kit|XPHB}. Made by Gem}"
+            ]
+        },
+        {
+            "name": "Street Juggler",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@reward Juggling Training|WM4}}",
+                "You can use any object or item that weighs less than 1 lb as a {@item Juggling Club|WM4}.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Tactical Backflip",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Whenever you're subjected to an effect that allows you to make a Dexterity saving throw, you can take a Reaction to do a cool backflip. If you do, you get a -1 penalty to that saving throw.",
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Tamed Beast",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Beast Master}",
+                "When your Beast of the Land or Sea hits, you can choose to not {@condition Prone} or {@condition Grappled|XPHB|Grapple} the target.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Taxi!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As an {@action Influence|XPHB} action, you can try to summon private transportation. Sometime between your next turn and forever later, up to GM's discretion, such transportation will arrive, though they will still charge a fare. (Regular fees are 3 cp per mile, or 1 cp for inner-city travel).",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Thrall to Demon",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You formally supplicate yourself to a demon prince. In return for this obedience, you gain a small measure of the demon prince's power.",
+                "While performing an evil or chaotic act, you can call upon your demonic patron and gain a +1 bonus on {@variantrule D20 test|XPHB}. Once you gain this benefit, you cannot do so again until you finish a Long Rest.",
+                "{@note From 3.5e. Made by Aris}"
+            ]
+        },
+        {
+            "name": "Unleashing... My True... Power....!!!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can tense up, as a 10 foot Emanation amasses around you. You choose its appearance. This emanation remains until the end of your next turn.",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Up the Hill",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i \"When I was a kid I used to walk to school uphill both ways\"}",
+                "You can run up steep inclines or stairs without it costing extra movement (if the GM would rule it as costing extra movement).",
+                "{@note Made by Aris}"
+            ]
+        },
+        {
+            "name": "Vecna's Most Vile Technique",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Sleight of Hand}) checks to steal candy from a baby.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Well Traveled",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have expert knowledge on the layout of an area (Chosen when you receive this perk).",
+                "You have a +5 bonus to Wisdom ({@skill Survival}) checks you make to find your way in the area. This bonus does not stack with {@item Map|XPHB|Maps}.",
+                "You can receive this perk multiple times, gaining knowledge in a different area.",
+                "{@note Perk of {@item Map|XPHB}, Made by Gem}"
+            ]
+        }
+    ]
+}

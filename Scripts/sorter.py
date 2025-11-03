@@ -1,6 +1,5 @@
 import os
 import json
-from operator import itemgetter
 
 # File Paths
 scriptsFolder = os.path.dirname(os.path.abspath(__file__))
@@ -31,16 +30,16 @@ for part in parts:
     filePath = componentsFolder + part
     componentData = {}
     with open(filePath, 'r', encoding='utf8') as file:
-        name = part.removesuffix(".json")
         componentData = json.load(file)
+        metaData = componentData["_meta"]
         
-        items = componentData[name]
-        if "sort" in componentData:
-            sortData = componentData["sort"]
+        items = componentData['data']
+        if "sort" in metaData:
+            sortData = metaData["sort"]
 
             items = sorted(items, key=(lambda item: itemSort(item, sortData)))
 
-        componentData[name] = items
+        componentData['data'] = items
     
     with open(filePath, 'w', encoding='utf8') as file:
         json.dump(componentData, file, indent=4)

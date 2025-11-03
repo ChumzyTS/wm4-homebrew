@@ -1,0 +1,49 @@
+{
+    "_meta": {
+        "name": "condition",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Astraphobia",
+            "source": "WM4",
+            "type": "Phobia",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn in a storm, see a storm from a distance, or hear a storm from a distance. On a failed save, you are {@condition Frightened} of the storm. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Astraphobia for the next hour.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Megalophobia",
+            "source": "WM4",
+            "type": "Phobia",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 300 feet of a Huge or greater sized creature that you can see or when you see a Colossal or greater sized creature from a distance greater than that. On a failed save, you are {@condition Frightened} of that creature. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Megalophobia for the next hour.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Merinthophobia",
+            "source": "WM4",
+            "type": "Phobia",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn {@condition Grappled} or {@condition Restrained}. On a failed save, you are {@condition Frightened} of the source of the condition. As an action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Merinthophobia for the next hour.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Panphobia",
+            "source": "WM4",
+            "type": "Phobia",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn. On a failed save, you are {@condition Frightened} of everything. As an Action, you can repeat the saving throw, ending the condition on a success. If you succeed, you automatically succeed on saves against Panphobia for the next hour.",
+                "{@note Made by Landon}"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "_meta": {
+        "name": "reward",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Arms Dealer Dealer",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You\u2019ve earned the respect of Castil, premier gunsmith of Westgate. He offers a small discount at his shop, access to more select merchandise, and more jobs when he has them.",
+                "{@note Made by Lily}"
+            ]
+        },
+        {
+            "name": "Bought a Trip to Wildspace",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You bought a trip to Wildspace! Nice.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Demon Spawn",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "For whatever benign reason, you have been transformed into a creature that carries the essence of evil itself. The traits gained from your species are replaced with the following:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Creature Type:} Your creature type is Fiend (Demon).",
+                        "{@b Size:} Medium or Small.",
+                        "{@b Speed:} 30 feet.}",
+                        "{@b Abyssal Fortitude:} You are Resistant to Cold, Fire, and Lightning Damage.",
+                        "{@b Alignment:} Your alignment is Chaotic Evil.",
+                        "{@b Abyssal Corruption:} You gain a randomly determined flaw from the {@table Optional Rule: Abyssal Corruption; Abyssal Corruption|DMG|Abyssal Corruption table}, ignoring rolls of 10. You yearn for the Abyss; while not in the Abyss, you have a -1 to all {@variantrule D20 test|XPHB|D20 tests}."
+                    ]
+                },
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Dingy Hospitality",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have the protection of Balabar Smenk, an upstart criminal from Westgate. When in Westgate, you can find a place to hide, rest, or recuperate within the criminal network, unless you have shown yourself to be a danger to those who are sheltering you. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.",
+                "{@note Made by Chrys}"
+            ]
+        },
+        {
+            "name": "Efreeti's Serf",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "{@i Your soul is binded to an {@creature Efreeti|XMM} in order to do its whims.}",
+                "You are {@condition Charmed} by that {@creature Efreeti|XMM}. They have a telepathic link with you.",
+                "As a {@action Magic|XPHB} action, that {@creature Efreeti|XMM} can deal {@dice 5d10} Fire damage to you. This damage cannot be reduced in any way.",
+                "When you deal Fire damage to a creature, you can have that creature start burning. Once you use this feature, you cannot do so again until you finish a long rest.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Greased Hog Lightning",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "The Hoggler is known throughout Raven's Bluff to have killed a goblin under the Crossed Quils' House while covered in Grease. Local legends are formed around this event.",
+                "{@note Made by Patrick}"
+            ]
+        },
+        {
+            "name": "Saved Up Enough To Finally Go to Wildspace",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "If you have 10,000 gp, you can spend that much gp and a Bastion Turn to take a vacation to Wildspace. You receive a {@item Fish Suit|AAG} as a souvenir and this Story Record is replaced with {@reward Bought a Trip to Wildspace|WM4}.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "Starmantle's Gratitude",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You've extinguished the inferno and felled the first Machine. As such, you have the deepest thanks of Starmantle's people.",
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "Vow of Kindness to Beasts",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have promised to never harm a beast.",
+                "You have a +1 to Wisdom ({@skill Animal Handling}) checks. If you ever willingly harm a beast except in self-defense, you instead have a -5 penalty to Wisdom ({@skill Animal Handling}) checks.",
+                "{@note Made by Landon}"
+            ]
+        },
+        {
+            "name": "[LOS] Breaker of Silence",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You've felled the third Machine, destroyed the Mass Shadow Engine, and returned both light and water to the streets of Perago.",
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "[LOS] Colossus Crusher",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You carry the renown of stopping the second Machine's rampage. The people of the Northern regions will speak of your great deed for many years.",
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "[LOS] Starmantle's Gratitude",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You've extinguished the inferno and felled the first Machine. As such, you have the deepest thanks of Starmantle's people.",
+                "{@note Made by Christopher}"
+            ]
+        },
+        {
+            "name": "[SEC] Dungeoneer",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have become an official member of the Scholar Exploration Corps and are able to go on expeditions with them.",
+                "Whenever you take the Guildhall: Dungeoneer bastion turn, you can choose to go on an expedition with SEC. If you do so, roll on the list twice and pick one of the items you rolled to receive (Rerolling duplicates).",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "[SMP] Banned for Life",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have committed a dastardly crime against The Scholars of Millenniums Past, and have been banned from their libraries permanently. If you are found out to be banned while trespassing onto their property, hostile action will be taken. While other libraries don't immediately take this as proof of bad book lending, many will be hesitant to let you visit.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "[SMP] Card Holder",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have been recognized as responsible enough to check out books from any Scholars of Millenniums Past' library. As a highly prestigious library organization, many non-associated libraries accept this membership as well.",
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "[SMP] Scholar",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "Due to your dedication or assistance to The Scholars of Millenniums Past, you have shown yourself to be trustworthy. You receive preferential treatment over simple Card Holders. Additionally, you are allowed to start your own library under their name, and they will provide aid to do such.",
+                "{@note Made by Gem}"
+            ]
+        }
+    ]
+}

@@ -1,24 +1,27 @@
 {
-    "sort": [
-        {
-            "key": "rarity",
-            "type": "custom",
-            "order": {
-                "common": 1,
-                "uncommon": 2,
-                "rare": 3,
-                "very rare": 4,
-                "legendary": 5,
-                "artifact": 6,
-                "legacy": 7
+    "_meta": {
+        "name": "item",
+        "sort": [
+            {
+                "key": "rarity",
+                "type": "custom",
+                "order": {
+                    "common": 1,
+                    "uncommon": 2,
+                    "rare": 3,
+                    "very rare": 4,
+                    "legendary": 5,
+                    "artifact": 6,
+                    "legacy": 7
+                }
+            },
+            {
+                "key": "name",
+                "type": "a-z"
             }
-        },
-        {
-            "key": "name",
-            "type": "a-z"
-        }
-    ],
-    "item": [
+        ]
+    },
+    "data": [
         {
             "name": "+1 Tool",
             "source": "WM4",

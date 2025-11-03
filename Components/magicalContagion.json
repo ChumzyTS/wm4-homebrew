@@ -1,0 +1,141 @@
+{
+    "_meta": {
+        "name": "condition",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Mad Rat Disease",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Magical Contagion",
+            "basicRules2024": true,
+            "entries": [
+                "When large quantities of rodents gather in areas of intense magic, they can start going insane, infecting the area with mad rat disease. Any beast or humanoid that is wounded by a creature that carries the contagion or comes into contact with contaminated filth must succeed on a DC 11 Constitution saving throw, or become infected. A creature that is infected suffers the following effects after {@dice 1d8} minutes.",
+                {
+                    "type": "entries",
+                    "name": "Maddening Failure.",
+                    "entries": [
+                        "Whenever an infected creature fails a D20 test, it must roll on the madness table below. If it rolls a 5 or lower, it does not roll on the table again until the start of its next turn."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "caption": "Maddening Failure",
+                    "colLabels": [
+                        "{@dice 1d10}",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 1
+                                }
+                            },
+                            "The creature is {@condition Stunned} until the end of its next turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 2
+                                }
+                            },
+                            "The creature becomes {@condition Frightened} of all creatures (other than itself) until the end of its next turn. On its next turn, it uses its action to make an attack against a random creature within its range. If no creature is within range, it can\u2019t take an action this turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 3
+                                }
+                            },
+                            "The creature becomes {@condition Dazed|WM4} until the end of its next turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 4
+                                }
+                            },
+                            "The creature falls {@condition Prone}, and cannot get up until the end of its next turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 5
+                                }
+                            },
+                            "The creature is {@condition Poisoned} until the end of its next turn."
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "min": 6,
+                                    "max": 10
+                                }
+                            },
+                            "No effect"
+                        ]
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fighting the Contagion.",
+                    "entries": [
+                        "When the creature finishes a long rest, it must make a DC 15 Constitution saving throw. On a success the contagion ends. Magic such as {@spell Heal|XPHB} or {@spell Lesser Restoration|XPHB} cures a creature of the contagion."
+                    ]
+                },
+                "{@note Made by Gem}"
+            ]
+        },
+        {
+            "name": "Weave Fray",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Magical Contagion",
+            "basicRules2024": true,
+            "entries": [
+                "{@i It's unknown why, but occasionally when a creature returns from a dead magic zone, they don't properly return to the fabric of magic.}",
+                "This Magical Contagion is able to affect all creatures, even those typically immune to Magical Contagions, and is unable to be cured through magical means. A creature suffers the following effects immediately upon infection.",
+                {
+                    "type": "entries",
+                    "name": "Fatigue.",
+                    "entries": [
+                        "The creature gains 1 {@condition Exhaustion} level. Every day the creature spends not in an {@spell Antimagic Field|XPHB}, it gains another level of {@condition Exhaustion}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Magic Sickness.",
+                    "entries": [
+                        "Whenever the creature attempts to cast a spell, has a spell cast on it, or takes a {@action Magic|XPHB} action, it takes {@dice 2d6} Necrotic damage per level of {@condition Exhaustion} it has. This damage cannot be reduced.",
+                        "Additionally when it casts a spell, or takes a {@action Magic|XPHB} action it must succeed on a DC 13 Constitution saving throw, or it fails wasting any resources expended."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fighting the Contagion.",
+                    "entries": [
+                        "A creature must spend a day in an {@spell Antimagic Field|XPHB}, after which it can exit and attempt to properly connect to the Weave. It must make a DC 15 Charisma saving throw. On a success the contagion is cured. On a failure, it continues to suffer the effects and must wait another day in order to attempt the save again."
+                    ]
+                },
+                "{@note Made by Gem}"
+            ]
+        }
+    ]
+}
