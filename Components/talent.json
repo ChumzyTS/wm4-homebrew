@@ -790,6 +790,24 @@
             }
         },
         {
+            "name": "Demon Arm",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Your arm is possessed by a demon, or demonic essence, transforming to become a more clawed, demonic form.}",
+                "You can use your clawed hand to make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}. When you hit with it, the strike deals {@dice 1d6} + your Strength modifier Slashing damage, instead of the Bludgeoning damage normal for an {@variantrule Unarmed Strike|XPHB}.",
+                "When you roll a 1 on an attack roll, you must immediately spend your Reaction to make an {@variantrule Unarmed Strike|XPHB} with your clawed hand against the nearest ally. If there is no ally within reach, you take {@dice 1d8} Necrotic damage.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Demon Eye",
             "source": "WM4",
             "type": "Talent",
@@ -1185,6 +1203,24 @@
             }
         },
         {
+            "name": "Thunderdap",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Can cast {@spell Thunderclap|XPHB}}",
+                "You have learned to enhance the power of thunderclap with the help of allies.",
+                "When you cast {@spell Thunderclap|XPHB}, choose a friendly creature within 5 feet of you. If they have a free hand, they can use their Reaction to extend their hand, joining in as a source of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. When an ally joins you, the {@variantrule Emanation [Area of Effect]|XPHB|Emanation's} size increases to 10 feet originating from you, and the spell's thunderous sound can be heard from up to 200 feet away. The ally is considered part of the origin, excluding them from the effects of the spell.",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Tidal Dash",
             "source": "WM4",
             "type": "Talent",
@@ -1374,6 +1410,30 @@
             }
         },
         {
+            "name": "Cere-many",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: Can cast {@spell Ceremony|XGE}}",
+                "When you cast {@spell Ceremony|XGE}, you may replace the Wedding rite with the following:",
+                {
+                    "type": "entries",
+                    "name": "Wedding",
+                    "entries": [
+                        "You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of another target. This effect cannot increase a creature's AC by more than 2. A creature may be married to a number of creatures equal to its proficiency bonus, and any two creatures married to each other cannot benefit from this rite together again unless they are widowed by the other."
+                    ]
+                },
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Child of the Shadow",
             "source": "WM4",
             "type": "Talent",
@@ -1395,6 +1455,23 @@
                 "3rdparty": [
                     "3.5e"
                 ]
+            }
+        },
+        {
+            "name": "Commander? I Hardly Know \u2018Er",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "Prerequisite: Can cast {@spell Command|XPHB}",
+                "When you cast {@spell Command|XPHB}, you may use the {@spell Command|PHB|2014 wording} of the spell.",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
+                ],
+                "3rdparty": false
             }
         },
         {

@@ -41,6 +41,21 @@
             }
         },
         {
+            "name": "Arborea Influence: Merry Music",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Whenever you cast a spell or make a spell attack, the faint sound of merry music can be heard by you and those affected by your magic.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Beast Treats",
             "source": "WM4",
             "type": "Perk",
@@ -747,6 +762,37 @@
                 "3rdparty": [
                     "3.5e"
                 ]
+            }
+        },
+        {
+            "name": "Tiny Wings",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i You have a very tiny pair of wings on your back, granting you the ability to fly.}",
+                "As an action you can grant yourself a {@variantrule Fly Speed|XPHB} of 5ft that lasts until the end of your turn.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Transfigured Claws",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "One or more of your hands have been transformed by magic, sharpening their ends. When you damage a target with an {@variantrule Unarmed Strike|XPHB} using a transformed hand, you can change the damage type to be Piercing or Slashing damage.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
             }
         },
         {

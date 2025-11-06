@@ -1247,6 +1247,33 @@
             }
         },
         {
+            "name": "Cattering Ram",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "U|WM4"
+            ],
+            "entries": [
+                "{@i The Cattering Ram is an adamantine tube that, through the power of magic, was partially polymorphed into a Cat. It appears to be a Calico cat, having ears, whiskers, paws, a tail, and an expressive face, all while retaining its original tubular shape.}",
+                "You can receive assistance from the Cattering Ram to break down doors. When doing so, you gain a +4 bonus and Advantage on the Strength check (This does not stack with a normal {@item Portable Ram|XPHB}).",
+                {
+                    "type": "entries",
+                    "name": "Cattering Ram",
+                    "entries": [
+                        "The Cattering Ram is a sentient, Chaotic Neutral portable ram with an Intelligence of 3, a Wisdom of 12, and a Charisma of 7. It has a Speed and Climb Speed of 40. The Cattering Ram is a lazy and chaotic entity. It enjoys walking around and ramming into random objects and creatures nearby. The Cattering Ram can change its expression and create audible Cat noises as it wishes."
+                    ]
+                },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Clockwork Spurs",
             "source": "WM4",
             "rarity": "uncommon",
@@ -3314,6 +3341,26 @@
             }
         },
         {
+            "name": "Pipe of Grief",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This long smoking pipe brings sorrowful memories when smoked.",
+                "As a {@action Magic|XPHB} action while the pipe is filled with tobacco and lit, you can release a puff of magical smoke that takes the form of a 5 foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} centered on you. The cloud remains for {@dice 3d8} minutes, or until a strong wind disperses it. A creature that ends its turn in the cloud must make a DC 15 Wisdom saving throw. On a failure, the creature is filled with grief, and has disadvantage on {@variantrule D20 test|XPHB|D20 tests} for 1 minute. A grieved creature can repeat the saving throw if it ends its turn outside of the cloud. After three successful saving throws, the grief effect ends.",
+                "Creatures immune to the {@condition Poisoned} condition are immune to this effect, as well as creatures that don't need to breathe. Once used, a magical cloud cannot be produced from this pipe again until the next dawn.",
+                "{@note From Book of Vile Darkness (3.5e). Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Book of Vile Darkness (3.5e)"
+                ]
+            }
+        },
+        {
             "name": "Potion of Poison Immunity",
             "source": "WM4",
             "rarity": "rare",
@@ -4134,6 +4181,28 @@
             }
         },
         {
+            "name": "Worn Card: II - The High Priestess",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "WC|WM4"
+            ],
+            "entries": [
+                "{@i 'Mother is watching you.'}",
+                "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to summon a Gargantuan-sized, heeled, and disembodied leg to stomp a point you choose, creating a 10-foot-radius, 30-foot-high Cylinder extending upwards from that point. Any creatures within this space must make a DC 18 Dexterity Saving Throw or take {@dice 12d6} Bludgeoning damage and be knocked {@condition Prone}. Creatures that save take half damage and are not knocked {@condition Prone}. Once this resolves, the leg rises up and disappears, and the card disintegrates into dust."
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
+        },
+        {
             "name": "Worn Card: V - The Hierophant",
             "source": "WM4",
             "rarity": "very rare",
@@ -4770,6 +4839,30 @@
                         ]
                     ]
                 },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Soda of Devastation",
+            "source": "WM4",
+            "rarity": "legendary",
+            "type": "P",
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i soda pop}",
+                "As a {@action Magic|XPHB} action, you can shake the soda. Everytime you shake it, there is a percent chance equal to the times its been shaken that it explodes.",
+                "When you take the {@action Attack|XPHB} action, you can replace an attack with throwing the can up to 300 feet, where it instantly explodes.",
+                "When the can explodes, all creatures within a 5 foot radius must make a DC 20 Dexterity saving throw. The radius increases by 5 feet every time it is shaken. On a failure it takes {@dice 1d10} Force damage per time the can was shaken, or half as much on a success.",
+                "A nonmagical object that isn't being worn or carried also takes the damage if it's in the area.",
+                "Every day at dawn, the can settles down, resetting as if it had not been shaken.",
                 "{@note Made by Gem}"
             ],
             "credit": {

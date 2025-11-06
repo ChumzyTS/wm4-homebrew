@@ -10,6 +10,21 @@
     },
     "data": [
         {
+            "name": "ASYS Trial Participant",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have participated in an ASYS Corporation lab trial, contributing to the research of magic. Thank you for your efforts towards the betterment of society.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Arms Dealer Dealer",
             "source": "WM4",
             "type": "Story Record",
@@ -109,6 +124,21 @@
             "credit": {
                 "gms": [
                     "Patrick"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Legendary Importance",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You are considered to be of legendary importance for the purposes of the {@spell Legend Lore|XPHB} spell.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
                 ],
                 "3rdparty": false
             }

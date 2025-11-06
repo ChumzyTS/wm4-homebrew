@@ -6,7 +6,7 @@
                 "json": "WM4",
                 "abbreviation": "WMUTD",
                 "full": "Westmarch UTD",
-                "version": "1.7.1",
+                "version": "1.7.2",
                 "authors": [
                     "Various DMs"
                 ],
@@ -18,7 +18,7 @@
         ],
         "dateAdded": 1742975531,
         "edition": "classic",
-        "dateLastModified": 1762169700
+        "dateLastModified": 1762411007
     },
     "baseitem": [
         {
@@ -121,6 +121,24 @@
             "credit": {
                 "gms": [
                     "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Axe",
+            "source": "WM4",
+            "rarity": "none",
+            "type": "G",
+            "value": 200,
+            "weight": 4,
+            "entries": [
+                "Working for 10 minutes, you can use an Axe to cut down a tree less than 5 ft in diameter. Working for 1 hour, you can use an Axe to dig a hole that is 5 feet on each side in wood or similar material.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
                 ],
                 "3rdparty": false
             }
@@ -242,6 +260,44 @@
             }
         },
         {
+            "name": "Paxel",
+            "source": "WM4",
+            "rarity": "none",
+            "type": "G",
+            "weight": 5,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "The Paxel is a tool that combines the utility of a shovel, an axe, and a pickaxe. Working for 1 hour, you can use the Paxel to displace a 5ft cube of soil, stone, or wood.",
+                "{@note From WM3, Made by Jarod}"
+            ],
+            "credit": {
+                "gms": [
+                    "Jarod"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pickaxe",
+            "source": "WM4",
+            "rarity": "none",
+            "type": "G",
+            "value": 200,
+            "weight": 10,
+            "entries": [
+                "Working for 1 hour, you can use a Pickaxe to mine a hole that is 5 feet on each side in soft rock, or 8 hours for hard rock. Using a Pickaxe gives you Advantage on Strength checks to remove gems and minerals from stone.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Sheet Music",
             "source": "WM4",
             "type": "G",
@@ -339,6 +395,24 @@
                 ],
                 "3rdparty": [
                     "3.5e There Is No Honor"
+                ]
+            }
+        },
+        {
+            "name": "Vrock Dust",
+            "source": "WM4",
+            "rarity": "none",
+            "type": "IDG",
+            "value": 4000,
+            "entries": [
+                "This powder made from the dried spores of a vrock provides a potent, pleasurable high when inhaled. A creature that consumes this drug must make a DC 14 Constitution saving throw. On a failure, the creature is {@condition Poisoned} for the next 10 minutes. While {@condition Poisoned} in this way, the creature is Vulnerable to Radiant damage and automatically fails any saving throw inflicted by a Celestial or Fiend.",
+                "A creature addicted to Vrock Dust experiences potent cravings for more Vrock Dust, and will often do anything it can to obtain additional doses of the drug.",
+                "{@note Credit to FungusAmongUs's Abi-Dalzim\u2019s Abhorrent Adventurers}"
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "FungusAmongUs's Abi-Dalzim\u2019s Abhorrent Adventurers"
                 ]
             }
         },
@@ -474,62 +548,6 @@
             "dmgType": "B",
             "weapon": true,
             "entries": [
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Axe",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "value": 200,
-            "weight": 4,
-            "entries": [
-                "Working for 10 minutes, you can use an Axe to cut down a tree less than 5 ft in diameter. Working for 1 hour, you can use an Axe to dig a hole that is 5 feet on each side in wood or similar material.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Paxel",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "weight": 5,
-            "property": [
-                "E|WM4"
-            ],
-            "entries": [
-                "The Paxel is a tool that combines the utility of a shovel, an axe, and a pickaxe. Working for 1 hour, you can use the Paxel to displace a 5ft cube of soil, stone, or wood.",
-                "{@note From WM3, Made by Jarod}"
-            ],
-            "credit": {
-                "gms": [
-                    "Jarod"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Pickaxe",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "value": 200,
-            "weight": 10,
-            "entries": [
-                "Working for 1 hour, you can use a Pickaxe to mine a hole that is 5 feet on each side in soft rock, or 8 hours for hard rock. Using a Pickaxe gives you Advantage on Strength checks to remove gems and minerals from stone.",
                 "{@note Made by Gem}"
             ],
             "credit": {
@@ -1132,6 +1150,22 @@
             }
         },
         {
+            "name": "Vestigial Wings",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "Your {@variantrule High Jump|XPHB} is increased by 20 feet, and your {@variantrule Long Jump|XPHB} is increased by 40 feet. In addition, if you fall and your speed is not 0, you can slow your rate of descent to 60 feet per round. When you land you can take no damage from the fall and can land on your feet.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Vexing Mark",
             "source": "WM4",
             "type": "Gift",
@@ -1342,6 +1376,21 @@
             "type": "Perk",
             "entries": [
                 "You have advantage on Dexterity ({@skill Stealth}) checks made to hide in crowds of people.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Arborea Influence: Merry Music",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Whenever you cast a spell or make a spell attack, the faint sound of merry music can be heard by you and those affected by your magic.",
                 "{@note Made by Aris}"
             ],
             "credit": {
@@ -2061,6 +2110,37 @@
             }
         },
         {
+            "name": "Tiny Wings",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i You have a very tiny pair of wings on your back, granting you the ability to fly.}",
+                "As an action you can grant yourself a {@variantrule Fly Speed|XPHB} of 5ft that lasts until the end of your turn.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Transfigured Claws",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "One or more of your hands have been transformed by magic, sharpening their ends. When you damage a target with an {@variantrule Unarmed Strike|XPHB} using a transformed hand, you can change the damage type to be Piercing or Slashing damage.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Unleashing... My True... Power....!!!",
             "source": "WM4",
             "type": "Perk",
@@ -2119,6 +2199,21 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "ASYS Trial Participant",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have participated in an ASYS Corporation lab trial, contributing to the research of magic. Thank you for your efforts towards the betterment of society.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
                 ],
                 "3rdparty": false
             }
@@ -2223,6 +2318,21 @@
             "credit": {
                 "gms": [
                     "Patrick"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Legendary Importance",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You are considered to be of legendary importance for the purposes of the {@spell Legend Lore|XPHB} spell.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
                 ],
                 "3rdparty": false
             }
@@ -3147,6 +3257,24 @@
             }
         },
         {
+            "name": "Demon Arm",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Your arm is possessed by a demon, or demonic essence, transforming to become a more clawed, demonic form.}",
+                "You can use your clawed hand to make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}. When you hit with it, the strike deals {@dice 1d6} + your Strength modifier Slashing damage, instead of the Bludgeoning damage normal for an {@variantrule Unarmed Strike|XPHB}.",
+                "When you roll a 1 on an attack roll, you must immediately spend your Reaction to make an {@variantrule Unarmed Strike|XPHB} with your clawed hand against the nearest ally. If there is no ally within reach, you take {@dice 1d8} Necrotic damage.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Demon Eye",
             "source": "WM4",
             "type": "Talent",
@@ -3542,6 +3670,24 @@
             }
         },
         {
+            "name": "Thunderdap",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Can cast {@spell Thunderclap|XPHB}}",
+                "You have learned to enhance the power of thunderclap with the help of allies.",
+                "When you cast {@spell Thunderclap|XPHB}, choose a friendly creature within 5 feet of you. If they have a free hand, they can use their Reaction to extend their hand, joining in as a source of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. When an ally joins you, the {@variantrule Emanation [Area of Effect]|XPHB|Emanation's} size increases to 10 feet originating from you, and the spell's thunderous sound can be heard from up to 200 feet away. The ally is considered part of the origin, excluding them from the effects of the spell.",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Tidal Dash",
             "source": "WM4",
             "type": "Talent",
@@ -3731,6 +3877,30 @@
             }
         },
         {
+            "name": "Cere-many",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: Can cast {@spell Ceremony|XGE}}",
+                "When you cast {@spell Ceremony|XGE}, you may replace the Wedding rite with the following:",
+                {
+                    "type": "entries",
+                    "name": "Wedding",
+                    "entries": [
+                        "You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of another target. This effect cannot increase a creature's AC by more than 2. A creature may be married to a number of creatures equal to its proficiency bonus, and any two creatures married to each other cannot benefit from this rite together again unless they are widowed by the other."
+                    ]
+                },
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Child of the Shadow",
             "source": "WM4",
             "type": "Talent",
@@ -3752,6 +3922,23 @@
                 "3rdparty": [
                     "3.5e"
                 ]
+            }
+        },
+        {
+            "name": "Commander? I Hardly Know \u2018Er",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "Prerequisite: Can cast {@spell Command|XPHB}",
+                "When you cast {@spell Command|XPHB}, you may use the {@spell Command|PHB|2014 wording} of the spell.",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -4358,6 +4545,21 @@
             }
         },
         {
+            "name": "Pirate Speak",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Yargh, yer language been set to Sea Dog! Ye gotta speak like ye've got scurvy now!",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Pretty Bad Medicine, Actually",
             "source": "WM4",
             "type": "Curse",
@@ -4417,6 +4619,36 @@
             "credit": {
                 "gms": [
                     "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Time to Get a Watch",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You always know the location of the nearest clock and can hear it ticking, as long as there is a clock on the same plane of existence as you",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Tongue of Lily",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "When annoyed or angry, you must speak with a southern accent.",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
                 ],
                 "3rdparty": false
             }
@@ -4584,6 +4816,23 @@
                         "A creature must spend a day in an {@spell Antimagic Field|XPHB}, after which it can exit and attempt to properly connect to the Weave. It must make a DC 15 Charisma saving throw. On a success the contagion is cured. On a failure, it continues to suffer the effects and must wait another day in order to attempt the save again."
                     ]
                 },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cucurbitomania",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Mania",
+            "basicRules2024": true,
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 60 feet of a pumpkin or gourd. On a failed save, you are {@condition Charmed} by the object. While {@condition Charmed} you must do everything in your power to move next to the pumpkin. Once you are next to the object you can repeat the saving throw, ending the Mania on a success. If you succeed against this save, you are immune to the Mania for 1 hour.",
                 "{@note Made by Gem}"
             ],
             "credit": {
@@ -5902,6 +6151,33 @@
             "wondrous": true,
             "entries": [
                 "While wearing these boots you have a {@sense Tremorsense|XPHB} of 30 feet. You must be on snow to use this {@sense Tremorsense|XPHB}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cattering Ram",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "U|WM4"
+            ],
+            "entries": [
+                "{@i The Cattering Ram is an adamantine tube that, through the power of magic, was partially polymorphed into a Cat. It appears to be a Calico cat, having ears, whiskers, paws, a tail, and an expressive face, all while retaining its original tubular shape.}",
+                "You can receive assistance from the Cattering Ram to break down doors. When doing so, you gain a +4 bonus and Advantage on the Strength check (This does not stack with a normal {@item Portable Ram|XPHB}).",
+                {
+                    "type": "entries",
+                    "name": "Cattering Ram",
+                    "entries": [
+                        "The Cattering Ram is a sentient, Chaotic Neutral portable ram with an Intelligence of 3, a Wisdom of 12, and a Charisma of 7. It has a Speed and Climb Speed of 40. The Cattering Ram is a lazy and chaotic entity. It enjoys walking around and ramming into random objects and creatures nearby. The Cattering Ram can change its expression and create audible Cat noises as it wishes."
+                    ]
+                },
                 "{@note Made by Gem}"
             ],
             "credit": {
@@ -7979,6 +8255,26 @@
             }
         },
         {
+            "name": "Pipe of Grief",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This long smoking pipe brings sorrowful memories when smoked.",
+                "As a {@action Magic|XPHB} action while the pipe is filled with tobacco and lit, you can release a puff of magical smoke that takes the form of a 5 foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} centered on you. The cloud remains for {@dice 3d8} minutes, or until a strong wind disperses it. A creature that ends its turn in the cloud must make a DC 15 Wisdom saving throw. On a failure, the creature is filled with grief, and has disadvantage on {@variantrule D20 test|XPHB|D20 tests} for 1 minute. A grieved creature can repeat the saving throw if it ends its turn outside of the cloud. After three successful saving throws, the grief effect ends.",
+                "Creatures immune to the {@condition Poisoned} condition are immune to this effect, as well as creatures that don't need to breathe. Once used, a magical cloud cannot be produced from this pipe again until the next dawn.",
+                "{@note From Book of Vile Darkness (3.5e). Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Book of Vile Darkness (3.5e)"
+                ]
+            }
+        },
+        {
             "name": "Potion of Poison Immunity",
             "source": "WM4",
             "rarity": "rare",
@@ -8799,6 +9095,28 @@
             }
         },
         {
+            "name": "Worn Card: II - The High Priestess",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "WC|WM4"
+            ],
+            "entries": [
+                "{@i 'Mother is watching you.'}",
+                "As a {@action Magic|XPHB} action or Bonus Action, you may brandish this card to summon a Gargantuan-sized, heeled, and disembodied leg to stomp a point you choose, creating a 10-foot-radius, 30-foot-high Cylinder extending upwards from that point. Any creatures within this space must make a DC 18 Dexterity Saving Throw or take {@dice 12d6} Bludgeoning damage and be knocked {@condition Prone}. Creatures that save take half damage and are not knocked {@condition Prone}. Once this resolves, the leg rises up and disappears, and the card disintegrates into dust."
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": [
+                    "The Binding of Isaac: Repentance"
+                ]
+            }
+        },
+        {
             "name": "Worn Card: V - The Hierophant",
             "source": "WM4",
             "rarity": "very rare",
@@ -9435,6 +9753,30 @@
                         ]
                     ]
                 },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Soda of Devastation",
+            "source": "WM4",
+            "rarity": "legendary",
+            "type": "P",
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i soda pop}",
+                "As a {@action Magic|XPHB} action, you can shake the soda. Everytime you shake it, there is a percent chance equal to the times its been shaken that it explodes.",
+                "When you take the {@action Attack|XPHB} action, you can replace an attack with throwing the can up to 300 feet, where it instantly explodes.",
+                "When the can explodes, all creatures within a 5 foot radius must make a DC 20 Dexterity saving throw. The radius increases by 5 feet every time it is shaken. On a failure it takes {@dice 1d10} Force damage per time the can was shaken, or half as much on a success.",
+                "A nonmagical object that isn't being worn or carried also takes the damage if it's in the area.",
+                "Every day at dawn, the can settles down, resetting as if it had not been shaken.",
                 "{@note Made by Gem}"
             ],
             "credit": {
@@ -12039,6 +12381,75 @@
             }
         },
         {
+            "name": "Morality Undone",
+            "level": 5,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ]
+            },
+            "entries": [
+                "{@note Made by Aris}",
+                "You target one creature within range and attempt to turn the target evil. The creature must make a Charisma saving throw. On a failure, the target becomes evil. The chaotic/neutral/lawful component of the target's alignment is unchanged.",
+                "The target retains whatever outlook, allegiances, and outlooks it had before, so long as they do not conflict with the new alignment. An Evil creature automatically succeeds on its saving throw against this spell."
+            ],
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A powdered holy symbol"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "If you use a level 6+ spell slot, the duration becomes 8 hours (level 6-7 slot) or 24 hours (level 8 slot). If you use a level 9 spell slot, the spell lasts until dispelled."
+                    ]
+                }
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Legal Name Change",
             "level": 9,
             "school": "T",
@@ -12576,6 +12987,10 @@
                 [
                     "I",
                     "{@item Worn Card: I - The Magician|WM4|The Magician}"
+                ],
+                [
+                    "II",
+                    "{@item Worn Card: II - The High Priestess|WM4|The High Priestess}"
                 ],
                 [
                     "V",

@@ -1665,6 +1665,75 @@
             }
         },
         {
+            "name": "Morality Undone",
+            "level": 5,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ]
+            },
+            "entries": [
+                "{@note Made by Aris}",
+                "You target one creature within range and attempt to turn the target evil. The creature must make a Charisma saving throw. On a failure, the target becomes evil. The chaotic/neutral/lawful component of the target's alignment is unchanged.",
+                "The target retains whatever outlook, allegiances, and outlooks it had before, so long as they do not conflict with the new alignment. An Evil creature automatically succeeds on its saving throw against this spell."
+            ],
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A powdered holy symbol"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "If you use a level 6+ spell slot, the duration becomes 8 hours (level 6-7 slot) or 24 hours (level 8 slot). If you use a level 9 spell slot, the spell lasts until dispelled."
+                    ]
+                }
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Legal Name Change",
             "level": 9,
             "school": "T",

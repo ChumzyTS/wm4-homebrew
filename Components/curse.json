@@ -78,6 +78,21 @@
             }
         },
         {
+            "name": "Pirate Speak",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Yargh, yer language been set to Sea Dog! Ye gotta speak like ye've got scurvy now!",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Pretty Bad Medicine, Actually",
             "source": "WM4",
             "type": "Curse",
@@ -137,6 +152,36 @@
             "credit": {
                 "gms": [
                     "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Time to Get a Watch",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You always know the location of the nearest clock and can hear it ticking, as long as there is a clock on the same plane of existence as you",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Tongue of Lily",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "When annoyed or angry, you must speak with a southern accent.",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
                 ],
                 "3rdparty": false
             }

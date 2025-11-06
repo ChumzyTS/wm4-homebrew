@@ -118,6 +118,24 @@
             }
         },
         {
+            "name": "Axe",
+            "source": "WM4",
+            "rarity": "none",
+            "type": "G",
+            "value": 200,
+            "weight": 4,
+            "entries": [
+                "Working for 10 minutes, you can use an Axe to cut down a tree less than 5 ft in diameter. Working for 1 hour, you can use an Axe to dig a hole that is 5 feet on each side in wood or similar material.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Axiomatic Water",
             "source": "WM4",
             "type": "G",
@@ -234,6 +252,44 @@
             }
         },
         {
+            "name": "Paxel",
+            "source": "WM4",
+            "rarity": "none",
+            "type": "G",
+            "weight": 5,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "The Paxel is a tool that combines the utility of a shovel, an axe, and a pickaxe. Working for 1 hour, you can use the Paxel to displace a 5ft cube of soil, stone, or wood.",
+                "{@note From WM3, Made by Jarod}"
+            ],
+            "credit": {
+                "gms": [
+                    "Jarod"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pickaxe",
+            "source": "WM4",
+            "rarity": "none",
+            "type": "G",
+            "value": 200,
+            "weight": 10,
+            "entries": [
+                "Working for 1 hour, you can use a Pickaxe to mine a hole that is 5 feet on each side in soft rock, or 8 hours for hard rock. Using a Pickaxe gives you Advantage on Strength checks to remove gems and minerals from stone.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Sheet Music",
             "source": "WM4",
             "type": "G",
@@ -331,6 +387,24 @@
                 ],
                 "3rdparty": [
                     "3.5e There Is No Honor"
+                ]
+            }
+        },
+        {
+            "name": "Vrock Dust",
+            "source": "WM4",
+            "rarity": "none",
+            "type": "IDG",
+            "value": 4000,
+            "entries": [
+                "This powder made from the dried spores of a vrock provides a potent, pleasurable high when inhaled. A creature that consumes this drug must make a DC 14 Constitution saving throw. On a failure, the creature is {@condition Poisoned} for the next 10 minutes. While {@condition Poisoned} in this way, the creature is Vulnerable to Radiant damage and automatically fails any saving throw inflicted by a Celestial or Fiend.",
+                "A creature addicted to Vrock Dust experiences potent cravings for more Vrock Dust, and will often do anything it can to obtain additional doses of the drug.",
+                "{@note Credit to FungusAmongUs's Abi-Dalzim\u2019s Abhorrent Adventurers}"
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "FungusAmongUs's Abi-Dalzim\u2019s Abhorrent Adventurers"
                 ]
             }
         },
@@ -466,62 +540,6 @@
             "dmgType": "B",
             "weapon": true,
             "entries": [
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Axe",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "value": 200,
-            "weight": 4,
-            "entries": [
-                "Working for 10 minutes, you can use an Axe to cut down a tree less than 5 ft in diameter. Working for 1 hour, you can use an Axe to dig a hole that is 5 feet on each side in wood or similar material.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Paxel",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "weight": 5,
-            "property": [
-                "E|WM4"
-            ],
-            "entries": [
-                "The Paxel is a tool that combines the utility of a shovel, an axe, and a pickaxe. Working for 1 hour, you can use the Paxel to displace a 5ft cube of soil, stone, or wood.",
-                "{@note From WM3, Made by Jarod}"
-            ],
-            "credit": {
-                "gms": [
-                    "Jarod"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Pickaxe",
-            "source": "WM4",
-            "rarity": "none",
-            "type": "G",
-            "value": 200,
-            "weight": 10,
-            "entries": [
-                "Working for 1 hour, you can use a Pickaxe to mine a hole that is 5 feet on each side in soft rock, or 8 hours for hard rock. Using a Pickaxe gives you Advantage on Strength checks to remove gems and minerals from stone.",
                 "{@note Made by Gem}"
             ],
             "credit": {

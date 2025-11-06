@@ -487,6 +487,22 @@
             }
         },
         {
+            "name": "Vestigial Wings",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "Your {@variantrule High Jump|XPHB} is increased by 20 feet, and your {@variantrule Long Jump|XPHB} is increased by 40 feet. In addition, if you fall and your speed is not 0, you can slow your rate of descent to 60 feet per round. When you land you can take no damage from the fall and can land on your feet.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Vexing Mark",
             "source": "WM4",
             "type": "Gift",

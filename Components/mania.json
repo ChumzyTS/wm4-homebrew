@@ -10,6 +10,23 @@
     },
     "data": [
         {
+            "name": "Cucurbitomania",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Mania",
+            "basicRules2024": true,
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 60 feet of a pumpkin or gourd. On a failed save, you are {@condition Charmed} by the object. While {@condition Charmed} you must do everything in your power to move next to the pumpkin. Once you are next to the object you can repeat the saving throw, ending the Mania on a success. If you succeed against this save, you are immune to the Mania for 1 hour.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Helminthomania",
             "source": "WM4",
             "srd52": true,
