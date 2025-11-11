@@ -18,7 +18,7 @@
         ],
         "dateAdded": 1742975531,
         "edition": "classic",
-        "dateLastModified": 1762897846
+        "dateLastModified": 1762901211
     },
     "baseitem": [
         {
@@ -11656,6 +11656,95 @@
             }
         },
         {
+            "name": "Placebo",
+            "level": 1,
+            "school": "I",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Made by Aris}",
+                "A creature you touch gains a number of {@variantrule Temporary Hit Points|XPHB} equal to {@dice 2d8} plus your spellcasting ability modifier.",
+                "This spell only affects creatures that are missing {@variantrule Hit Points|XPHB}, and the number of {@variantrule Temporary Hit Points|XPHB} cannot exceed the number of {@variantrule Hit Points|XPHB} the creature is missing. The creature loses these {@variantrule Temporary Hit Points|XPHB} when it regains any of its {@variantrule Hit Points|XPHB}.",
+                "The creature believes that it regained {@variantrule Hit Points|XPHB} via the {@spell Cure Wounds|XPHB} spell, instead of gaining {@variantrule Temporary Hit Points|XPHB}.",
+                "The target can take a {@action Search|XPHB} action to examine their own status with a Wisdom ({@skill Medicine}) check against your spell save DC. If the check succeeds, the target realizes that the healing was fake, and it loses its {@variantrule Temporary Hit Points|XPHB}."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The {@variantrule Temporary Hit Points|XPHB} increases by {@dice 2d8} for each spell slot level above 1."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Preserve Work",
             "level": 1,
             "school": "T",
@@ -11736,6 +11825,97 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rotting Ward",
+            "level": 1,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Lily}",
+                "You shroud yourself in deathly energy to protect yourself from enemies. If a creature hits you with a melee attack, it must make a Constitution save. On a fail, it takes {@dice 1d6} Necrotic damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, attackers take {@dice 1d6} more damage for every two slot levels above 1st."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "credit": {
+                "gms": [
+                    "Lily"
                 ],
                 "3rdparty": false
             }
@@ -11823,6 +12003,92 @@
                 "3rdparty": [
                     "3.5e"
                 ]
+            }
+        },
+        {
+            "name": "Shield Emotions",
+            "source": "WM4",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction",
+                    "condition": "which you take immediately before a creature you can see within 30 feet of yourself makes an Intelligence, Wisdom, or Charisma saving throw"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Vivek}",
+                "You grant the triggering creature an ounce of mental fortitude. Until the start of its next turn, the triggering creature gains {@variantrule Advantage|XPHB} on that type of saving throw."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "credit": {
+                "gms": [
+                    "Vivek"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -12449,6 +12715,95 @@
             }
         },
         {
+            "name": "Radiant Lattice",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a weave of golden thread"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Chrys}",
+                "You unleash a blinding mote at a creature you can see. The creature must make a Dexterity saving throw. On a failed save, the creature takes {@dice 2d8} Radiant damage, is {@condition Blinded} until the end of its next turn, and {@condition Restrained} for the duration as the light unfurls into a golden net.",
+                "A {@condition Restrained} creature can use its action to make a Strength ({@skill Athletics}) check against your spell save DC, ending the condition on a success."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Snow Cloud",
             "level": 2,
             "school": "C",
@@ -12664,6 +13019,75 @@
                 "3rdparty": [
                     "3.5e"
                 ]
+            }
+        },
+        {
+            "name": "Tunnel Vision",
+            "level": 2,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    }
+                ]
+            },
+            "entries": [
+                "{@note Made by Lily}",
+                "You attempt to constrain the senses of one creature within range. The target must make a Wisdom saving throw. On a failure, it cannot benefit from any special senses for the duration of the spell."
+            ],
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A blindfold"
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "If you cast this spell with a slot of 4th level or higher, the duration becomes {@status Concentration|XPHB}, up to 10 minutes. If you use a slot of 6th level or higher, the duration becomes {@status Concentration|XPHB}, up to 1 hour."
+                    ]
+                }
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
             }
         },
         {
