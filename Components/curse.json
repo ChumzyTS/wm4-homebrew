@@ -111,6 +111,23 @@
             }
         },
         {
+            "name": "Slop.",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Step 1: Slop. Step 2: Slop. Step 3: Slop. Repeat from Step 1 until thoroughly Slopped.}",
+                "Whenever you craft an item from an Artisan's Tool, it turns into useless* Slop.",
+                "{@note *Note: Not all might find this useless}",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Tears of Sorrow",
             "source": "WM4",
             "type": "Curse",

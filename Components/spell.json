@@ -1389,6 +1389,95 @@
             }
         },
         {
+            "name": "Arcane Sight",
+            "level": 3,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "{@note From 3.5e, Made by Aris}",
+                "For the duration, you sense the presence of magic within 120 feet of you, and you can see an aura around any visible creature or object in the area that bears magic. You can determine the school of magic, if any. As a {@action Magic|XPHB} action you can determine if a creature within range that you can see can cast spells, and if it can, you determine the level of the highest level spell it can cast.",
+                "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            },
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            }
+        },
+        {
             "name": "Awaken Sin",
             "level": 3,
             "school": "E",
@@ -1731,6 +1820,65 @@
                     "Aris"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Evolve",
+            "level": 8,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "hour"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "source": "WM4",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "Organic material from a Humanoid, a miniature tool, and a pearl worth 500+ gp, which the spell consumes"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 24
+                    }
+                }
+            ],
+            "entries": [
+                "{@note From 2e. Made by Gem}",
+                "You touch a Beast and cause it to begin to transform into a Humanoid lifeform. This spell has no effect on a creature transformed into a Beast (such as through {@spell Shapechange|XPHB} or {@spell Polymorph|XPHB}) or a Beast without a CR. A Beast with an Intelligence of 4 or higher can choose to be unaffected by this spell. The Beast is {@condition Unconscious} for the duration of the spell.",
+                "If the spell lasts for its entire duration, then the creature is permanently changed, requiring {@spell Wish} in order to undo. The target\u2019s creature type becomes Humanoid (Evolved Beast) and its form changes to a Humanoid one retaining its original characteristics (Ex: wings, tails, hooves). No matter the original form, the new one has at least 2 arms and 2 legs. If the creature is Tiny, its size becomes Small. If the creature is Large or larger, its size becomes Medium.",
+                "Additionally all of the target\u2019s ability scores increase to 10, unless they are already higher than that. The target gains the ability to speak all languages you know. It gains proficiency in Simple and Martial weapons, and training in Light, Medium, and Heavy armor and Shields.",
+                "The evolved target has the {@condition Charmed} condition for 30 days or until you or your allies deal damage to it. When that condition ends, the evolved creature chooses its attitude toward you."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    }
+                ]
+            },
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "2e"
+                ]
             }
         },
         {

@@ -144,6 +144,88 @@
             }
         },
         {
+            "name": "Savage Creature",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "{@i Prerequisite: Aberration, Beast, Dragon, Fey, Giant, Humanoid, or Monstrosity.}",
+                {
+                    "type": "entries",
+                    "name": "Savage Frenzy.",
+                    "entries": [
+                        "You are Chaotic Evil. You are {@variantrule Hostile [Attitude]|XPHB|Hostile} to all creatures that lack this Story Record and that aren't Demons. In addition, you have {@variantrule Advantage|XPHB} on Strength and Constitution {@variantrule D20 Test|XPHB|D20 Tests}, and {@variantrule Disadvantage|XPHB} on Intelligence and Charisma {@variantrule D20 Test|XPHB|D20 Tests}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "AC.",
+                    "entries": [
+                        "Your AC while not wearing armor is increased by 1"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed.",
+                    "entries": [
+                        "Your walking {@variantrule Speed|XPHB} is increased by 10 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision.",
+                    "entries": [
+                        "You gain {@sense Darkvision} of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Resistance to Acid.",
+                    "entries": [
+                        "You are {@variantrule Resistance|XPHB|Resistant} to Acid damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tireless.",
+                    "entries": [
+                        "You are immune to {@condition Exhaustion}, {@condition Stunned}, Magical Contagions, and the {@condition Charmed} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite.",
+                    "entries": [
+                        "You gain a natural weapon with which you can make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}. On a hit, it deals {@dice 1d8} Piercing damage.",
+                        "Those you bite must make a Constitution saving throw (DC is 8 + your Constitution modifier + your Proficiency Bonus). On a failure, the target contracts a Magical Contagion called {@condition Savage Fever|WM4}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Death Throes.",
+                    "entries": [
+                        "When you are reduced to 0 hit points, you can make an {@action Opportunity Attack|XPHB} with your bite against a creature within reach before you die.",
+                        "When you are reduced to 0 hit points, you die, and your body melts into a puddle of goo, leaving only your gear and your skeleton, if any. All creatures within a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of you must make a DC 15 Dexterity saving throw or take {@dice 1d6} Acid damage. A pool of acid remains on the ground in your former space, and any creature that enters the space takes {@dice 1d6} Acid damage. After 1 minute, the puddle dries up into a harmless green powder."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Removing the Story Record.",
+                    "entries": [
+                        "This story record and the transformations wrought by it are removed by a {@spell Greater Restoration|XPHB} or {@spell Wish|XPHB} spell. They can also be removed by killing the creature and then bringing it back to life."
+                    ]
+                },
+                "{@note Made by Aris, from Dragon 140"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon 140"
+                ]
+            }
+        },
+        {
             "name": "Saved Up Enough To Finally Go to Wildspace",
             "source": "WM4",
             "type": "Story Record",
@@ -159,6 +241,23 @@
             }
         },
         {
+            "name": "Spire of Sasserine",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "A medal awarded to those who perform great services to the city of Sasserine. You have a +5 bonus to Charisma ({@skill Persuasion} or {@skill Investigation}) checks made in Sasserine.",
+                "{@note Made by Aris, from Dragon 139}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon 139"
+                ]
+            }
+        },
+        {
             "name": "Starmantle's Gratitude",
             "source": "WM4",
             "type": "Story Record",
@@ -169,6 +268,21 @@
             "credit": {
                 "gms": [
                     "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Gift of Lolth",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "Your magic now relies on the Demon Weave, instead of the Weave.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
                 ],
                 "3rdparty": false
             }
@@ -210,6 +324,21 @@
             "type": "Story Record",
             "entries": [
                 "You carry the renown of stopping the second Machine's rampage. The people of the Northern regions will speak of your great deed for many years.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "[LOS] Oceanic Conqueror",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You've ventured into the heart of the tempest and defeated the fourth Machine. The souls of the lost at sea can know peace, and the Westmarch castle is safe from destruction...well, from this particular opponent, at least.",
                 "{@note Made by Christopher}"
             ],
             "credit": {

@@ -241,6 +241,26 @@
             }
         },
         {
+            "name": "Ek-Sel Slate",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "property": [
+                "U|WM4"
+            ],
+            "entries": [
+                "A small clay tablet. There are rows intersecting columns, with cuneiform written in some of the boxes. It is a tabular account of livestock and feed.",
+                "When holding this tablet, you feel the intelligence and logic of the long-lost denizens of Ek-Sel flow through you, and you gain {@variantrule Advantage|XPHB} on checks towards solving mathematical problems and equations.",
+                "{@note Made by Sam}"
+            ],
+            "credit": {
+                "gms": [
+                    "Sam"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Everburning Torch",
             "source": "WM4",
             "rarity": "common",
@@ -1323,6 +1343,23 @@
             }
         },
         {
+            "name": "Combat Sword Sheath",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "{@i This sword sheath is designed to be used effectively in combat even while a sword is sheathed in it.}",
+                "When a sword is sheathed in this sheath, it deals Bludgeoning damage, instead of the normal damage type of the weapon. While a sword isn't sheathed in it, it can be used as a {@item club|XPHB} (or {@item greatclub|XPHB}, if its a {@item greatsword|XPHB} sheath)",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": ""
+            }
+        },
+        {
             "name": "Crystalline Tool",
             "source": "WM4",
             "rarity": "uncommon",
@@ -1340,6 +1377,25 @@
                     "Gem"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Dream Token",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "{@i This token contains a sliver of a psionic crystal. Most are worn as brooches, but others take the form of coins or keys. }",
+                "When you sleep with it on your person, you remain fully lucid when you dream, and when you wake, you clearly remember everything that transpired. As an action within ten minutes of you waking, you can bind the dreams you experienced while you slept to the key, which remains bound until the next dawn. While bound, any creature who sleeps with this token on its person experiences the bound dreams instead of creating its own.",
+                "{@note Inspired by an item from Exploring Eberron. Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Exploring Eberron"
+                ]
             }
         },
         {
@@ -2657,6 +2713,24 @@
             }
         },
         {
+            "name": "Blindfold of True Darkness",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "You gain a {@sense Blindsight} of 30 feet while wearing this blindfold, and you are {@condition Blinded|XPHB|Blind} beyond that radius. You are also immune to gaze weapons. You can't use vision in any way while wearing this blindfold. Donning or doffing this blindfold takes 1 minute to do.",
+                "{@note From 3.5e and S3, Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            }
+        },
+        {
             "name": "Bone Heart",
             "source": "WM4",
             "rarity": "rare",
@@ -2815,6 +2889,27 @@
                     "Christopher"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Merrenoloth\u2019s Oar",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "M",
+            "baseItem": "Lance|XPHB",
+            "entries": [
+                "{@i Made of special wood that grows only in the Lower Planes, this long oar is carved with ancient symbols of death from countless cultures.}",
+                "While you hold the oar, you have {@variantrule Advantage|XPHB} on Dexterity checks to maintain your balance while on a watercraft. In addition, as a {@variantrule Bonus Action|XPHB} while you hold the oar, you can learn the depth of any water or liquid within sight, and the distance and direction to the closest land while you are on open water.",
+                "The merrenoloth\u2019s oar can be used as a weapon. It is treated as a +1 {@item Lance|XPHB} when so wielded, and it can be used one-handed while you are on board any watercraft. It deals Fire damage instead of Piercing.",
+                "{@note Adapted from Dragon+ by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon+"
+                ]
             }
         },
         {
@@ -3512,6 +3607,58 @@
             }
         },
         {
+            "name": "Unquenchable Heart",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": "by a Construct Abjurer",
+            "entries": [
+                "{@i The modified core of a mighty machine, now yours. When inside your chest, you can feel it burn with conviction.}",
+                {
+                    "type": "entries",
+                    "name": "Integrated.",
+                    "entries": [
+                        "While you live, this item can't be removed from you against your will. However, once installed, it takes a Bastion Turn to safely unattune from it, as it is a very delicate process."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Charged.",
+                    "entries": [
+                        "The heart has 6 charges, and it regains all expended charges daily at dawn. You can spend these charges on the following:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Voice Circuit.",
+                                    "entries": [
+                                        "You can expend 1 of the heart's charges to project your voice to be heard clearly by all creatures within 1 mile of yourself, regardless of intervening noise, for 1 minute. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks this projection."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rapid Barrier Energization.",
+                                    "entries": [
+                                        "At the start of your turn, if your Arcane Ward has 0 hit points, you can expend 3 of the heart's charges to have it regain a number of hit points equal to twice your Intelligence modifier."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "{@note Loosely inspired by Draedon's Heart from the Terraria Calamity mod. Voice Circuit taken and modified from Ring of the Orator. Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": [
+                    "Terraria Calamity mod"
+                ]
+            }
+        },
+        {
             "name": "+3 Anklet of Nature's Passage",
             "source": "WM4",
             "rarity": "very rare",
@@ -4137,6 +4284,47 @@
             }
         },
         {
+            "name": "Sun Pellet",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "This small ceramic ball is specially coated with enchanted oil. As a {@action Magic|XPHB} action, you can crack a sun pellet or throw it up to 100 feet, whereupon it releases a brilliant magical light. This light is equivalent to a {@spell Sunburst|XPHB} spell (save DC 15) but has a radius of 20 feet.",
+                "{@note From Dragon+, Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon+"
+                ]
+            }
+        },
+        {
+            "name": "Tol-kendar",
+            "source": "WM4",
+            "rarity": "very rare",
+            "type": "M",
+            "baseItem": "Pike|XPHB",
+            "entries": [
+                "The Tol-kendar (\u201cbody wrecker\u201d in Infernal) is a magic weapon that grants a +1 bonus to attack and damage rolls made with it. Wielded by the asymmetrical yagnoloths, it takes the form of a 10-foot-long steel Pike topped by a metal cup ringed with blades, with a harpoon point emerging from the cup\u2019s center. The Tol-kendar has the statistics of a {@item Pike|XPHB}, but each time you hit, you can choose to do either Piercing damage with the harpoon or Slashing damage with the blades.",
+                "When you roll a 20 on an attack roll made with the Tol-kendar, the weapon pierces deep into the target\u2019s body to deal an extra {@dice 2d8} Piercing damage. A target that isn\u2019t a Construct or Undead must then succeed on a DC 15 Constitution saving throw or be {@condition Stunned} until the start of your next turn.",
+                "{@note Adapted from Dragon+ by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon+"
+                ]
+            }
+        },
+        {
             "name": "Worn Card: 0 - The Fool",
             "source": "WM4",
             "rarity": "very rare",
@@ -4296,6 +4484,49 @@
                 ],
                 "3rdparty": [
                     "The Binding of Isaac: Repentance"
+                ]
+            }
+        },
+        {
+            "name": "Censer of Blood",
+            "source": "WM4",
+            "rarity": "legendary",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "This brass incense burner hangs on a brass chain, and is covered with fiendish symbols and the names of ancient vampires. While the censer is on your person, you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Survival}) checks to track by scent and Wisdom ({@skill Perception}) checks to detect smells. In addition, you are aware of the exact location of any creature within 60 feet of you that is below its hit point maximum.",
+                "As a {@action Magic|XPHB} action, you can spill one drop or more of your own blood into the censer, causing it to steam. You suffer one level of {@condition Exhaustion}, and the censer issues forth {@dice 1d6} {@creature Vampiric Mist|MTF|vampiric mists} that appear within 10 feet of you. You can repeat this process to create multiple mists, taking yourself to a maximum of five levels of {@condition Exhaustion}. You can have no more than 50 {@creature Vampiric Mist|MTF|vampiric mists} created at a time with this item. The {@creature Vampiric Mist|MTF|vampiric mists} don\u2019t appear if you are in sunlight. ",
+                "The summoned {@creature Vampiric Mist|MTF|vampiric mists} understand your language and obey your spoken commands. If you issue no commands, they attack all nearby humanoids except yourself, only sparing those that you specifically command them to.",
+                "You reduce levels of {@condition Exhaustion} imposed by the censer of blood in the normal fashion. Each mist lasts until it is destroyed, until you die, or until you dismiss it as a {@variantrule Bonus Action|XPHB}.",
+                "{@note Adapted from Dragon+ by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon+"
+                ]
+            }
+        },
+        {
+            "name": "Handkerchief of Darkness",
+            "source": "WM4",
+            "rarity": "legendary",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "This black velvet handkerchief is inscribed with a repeating pattern of closed eyes. The handkerchief normally appears to be the size of a napkin, but it can be unfolded to the size of a tablecloth.",
+                "When the handkerchief is folded to the size of a napkin, you can drop or throw it as a {@action Magic|XPHB} action, creating an area of magical darkness around the handkerchief identical to that created by a {@spell Darkness|XPHB} spell. The {@spell Darkness|XPHB} endures until the handkerchief is picked up by a creature.",
+                "When the handkerchief is unfolded to the size of a tablecloth, you can throw it as an action to have it magically fly high in the air. The handkerchief hovers 50 feet above you and a shadowy fog billows out of it, filling a cylinder 100 feet high and 1,000 feet across, with the handkerchief at its center. The area of the fog is {@variantrule lightly obscured|XPHB}, and creatures that suffer negative effects while in sunlight ignore those effects while within the fog. The fog lasts until the handkerchief is picked up by a creature (typically one that can fly).",
+                "{@note Adapted from Dragon+ by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon+"
                 ]
             }
         },
@@ -4849,6 +5080,95 @@
             }
         },
         {
+            "name": "Octavo of Keeping",
+            "source": "WM4",
+            "rarity": "legendary",
+            "wondrous": true,
+            "entries": [
+                "In the arcanaloths\u2019 endless quest for knowledge and power, no magic item is as highly sought after as the Books of Keeping, in which the true names of all yugoloths are scribed. Over eons of research, a few arcanaloths have managed to record the true names of some of their weaker kin in smaller tomes, creating tiny versions of the Books of Keeping for their own purposes. Each octavo of keeping contains the names of 1d4 + 1 yugoloths, as well as ritual instructions for summoning them written in a complex code combining Infernal and Abyssal. These special instructions are unique to each yugoloth. For each name in an octavo, roll a d6 to determine what kind of yugoloth it is:",
+                {
+                    "type": "table",
+                    "caption": "Octavo of Keeping",
+                    "colLabels": [
+                        "{@dice 1d6}",
+                        "Yugoloth"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 1
+                                }
+                            },
+                            "{@creature Mezzoloth|XMM}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 2
+                                }
+                            },
+                            "{@creature Nycaloth|XMM}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 3
+                                }
+                            },
+                            "{@creature Dhergoloth|MPMM}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 4
+                                }
+                            },
+                            "{@creature Canoloth|MPMM}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 5
+                                }
+                            },
+                            "{@creature Hydroloth|MPMM}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 6
+                                }
+                            },
+                            "{@creature Yagnoloth|MPMM}"
+                        ]
+                    ]
+                },
+                "A creature that can read both Infernal and Abyssal must succeed on a DC 15 Intelligence {{@skill Arcana}) check to decode each ritual in the Octavo of Keeping. Any creature that decodes a ritual can use the octavo thereafter to summon the yugoloth named by the ritual. This requires 1 hour, rare incense and alchemical powders worth 5,000 gp, and the blood sacrifice of a creature of at least Medium size. When the ritual is completed, the yugoloth appears from the Lower Planes and the summoner must make an Intelligence ({@skill Arcana}) check contested by the yugoloth\u2019s Intelligence check. If the sacrificed creature was a humanoid of Intelligence 4 or greater, the summoner has {@variantrule Advantage|XPHB} on the check.",
+                "If the yugoloth wins the opposed check, the ritual was performed improperly and the fiend is free to act as it wishes. This typically involves attempting to kill the summoner and destroy the octavo (see below). If the summoner wins or ties the check, the yugoloth cannot attack or cast spells on the summoner (though any other creatures in the area are fair game) and is bound to obey the summoner for 24 hours. However, the yugoloth always bends and misinterprets the summoner\u2019s commands if it can, and the DM might call for Charisma checks to threaten, coax, or trick the yugoloth into doing exactly what the summoner wants. After 24 hours, the yugoloth vanishes back to Gehenna.",
+                "If an octavo of keeping is used multiple times, the same yugoloths are summoned again and again, even if they were previously destroyed. This greatly annoys the affected yugoloths, which constantly scheme for revenge. If a summoned yugoloth can get its hands on the octavo, it can tear the book in half as an action, destroying it and summoning all the yugoloths whose names are written in the book. Those fiends appear at the start of the yugoloth\u2019s next turn, work together to kill the summoner and its allies, then go on a rampage of murder and destruction before returning to Gehenna 24 hours later.",
+                "{@note Adapted from Dragon+ by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon+"
+                ]
+            }
+        },
+        {
             "name": "Soda of Devastation",
             "source": "WM4",
             "rarity": "legendary",
@@ -4870,6 +5190,30 @@
                     "Gem"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Ultroloth\u2019s Eye",
+            "source": "WM4",
+            "rarity": "legendary",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "Resembling a large, pale fire opal, this gem is actually a magically preserved eye from an ultroloth\u2014one of the yugoloths\u2019 secretive lords.",
+                "When you hold the ultroloth\u2019s eye up to one of your own eyes and look through it, you feel terrible pain, and you take {@dice 1d6} Poison damage and {@dice 1d6} Acid damage at the end of each of your turns in which you look through the eye. While looking through the eye, you are colorblind but have {@sense Truesight} out to a range of 120 feet.",
+                "{@b Fiendish Insight.} You also gain an additional benefit based on which eye you hold the ultroloth\u2019s eye up to. (If you have more than two eyes, the DM rolls randomly to determine the effect.)",
+                "If the ultroloth\u2019s eye is held to your left eye, you can use a {@variantrule Bonus Action|XPHB} to look at a creature of Intelligence 4 or greater. While doing so, you learn the name and appearance of the mortal being that creature most loves and respects. If the ultroloth\u2019s eye is held to your right eye, you can use a {@variantrule Bonus Action|XPHB} to look at a creature of Intelligence 4 or greater. While doing so, you learn the thing that creature most fears.",
+                "If a creature you look at with either of these features has telepathy, it is aware of what you\u2019re doing and can shield itself from your scrutiny with a successful DC 17 Wisdom saving throw.",
+                "{@b Permanent Placement.} While attuned to the ultroloth\u2019s eye, you can gouge out your own eye and press the gem into the empty socket. You take {@dice 6d6} Acid damage and {@dice 6d6} Poison damage by doing so, but if you survive, the eye grafts itself into your head. A grafted eye gives you the permanent benefit of its features (depending on which eye socket it replaces) and does not deal damage when you use it. It no longer counts against the number of magic items you can attune to, and remains a part of you until you die.",
+                "{@note Adapted from Dragon+ by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon+"
+                ]
             }
         },
         {

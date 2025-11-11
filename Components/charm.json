@@ -26,6 +26,36 @@
             }
         },
         {
+            "name": "Chaos Charm",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can expend this charm to roll on the Wild Magic Sorcery's {@table Wild Magic Surge|XPHB} table, creating the corresponding magical effect.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Love is in the Air?",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "As a {@action Magic|XPHB} action you can expend this charm to fill a 30-foot radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on yourself with {@hazard Poisonous Gas|XDMG}. The gas lasts for 1 minute or until it's dispersed by a strong wind.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Minor Blessing",
             "source": "WM4",
             "type": "Charm",

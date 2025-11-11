@@ -110,6 +110,60 @@
             }
         },
         {
+            "name": "Savage Fever",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Magical Contagion",
+            "basicRules2024": true,
+            "entries": [
+                "Created and spread by the hateful energies of a savage tide, this contagion embodies the Evil and Chaos of the Abyss. A creature suffers the following effects 1 minute after infection:",
+                {
+                    "type": "entries",
+                    "name": "Fatigue.",
+                    "entries": [
+                        "The creature gains 1 {@condition Exhaustion} level."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bony Protrusions.",
+                    "entries": [
+                        "The creature's flesh breaks out into a terrible black rash that causes bony protrusions to extrude from the affected area."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Savage Insanity.",
+                    "entries": [
+                        "While the creature has any {@condition Exhaustion} levels, it has {@variantrule Disadvantage|XPHB} on all Intelligence {@variantrule D20 test|XPHB|D20 Tests}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Restlessness.",
+                    "entries": [
+                        "While the creature has any {@condition Exhaustion} levels, finishing a {@variantrule Long Rest|XPHB} neither restores lost {@variantrule Hit Points|XPHB} nor reduces the creature\u2019s {@condition Exhaustion} level."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fighting the Contagion.",
+                    "entries": [
+                        "Daily at dawn, an infected creature makes a DC 15 Constitution saving throw. On a failed save, the creature gains 1 {@condition Exhaustion} level as its fatigue worsens. If the creature reaches 6 levels of {@condition Exhaustion} instead of dying, it collapses into a coma-like state and gains the {@reward Savage Creature|WM4} Story Record. When it wakes up after a {@variantrule Short Rest|XPHB}, it immediately seeks out fresh prey."
+                    ]
+                },
+                "{@note Made by Aris, from Dragon 140}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "Dragon 140"
+                ]
+            }
+        },
+        {
             "name": "Weave Fray",
             "source": "WM4",
             "srd52": true,

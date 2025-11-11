@@ -10,6 +10,23 @@
     },
     "data": [
         {
+            "name": "A Little Version of Me",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can touch a creature to grant it the {@reward Silly Guy|WM4} Perk, taking the form of a spirit resembling you. They keep this perk until you use this action again.",
+                "{@note Inspired by Smiling Friends. Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Smiling Friends"
+                ]
+            }
+        },
+        {
             "name": "Abyssal Influence: Bloody Ichor",
             "source": "WM4",
             "type": "Perk",
@@ -796,6 +813,21 @@
             }
         },
         {
+            "name": "Uncanny Hat Gravitation",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Hats you wear can't be removed from you by wind, ocean currents, or other such elements of nature. Creatures or effects that specifically attempt to remove a hat from you can still do so, however.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Unleashing... My True... Power....!!!",
             "source": "WM4",
             "type": "Perk",
@@ -806,6 +838,28 @@
             "credit": {
                 "gms": [
                     "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Unloving Mother",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can lose a {@reward Silly Guy|WM4} Perk of your choice.",
+                {
+                    "type": "entries",
+                    "name": "Cursed.",
+                    "entries": [
+                        "After taking this action, your alignment becomes Evil and you have {@variantrule Disadvantage|XPHB} on all Charisma {@variantrule D20 test|XPHB|D20 Tests} until it is restored. If you are already Evil aligned when you take the action, you do not suffer from this {@variantrule Disadvantage|XPHB}."
+                    ]
+                },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
                 ],
                 "3rdparty": false
             }

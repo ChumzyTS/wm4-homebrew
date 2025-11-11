@@ -10,6 +10,31 @@
     },
     "data": [
         {
+            "name": "Fragile Weapon",
+            "type": "GV|XDMG",
+            "requires": [
+                {
+                    "weapon": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Fragile ",
+                "source": "WM4",
+                "rarity": "common",
+                "entries": [
+                    "{@i This weapon is barely able to hold itself together, falling apart if the wrong person holds it. Pretty much every weapon in the world is one of these.}",
+                    "Whenever a creature wielding one of these dies, the weapon immediately breaks apart and turns to dust.",
+                    "{@note Made by Gem}"
+                ]
+            },
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Frostine Armor",
             "type": "GV|XDMG",
             "requires": [
