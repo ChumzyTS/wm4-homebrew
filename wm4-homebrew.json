@@ -6,7 +6,7 @@
                 "json": "WM4",
                 "abbreviation": "WMUTD",
                 "full": "Westmarch UTD",
-                "version": "1.8.1",
+                "version": "1.8.2",
                 "authors": [
                     "Various DMs"
                 ],
@@ -18,7 +18,7 @@
         ],
         "dateAdded": 1742975531,
         "edition": "classic",
-        "dateLastModified": 1762901248
+        "dateLastModified": 1763005783
     },
     "baseitem": [
         {
@@ -3615,7 +3615,7 @@
             "type": "Talent",
             "rarity": "uncommon",
             "entries": [
-                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
                 "In places of great magic, you can attune to the environment to draw upon it's power. When you finish a long rest in an area, you can attune to it as if it were a magic item until you finish another long rest. This fails if the area is not particularly full of magic.",
                 "When you attune to an area, you gain a Charm befitting to the area. This Charm goes away if you unattune to the area. The GM decides which Charm you receive. A GM could say that you are affected by the environment in a different way.",
                 "The default Charms are as follows:",
@@ -4074,7 +4074,7 @@
                 "E|WM4"
             ],
             "entries": [
-                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
                 "{@i The blood of an arena champion flows in your veins, giving you a thirst for glory and a drive to succeed.}",
                 "You get a +2 bonus on Charisma ({@skill Intimidation}) checks. In addition, if you successfully intimidate a Hostile creature using the {@action Influence|XPHB} action in combat, you gain {@dice 1d4} Temporary hit points. You lose these temporary hit points at the start of your next turn.",
                 "While fighting for the entertainment of onlookers, such as a fight in an arena or a sparring match, you gain a +2 bonus to your DCs to Grapple or Shove, and a +2 bonus to any Battlemaster Maneuvers or Weapon Masteries. The GM can determine what fights this applies to.",
@@ -4122,7 +4122,7 @@
                 "E|WM4"
             ],
             "entries": [
-                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
                 "{@i You're used to the streets and back alleys and have refined several talents and tricks valuable to survival in rougher neighborhoods.}",
                 "You know Sasserine\u2019s black market quite well, and need not make checks to locate its outlets. Further, in other cities, you have a knack for rooting out the underground markets. You gain a +2 bonus on Charisma ({@skill Persuasion} and {@skill Investigation}) checks made to learn about a city\u2019s black markets.",
                 "Your experience has also equipped you with several tricks you can use to ensure survival. You gain a +2 bonus to Initiative in urban environments. You are also adept at fighting in confined areas, such as narrow city alleyways or crowded taprooms. Your melee weapon attacks and Unarmed Strikes ignore Half and Three-Quarters Cover.",
@@ -4179,7 +4179,7 @@
                 "E|WM4"
             ],
             "entries": [
-                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
                 "{@i Magic is not that mysterious to you, and its gifts have made your life a little easier.}",
                 "You get a +2 bonus to Intelligence (Arcana) checks made to identify spells. In addition, you have an innate talent for magic. You can cast the following spells: {@spell Prestidigitation|XPHB}, {@spell Light|XPHB}, {@spell Detect Magic|XPHB}.",
                 "Once you cast a spell with this talent, you cannot cast that spell again until you finish a long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this talent's spells (choose when you gain this talent).",
@@ -4221,7 +4221,7 @@
                 "E|WM4"
             ],
             "entries": [
-                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
                 "{@i Your practices in trade made you glib and gave you a keen eye for value.}",
                 "You have a +2 bonus to checks made to identify an object, and you can automatically determine the monetary value of any treasure (art object) you see.",
                 "In addition, whenever you sell an object, you can take the {@action Influence|XPHB} Action (DC 20) as if the creature was Hesitant. On a success, you can sell the object for up to 20% over its asking price.",
@@ -4293,7 +4293,7 @@
                 "E|WM4"
             ],
             "entries": [
-                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
                 "{@i The wild has always excited you with its simple beauty and majestic creatures. It is no wonder that many of your talents let you better enjoy the natural world.}",
                 "You get a +1 bonus to Wisdom ({@skill Animal Handling} or {@skill Survival}), and Intelligence ({@skill Nature}) checks. You also get a +2 bonus on Constitution saving throws made to resist effects originating from a Plant creature.",
                 "{@note From 3.5e, ported by Aris}"
@@ -4316,7 +4316,7 @@
                 "E|WM4"
             ],
             "entries": [
-                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
                 "{@i You are always on the lookout for treachery and wrongdoing.}",
                 "You gain a +2 bonus to Wisdom ({@skill Insight}) checks made to determine a creature's intentions with you.",
                 "In addition, you have a +5 bonus to your Passive Perception against attempts to pickpocket or steal from you. If you notice the creature, you can make an opportunity attack against that creature.",
@@ -4340,7 +4340,7 @@
                 "E|WM4"
             ],
             "entries": [
-                "{@note Exotic: An item that is not necessarily magical, but is difficult to acquire and can only be purchased under certain circumstances.}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
                 "{@i You've learned to swim well, and take to the water as easily as land.}",
                 "You gain a +2 bonus on Strength ({@skill Athletics}) checks made to swim. When wearing light or no armor and not Encumbered or {@condition Exhaustion|XPHB|Exhausted}, you have a swim speed equal to your walking speed. If you already have a swim speed, it is increased by 10 feet. While swimming, you gain a +2 bonus to Initiative.",
                 "{@note From 3.5e, ported by Aris}"
