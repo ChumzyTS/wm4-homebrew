@@ -114,6 +114,22 @@
             }
         },
         {
+            "name": "Grand Theft Westgate",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You took part in a high profile burglary in Westgate, which resulted in multiple deaths. Local authorities are on the lookout for you, making you no longer welcome in the city.",
+                "If you take the Visit Westgate bastion turn, roll a {@dice d20}. On a 1 you are found by authorities and arrested.",
+                "{@note Made by Andrew}"
+            ],
+            "credit": {
+                "gms": [
+                    "Andrew"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Greased Hog Lightning",
             "source": "WM4",
             "type": "Story Record",

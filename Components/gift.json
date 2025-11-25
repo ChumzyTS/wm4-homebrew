@@ -331,6 +331,41 @@
             }
         },
         {
+            "name": "First Move",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "Your movement {@variantrule Speed|XPHB} increases by 10 feet. Whenever you take the {@action Disengage|XPHB} action, you are able to move through all creatures as if they were your allies.",
+                "Whenever you roll {@variantrule Initiative|XPHB}, you can immediately move up to your movement {@variantrule Speed|XPHB}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Hefty Spellbook",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, {@class Wizard|XPHB}}",
+                "You can prepare an extra number of spells equal to your Intelligence modifier.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Hotswapper",
             "source": "WM4",
             "type": "Gift",
@@ -360,6 +395,24 @@
             "credit": {
                 "gms": [
                     "Gavin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Negotiator",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You do not suffer {@variantrule Disadvantage|XPHB} on {@action Influence|XPHB} checks you make against {@variantrule Hostile [Attitude]|XPHB|Hostile} creatures. Whenever you take an {@action Influence|XPHB} action to make a Charisma ({@skill Persuasion}) and pass, you gain {@variantrule Advantage|XPHB} on the next Charisma ({@skill Persuasion}) check you make against that creature in the next hour.",
+                "Whenever you roll {@variantrule Initiative|XPHB}, you gain the effects of {@spell Sanctuary|XPHB} for 1 minute (DC equals 8 + your Proficiency bonus + your Charisma modifier).",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
                 ],
                 "3rdparty": false
             }
@@ -416,6 +469,23 @@
             }
         },
         {
+            "name": "Skim Reader",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, {@class Wizard|XPHB|Memorize Spell}}",
+                "As a {@action Study|XPHB} action, you can study your spellbook and replace one of the level 1-5 Wizard spells you have prepared for your Spellcasting feature with another level 1-5 spell from the book. The next time you finish a {@variantrule Short Rest|XPHB}, you do not benefit from Memorize Spell. You cannot take this action again until you finish a {@variantrule Short Rest|XPHB}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Sparks of Magic",
             "source": "WM4",
             "type": "Gift",
@@ -464,6 +534,23 @@
             "credit": {
                 "gms": [
                     "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Strong Upbringing",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You gain an Origin feat of your choice.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
                 ],
                 "3rdparty": false
             }

@@ -6,7 +6,7 @@
                 "json": "WM4",
                 "abbreviation": "WMUTD",
                 "full": "Westmarch UTD",
-                "version": "1.8.2",
+                "version": "1.9",
                 "authors": [
                     "Various DMs"
                 ],
@@ -18,7 +18,7 @@
         ],
         "dateAdded": 1742975531,
         "edition": "classic",
-        "dateLastModified": 1763005783
+        "dateLastModified": 1764038005
     },
     "baseitem": [
         {
@@ -686,6 +686,21 @@
             }
         },
         {
+            "name": "Sorgy...",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "As a {@action Magic|XPHB} action you can cast {@spell Ceremony|XGE} targeting yourself, using the rite of Atonement. Once used the charm is expended.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "What are we gonna do?!?",
             "source": "WM4",
             "type": "Charm",
@@ -1024,6 +1039,41 @@
             }
         },
         {
+            "name": "First Move",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "Your movement {@variantrule Speed|XPHB} increases by 10 feet. Whenever you take the {@action Disengage|XPHB} action, you are able to move through all creatures as if they were your allies.",
+                "Whenever you roll {@variantrule Initiative|XPHB}, you can immediately move up to your movement {@variantrule Speed|XPHB}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Hefty Spellbook",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, {@class Wizard|XPHB}}",
+                "You can prepare an extra number of spells equal to your Intelligence modifier.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Hotswapper",
             "source": "WM4",
             "type": "Gift",
@@ -1053,6 +1103,24 @@
             "credit": {
                 "gms": [
                     "Gavin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Negotiator",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You do not suffer {@variantrule Disadvantage|XPHB} on {@action Influence|XPHB} checks you make against {@variantrule Hostile [Attitude]|XPHB|Hostile} creatures. Whenever you take an {@action Influence|XPHB} action to make a Charisma ({@skill Persuasion}) and pass, you gain {@variantrule Advantage|XPHB} on the next Charisma ({@skill Persuasion}) check you make against that creature in the next hour.",
+                "Whenever you roll {@variantrule Initiative|XPHB}, you gain the effects of {@spell Sanctuary|XPHB} for 1 minute (DC equals 8 + your Proficiency bonus + your Charisma modifier).",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
                 ],
                 "3rdparty": false
             }
@@ -1109,6 +1177,23 @@
             }
         },
         {
+            "name": "Skim Reader",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}, {@class Wizard|XPHB|Memorize Spell}}",
+                "As a {@action Study|XPHB} action, you can study your spellbook and replace one of the level 1-5 Wizard spells you have prepared for your Spellcasting feature with another level 1-5 spell from the book. The next time you finish a {@variantrule Short Rest|XPHB}, you do not benefit from Memorize Spell. You cannot take this action again until you finish a {@variantrule Short Rest|XPHB}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Sparks of Magic",
             "source": "WM4",
             "type": "Gift",
@@ -1157,6 +1242,23 @@
             "credit": {
                 "gms": [
                     "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Strong Upbringing",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
+                "You gain an Origin feat of your choice.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
                 ],
                 "3rdparty": false
             }
@@ -1496,6 +1598,22 @@
             }
         },
         {
+            "name": "Creature Feature",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i \u201cLittle did I know, It would be a creature feature. Featuring\u2026 the creature.\u201d}",
+                "You have {@variantrule Advantage|XPHB} on Charisma ({@skill Performance}) checks to portray yourself as feral or monstrous.",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Dice Goblin",
             "source": "WM4",
             "type": "Perk",
@@ -1680,6 +1798,22 @@
             "credit": {
                 "gms": [
                     "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "LEVITATION!!!!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@reward TRANSFORMATION!!!!|WM4} perk}",
+                "While in your TRANSFORMATION!!!!, you can take a {@action Magic|XPHB} ACTION!!!! (action) to shout \u201cLEVITATION!!!!\u201d, causing your legs to raise up into your body, leaving it hovering in the air. Your movement {@variantrule Speed|XPHB} is 0 while in this form. You can shift back to your original TRANSFORMATION!!!! as a {@action Magic|XPHB} ACTION!!!! (action).",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
                 ],
                 "3rdparty": false
             }
@@ -1887,6 +2021,46 @@
             }
         },
         {
+            "name": "Perfectly Styled",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Your hair is magical, being able to change and visually react depending on the situation. This effect is chosen when the perk is given out. If you gain this perk a 2nd time, the new effect replaces the previous one. If {@spell Dispel Magic|XPHB} or similar magic is cast targeting your hair, the effect stops working until you finish a {@variantrule Short Rest|XPHB}.",
+                "Some possible effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your hair changes color depending on your mood",
+                        "Your hair grows and shrinks depending on how much health you have",
+                        "Your hair becomes fire-red when you cast a spell that deals Fire damage",
+                        "Your hair always blows majestically in the wind"
+                    ]
+                },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Prehensile Tail",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have a prehensile tail. You can hold objects and make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with it but cannot manipulate, wield, or use objects with your tail.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Question for the Producer...",
             "source": "WM4",
             "type": "Perk",
@@ -2088,6 +2262,22 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "TRANSFORMATION!!!!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Aarakocra, Kenku, Owlin}",
+                "As a {@action Magic|XPHB} ACTION!!!! (action), you can shout \u201cTRANSFORMATION!!!!\u201d to shift to a different form with long, slender legs, otherwise reminiscent of your standard appearance. Your speech patterns shift to encourage exclamative OBSERVATIONS!!!! of SITUATIONS!!!!, generally as single nouns ending in -tion. You can shift back as a {@action Magic|XPHB} ACTION!!!! (action).",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
                 ],
                 "3rdparty": false
             }
@@ -2387,6 +2577,22 @@
             "credit": {
                 "gms": [
                     "Landon"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Grand Theft Westgate",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You took part in a high profile burglary in Westgate, which resulted in multiple deaths. Local authorities are on the lookout for you, making you no longer welcome in the city.",
+                "If you take the Visit Westgate bastion turn, roll a {@dice d20}. On a 1 you are found by authorities and arrested.",
+                "{@note Made by Andrew}"
+            ],
+            "credit": {
+                "gms": [
+                    "Andrew"
                 ],
                 "3rdparty": false
             }
@@ -3419,6 +3625,36 @@
             }
         },
         {
+            "name": "Blood Bombs",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Siphoned Explosives.",
+                    "entries": [
+                        "You may take a {@action Magic|XPHB} action to produce a number of volatile bombs made of your blood equal to your {@variantrule Proficiency|XPHB} Bonus. When you produce bombs, you take {@dice 3d6} Necrotic damage per bomb created, which cannot be reduced in any way. These bombs function as regular {@item bomb|XDMG|bombs}, but lose their volatility after 1 minute."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bloodsoaked Bombs.",
+                    "entries": [
+                        "All bombs you throw leave behind a pool of corrosive blood in the sphere of the explosion. A creature takes {@dice 1d6} Necrotic damage if it ends its turn there. The pool of corrosive blood evaporates at the end of your next turn."
+                    ]
+                },
+                "{@note Based on The Binding of Isaac: Repentance. Made by Patrick, edited by Miel."
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick",
+                    "Miel"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Breath of the West Wind",
             "source": "WM4",
             "type": "Talent",
@@ -3929,6 +4165,23 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Where Do You Think You're Going?",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@feat Grappler|XPHB}}",
+                "With incredible training, you've mastered the art of smackin' and snaggin' (yoinkin' and sploinkin', if you will). You can use Punch and Grab on any {@variantrule Unarmed Strike|XPHB} you make, not just ones made as part of the {@action Attack|XPHB} action. You can still only use it once per turn.",
+                "{@note Made by Christopher"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
                 ],
                 "3rdparty": false
             }
@@ -5345,6 +5598,26 @@
             }
         },
         {
+            "name": "Cheese With Nothin\u2019",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i \u201cNothin\u2019?\u201d}",
+                "Sometimes erroneously referred to as a simple stick of cheese, this pizza with extra cheese has no dough or sauce. Despite being a very simple pizza, it serves as a day\u2019s rations for up to 8 people.",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Cinnabar Eye Cusps",
             "source": "WM4",
             "rarity": "common",
@@ -6064,6 +6337,23 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Stupid Floaties",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "{@i Yay, floaties!}",
+                "As a {@action Magic|XPHB} action, you can inflate them. While inflated and you are wearing them, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}, but you cannot swim deeper underwater. If you take Piercing damage while they are inflated, they pop and they are destroyed. You can also take a {@action Magic|XPHB} action to deflate the floaties.",
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
                 ],
                 "3rdparty": false
             }
@@ -6823,6 +7113,51 @@
                     "Patrick"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Holy Hand Grenade",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "When you take the {@action Attack|XPHB} action, you can replace one of your attacks with lighting the Holy Hand Grenade and throwing it to a point up to 60 feet away. Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point must make a DC 13 Dexterity saving throw, taking {@dice 6d6} Radiant damage on a failed save or half as much on a success.",
+                "{@note Inspired by Terraria, Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Terraria"
+                ]
+            }
+        },
+        {
+            "name": "Horn of Plenty",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i This horn is full of delicious food and celebratory gifts. Anyone would be grateful to have a chance to take from it}",
+                "This horn has 3 charges, which it regains daily at dawn.",
+                "As a {@variantrule Bonus Action|XPHB}, you can expend a charge to eat from the horn, or feed food from it to another creature within 5ft of yourself. The creature that eats from the horn regains {@dice 3d4+3} {@variantrule Hit Points|XPHB}.",
+                "As a {@action Magic|XPHB} action, you can expend all 3 charges to cast {@spell Goodberry|XPHB}.",
+                "{@note Inspired by Terraria, Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Terraria"
+                ]
             }
         },
         {
@@ -7694,6 +8029,27 @@
             }
         },
         {
+            "name": "Throwing Dynamite",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "When you take the {@action Attack|XPHB} action, you can replace one of your attacks with lighting the Throwing Dynamite and throwing it to a point up to 60 feet away. Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point must make a DC 13 Dexterity saving throw, taking {@dice 4d6} Fire damage on a failed save or half as much on a success.",
+                "{@note Inspired by Terraria, Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Terraria"
+                ]
+            }
+        },
+        {
             "name": "Trap Powder",
             "source": "WM4",
             "rarity": "uncommon",
@@ -7996,6 +8352,112 @@
                     "Gem"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Gray Zapinator",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": "R",
+            "baseItem": "pistol|XPHB",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i The pistol shoots beams of light instead of bullets. It might be broken.}",
+                "This pistol produces its own ammo and deals Radiant damage.",
+                "Every time you make an attack with this weapon, roll on the table for what effect occurs. If you roll multiple times, apply any rolled effects in the order you roll them. Multiple of the same effect stack, however a creature only makes a saving throw once taking all the stacked effects on a failure. Whenever you shoot this weapon, the GM can decide it jams and stops functioning until the next dawn.",
+                {
+                    "type": "table",
+                    "caption": "Zapinator Effect",
+                    "colLabels": [
+                        "{@dice 1d20}",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@i The beam flies off randomly.} The attack misses and you stop rolling effects"
+                        ],
+                        [
+                            "2",
+                            "{@i The beam shoots backwards out of the gun.} You make the attack against yourself instead of its original target"
+                        ],
+                        [
+                            "3",
+                            "{@i The beam teleports towards a random creature.} The target of the attack roll is changed to a random creature within the normal range of the weapon"
+                        ],
+                        [
+                            "4",
+                            "{@i The beam moves erratically.} Roll {@dice 1d4} and subtract it from the attack roll"
+                        ],
+                        [
+                            "5",
+                            "{@i The beam grows dimmer.} If the attack hits, roll {@dice 1d6} and subtract it from the damage roll (to a minimum of 0)"
+                        ],
+                        [
+                            "6",
+                            "{@i The beam glows green.} If the attack hits, the target gains {@dice 1d10} {@variantrule Temporary Hit Points|XPHB} (After taking the damage)."
+                        ],
+                        [
+                            "7",
+                            "{@i The beam has a magnetic effect.} If the attack hits, the target is pushed {@dice 1d4} times 5 feet directly away from you"
+                        ],
+                        [
+                            "8",
+                            "{@i The beam is extra strong.} If the attack hits, the target is pulled {@dice 1d4} times 5 feet directly towards you"
+                        ],
+                        [
+                            "9",
+                            "{@i The beam slows down.} If the attack hits, the target doesn\u2019t suffer any of its effects (including damage) until the start of your next turn"
+                        ],
+                        [
+                            "10",
+                            "{@i The beam teleports repeatedly around the target.} If the attack hits, All creatures within a 15ft {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of the target must make a DC 15 Dexterity saving throw, taking {@dice 1d10} Radiant damage on a fail"
+                        ],
+                        [
+                            "11",
+                            "{@i The beam quickly pierces through multiple creatures.} If the attack hits, All creatures in a 90 foot {@variantrule Line [Area of Effect]|XPHB|Line} from you in the direction of the target must make a DC 15 Dexterity saving throw, taking {@dice 1d10} Radiant damage on a fail"
+                        ],
+                        [
+                            "12",
+                            "{@i The beam moves precisely.} Roll {@dice 1d4} and add it to the attack roll"
+                        ],
+                        [
+                            "13",
+                            "{@i The beam glows brighter.} If the attack hits, it deals an additional {@dice 1d6} damage"
+                        ],
+                        [
+                            "14",
+                            "{@i The beam becomes partially incorporeal.} The attack ignores all {@variantrule Cover|XPHB|cover} (Including Total Cover, allowing random targets to be selected through walls)"
+                        ],
+                        [
+                            "15",
+                            "{@i The beam splits into a second beam.} If the attack hits, you immediately make another attack with the weapon against the same target"
+                        ],
+                        [
+                            "16-19",
+                            "Roll twice more"
+                        ],
+                        [
+                            "20",
+                            "Roll thrice more."
+                        ]
+                    ]
+                },
+                "{@note Inspired by Terraria, Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Terraria"
+                ]
             }
         },
         {
@@ -9705,6 +10167,26 @@
                 "3rdparty": [
                     "Dragon+"
                 ]
+            }
+        },
+        {
+            "name": "Cheese With Everything",
+            "source": "WM4",
+            "rarity": "legendary",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i \u201cEverything?\u201d}",
+                "This pizza carries with it extra cheese, the wonders of the earth, and the beauty of the stars. As part of a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you may eat this pie. The pie sates you for time immemorial. You no longer need to eat.",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -14129,10 +14611,19 @@
                     "{@reward Fast Reader|WM4}"
                 ],
                 [
+                    "{@reward First Move|WM4}"
+                ],
+                [
+                    "{@reward Hefty Spellbook|WM4}"
+                ],
+                [
                     "{@reward Hotswapper|WM4}"
                 ],
                 [
                     "{@reward Malleable Illusions|WM4}"
+                ],
+                [
+                    "{@reward Negotiator|WM4}"
                 ],
                 [
                     "{@reward Polyglot|WM4}"
@@ -14141,10 +14632,16 @@
                     "{@reward Powerful Shove|WM4}"
                 ],
                 [
+                    "{@reward Skim Reader|WM4}"
+                ],
+                [
                     "{@reward Spellbreaker|WM4}"
                 ],
                 [
                     "{@reward Sparks of Magic|WM4}"
+                ],
+                [
+                    "{@reward Strong Upbringing|WM4}"
                 ],
                 [
                     "{@reward Tactical Opportunist|WM4}"

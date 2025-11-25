@@ -136,6 +136,21 @@
             }
         },
         {
+            "name": "Sorgy...",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "As a {@action Magic|XPHB} action you can cast {@spell Ceremony|XGE} targeting yourself, using the rite of Atonement. Once used the charm is expended.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "What are we gonna do?!?",
             "source": "WM4",
             "type": "Charm",

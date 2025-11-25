@@ -147,6 +147,26 @@
             }
         },
         {
+            "name": "Cheese With Nothin\u2019",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i \u201cNothin\u2019?\u201d}",
+                "Sometimes erroneously referred to as a simple stick of cheese, this pizza with extra cheese has no dough or sauce. Despite being a very simple pizza, it serves as a day\u2019s rations for up to 8 people.",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Cinnabar Eye Cusps",
             "source": "WM4",
             "rarity": "common",
@@ -866,6 +886,23 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Stupid Floaties",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "{@i Yay, floaties!}",
+                "As a {@action Magic|XPHB} action, you can inflate them. While inflated and you are wearing them, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}, but you cannot swim deeper underwater. If you take Piercing damage while they are inflated, they pop and they are destroyed. You can also take a {@action Magic|XPHB} action to deflate the floaties.",
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
                 ],
                 "3rdparty": false
             }
@@ -1625,6 +1662,51 @@
                     "Patrick"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Holy Hand Grenade",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "When you take the {@action Attack|XPHB} action, you can replace one of your attacks with lighting the Holy Hand Grenade and throwing it to a point up to 60 feet away. Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point must make a DC 13 Dexterity saving throw, taking {@dice 6d6} Radiant damage on a failed save or half as much on a success.",
+                "{@note Inspired by Terraria, Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Terraria"
+                ]
+            }
+        },
+        {
+            "name": "Horn of Plenty",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i This horn is full of delicious food and celebratory gifts. Anyone would be grateful to have a chance to take from it}",
+                "This horn has 3 charges, which it regains daily at dawn.",
+                "As a {@variantrule Bonus Action|XPHB}, you can expend a charge to eat from the horn, or feed food from it to another creature within 5ft of yourself. The creature that eats from the horn regains {@dice 3d4+3} {@variantrule Hit Points|XPHB}.",
+                "As a {@action Magic|XPHB} action, you can expend all 3 charges to cast {@spell Goodberry|XPHB}.",
+                "{@note Inspired by Terraria, Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Terraria"
+                ]
             }
         },
         {
@@ -2496,6 +2578,27 @@
             }
         },
         {
+            "name": "Throwing Dynamite",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "When you take the {@action Attack|XPHB} action, you can replace one of your attacks with lighting the Throwing Dynamite and throwing it to a point up to 60 feet away. Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point must make a DC 13 Dexterity saving throw, taking {@dice 4d6} Fire damage on a failed save or half as much on a success.",
+                "{@note Inspired by Terraria, Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Terraria"
+                ]
+            }
+        },
+        {
             "name": "Trap Powder",
             "source": "WM4",
             "rarity": "uncommon",
@@ -2798,6 +2901,112 @@
                     "Gem"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Gray Zapinator",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": "R",
+            "baseItem": "pistol|XPHB",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i The pistol shoots beams of light instead of bullets. It might be broken.}",
+                "This pistol produces its own ammo and deals Radiant damage.",
+                "Every time you make an attack with this weapon, roll on the table for what effect occurs. If you roll multiple times, apply any rolled effects in the order you roll them. Multiple of the same effect stack, however a creature only makes a saving throw once taking all the stacked effects on a failure. Whenever you shoot this weapon, the GM can decide it jams and stops functioning until the next dawn.",
+                {
+                    "type": "table",
+                    "caption": "Zapinator Effect",
+                    "colLabels": [
+                        "{@dice 1d20}",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@i The beam flies off randomly.} The attack misses and you stop rolling effects"
+                        ],
+                        [
+                            "2",
+                            "{@i The beam shoots backwards out of the gun.} You make the attack against yourself instead of its original target"
+                        ],
+                        [
+                            "3",
+                            "{@i The beam teleports towards a random creature.} The target of the attack roll is changed to a random creature within the normal range of the weapon"
+                        ],
+                        [
+                            "4",
+                            "{@i The beam moves erratically.} Roll {@dice 1d4} and subtract it from the attack roll"
+                        ],
+                        [
+                            "5",
+                            "{@i The beam grows dimmer.} If the attack hits, roll {@dice 1d6} and subtract it from the damage roll (to a minimum of 0)"
+                        ],
+                        [
+                            "6",
+                            "{@i The beam glows green.} If the attack hits, the target gains {@dice 1d10} {@variantrule Temporary Hit Points|XPHB} (After taking the damage)."
+                        ],
+                        [
+                            "7",
+                            "{@i The beam has a magnetic effect.} If the attack hits, the target is pushed {@dice 1d4} times 5 feet directly away from you"
+                        ],
+                        [
+                            "8",
+                            "{@i The beam is extra strong.} If the attack hits, the target is pulled {@dice 1d4} times 5 feet directly towards you"
+                        ],
+                        [
+                            "9",
+                            "{@i The beam slows down.} If the attack hits, the target doesn\u2019t suffer any of its effects (including damage) until the start of your next turn"
+                        ],
+                        [
+                            "10",
+                            "{@i The beam teleports repeatedly around the target.} If the attack hits, All creatures within a 15ft {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of the target must make a DC 15 Dexterity saving throw, taking {@dice 1d10} Radiant damage on a fail"
+                        ],
+                        [
+                            "11",
+                            "{@i The beam quickly pierces through multiple creatures.} If the attack hits, All creatures in a 90 foot {@variantrule Line [Area of Effect]|XPHB|Line} from you in the direction of the target must make a DC 15 Dexterity saving throw, taking {@dice 1d10} Radiant damage on a fail"
+                        ],
+                        [
+                            "12",
+                            "{@i The beam moves precisely.} Roll {@dice 1d4} and add it to the attack roll"
+                        ],
+                        [
+                            "13",
+                            "{@i The beam glows brighter.} If the attack hits, it deals an additional {@dice 1d6} damage"
+                        ],
+                        [
+                            "14",
+                            "{@i The beam becomes partially incorporeal.} The attack ignores all {@variantrule Cover|XPHB|cover} (Including Total Cover, allowing random targets to be selected through walls)"
+                        ],
+                        [
+                            "15",
+                            "{@i The beam splits into a second beam.} If the attack hits, you immediately make another attack with the weapon against the same target"
+                        ],
+                        [
+                            "16-19",
+                            "Roll twice more"
+                        ],
+                        [
+                            "20",
+                            "Roll thrice more."
+                        ]
+                    ]
+                },
+                "{@note Inspired by Terraria, Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Terraria"
+                ]
             }
         },
         {
@@ -4507,6 +4716,26 @@
                 "3rdparty": [
                     "Dragon+"
                 ]
+            }
+        },
+        {
+            "name": "Cheese With Everything",
+            "source": "WM4",
+            "rarity": "legendary",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i \u201cEverything?\u201d}",
+                "This pizza carries with it extra cheese, the wonders of the earth, and the beauty of the stars. As part of a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you may eat this pie. The pie sates you for time immemorial. You no longer need to eat.",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": false
             }
         },
         {

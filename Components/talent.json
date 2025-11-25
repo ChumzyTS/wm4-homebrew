@@ -739,6 +739,36 @@
             }
         },
         {
+            "name": "Blood Bombs",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Siphoned Explosives.",
+                    "entries": [
+                        "You may take a {@action Magic|XPHB} action to produce a number of volatile bombs made of your blood equal to your {@variantrule Proficiency|XPHB} Bonus. When you produce bombs, you take {@dice 3d6} Necrotic damage per bomb created, which cannot be reduced in any way. These bombs function as regular {@item bomb|XDMG|bombs}, but lose their volatility after 1 minute."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bloodsoaked Bombs.",
+                    "entries": [
+                        "All bombs you throw leave behind a pool of corrosive blood in the sphere of the explosion. A creature takes {@dice 1d6} Necrotic damage if it ends its turn there. The pool of corrosive blood evaporates at the end of your next turn."
+                    ]
+                },
+                "{@note Based on The Binding of Isaac: Repentance. Made by Patrick, edited by Miel."
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick",
+                    "Miel"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Breath of the West Wind",
             "source": "WM4",
             "type": "Talent",
@@ -1249,6 +1279,23 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Where Do You Think You're Going?",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: {@feat Grappler|XPHB}}",
+                "With incredible training, you've mastered the art of smackin' and snaggin' (yoinkin' and sploinkin', if you will). You can use Punch and Grab on any {@variantrule Unarmed Strike|XPHB} you make, not just ones made as part of the {@action Attack|XPHB} action. You can still only use it once per turn.",
+                "{@note Made by Christopher"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
                 ],
                 "3rdparty": false
             }

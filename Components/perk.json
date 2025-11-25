@@ -121,6 +121,22 @@
             }
         },
         {
+            "name": "Creature Feature",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i \u201cLittle did I know, It would be a creature feature. Featuring\u2026 the creature.\u201d}",
+                "You have {@variantrule Advantage|XPHB} on Charisma ({@skill Performance}) checks to portray yourself as feral or monstrous.",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Dice Goblin",
             "source": "WM4",
             "type": "Perk",
@@ -305,6 +321,22 @@
             "credit": {
                 "gms": [
                     "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "LEVITATION!!!!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@reward TRANSFORMATION!!!!|WM4} perk}",
+                "While in your TRANSFORMATION!!!!, you can take a {@action Magic|XPHB} ACTION!!!! (action) to shout \u201cLEVITATION!!!!\u201d, causing your legs to raise up into your body, leaving it hovering in the air. Your movement {@variantrule Speed|XPHB} is 0 while in this form. You can shift back to your original TRANSFORMATION!!!! as a {@action Magic|XPHB} ACTION!!!! (action).",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
                 ],
                 "3rdparty": false
             }
@@ -512,6 +544,46 @@
             }
         },
         {
+            "name": "Perfectly Styled",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Your hair is magical, being able to change and visually react depending on the situation. This effect is chosen when the perk is given out. If you gain this perk a 2nd time, the new effect replaces the previous one. If {@spell Dispel Magic|XPHB} or similar magic is cast targeting your hair, the effect stops working until you finish a {@variantrule Short Rest|XPHB}.",
+                "Some possible effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your hair changes color depending on your mood",
+                        "Your hair grows and shrinks depending on how much health you have",
+                        "Your hair becomes fire-red when you cast a spell that deals Fire damage",
+                        "Your hair always blows majestically in the wind"
+                    ]
+                },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Prehensile Tail",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have a prehensile tail. You can hold objects and make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with it but cannot manipulate, wield, or use objects with your tail.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Question for the Producer...",
             "source": "WM4",
             "type": "Perk",
@@ -713,6 +785,22 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "TRANSFORMATION!!!!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Aarakocra, Kenku, Owlin}",
+                "As a {@action Magic|XPHB} ACTION!!!! (action), you can shout \u201cTRANSFORMATION!!!!\u201d to shift to a different form with long, slender legs, otherwise reminiscent of your standard appearance. Your speech patterns shift to encourage exclamative OBSERVATIONS!!!! of SITUATIONS!!!!, generally as single nouns ending in -tion. You can shift back as a {@action Magic|XPHB} ACTION!!!! (action).",
+                "{@note Made by Miel}"
+            ],
+            "credit": {
+                "gms": [
+                    "Miel"
                 ],
                 "3rdparty": false
             }
