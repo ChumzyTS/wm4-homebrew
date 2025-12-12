@@ -3449,16 +3449,6 @@
                             {
                                 "type": "cell",
                                 "roll": {
-                                    "min": 59,
-                                    "max": 60
-                                }
-                            },
-                            "{@item Oil of Etherealness|XDMG}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
                                     "min": 61,
                                     "max": 62
                                 }

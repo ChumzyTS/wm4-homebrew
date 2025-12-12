@@ -6,7 +6,7 @@
                 "json": "WM4",
                 "abbreviation": "WMUTD",
                 "full": "Westmarch UTD",
-                "version": "1.9",
+                "version": "1.9.1",
                 "authors": [
                     "Various DMs"
                 ],
@@ -18,7 +18,7 @@
         ],
         "dateAdded": 1742975531,
         "edition": "classic",
-        "dateLastModified": 1764038005
+        "dateLastModified": 1765528149
     },
     "baseitem": [
         {
@@ -8885,16 +8885,6 @@
                                 }
                             },
                             "{@item Elixir of Health|XDMG}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "min": 59,
-                                    "max": 60
-                                }
-                            },
-                            "{@item Oil of Etherealness|XDMG}"
                         ],
                         [
                             {
