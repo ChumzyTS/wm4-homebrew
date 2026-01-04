@@ -1,0 +1,80 @@
+{
+    "_meta": {
+        "name": "vehicles",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+			"name": "Candy Coaster",
+			"source": "WM4",
+			"vehicleType": "OBJECT",
+			"size": "L",
+			"weight": 500,
+			"terrain": [
+				"land"
+			],
+			"capCreature": 1,
+			"capCargo": 100,
+			"speed": 60,
+			"str": 14,
+			"dex": 16,
+			"con": 10,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"hp": {
+				"hp": 30,
+				"dt": 5
+			},
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"trait": [
+				{
+					"name": "Jump.",
+					"entries": [
+						"With a 20-foot running start, the Candy Coaster can Long Jump 40 feet"
+					]
+				},
+				{
+					"name": "Prone Deficiency",
+					"entries": [
+						"If the Candy Coaster falls {@condition Prone}, it can't right itself and is {@condition Incapacitated} until pulled upright."
+					]
+				}
+			],
+			"actionStation": [
+				{
+					"name": "Helm (Requires 1 Crew and Grants Half Cover)",
+					"entries": [
+						"Drive and steer the Candy Coaster."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"type": "entries",
+					"name": "Juke",
+					"entries": [
+						"If the Candy Coaster is able to move, the driver can use its reaction to grant the Candy Coaster {@variantrule Advantage|XPHB} on a Dexterity saving throw."
+					]
+				}
+			]
+		}
+    ]
+}
