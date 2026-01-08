@@ -1,0 +1,14 @@
+{
+    "types": [
+        "perk",
+        "talent",
+        "gift",
+        "curse",
+        "charm",
+        "story record",
+        "magical contagion",
+        "mania",
+        "phobia",
+        "regional effect"
+    ]
+}
