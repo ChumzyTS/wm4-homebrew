@@ -23,6 +23,24 @@
     },
     "data": [
         {
+            "name": "Seismic Empath",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "common",
+            "entries": [
+                "You've cultivated a deep connection with the earth and its volcanic power.",
+                "{@b Forewarning.} When you see a volcano that's at least 1 mile away, you can take the {@action Search|XPHB} action to make a DC 20 Wisdom ({@skill Insight}) check. If you succeed, you know if the volcano will erupt within the next 7 days.",
+                "{@b Seismic Detection.} You have {@sense Tremorsense|XPHB} out to 60 feet. In addition, you detect the presence of seismic activity with your {@sense Tremorsense|XPHB}, to a depth that reaches the center of Toril.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Adaptable Artillery",
             "source": "WM4",
             "type": "Gift",
@@ -105,6 +123,25 @@
             "credit": {
                 "gms": [
                     "V"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cerebrant",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i You've called out to the Far Realm as a hope to harness some of its power for yourself; the Far Realm responded.}",
+                "{@b Aching Dread.} Unfelt, your form subtly alters the psychological landscape of the surrounding aether. As a {@action Magic|XPHB} action, you can cause the alterations to flare. Creatures of your choice within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Frightened} of you until the end of your next turn. You can use this feature a number of times equal to your Proficiency Bonus, regaining expended uses after you complete a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@b Call Farspawn.} You call upon horrible entities from the Far Realm to your aid, casting {@spell Summon Aberration|XPHB} (Level 4 version). Once you cast this spell, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
+                "All DCs in this gift are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (determined by you when you receive this gift), spellcasting ability is equal to your Proficiency Bonus + the same ability modifier as the DCs.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
                 ],
                 "3rdparty": false
             }
@@ -270,6 +307,23 @@
                         "The target must succeed on a Strength saving throw or have its speed reduced by 15 feet."
                     ]
                 },
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Eyes of Light and Darkness",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@b Ebon Gaze.} As a {@action Magic|XPHB} action, you can tune your eyes to see through the darkest darkness. For the next 10 minutes, you can see in Darkness\u2014both magical and nonmagical\u2014within 60 feet of yourself as if it was {@variantrule Dim Light|XPHB}. Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@b Dazzling Gaze.} As a {@action Magic|XPHB} action, you can cause your eyes to erupt as pools of radiance. For the next minute, your eyes sheds {@variantrule Bright Light|XPHB} in a 20-foot radius and {@variantrule Dim Light|XPHB} for an additional 20 feet; as an action on each of your turns, you can concentrate your gaze onto a creature within 40 feet of you. That creature has to succeed on a Constitution saving throw (DC = 8 + prof bonus + con mod) or be {@condition Blinded} until the end of its next turn. Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
                 "{@note Made by Chrys}"
             ],
             "credit": {
@@ -590,6 +644,62 @@
             }
         },
         {
+            "name": "Winter's Gift",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i You've learned to harness some of the powers of winter.}",
+                "{@b Frost Treader.} You ignore the penalties of {@variantrule Difficult Terrain|XPHB} imposed by snow or ice.",
+                "{@b Icebrand.} As a {@variantrule Bonus Action|XPHB}, you can infuse your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with chilling cold. For the next minute, your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} deal an additional {@dice 1d6} Cold damage. This ends early if you are subject to Fire damage. Once you use this feature, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Blessing of the Witches Extraordinaire. ",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "rare",
+            "entries": [
+                "{@i The Witches Extraordinaire offered you a gift, and you accepted. A spark of possibility exists within you, and with your careful nurturing, it can explode into great power.}",
+                "{@b Latent Possibility.} When you receive this gift, choose one of your skill proficiencies. When you make an Ability Check associated with the skill, instead of adding your ability modifier and Proficiency bonus, you roll a {@dice d6} and add it to the {@dice d20}. If you roll a 6 on the {@dice d6}, the dice explodes, allowing you to roll another {@dice d6} and add it to the result, possibly exploding again.",
+                "{B Spark of Heroism.} After making the Ability Check, if the extra dice exploded, the dice size changes. A {@dice d6} becomes a {@dice d8}, a {@dice d8} becomes a {@dice d10}, and a {@dice d10} becomes a {@dice d12} (Exploding on a roll of 8, 10, and 12 respectively). Whenever you use Latent Possibility, you roll the new dice instead of the {@dice d6}. If the dice was a {@dice d12}, instead of increasing in size, you gain {@variantrule Heroic Inspiration|XPHB}, the dice becomes a {@dice d6}, and you cannot benefit from Spark of Heroism until you finish a {@variantrule Short Rest|XPHB}.",
+                "{@note Made by Vic}"
+            ],
+            "credit": {
+                "gms": [
+                    "Vic"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cerebrant Fester",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "rare",
+            "entries": [
+                "{@i You've called out to the Far Realm as a hope to harness some of its power for yourself; the Far Realm responded.}",
+                "{@b Aching Dread.} Unfelt, your form subtly alters the psychological landscape of the surrounding aether. As a {@action Magic|XPHB} action, you can cause the alterations to flare. Creatures of your choice within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Frightened} of you until the end of your next turn. You can use this feature a number of times equal to your Proficiency Bonus, regaining expended uses after you complete a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@b Call Farspawn.} You call upon horrible entities from the Far Realm to your aid, casting {@spell Summon Aberration|XPHB} (Level 4 version). Once you cast this spell, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
+                "{@b Dimensional Rift.} You can cast {@spell Dimension Door|XPHB}. When you do so, roll {@dice 1d100}. On a 1, you are stolen away by horrible entities forever; if another creature was brought along by the spell, they arrive at the target destination. Once you cast {@spell Dimension Door|XPHB}, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
+                "All DCs in this gift are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (determined by you when you receive this gift), spellcasting ability is equal to your Proficiency Bonus + the same ability modifier as the DCs.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Vistani Evil Eye",
             "source": "WM4",
             "type": "Gift",
@@ -734,98 +844,6 @@
                 "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}; Bard, Cleric or Druid}",
                 "When you restore Hit Points to a creature with a spell, any excess healing (Hit Points not healed due to being at maximum health), the target instead receives a number of Temporary Hit Points equal to the excess healing. These Temporary Hit Points cannot exceed the target's maximum Hit Points.",
                 "These Temporary Hit Points remain for 1 minute.",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Seismic Empath",
-            "source": "WM4",
-            "type": "Gift",
-            "rarity": "common",
-            "entries": [
-                "You've cultivated a deep connection with the earth and its volcanic power.",
-                "{@b Forewarning.} When you see a volcano that's at least 1 mile away, you can take the {@action Search|XPHB} action to make a DC 20 Wisdom ({@skill Insight}) check. If you succeed, you know if the volcano will erupt within the next 7 days.",
-                "{@b Seismic Detection.} You have {@sense Tremorsense|XPHB} out to 60 feet. In addition, you detect the presence of seismic activity with your {@sense Tremorsense|XPHB}, to a depth that reaches the center of Toril.",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Cerebrant",
-            "source": "WM4",
-            "type": "Gift",
-            "rarity": "uncommon",
-            "entries": [
-                "{@i You've called out to the Far Realm as a hope to harness some of its power for yourself; the Far Realm responded.}",
-                "{@b Aching Dread.} Unfelt, your form subtly alters the psychological landscape of the surrounding aether. As a {@action Magic|XPHB} action, you can cause the alterations to flare. Creatures of your choice within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Frightened} of you until the end of your next turn. You can use this feature a number of times equal to your Proficiency Bonus, regaining expended uses after you complete a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
-                "{@b Call Farspawn.} You call upon horrible entities from the Far Realm to your aid, casting {@spell Summon Aberration|XPHB} (Level 4 version). Once you cast this spell, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
-                "All DCs in this gift are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (determined by you when you receive this gift), spellcasting ability is equal to your Proficiency Bonus + the same ability modifier as the DCs.",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Eyes of Light and Darkness",
-            "source": "WM4",
-            "type": "Gift",
-            "rarity": "uncommon",
-            "entries": [
-                "{@b Ebon Gaze.} As a {@action Magic|XPHB} action, you can tune your eyes to see through the darkest darkness. For the next 10 minutes, you can see in Darkness—both magical and nonmagical—within 60 feet of yourself as if it was {@variantrule Dim Light|XPHB}. Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
-                "{@b Dazzling Gaze.} As a {@action Magic|XPHB} action, you can cause your eyes to erupt as pools of radiance. For the next minute, your eyes sheds {@variantrule Bright Light|XPHB} in a 20-foot radius and {@variantrule Dim Light|XPHB} for an additional 20 feet; as an action on each of your turns, you can concentrate your gaze onto a creature within 40 feet of you. That creature has to succeed on a Constitution saving throw (DC = 8 + prof bonus + con mod) or be {@condition Blinded} until the end of its next turn. Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Winter's Gift",
-            "source": "WM4",
-            "type": "Gift",
-            "rarity": "uncommon",
-            "entries": [
-                "{@i You've learned to harness some of the powers of winter.}",
-                "{@b Frost Treader.} You ignore the penalties of {@variantrule Difficult Terrain|XPHB} imposed by snow or ice.",
-                "{@b Icebrand.} As a {@variantrule Bonus Action|XPHB}, you can infuse your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with chilling cold. For the next minute, your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} deal an additional {@dice 1d6} Cold damage. This ends early if you are subject to Fire damage. Once you use this feature, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Cerebrant Fester",
-            "source": "WM4",
-            "type": "Gift",
-            "rarity": "rare",
-            "entries": [
-                "{@i You've called out to the Far Realm as a hope to harness some of its power for yourself; the Far Realm responded.}",
-                "{@b Aching Dread.} Unfelt, your form subtly alters the psychological landscape of the surrounding aether. As a {@action Magic|XPHB} action, you can cause the alterations to flare. Creatures of your choice within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Frightened} of you until the end of your next turn. You can use this feature a number of times equal to your Proficiency Bonus, regaining expended uses after you complete a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
-                "{@b Call Farspawn.} You call upon horrible entities from the Far Realm to your aid, casting {@spell Summon Aberration|XPHB} (Level 4 version). Once you cast this spell, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
-                "{@b Dimensional Rift.} You can cast {@spell Dimension Door|XPHB}. When you do so, roll {@dice 1d100}. On a 1, you are stolen away by horrible entities forever; if another creature was brought along by the spell, they arrive at the target destination. Once you cast {@spell Dimension Door|XPHB}, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
-                "All DCs in this gift are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (determined by you when you receive this gift), spellcasting ability is equal to your Proficiency Bonus + the same ability modifier as the DCs.",
                 "{@note Made by Chrys}"
             ],
             "credit": {

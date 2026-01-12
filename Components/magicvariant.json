@@ -178,6 +178,40 @@
             }
         },
         {
+            "name": "Weapon of Fleshgrinding",
+            "type": "GV|XDMG",
+            "requires": [
+                {
+                    "type": "M|XPHB",
+                    "weapon": true,
+                    "dmgType": "P"
+                },
+                {
+                    "type": "M|XPHB",
+                    "weapon": true,
+                    "dmgType": "B"
+                }
+            ],
+            "inherits": {
+                "nameSuffix": " of Fleshgrinding",
+                "source": "WM4",
+                "rarity": "rare",
+                "entries": [
+                    "When you make an attack with this weapon against a creature and hit, you can verbally command this weapon to \"grind\" and release it from your grasp. At that time, the weapon animates and continues to grind itself into the foe's flesh. At the start of each of your turns thereafter, it deals damage to the foe as if you had successfully hit with the weapon. The weapon ceases to grind after it has dealt this damage 5 times, where it then falls to the ground.",
+                    "The foe or another creature with a free hand within reach of it can attempt to rid the foe of the grinding weapon by making a Strength ({@skill Athletics}) check (DC 20, uses its object interaction). If a creature succeeds, it is now holding the Weapon of Fleshgrinding and can use it.",
+                    "{@note From 3.5e Book of Vile Darkness. Adapted by Aris}"
+                ]
+            },
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e Book of Vile Darkness"
+                ]
+            }
+        },
+        {
             "name": "Weapon of The Mariner's Catch",
             "type": "GV|XDMG",
             "requires": [

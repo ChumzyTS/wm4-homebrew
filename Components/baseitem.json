@@ -14,6 +14,88 @@
     },
     "data": [
         {
+            "name": "Thinker's Tools",
+            "source": "WM4",
+            "type": "AT|XPHB",
+            "rarity": "none",
+            "weight": 1,
+            "value": 5000,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@b Ability:} Intelligence",
+                "{@b Utilize:} Ponder (DC 20)",
+                "{@b Craft:} Book (Fiction)",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Teeth Bomb",
+            "source": "WM4",
+            "type": "EXP|XPHB",
+            "rarity": "none",
+            "weight": 1,
+            "value": 20000,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "As an {@action Utilize|XPHB} action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius Sphere centered on that point makes a DC 13 Dexterity saving throw, taking {@dice 6d6} Piercing damage on a failed save or half as much damage on a successful one.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Faeorran Wine (Bottle)",
+            "source": "WM4",
+            "type": "FD|XPHB",
+            "rarity": "none",
+            "value": 1000,
+            "entries": [
+                "{@i This wine is made from Sweet Faeorra, a rare grape-like fruit found in the feywild. The wine is a deep red, very sweet, and very high in alcohol content.}",
+                "A creature that drinks an excessive amount of this wine must make a DC 10 Constitution saving throw. On a failure, it becomes {@condition Poisoned} for 1 minute.",
+                "Whenever it ends its turn while {@condition Poisoned} in this way it moves 10 feet in a random movement. Roll {@dice 1d4} for the direction: 1, north; 2, east; 3, south; or 4, west. If it collides with an object or creature within this movement, it falls {@condition Prone}. This movement provokes {@action Opportunity Attack|XPHB|Opportunity Attacks}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Gummy Apple",
+            "source": "WM4",
+            "type": "FD|XPHB",
+            "rarity": "none",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "Mmmmmm Yummy appl. Eating this is food. Yumm",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Anarchic Water",
             "source": "WM4",
             "type": "G",
@@ -540,69 +622,6 @@
             "dmgType": "B",
             "weapon": true,
             "entries": [
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Faeorran Wine (Bottle)",
-            "source": "WM4",
-            "type": "FD|XPHB",
-            "rarity": "none",
-            "value": 1000,
-            "entries": [
-                "{@i This wine is made from Sweet Faeorra, a rare grape-like fruit found in the feywild. The wine is a deep red, very sweet, and very high in alcohol content.}",
-                "A creature that drinks an excessive amount of this wine must make a DC 10 Constitution saving throw. On a failure, it becomes {@condition Poisoned} for 1 minute.",
-                "Whenever it ends its turn while {@condition Poisoned} in this way it moves 10 feet in a random movement. Roll {@dice 1d4} for the direction: 1, north; 2, east; 3, south; or 4, west. If it collides with an object or creature within this movement, it falls {@condition Prone}. This movement provokes {@action Opportunity Attack|XPHB|Opportunity Attacks}.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Teeth Bomb",
-            "source": "WM4",
-            "type": "EXP|XPHB",
-            "rarity": "none",
-            "weight": 1,
-            "value": 20000,
-            "property": [
-                "E|WM4"
-            ],
-            "entries": [
-                "As an {@action Utilize|XPHB} action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius Sphere centered on that point makes a DC 13 Dexterity saving throw, taking {@dice 6d6} Piercing damage on a failed save or half as much damage on a successful one.",
-                "{@note Made by Marvin}"
-            ],
-            "credit": {
-                "gms": [
-                    "Marvin"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Thinker's Tools",
-            "source": "WM4",
-            "type": "AT|XPHB",
-            "rarity": "none",
-            "weight": 1,
-            "value": 5000,
-            "property": [
-                "E|WM4"
-            ],
-            "entries": [
-                "{@b Ability:} Intelligence",
-                "{@b Utilize:} Ponder (DC 20)",
-                "{@b Craft:} Book (Fiction)",
                 "{@note Made by Gem}"
             ],
             "credit": {

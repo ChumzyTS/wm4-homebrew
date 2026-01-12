@@ -131,6 +131,44 @@
             }
         },
         {
+            "name": "Appraiser's Glass",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "The Appraiser's Glass functions as a {@item Magnifying Glass|XPHB}. As a {@action Magic|XPHB} action while holding the glass, you can spend cast {@spell Approximate|WM4}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Barbecue Hammers",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "weight": 12,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i Made with love... and hammers.}",
+                "As a {@action Utilize|XPHB} Action, you can eat it. When you consume the hammers, you must make a DC 10 Constitution saving throw. On a failed save, you take {@dice 2d4} Bludgeoning damage.",
+                "The hammers provide as much nourishment as 1 day of {@item Rations|XPHB}",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Beast Mode Indicator Vestments",
             "source": "WM4",
             "rarity": "common",
@@ -144,6 +182,72 @@
                     "V"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Boots of Orcish Kind",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "While you wear these boots, your steps make a bunch of sound, regardless of the surface you are moving across. You also have {@variantrule Disadvantage|XPHB} on Dexterity ({@skill Stealth}) checks.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Boots of Stomping",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "While you wear these boots, you can pass through the space of {@condition Prone} creatures as if they were {@condition Incapacitated}. When you pass through the space of a {@condition Prone} creature, you can choose to deal {@dice 1d4} Bludgeoning damage to it. A creature takes this damage no more than once per turn.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Boots of a Zephyr",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "{@i +1 Aura. These babies have NO mechanical benefit.}",
+                "While you wear these boots, you can take a {@action Magic|XPHB} action to appear to float 4 inches above a surface. This effect lasts until you take another {@action Magic|XPHB} action to end it.",
+                "{@note Made by Althaea}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Bottle of Boundless Kaeth",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "This metal bottle carries delicious, warm kaeth. The bottle comes with a stopper, which is attached to the bottle by a little chain. Even when open, the bottle won't accept any liquid other than the kaeth it produces. The kaeth inside is always comfortably warm, and none of the heat can be felt through the bottle.",
+                "Each time you drink the kaeth, roll a {@dice d20}. On a 1, the bottle refuses to dispense kaeth for the next hour. If you pour kaeth from the bottle, rather than drinking from it, the kaeth vanishes the moment it leaves the bottle.",
+                "{@note From Strixhaven: A Curriculum of Chaos}"
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "Strixhaven: A Curriculum of Chaos"
+                ]
             }
         },
         {
@@ -239,6 +343,283 @@
             "credit": {
                 "gms": [
                     "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Deck of Dusk",
+            "source": "WM4",
+            "rarity": "common",
+            "entries": [
+                "{@i Created in the image of the Deck of Some Things, this deck of ivory or vellum cards bestows an assortment of minor benefits and penalties on those who draw from it. Most (75 percent) of these decks have only thirteen cards, but the rest have twenty-two.}",
+                "Before you draw a card, you must declare how many cards you intend to draw, then draw them randomly. Any additional cards drawn have no effect. Unless a card states otherwise, as soon as you draw a card from the deck, its magic takes effect. You must draw each card you declared no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck and take effect simultaneously.",
+                "Unless it is the Mystery card, a drawn card immediately takes effect, fades from existence, and reappears in the deck, making it possible to draw the same card multiple times.",
+                {
+                    "type": "table",
+                    "caption": "Deck of Wonder",
+                    "colStyles": [
+                        "col-4 text-center",
+                        "col-8"
+                    ],
+                    "colLabels": [
+                        "{@dice 1d22|Card}",
+                        "Card Title"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 1
+                                },
+                                "entry": "A {@color \u2666|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 2
+                                },
+                                "entry": "K {@color \u2666|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 3
+                                },
+                                "entry": "Q {@color \u2666|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 4
+                                },
+                                "entry": "J {@color \u2666|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 5
+                                },
+                                "entry": "2 {@color \u2666|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 6
+                                },
+                                "entry": "A {@color \u2665|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 7
+                                },
+                                "entry": "K {@color \u2665|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 8
+                                },
+                                "entry": "Q {@color \u2665|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 9
+                                },
+                                "entry": "J {@color \u2665|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 10
+                                },
+                                "entry": "2 {@color \u2665|#ff0000}"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 11
+                                },
+                                "entry": "A \u2663"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 12
+                                },
+                                "entry": "K \u2663"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 13
+                                },
+                                "entry": "Q \u2663"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 14
+                                },
+                                "entry": "J \u2663"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 15
+                                },
+                                "entry": "2 \u2663"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 16
+                                },
+                                "entry": "A \u2660"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 17
+                                },
+                                "entry": "K \u2660"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 18
+                                },
+                                "entry": "Q \u2660"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 19
+                                },
+                                "entry": "J \u2660"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 20
+                                },
+                                "entry": "2 \u2660"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 21
+                                },
+                                "entry": "Joker (with \u2122)"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}*"
+                        ],
+                        [
+                            {
+                                "type": "cell",
+                                "roll": {
+                                    "exact": 22
+                                },
+                                "entry": "Joker (without \u2122)"
+                            },
+                            "{@card Dusk|Deck of Wonder|BMT}"
+                        ]
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dusk",
+                    "entries": [
+                        "This card supernaturally saps your energy. You have {@variantrule Disadvantage|XPHB} on {@variantrule Initiative|XPHB} rolls. This effect lasts until you finish a {@variantrule Long Rest|XPHB}, but it can be ended early by a {@spell Remove Curse} spell or similar magic."
+                    ]
+                },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Destination Orb",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "Destination Orbs are engraved with the sigil sequence of a {@spell Teleportation Circle|XPHB}. A creature who holds it immediately learns the sequence. Whenever a creature holding the orb casts {@spell Teleportation Circle|XPHB} targeting the sigil sequence engraved in the orb, it can choose to crush the orb instead of expending a spell slot.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
                 ],
                 "3rdparty": false
             }
@@ -544,6 +925,25 @@
             }
         },
         {
+            "name": "Pig Snout",
+            "source": "WM4",
+            "rarity": "common",
+            "type": "P",
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "After drinking this pink pastel potion, there is a brief uncomfortable transformation, where the imbiber grows a beautiful, snuffling pig snout. For the next hour, you become very fond of truffles, perhaps even to the point of belligerence, and you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception}) checks that rely on smell.",
+                "{@note From Obojima: Tales from the Tall Grass. Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Plushie of Scent",
             "source": "WM4",
             "rarity": "common",
@@ -646,6 +1046,45 @@
             }
         },
         {
+            "name": "Potion of Tail Growth",
+            "source": "WM4",
+            "rarity": "common",
+            "type": "P",
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "When you drink this potion, you grow a tail. If you already have a tail, you grow another one.",
+                "You can only have as many tails equal to your Proficiency Bonus.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Potion of Tail Reduction",
+            "source": "WM4",
+            "rarity": "common",
+            "type": "P",
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "When you drink this potion, you lose a tail.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Potion of Tremorsense",
             "source": "WM4",
             "rarity": "common",
@@ -661,6 +1100,23 @@
             "credit": {
                 "gms": [
                     "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pronoun Pin",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "This round metal pin can be attached to or detached from any article of clothing as a Magic action. While the pin is worn, it displays the current pronouns of the wearer. Any creature that understands at least one language can read the pin.",
+                "Additionally, you can cast {@spell Detect Pronouns|XPHB} while wearing the pin. Once you have done so, you cannot cast it again until the next dawn.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
                 ],
                 "3rdparty": false
             }
@@ -853,6 +1309,22 @@
             }
         },
         {
+            "name": "Spellbook Jacket",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "As a {@action Magic|XPHB} action, this jacket can be placed onto a spellbook. While on a spellbook, the spellbook functions as an {@item Enduring Spellbook|XDMG}. As a {@action Magic|XPHB} action, the creature who placed the jacket on the spellbook can remove the jacket",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Spooky Costume",
             "source": "WM4",
             "rarity": "common",
@@ -868,6 +1340,29 @@
                     "Gem"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Ssissuragaaaaggg's Horn",
+            "source": "WM4",
+            "rarity": "common",
+            "wondrous": true,
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "As a {@action Magic|XPHB} action you can blow the horn to summon an {@creature Abyssal Chicken|BGDIA} in an unoccupied space you can see within 60 feet. The {@creature Abyssal Chicken|BGDIA} disappears when it drops to 0 {@variantrule Hit Points|XPHB} or after 1 minute.",
+                "The {@creature Abyssal Chicken|BGDIA} is {@variantrule Hostile [Attitude]|XPHB|Hostile} to all creatures, including you. It rolls its own {@variantrule Initiative|XPHB} and acts on its own turns. It pursues and attacks the nearest creature to the best of its ability.",
+                "Once you use the horn, it can't be used until next Dawn.",
+                "{@note Adapted from Dungeon Crawl Classics - Quick Start Rules & Starter Adventure. Made by Jackson}"
+            ],
+            "credit": {
+                "gms": [
+                    "Jackson"
+                ],
+                "3rdparty": [
+                    "Dungeon Crawl Classics - Quick Start Rules & Starter Adventure"
+                ]
             }
         },
         {
@@ -1072,6 +1567,27 @@
                 "3rdparty": [
                     "Magic Item Compendium 3.5e"
                 ]
+            }
+        },
+        {
+            "name": "Adgrac Cavebraids' Steel Boots of the Unstable Mineshaft",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "reqAttune": "by a Dwarf",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "Specially designed by Cavebraid himself. These boots are designed to help dwarven miners detect cave-ins before they occur.",
+                "While wearing these boots, you have a {@sense Tremorsense|XPHB} with a range of 20 feet. When you use your Stonecunning ability, your {@sense Tremorsense|XPHB} range increases to 60 feet.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
             }
         },
         {
@@ -1304,6 +1820,30 @@
             }
         },
         {
+            "name": "Brooch of Night's Vigil",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "While wearing this brooch, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain {@sense Darkvision|XPHB} out to a range of 60 feet if you don't already have {@sense Darkvision|XPHB}.",
+                        "You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception} and {@skill Survival}) checks at night."
+                    ]
+                },
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Cattering Ram",
             "source": "WM4",
             "rarity": "uncommon",
@@ -1321,6 +1861,22 @@
                         "The Cattering Ram is a sentient, Chaotic Neutral portable ram with an Intelligence of 3, a Wisdom of 12, and a Charisma of 7. It has a Speed and Climb Speed of 40. The Cattering Ram is a lazy and chaotic entity. It enjoys walking around and ramming into random objects and creatures nearby. The Cattering Ram can change its expression and create audible Cat noises as it wishes."
                     ]
                 },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cleats of Stomping",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "While you wear these boots, you can pass through the space of {@condition Prone} creatures as if they were {@condition Incapacitated}. When you pass through the space of a {@condition Prone} creature, you can choose to deal {@dice 1d6} Piercing damage to it. A creature takes this damage no more than once per turn.",
                 "{@note Made by Gem}"
             ],
             "credit": {
@@ -1568,6 +2124,25 @@
             }
         },
         {
+            "name": "Focus Circlet",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "reqAttune": "by a Spellcaster",
+            "entries": [
+                "You have a +3 bonus to Constitution saving throws made to maintain Concentration.",
+                "{@note Adapted from The Griffin's Saddlebag 2 by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "The Griffin's Saddlebag 2"
+                ]
+            }
+        },
+        {
             "name": "Fool's Scepter",
             "source": "WM4",
             "rarity": "uncommon",
@@ -1630,6 +2205,31 @@
                     ]
                 },
                 "As an action, a creature within 5 feet of the cube can attempt to pull out an engulfed creature by succeeding on a DC 13 Strength ({@skill Athletics}) check, moving the creature to the nearest unoccupied space on a success, causing it to no longer be engulfed. The puller takes 7 ({@dice 2d6}) Acid damage whether or not it succeeds on the check.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Gun Buddy",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "{@i A little goober who hangs from a weapon to manage your ammunition.}",
+                "As a {@action Magic|XPHB} action you can attach a Gun Buddy to any weapon with the Ammunition property. While attached, you can ignore the Loading property of the weapon and you don't require a free hand to draw or load ammo into the weapon.",
+                {
+                    "type": "entries",
+                    "name": "Sentience.",
+                    "entries": [
+                        "A Gun Buddy is a sentient Unaligned object with an Intelligence of 6, a Wisdom of 6, and a Charisma of 14. It has hearing and Blindsight out to 5 feet (it is blind beyond). A Gun Buddy loves nothing more than guns and ammunition, and will always try to grab some if it is in reach and load it into the nearest weapon. Other than that they have fun by swinging around."
+                    ]
+                },
                 "{@note Made by Gem}"
             ],
             "credit": {
@@ -1838,7 +2438,7 @@
                     "type": "table",
                     "caption": "Mystery Potion (Uncommon)",
                     "colLabels": [
-                        "{@dice 1d100}",
+                        "{@dice 1d84}",
                         "Potion Effect"
                     ],
                     "colStyles": [
@@ -1914,7 +2514,7 @@
                                     "max": 21
                                 }
                             },
-                            "{@item Philter of Love|XDMG}"
+                            "{@item Philter of Love|XDMG|Philter of Adoration}"
                         ],
                         [
                             {
@@ -2148,6 +2748,28 @@
             }
         },
         {
+            "name": "NR-G Sports Soda",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "type": "P",
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i \u201cA quick toxicology test on some of the victims [of this drink] has come back positive for um... all kinds of stuff, really. Methadone, phencyclidine, tetrahydrocannabinol, a variety of opiates, benzodiazepines, barbiturates, amphetamines... the list just goes on and on and on.\u201d}",
+                "When you drink this potion, your {@variantrule Speed|XPHB} increases by 10 feet for 1 hour.",
+                "{@note From Risk of Rain 2, Made by Althaea}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea"
+                ],
+                "3rdparty": [
+                    "Risk of Rain 2"
+                ]
+            }
+        },
+        {
             "name": "Pendant of Bloody Gust",
             "source": "WM4",
             "rarity": "uncommon",
@@ -2273,6 +2895,28 @@
                     "Patrick"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Second Edition Crowbar",
+            "source": "WM4",
+            "rarity": "uncommon",
+            "type": "M",
+            "baseItem": "Warhammer|XPHB",
+            "entries": [
+                "{@i \u201cCrowbar/prybar/wrecking bar allows for both prying and smashing! Carbon steel, so it should last for a very long time, at least until the 3rd edition arrives.\u201d}",
+                "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "When you hit a creature with {@variantrule Hit Points|XPHB} equal to its {@variantrule Hit Points|XPHB|Hit Point} maximum, this weapon deals an additional {@dice 1d8} damage.",
+                "You can use this as a {@item Crowbar|XPHB}.",
+                "{@note From Risk of Rain, Made by Althaea}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea"
+                ],
+                "3rdparty": [
+                    "Risk of Rain"
+                ]
             }
         },
         {
@@ -2774,6 +3418,46 @@
             }
         },
         {
+            "name": "Amulet of Immutability",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "{@i This adamantine amulet protects you from magic that would threaten to alter your form against your will.}",
+                "While wearing the amulet, you have {@variantrule Advantage|XPHB} on saving throws against Transmutation spells. Additionally you are unable to shape-shift or have your form changed against your will.",
+                "{@note Adapted from The Griffin's Saddlebag 2 by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "The Griffin's Saddlebag 2"
+                ]
+            }
+        },
+        {
+            "name": "Armor of the Woodland",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "LA",
+            "reqAttune": true,
+            "baseItem": "Leather Armor|XPHB",
+            "entries": [
+                "{@i The elves of ancient times constructed these armors from the leaves and bark of birches, oaks, and maples.}",
+                "While wearing this armor, you gain a +1 bonus to {@variantrule Armor Class|XPHB}. While you are traversing through a forest, your {@variantrule Speed|XPHB} increases by 10 feet and you leave no tracks.",
+                "You can cast {@spell Tree Stride|XPHB} three times a day. Expended uses are regained daily at dawn.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Automapper",
             "source": "WM4",
             "rarity": "rare",
@@ -2790,6 +3474,45 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Bells of Orthys",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "INS",
+            "reqAttune": true,
+            "entries": [
+                "When played, these bells ring with off-kilter, faint ethereal music that to those that hear it, believe it to originate from somewhere far away, in the opposite direction of the bells. All creatures within a mile can hear this music.",
+                {
+                    "type": "entries",
+                    "name": "Call of Carceri.",
+                    "entries": [
+                        "As a {@action Magic|XPHB} action, you can play this bell and target a creature within 1000 feet that can hear the bell's music. The creature must make a DC 15 Wisdom saving throw. On a failure, the creature is {@condition Charmed}. While {@condition Charmed}, the creature believes that following the music leads to its heart's desire, and it must spend 2 feet of movement for every 1 foot it moves when moving towards you. This Charm effect lasts 1 minute. If a creature passes its save, it is Immune to this property for 24 hours and cannot hear the music. Demodands automatically pass their save."
+                    ]
+                },
+                "If a Bard casts a spell as an action while holding this item, they can play the bell as part of that action.",
+                {
+                    "type": "entries",
+                    "name": "Sin Swamp.",
+                    "entries": [
+                        "As a {@action Magic|XPHB} action, you can cast either the {@spell Insect Plague|XPHB} or {@spell Transmute Rock|XGE} (rock to mud) spells. This property of the bells can't be used again until the next dawn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Curse.",
+                    "entries": [
+                        "While Attuned to this item, you have the following flaw: \"I care most for myself, and I am willing to use deceit and betrayal to achieve my goals.\""
+                    ]
+                },
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
                 ],
                 "3rdparty": false
             }
@@ -2859,6 +3582,140 @@
                 ],
                 "3rdparty": [
                     "The Binding of Isaac: Repentance"
+                ]
+            }
+        },
+        {
+            "name": "Bottomless Bag of Bullets",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This bag contains an endless number of mundane {@item Firearm Bullet|XPHB|Firearm Bullets} and {@item Sling Bullet|XPHB|Sling Bullets}. Any ammo drawn from the bag disappears after it hits a target, or 1 minute after it is removed from the bag.",
+                "You can draw any item the bag contains as if doing so from a regular bag or pouch.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Candy Coaster",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "VEH",
+            "property": [
+                "U|WM4"
+            ],
+            "weight": 500,
+            "entries": [
+                "{@i The Candy Coaster is Santa's second choice vehicle behind his signature sleigh. This classic two wheeled vehicle is covered in red and white stripes.}",
+                "The Candy Coaster functions as a vehicle (Statblock below). When the Candy Coaster reaches 0 {@variantrule Hit Points|XPHB}, it isn't destroyed instead breaking into pieces. A creature Proficient with {@item Smith's Tools|XPHB} can repair the Candy Coaster causing it to regain all its {@variantrule Hit Points|XPHB} as part of a {@variantrule Long Rest|XPHB}. This costs components worth 200 gp which can be bought in any major city.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cloak of the Embrace",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "{@i You're alone. Let the chorus of arms help you.}",
+                "While a creature is {@condition Grappled} by your {@variantrule Unarmed Strike|XPHB}, it is also {@condition Charmed} by you. At the end of each of its turns, the creature can make a DC 15 Wisdom saving throw, ending the {@condition Charmed} condition on a success. A creature that passes the save is immune to the cloak for 24 hours.",
+                "{@note Made by Althaea & Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea",
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Crystal Shield",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "S",
+            "baseItem": "shield|XPHB",
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "While holding this Shield, you have a +4 bonus to Armor Class, in addition to the Shield's normal bonus to AC. ",
+                "The AC bonus this shield provides decreases by 1 each time an attack misses you while you have this shield equipped. When the bonus this shield provides reaches 0, the shield shatters and is destroyed.",
+                "{@note Inspired by Barony, Made by Patrick}"
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": [
+                    "Barony"
+                ]
+            }
+        },
+        {
+            "name": "Dagger of Torment",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "M",
+            "baseItem": "dagger|XPHB",
+            "reqAttune": true,
+            "entries": [
+                "{@i Few of these blades remain, as many heroes of the past worked to destroy the majority of these terrible weapons.}",
+                {
+                    "type": "entries",
+                    "name": "Glimpse of Dread.",
+                    "entries": [
+                        "When you hit an attack against a creature using this weapon, you can force that creature to make a DC 15 Wisdom saving throw. On a failure, the creature perceives you as an animated corpse, often that of the creature's loved ones, and is {@condition Dazed|WM4} until the start of your next turn. You can use this feature three times. Expended uses are regained nightly at midnight. Creatures with {@sense Truesight|XPHB} or have Immunity to the {@condition Frightened} condition are Immune to this feature."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Visions of Torment.",
+                    "entries": [
+                        "You can take a {@action Magic|XPHB} action to curse a creature that has been under the effects Glimpse of Dread in the past hour. That creature must succeed on a DC 15 Wisdom saving throw or be plagued by visions of what they've seen. An affected creature suffers a -2 to all {@variantrule D20 Test|XPHB|D20 Tests} for the next hour. A casting of {@spell Remove Curse|XPHB} ends the effect. Once you use this feature, you cannot do so again until midnight."
+                    ]
+                },
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Disposable Stun Prod",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "{@i \u201cA single-use, short-range high-voltage electroshock weapon. Can be used one-handed.\u201d}",
+                "As a {@action Magic|XPHB} action, all creatures in a 5-foot Emanation originating from you must succeed on a DC 15 Constitution saving throw or become {@condition Stunned|XPHB} until the start of your next turn.",
+                "{@note From SIGNALIS, Made by Althaea}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea"
+                ],
+                "3rdparty": [
+                    "SIGNALIS"
                 ]
             }
         },
@@ -3030,6 +3887,31 @@
             }
         },
         {
+            "name": "Hellion Helm",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": "by a Non-Good Creature",
+            "entries": [
+                "{@i A helmet fashioned in the likeness of a Fire Hellion, it carries an infernal warmth.}",
+                "Other creatures have {@variantrule Disadvantage|XPHB} on Intelligence ({@skill Investigation}) and Wisdom ({@skill Insight}) checks made to discern your true identity or intentions. Additionally, you can add 1d4 to Wisdom ({@skill Perception}) checks.",
+                {
+                    "type": "entries",
+                    "name": "Infernal Searing.",
+                    "entries": [
+                        "When you make an melee attack roll against a creature and hit it while wearing this helmet, the target takes an additional {@dice 1d4} Fire damage and can't regain {@variantrule Hit Points|XPHB} until the start of your next turn if it is damaged by this Fire damage."
+                    ]
+                },
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "History's Reflection",
             "source": "WM4",
             "wondrous": true,
@@ -3137,7 +4019,7 @@
                     "type": "table",
                     "caption": "Mystery Potion (Rare)",
                     "colLabels": [
-                        "{@dice 1d100}",
+                        "{@dice 1d86}",
                         "Potion Effect"
                     ],
                     "colStyles": [
@@ -3213,7 +4095,7 @@
                                     "max": 14
                                 }
                             },
-                            "{@item Philter of Love|XDMG}"
+                            "{@item Philter of Love|XDMG|Philter of Adoration}"
                         ],
                         [
                             {
@@ -3597,6 +4479,38 @@
             }
         },
         {
+            "name": "Nalfeshnee's Visage",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": "by a non-good creature",
+            "entries": [
+                "A mask of a Nalfeshnee, it holds remnants of its hideous power.",
+                "Other creatures have {@variantrule Disadvantage|XPHB} on Intelligence ({@skill Investigation}) and Wisdom ({@skill Insight}) checks made to discern your true identity or intentions. Additionally, you can add {@dice 1d4} to Charisma ({@skill Intimidation}) checks.",
+                {
+                    "type": "entries",
+                    "name": "Pursuit",
+                    "entries": [
+                        "Immediately after you hit an enemy with an {@action Opportunity Attack|XPHB}, you can move up to half your {@variantrule Speed|XPHB} as part of that Reaction."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Horror Nimbus",
+                    "entries": [
+                        "As a {@action Magic|XPHB} action, you can create a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each creature within that {@variantrule Emanation [Area of Effect]|XPHB|Emanation} makes a Wisdom Saving Throw: DC 15. {@i Failure:} A target takes {@dice 8d6} Psychic damage, and the target has the {@condition Frightened} condition for 1 minute, until it takes damage, or until it ends its turn with you out of line of sight. {@i Success:} The target is unaffected. This item cannot be used this way again until next dawn."
+                    ]
+                },
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Nos Erac Ekat",
             "source": "WM4",
             "wondrous": true,
@@ -3655,6 +4569,25 @@
             }
         },
         {
+            "name": "Potent Pressure Capsule",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "This small capsule is made of beeswax blended with sand and a variety of enchanted water plants. A creature who consumes a pressure capsule ignores the effects of swimming at depths greater than 100 feet. This effect only ends when the creature dies or is targeted with {@spell Dispel Magic|XPHB} or a similar effect. ",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Ellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Potion of Poison Immunity",
             "source": "WM4",
             "rarity": "rare",
@@ -3697,7 +4630,7 @@
                     "type": "entries",
                     "name": "Gnomish Cunning.",
                     "entries": [
-                        "Your Intelligence score increases by 2. You have a +2 bonus to Dexterity ({@item Tinker's Tools|XPHB}) checks, and a +1 bonus to your spell save DCs for your Illusion spells."
+                        "Your Intelligence score increases by 2, to a maximum of 20. You have a +2 bonus to Dexterity ({@item Tinker's Tools|XPHB}) checks, and a +1 bonus to your spell save DCs for your Illusion spells."
                     ]
                 },
                 {
@@ -3743,6 +4676,24 @@
             }
         },
         {
+            "name": "Skin of Adhesion",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "LA",
+            "baseItem": "Hide Armor|XPHB",
+            "entries": [
+                "While wearing this tar-covered armor, you have a +1 bonus to your AC. When you attune to this, it melds into your skin, making you naturally excrete a sticky tar. You still retain the benefits of wearing the armor. While attuned, you gain the following benefits:",
+                "When you are hit with a Melee Attack with a weapon, you can take a Reaction to force the wielder of the weapon to make a DC 15 Dexterity saving throw. On a failure, the weapon becomes attached to your skin until you die or release it with a {@variantrule Bonus Action|XPHB}. A creature can take an Action to pry the weapon off by succeeding on a DC 15 Strength ({@skill Athletics}) check. Once you use this feature 3 times, you cannot do so again until the next dawn.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Step Two",
             "source": "WM4",
             "rarity": "rare",
@@ -3759,6 +4710,56 @@
             "credit": {
                 "gms": [
                     "V"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Swarm Slayer",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "R",
+            "reqAttune": true,
+            "property": [
+                "U|WM4"
+            ],
+            "entries": [
+                "{@i The following is engraved in Elvish into the side of the weapon: \"When faced with one spider, one bullet will do. When faced with a hundred spiders, you're gonna need a hundred bullets.\"}",
+                "The Swarm Slayer is a Martial weapon that deals {@dice 5d4} Piercing damage on a hit and has the following properties: Ammunition (Range 20/120 ft.; Firearm Bullet), Loading, Heavy, Two-Handed, Mastery: Graze. Every time you make an attack with the Swarm Slayer, it expends 9 Firearm Bullets in addition to the ammunition loaded. ",
+                "{@b Spray.} When you take the {@action Attack|XPHB} action, you can replace an attack with this weapon with spraying aimlessly in front of you. Each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} must make a Dexterity saving throw, taking {@dice 5d6} Piercing damage on a failed save or half as much damage on a successful one. Once you use this ability, you cannot use it again until you spend one minute to load 100 Firearm Bullets into the weapon. ",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Painting of Mara Jay",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "property": [
+                "U|WM4"
+            ],
+            "entries": [
+                "This painting is an 8 foot long landscape of an open field near Raven's Bluff. A small town can be seen on the horizon line, and bison are grazing the grasses. The painting is signed by prodigy artist Mara Jay.",
+                "While The Painting of Mara Jay is placed in a bastion facility, it gains the following benefit:",
+                {
+                    "type": "entries",
+                    "name": "Inspired.",
+                    "entries": [
+                        "Taking a bastion turn in the facility where the painting resides grants you a +{@dice 1d4} bonus to any {@variantrule D20 Test|XPHB|D20 Tests} within the facility."
+                    ]
+                },
+                "You can only move the painting once per week, at the start of the new bastion turn.",
+                "{@note Made by Gavin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gavin"
                 ],
                 "3rdparty": false
             }
@@ -3801,6 +4802,27 @@
             "credit": {
                 "gms": [
                     "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Tome of Mystra's Cataclysmic Destruction",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "property": [
+                "C|WM4",
+                "U|WM4"
+            ],
+            "entries": [
+                "This weathered tome of history bound by auspicious prayer seals to various gods is only but a long-gone shadow of its formerly powerful self, dyed and dissected by mortal desire. As a {@variantrule Bonus Action|XPHB} while holding the tome you may choose the following magical effects to occur, causing the book to disintegrate into nothingness immediately afterwards.",
+                "{@b Detect Outsiders.} You gain the benefit of the {@reward Tracker's Sense|WM4} Talent against Aberrations for the next hour.",
+                "{@note Made by Denny}"
+            ],
+            "credit": {
+                "gms": [
+                    "Denny"
                 ],
                 "3rdparty": false
             }
@@ -3854,6 +4876,45 @@
                 ],
                 "3rdparty": [
                     "Terraria Calamity mod"
+                ]
+            }
+        },
+        {
+            "name": "Unseen Fog",
+            "source": "WM4",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This small canister contains thick and obscuring fog, enchanted to be invisible. You can use a Utilize action to activate it, at which point the item casts {@spell Fog Cloud|XPHB} (no Concentration required) centered on itself. This fog has no effect on any creature that does not have {@sense Truesight|XPHB}, as it cannot see it.",
+                "Once used, this item cannot be used again until the next dawn.",
+                "{@note Made by V}"
+            ],
+            "credit": {
+                "gms": [
+                    "V"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Voidwalker Armor (Variant)",
+            "source": "WM4",
+            "rarity": "rare",
+            "type": "LA",
+            "baseItem": "Studded Leather Armor|XPHB",
+            "reqAttune": true,
+            "property": [
+                "U|WM4"
+            ],
+            "entries": [
+                "This black studded leather armor bears a red sheen. While wearing this armor, you can use a {@variantrule Bonus Action|XPHB} to summon a projection of yourself in an unoccupied space within 30 feet of yourself. The projection is a translucent copy of you that has Immunity to all damage and conditions, and you can make attacks and cast spells with a range other than self as if standing in the projection\u2019s space. The projection disappears at the end of your turn. Once you use this {@variantrule Bonus Action|XPHB}, it can\u2019t be used again until the next dawn.",
+                "{@b Curse.} This armor is cursed, and attuning to it extends the curse to you. As long as you remain cursed, you\u2019re unwilling to part with the armor. Taking it off fails to end the curse. While cursed in this way, you feel disconnected from your body, continuously hearing whispers that call for you to join them. Whenever you finish a {@variantrule Long Rest|XPHB} while cursed, you must make a DC 11 Charisma saving throw. On a failed save, you gain no benefit from that {@variantrule Long Rest|XPHB} and your Charisma score decreases by 2. You die if this reduces that score to 0.",
+                "{@note From the Book of Many Things}"
+            ],
+            "credit": {
+                "gms": false,
+                "3rdparty": [
+                    "Book of Many Things"
                 ]
             }
         },
@@ -3961,6 +5022,107 @@
             ]
         },
         {
+            "name": "Acorn of the Ice Squirrel",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "This acorn is imbued with the diabolical power of ice. It can grant you great power, at a price.",
+                {
+                    "type": "entries",
+                    "name": "Diabolical Resistance.",
+                    "entries": [
+                        "You are Immune to Cold damage and Resistant to Fire and Poison"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Curse.",
+                    "entries": [
+                        "This item is cursed. While attuned, you take a -2 penalty to Dexterity Skill Checks and Saving Throws. You can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the acorn ends."
+                    ]
+                },
+                "{@note Made by Andrew}"
+            ],
+            "credit": {
+                "gms": [
+                    "Andrew"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cloak of the Frenzied Lord",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "While attuned to this mantle, you have Resistance to Psychic damage and your melee Weapon Attacks deal an additional {@dice 1d6} Psychic damage.",
+                {
+                    "type": "entries",
+                    "name": "Wave of Madness",
+                    "entries": [
+                        "As a {@action Magic|XPHB} action, you unleash a pulse of befuddlement and paranoia. Each creature within a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} centered on you must make a DC 17 Wisdom saving throw. On a failure, they are {@condition Confused|WM4} for the next minute. An affected creature can repeat the save at the end of each of their turns, ending the effect on a success. Once you use this feature you cannot do so again until the next dawn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Expand Potential",
+                    "entries": [
+                        "You tap into the powers present within the Far Realm. When you use this feature, you take {@dice 6d6} Psychic damage and cast one of the following spells on yourself without taking a {@action Magic|XPHB} action:",
+                        "{@spell Blur|XPHB}, {@spell Mirror Image|XPHB}, {@spell Haste|XPHB}, {@spell Stoneskin|XPHB}",
+                        "When you cast them this way, your Wisdom score is reduced by the spell\u2019s level. If your Wisdom score is reduced to 0 this way, you die. When you are targeted with {@spell Greater Restoration|XPHB} only restores two points of Wisdom rather than the entire reduction. {@variantrule Long Rest|XPHB|Long Rests} do not restore reduced Wisdom score from this item."
+                    ]
+                },
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Eternal Sending Stone",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "Eternal Sending Stones come in pairs, with each stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can cast {@spell Sending|XPHB} from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone, and you don't cast the spell.",
+                "If one of the stones in a pair is destroyed, the other one becomes nonmagical.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Humming Anamnesis",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "property": [
+                "U|WM4"
+            ],
+            "entries": [
+                "While held, this peculiar dodecahedron emits hums and clicks of an alien language.",
+                "As a {@action Magic|XPHB} action, you can activate the Anamnesis and gain a +10 bonus to {@action Study|XPHB} actions you make for the next minute. After activation, the hums and clicks of the Anamnesis crescendo and invade your senses, as if trying to communicate with you; when you take the {@action Search|XPHB} action or make a Wisdom saving throw, you subtract {@dice 1d6} from the roll. This penalty remains until you finish a {@variantrule Long Rest|XPHB}. The Humming Anamnesis cannot be used again until the next dawn.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Mystery Potion (Very Rare)",
             "source": "WM4",
             "type": "P",
@@ -3974,9 +5136,9 @@
                 "A creature can spend 1 hour studying the potion to attempt to identify and stabilize its effects. After the hour is done, the creature must make a DC 25 Intelligence ({@item Alchemist's Supplies|XPHB}) check. On a pass, roll on the table transforming the Mystery Potion into the rolled potion.",
                 {
                     "type": "table",
-                    "caption": "Mystery Potion (Rare)",
+                    "caption": "Mystery Potion (Very Rare)",
                     "colLabels": [
-                        "{@dice 1d100}",
+                        "{@dice 1d51}",
                         "Potion Effect"
                     ],
                     "colStyles": [
@@ -4045,7 +5207,7 @@
                                     "exact": 7
                                 }
                             },
-                            "{@item Philter of Love|XDMG}"
+                            "{@item Philter of Love|XDMG|Philter of Adoration}"
                         ],
                         [
                             {
@@ -4474,6 +5636,63 @@
             }
         },
         {
+            "name": "Pocket Organ",
+            "source": "WM4",
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "{@i Thousands of pipes shrunk to fit into your pocket.}",
+                "As a {@action Magic|XPHB} action, you can place this 1-foot pipe on the ground and using a command cause it to grow into a large pipe organ. Repeating the command word causes the organ to revert to a pipe. Each creature in the area where the organ appears is pushed to an unoccupied space outside but next to the organ. Objects in the area that aren't being worn or carried are also pushed clear of the organ.",
+                "The organ is 15ft wide, 5ft thick, and 30ft tall. At the base of the organ rests manuals and a pedalboard that are used to play the organ. Magic prevents the tower from being tipped over. The organ has an AC of 20; HP 100; {@variantrule Immunity|XPHB} to Bludgeoning, Piercing, and Slashing damage except that which is dealt by siege equipment; and {@variantrule Resistance|XPHB} to all other damage. Only a {@spell Wish|XPHB} spell can repair the tower (this use of the spell counts as replicating a spell of level 8 or lower). Each casting of {@spell Wish|XPHB} causes the tower to regain all its {@variantrule Hit Points|XPHB}. If the organ is reduced to 0 {@variantrule Hit Points|XPHB}, it reverts into a pipe and cannot be grown until repaired.",
+                "When played, the organ can be heard up to half a mile away. As a {@action Magic|XPHB} action, you can pull out all the stops and begin to play incredibly loud requiring {@status Concentration|XPHB}. The music fills a 60-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} origination from the organ. Whenever a creature enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or ends its turn there, the creature must make a DC 17 Constitution saving throw. On a failed save, the creature takes {@dice 5d6} Thunder damage and has the {@condition Deafened|XPHB} condition until the start of your next turn. Creatures that are {@condition Deafened|XPHB} automatically pass the saving throw.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Staff of Pestilence",
+            "source": "WM4",
+            "rarity": "very rare",
+            "type": "M|XPHB",
+            "staff": true,
+            "baseItem": "staff|XPHB",
+            "reqAttune": "by a Druid, Sorcerer, Warlock, or Wizard",
+            "entries": [
+                "{@i This wooden staff is covered in diseased sores that ooze yellow pus. It gives off a horrible odor of rotten flesh}",
+                "You have Immunity to the effects of Poisons and non-magical diseases while you hold this staff.",
+                "The staff has 10 charges. While holding it, you can use an action to expend charges to cast one of the following spells from it, using your spell save DC:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@spell Infestation|XGE} (0 charges)",
+                        "{@spell Allergy Field|WM4} (5th-level version, targets air instead of plants; 1 charge)",
+                        "{@spell Befoul|WM4} (6 charges)",
+                        "{@spell Blindness/Deafness|XPHB} (5th-level version; 1 charge)",
+                        "{@spell Contagion|XPHB} (3 charges)",
+                        "{@spell Harm|XPHB} (3 charges)",
+                        "{@spell Insect Plague|XPHB} (2 charges)",
+                        "{@spell Pox|WM4} (1 charge)",
+                        "{@spell Ray of Sickness|XPHB} (5th-level version; 1 charge)"
+                    ]
+                },
+                "The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, you are inflicted with Flesh Rot until cured, as the staff rots away into a puddle of diseased pus.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e Book of Vile Darkness"
+                ]
+            }
+        },
+        {
             "name": "Sun Pellet",
             "source": "WM4",
             "rarity": "very rare",
@@ -4741,6 +5960,30 @@
             }
         },
         {
+            "name": "Helm of the Slumbering Lord",
+            "source": "WM4",
+            "rarity": "legendary",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "While attuned to this helm, your attack rolls and saving throws only suffer a -1 penalty per level of {@condition Exhaustion|XPHB}, you do not need to sleep, and are {@variantrule Immunity|XPHB|Immune} to the {@condition Asleep|WM4} condition.",
+                "As a {@variantrule Bonus Action|XPHB}, you may gain a level of {@condition Exhaustion|XPHB} and inflict the following effects on any number of creatures you can see within a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, based on how many levels of {@condition Exhaustion} you have. These effects resolve before you gain the level of {@condition Exhaustion|XPHB}. Any levels of {@condition Exhaustion|XPHB} gained in this way can be reduced by finishing a {@variantrule Long Rest|XPHB} or being revived from death, and cannot be removed in any other way.",
+                "1+ levels of Exhaustion: The target must make a DC 17 Intelligence saving throw, taking {@dice 2d6} Psychic damage per level of {@condition Exhaustion|XPHB} you have, halved on a success.",
+                "2+ levels of Exhaustion: The target must succeed on a DC 17 Strength saving throw or have {@variantrule Disadvantage|XPHB} on attack rolls and saving throws until the end of your next turn.",
+                "3+ levels of Exhaustion: The target must succeed on a DC 17 Dexterity saving throw or have the {@condition Immobilized|WM4} condition until the end of its next turn.",
+                "4+ levels of Exhaustion: The target must succeed on a DC 17 Wisdom saving throw or have the {@condition Asleep|WM4} condition for 1 minute. While {@condition Asleep|WM4}, the target cannot be woken up by taking damage. At the end of each of its turns, it can repeat the save, ending the condition on a success.",
+                "5+ levels of Exhaustion: The target must make a DC 17 Constitution saving throw, gaining 2 {@condition Exhaustion|XPHB} levels on a failure, or 1 on a success.",
+                "6 levels of Exhaustion: If the target has the {@condition Asleep|WM4} condition and has less than 250 Hit Points, it must succeed on a DC 17 Charisma saving throw or be killed instantly. Otherwise, it takes {@dice 20d10} Psychic damage. ",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Ellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Mystery Potion (Legendary)",
             "source": "WM4",
             "type": "P",
@@ -4754,9 +5997,9 @@
                 "A creature can spend 1 hour studying the potion to attempt to identify and stabilize its effects. After the hour is done, the creature must make a DC 30 Intelligence ({@item Alchemist's Supplies|XPHB}) check. On a pass, roll on the table transforming the Mystery Potion into the rolled potion.",
                 {
                     "type": "table",
-                    "caption": "Mystery Potion (Rare)",
+                    "caption": "Mystery Potion (Legendary)",
                     "colLabels": [
-                        "{@dice 1d100}",
+                        "{@dice 1d54}",
                         "Potion Effect"
                     ],
                     "colStyles": [
@@ -4825,7 +6068,7 @@
                                     "exact": 7
                                 }
                             },
-                            "{@item Philter of Love|XDMG}"
+                            "{@item Philter of Love|XDMG|Philter of Adoration}"
                         ],
                         [
                             {
@@ -5041,7 +6284,7 @@
                                     "exact": 30
                                 }
                             },
-                            "{@item Oil of Etherealness|XDMG}"
+                            "{@item Potion of Clairvoyance|XDMG}"
                         ],
                         [
                             {
@@ -5050,7 +6293,7 @@
                                     "exact": 31
                                 }
                             },
-                            "{@item Potion of Clairvoyance|XDMG}"
+                            "{@item Potion of Diminution|XDMG}"
                         ],
                         [
                             {
@@ -5059,7 +6302,7 @@
                                     "exact": 32
                                 }
                             },
-                            "{@item Potion of Diminution|XDMG}"
+                            "{@item Potion of Fire Giant Strength|XDMG}"
                         ],
                         [
                             {
@@ -5068,7 +6311,7 @@
                                     "exact": 33
                                 }
                             },
-                            "{@item Potion of Fire Giant Strength|XDMG}"
+                            "{@item Potion of Frost Giant Strength|XDMG}"
                         ],
                         [
                             {
@@ -5077,7 +6320,7 @@
                                     "exact": 34
                                 }
                             },
-                            "{@item Potion of Frost Giant Strength|XDMG}"
+                            "{@item Potion of Gaseous Form|XDMG}"
                         ],
                         [
                             {
@@ -5086,7 +6329,7 @@
                                     "exact": 35
                                 }
                             },
-                            "{@item Potion of Gaseous Form|XDMG}"
+                            "{@item Potion of Heroism|XDMG}"
                         ],
                         [
                             {
@@ -5095,7 +6338,7 @@
                                     "exact": 36
                                 }
                             },
-                            "{@item Potion of Heroism|XDMG}"
+                            "{@item Potion of Invisibility|XDMG}"
                         ],
                         [
                             {
@@ -5104,7 +6347,7 @@
                                     "exact": 37
                                 }
                             },
-                            "{@item Potion of Invisibility|XDMG}"
+                            "{@item Potion of Invulnerability|XDMG}"
                         ],
                         [
                             {
@@ -5113,7 +6356,7 @@
                                     "exact": 38
                                 }
                             },
-                            "{@item Potion of Invulnerability|XDMG}"
+                            "{@item Potion of Mind Control (beast)|TftYP}"
                         ],
                         [
                             {
@@ -5122,7 +6365,7 @@
                                     "exact": 39
                                 }
                             },
-                            "{@item Potion of Mind Control (beast)|TftYP}"
+                            "{@item Potion of Mind Control (humanoid)|TftYP}"
                         ],
                         [
                             {
@@ -5131,7 +6374,7 @@
                                     "exact": 40
                                 }
                             },
-                            "{@item Potion of Mind Control (humanoid)|TftYP}"
+                            "{@item Potion of Mind Reading|XDMG}"
                         ],
                         [
                             {
@@ -5140,22 +6383,13 @@
                                     "exact": 41
                                 }
                             },
-                            "{@item Potion of Mind Reading|XDMG}"
-                        ],
-                        [
-                            {
-                                "type": "cell",
-                                "roll": {
-                                    "exact": 42
-                                }
-                            },
                             "{@item Potion of Stone Giant Strength|XDMG}"
                         ],
                         [
                             {
                                 "type": "cell",
                                 "roll": {
-                                    "exact": 43
+                                    "exact": 42
                                 }
                             },
                             "{@item Potion of Superior Healing|XDMG}"
@@ -5487,6 +6721,35 @@
             }
         },
         {
+            "name": "Egg of Lolth",
+            "source": "WM4",
+            "rarity": "artifact",
+            "wondrous": true,
+            "entries": [
+                "{@i The egg of Lolth is a potent artifact with a long history. Originally nothing more than a cursed item that compelled its wielder to fling himself through a gate to the Abyss, its long exposure to the chaotic energies of the Demonweb Pits has transformed it into the deadly device it is today.}",
+                "This artifact functions as a Material component for the purpose of casting {@spell Plane Shift|XPHB}, but only if the destination is the Demonweb Pits.",
+                "While inactive, the artifact appears to be a smooth, fist sized platinum egg. When touched, it vibrates slightly, and faint sounds of scratching can be heard coming from within.",
+                "To activate this item, a casting of Remove Curse on it is required. When done so, it turns into a shuddering, tumescent bag of spider silk. On the following round, the bag tears itself open, summoning 5 {@creature Swarm of Insects|XMM|Swarms of Spiders} ({@creature Swarm of Insects|XMM} with the Fiend type, MM'25) and 1 {@creature Darkweaver|MPP} (with the Fiend type). Then, for the next minute, during each round, 1 {@creature Giant Spider|XMM} (with the Fiend type) is summoned by the egg. After which, the artifact reverts to inactivity and cannot be activated again until the next Midnight.",
+                "Creatures summoned by the egg appear in an unoccupied space on the ground within 10 feet of the egg and are {@variantrule Hostile [Attitude]|XPHB|Hostile} to non-drow creatures. After 10 Minutes, all spiders summoned by the egg are cast back into the Abyss.",
+                "While the artifact is activated, any creature that touches it is automatically transported to the Demonweb Pits.",
+                "Every time the artifact goes inactive, roll {@dice 1d20}. On a 1, it is instantly teleported to a location in the Demonweb Pits or the Material Plane of Lolth's choosing.",
+                {
+                    "type": "entries",
+                    "name": "Destroying the Artifact",
+                    "entries": [
+                        "The egg has to be embraced by Corellon as one of his own and is destroyed."
+                    ]
+                },
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Mystery Potion (Artifact)",
             "source": "WM4",
             "rarity": "artifact",
@@ -5502,6 +6765,90 @@
                     "name": "Destroying the Potion.",
                     "entries": [
                         "The potion can only be destroyed by being drunk by a creature, where it immediately becomes an empty bottle."
+                    ]
+                },
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Family Fortune",
+            "source": "WM4",
+            "rarity": "legacy",
+            "type": "$",
+            "reqAttune": true,
+            "property": [
+                "C|WM4"
+            ],
+            "entries": [
+                "The fortune is a treasure worth 100gp. A creature attuned to the fortune can take a Magic action to magically \"sell\" the treasure, converting it into a pile of gold coins equal to its value, destroying the fortune.",
+                "While attuned the fortune begins to increase in value. Every bastion turn, it increases in value by 50gp to a max value of 300gp. If a creature dies while attuned to the fortune, the treasure disappears and stops increasing in value. If the creature is brought back to life within 1 month, they immediately reattune to the fortune and the fortune reappears in the space that it was left.",
+                {
+                    "type": "entries",
+                    "name": "Poor (Level 3).",
+                    "entries": [
+                        "The fortune now increases by 100gp per bastion turn, to a max of 600gp"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Livable (Level 5).",
+                    "entries": [
+                        "The fortune now increases by 200gp per bastion turn, to a max of 1,000gp"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Alright (Level 8).",
+                    "entries": [
+                        "The fortune now increases by 300gp per bastion turn, to a max of 3,000gp"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Comfortable (Level 11).",
+                    "entries": [
+                        "The fortune now increases by 500gp per bastion turn, to a max of 5,000gp"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Wealthy (Level 15).",
+                    "entries": [
+                        "The fortune now increases by 1,500gp per bastion turn, to a max of 15,000gp"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Rich (Level 17).",
+                    "entries": [
+                        "The fortune now increases by 3,000gp per bastion turn, to a max of 30,000gp"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "1% (Level 20).",
+                    "entries": [
+                        "The fortune now increases by 10,000gp per bastion turn, to a max of 50,000gp"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Cursed",
+                    "entries": [
+                        "This fortune is cursed. Attuning to it curses you until you are targeted by a {@spell Remove Curse|XPHB} spell or similar magic. Whenever your attunement ends to the item, the fortune vanishes."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Legacy Rituals.",
+                    "entries": [
+                        "All of the abilities of the item are unlocked, requiring no rituals."
                     ]
                 },
                 "{@note Made by Gem}"
@@ -5851,1118 +7198,6 @@
                             "Legendary",
                             "5 days"
                         ]
-                    ]
-                },
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Barbecue Hammers",
-            "source": "WM4",
-            "rarity": "common",
-            "wondrous": true,
-            "weight": 12,
-            "property": [
-                "C|WM4"
-            ],
-            "entries": [
-                "{@i Made with love... and hammers.}",
-                "As a {@action Utilize|XPHB} Action, you can eat it. When you consume the hammers, you must make a DC 10 Constitution saving throw. On a failed save, you take {@dice 2d4} Bludgeoning damage.",
-                "The hammers provide as much nourishment as 1 day of {@item Rations|XPHB}",
-                "{@note Made by Marvin}"
-            ],
-            "credit": {
-                "gms": [
-                    "Marvin"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Boots of a Zephyr",
-            "source": "WM4",
-            "rarity": "common",
-            "wondrous": true,
-            "entries": [
-                "{@i +1 Aura. These babies have NO mechanical benefit.}",
-                "While you wear these boots, you can take a {@action Magic|XPHB} action to appear to float 4 inches above a surface. This effect lasts until you take another {@action Magic|XPHB} action to end it.",
-                "{@note Made by Althaea}"
-            ],
-            "credit": {
-                "gms": [
-                    "Althaea"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Boots of Orcish Kind",
-            "source": "WM4",
-            "rarity": "common",
-            "wondrous": true,
-            "entries": [
-                "While you wear these boots, your steps make a bunch of sound, regardless of the surface you are moving across. You also have {@variantrule Disadvantage|XPHB} on Dexterity ({@skill Stealth}) checks.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Boots of Stomping",
-            "source": "WM4",
-            "rarity": "common",
-            "wondrous": true,
-            "entries": [
-                "While you wear these boots, you can pass through the space of {@condition Prone} creatures as if they were {@condition Incapacitated}. When you pass through the space of a {@condition Prone} creature, you can choose to deal {@dice 1d4} Bludgeoning damage to it. A creature takes this damage no more than once per turn.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-			"name": "Deck of Dusk",
-			"source": "WM4",
-			"rarity": "common",
-			"entries": [
-                "{@i Created in the image of the Deck of Some Things, this deck of ivory or vellum cards bestows an assortment of minor benefits and penalties on those who draw from it. Most (75 percent) of these decks have only thirteen cards, but the rest have twenty-two.}",
-                "Before you draw a card, you must declare how many cards you intend to draw, then draw them randomly. Any additional cards drawn have no effect. Unless a card states otherwise, as soon as you draw a card from the deck, its magic takes effect. You must draw each card you declared no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck and take effect simultaneously.",
-                "Unless it is the Mystery card, a drawn card immediately takes effect, fades from existence, and reappears in the deck, making it possible to draw the same card multiple times.",
-				{
-					"type": "table",
-					"caption": "Deck of Wonder",
-					"colStyles": [
-						"col-4 text-center",
-						"col-8"
-					],
-					"colLabels": [
-						"{@dice 1d22|Card}",
-						"Card Title"
-					],
-					"rows": [
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 1
-								},
-								"entry": "A {@color ♦|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 2
-								},
-								"entry": "K {@color ♦|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 3
-								},
-								"entry": "Q {@color ♦|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 4
-								},
-								"entry": "J {@color ♦|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 5
-								},
-								"entry": "2 {@color ♦|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 6
-								},
-								"entry": "A {@color ♥|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 7
-								},
-								"entry": "K {@color ♥|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 8
-								},
-								"entry": "Q {@color ♥|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 9
-								},
-								"entry": "J {@color ♥|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 10
-								},
-								"entry": "2 {@color ♥|#ff0000}"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 11
-								},
-								"entry": "A ♣"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 12
-								},
-								"entry": "K ♣"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 13
-								},
-								"entry": "Q ♣"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 14
-								},
-								"entry": "J ♣"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 15
-								},
-								"entry": "2 ♣"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 16
-								},
-								"entry": "A ♠"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 17
-								},
-								"entry": "K ♠"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 18
-								},
-								"entry": "Q ♠"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 19
-								},
-								"entry": "J ♠"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 20
-								},
-								"entry": "2 ♠"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 21
-								},
-								"entry": "Joker (with ™)"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}*"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 22
-								},
-								"entry": "Joker (without ™)"
-							},
-							"{@card Dusk|Deck of Wonder|BMT}"
-						]
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dusk",
-					"entries": [
-						"This card supernaturally saps your energy. You have {@variantrule Disadvantage|XPHB} on {@variantrule Initiative|XPHB} rolls. This effect lasts until you finish a {@variantrule Long Rest|XPHB}, but it can be ended early by a {@spell Remove Curse} spell or similar magic."
-					]
-				},
-                "{@note Made by Gem}"
-			],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-		},
-        {
-            "name": "Destination Orb",
-            "source": "WM4",
-            "rarity": "common",
-            "wondrous": true,
-            "property": [
-                "C|WM4"
-            ],
-            "entries": [
-                "Destination Orbs are engraved with the sigil sequence of a {@spell Teleportation Circle|XPHB}. A creature who holds it immediately learns the sequence. Whenever a creature holding the orb casts {@spell Teleportation Circle|XPHB} targeting the sigil sequence engraved in the orb, it can choose to crush the orb instead of expending a spell slot.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Pig Snout",
-            "source": "WM4",
-            "rarity": "common",
-            "type": "P",
-            "property": [
-                "C|WM4"
-            ],
-            "entries": [
-                "After drinking this pink pastel potion, there is a brief uncomfortable transformation, where the imbiber grows a beautiful, snuffling pig snout. For the next hour, you become very fond of truffles, perhaps even to the point of belligerence, and you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception}) checks that rely on smell.",
-                "{@note From Obojima: Tales from the Tall Grass. Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Potion of Tail Growth",
-            "source": "WM4",
-            "rarity": "common",
-            "type": "P",
-            "property": [
-                "C|WM4"
-            ],
-            "entries": [
-                "When you drink this potion, you grow a tail. If you already have a tail, you grow another one.",
-                "You can only have as many tails equal to your Proficiency Bonus.",
-                "{@note Made by Marvin}"
-            ],
-            "credit": {
-                "gms": [
-                    "Marvin"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Potion of Tail Reduction",
-            "source": "WM4",
-            "rarity": "common",
-            "type": "P",
-            "property": [
-                "C|WM4"
-            ],
-            "entries": [
-                "When you drink this potion, you lose a tail.",
-                "{@note Made by Marvin}"
-            ],
-            "credit": {
-                "gms": [
-                    "Marvin"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Pronoun Pin",
-            "source": "WM4",
-            "rarity": "common",
-            "wondrous": true,
-            "entries": [
-                "This round metal pin can be attached to or detached from any article of clothing as a Magic action. While the pin is worn, it displays the current pronouns of the wearer. Any creature that understands at least one language can read the pin.",
-                "Additionally, you can cast {@spell Detect Pronouns|XPHB} while wearing the pin. Once you have done so, you cannot cast it again until the next dawn.",
-                "{@note Made by Lily}"
-            ],
-            "credit": {
-                "gms": [
-                    "Lily"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Spellbook Jacket",
-            "source": "WM4",
-            "rarity": "common",
-            "wondrous": true,
-            "entries": [
-                "As a {@action Magic|XPHB} action, this jacket can be placed onto a spellbook. While on a spellbook, the spellbook functions as an {@item Enduring Spellbook|XDMG}. As a {@action Magic|XPHB} action, the creature who placed the jacket on the spellbook can remove the jacket",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Tome of Mystra's Cataclysmic Destruction",
-            "source": "WM4",
-            "rarity": "rare",
-            "wondrous": true,
-            "property": [
-                "C|WM4",
-                "U|WM4"
-            ],
-            "entries": [
-                "This weathered tome of history bound by auspicious prayer seals to various gods is only but a long-gone shadow of its formerly powerful self, dyed and dissected by mortal desire. As a {@variantrule Bonus Action|XPHB} while holding the tome you may choose the following magical effects to occur, causing the book to disintegrate into nothingness immediately afterwards.",
-                "{@b Detect Outsiders.} You gain the benefit of the {@reward Tracker's Sense|WM4} Talent against Aberrations for the next hour.",
-                "{@note Made by Denny}"
-            ],
-            "credit": {
-                "gms": [
-                    "Denny"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Adgrac Cavebraids' Steel Boots of the Unstable Mineshaft",
-            "source": "WM4",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "reqAttune": "by a Dwarf",
-            "property": [
-                "E|WM4"
-            ],
-            "entries": [
-                "Specially designed by Cavebraid himself. These boots are designed to help dwarven miners detect cave-ins before they occur.",
-                "While wearing these boots, you have a {@sense Tremorsense|XPHB} with a range of 20 feet. When you use your Stonecunning ability, your {@sense Tremorsense|XPHB} range increases to 60 feet.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Brooch of Night's Vigil",
-            "source": "WM4",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "reqAttune": true,
-            "entries": [
-                "While wearing this brooch, you gain the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "You gain {@sense Darkvision|XPHB} out to a range of 60 feet if you don't already have {@sense Darkvision|XPHB}.",
-                        "You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception} and {@skill Survival}) checks at night."
-                    ]
-                },
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Cleats of Stomping",
-            "source": "WM4",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "entries": [
-                "While you wear these boots, you can pass through the space of {@condition Prone} creatures as if they were {@condition Incapacitated}. When you pass through the space of a {@condition Prone} creature, you can choose to deal {@dice 1d6} Piercing damage to it. A creature takes this damage no more than once per turn.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Gun Buddy",
-            "source": "WM4",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "reqAttune": true,
-            "entries": [
-                "{@i A little goober who hangs from a weapon to manage your ammunition.}",
-                "As a {@action Magic|XPHB} action you can attach a Gun Buddy to any weapon with the Ammunition property. While attached, you can ignore the Loading property of the weapon and you don't require a free hand to draw or load ammo into the weapon.",
-                {
-                    "type": "entries",
-                    "name": "Sentience.",
-                    "entries": [
-                        "A Gun Buddy is a sentient Unaligned object with an Intelligence of 6, a Wisdom of 6, and a Charisma of 14. It has hearing and Blindsight out to 5 feet (it is blind beyond). A Gun Buddy loves nothing more than guns and ammunition, and will always try to grab some if it is in reach and load it into the nearest weapon. Other than that they have fun by swinging around."
-                    ]
-                },
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "NR-G Sports Soda",
-            "source": "WM4",
-            "rarity": "uncommon",
-            "type": "P",
-            "property": [
-                "C|WM4"
-            ],
-            "entries": [
-                "{@i “A quick toxicology test on some of the victims [of this drink] has come back positive for um... all kinds of stuff, really. Methadone, phencyclidine, tetrahydrocannabinol, a variety of opiates, benzodiazepines, barbiturates, amphetamines... the list just goes on and on and on.”}",
-                "When you drink this potion, your {@variantrule Speed|XPHB} increases by 10 feet for 1 hour.",
-                "{@note From Risk of Rain 2, Made by Althaea}"
-            ],
-            "credit": {
-                "gms": [
-                    "Althaea"
-                ],
-                "3rdparty": [
-                    "Risk of Rain 2"
-                ]
-            }
-        },
-        {
-            "name": "Second Edition Crowbar",
-            "source": "WM4",
-            "rarity": "uncommon",
-            "type": "M",
-            "baseItem": "Warhammer|XPHB",
-            "entries": [
-                "{@i “Crowbar/prybar/wrecking bar allows for both prying and smashing! Carbon steel, so it should last for a very long time, at least until the 3rd edition arrives.”}",
-                "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "When you hit a creature with {@variantrule Hit Points|XPHB} equal to its {@variantrule Hit Points|XPHB|Hit Point} maximum, this weapon deals an additional {@dice 1d8} damage.",
-                "You can use this as a {@item Crowbar|XPHB}.",
-                "{@note From Risk of Rain, Made by Althaea}"
-            ],
-            "credit": {
-                "gms": [
-                    "Althaea"
-                ],
-                "3rdparty": [
-                    "Risk of Rain"
-                ]
-            }
-        },
-        {
-            "name": "Armor of the Woodland",
-            "source": "WM4",
-            "rarity": "rare",
-            "type": "LA",
-            "reqAttune": true,
-            "baseItem": "Leather Armor|XPHB",
-            "entries": [
-                "{@i The elves of ancient times constructed these armors from the leaves and bark of birches, oaks, and maples.}",
-                "While wearing this armor, you gain a +1 bonus to {@variantrule Armor Class|XPHB}. While you are traversing through a forest, your {@variantrule Speed|XPHB} increases by 10 feet and you leave no tracks.",
-                "You can cast {@spell Tree Stride|XPHB} three times a day. Expended uses are regained daily at dawn.",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Bells of Orthys",
-            "source": "WM4",
-            "rarity": "rare",
-            "type": "INS",
-            "reqAttune": true,
-            "entries": [
-                "When played, these bells ring with off-kilter, faint ethereal music that to those that hear it, believe it to originate from somewhere far away, in the opposite direction of the bells. All creatures within a mile can hear this music.",
-                {
-                    "type": "entries",
-                    "name": "Call of Carceri.",
-                    "entries": [
-                        "As a {@action Magic|XPHB} action, you can play this bell and target a creature within 1000 feet that can hear the bell's music. The creature must make a DC 15 Wisdom saving throw. On a failure, the creature is {@condition Charmed}. While {@condition Charmed}, the creature believes that following the music leads to its heart's desire, and it must spend 2 feet of movement for every 1 foot it moves when moving towards you. This Charm effect lasts 1 minute. If a creature passes its save, it is Immune to this property for 24 hours and cannot hear the music. Demodands automatically pass their save."
-                    ]
-                },
-                "If a Bard casts a spell as an action while holding this item, they can play the bell as part of that action.",
-                {
-                    "type": "entries",
-                    "name": "Sin Swamp.",
-                    "entries": [
-                        "As a {@action Magic|XPHB} action, you can cast either the {@spell Insect Plague|XPHB} or {@spell Transmute Rock|XGE} (rock to mud) spells. This property of the bells can't be used again until the next dawn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Curse.",
-                    "entries": [
-                        "While Attuned to this item, you have the following flaw: \"I care most for myself, and I am willing to use deceit and betrayal to achieve my goals.\""    
-                    ]
-                },
-                "{@note Made by Aris}"
-            ],
-            "credit": {
-                "gms": [
-                    "Aris"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Candy Coaster",
-            "source": "WM4",
-            "rarity": "rare",
-            "type": "VEH",
-            "property": [
-                "U|WM4"
-            ],
-            "weight": 500,
-            "entries": [
-                "{@i The Candy Coaster is Santa's second choice vehicle behind his signature sleigh. This classic two wheeled vehicle is covered in red and white stripes.}",
-                "The Candy Coaster functions as a vehicle (Statblock below). When the Candy Coaster reaches 0 {@variantrule Hit Points|XPHB}, it isn't destroyed instead breaking into pieces. A creature Proficient with {@item Smith's Tools|XPHB} can repair the Candy Coaster causing it to regain all its {@variantrule Hit Points|XPHB} as part of a {@variantrule Long Rest|XPHB}. This costs components worth 200 gp which can be bought in any major city.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Bottomless Bag of Bullets",
-            "source": "WM4",
-            "rarity": "rare",
-            "wondrous": true,
-            "entries": [
-                "This bag contains an endless number of mundane {@item Firearm Bullet|XPHB|Firearm Bullets} and {@item Sling Bullet|XPHB|Sling Bullets}. Any ammo drawn from the bag disappears after it hits a target, or 1 minute after it is removed from the bag.",
-                "You can draw any item the bag contains as if doing so from a regular bag or pouch.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Cloak of the Embrace",
-            "source": "WM4",
-            "rarity": "rare",
-            "wondrous": true,
-            "reqAttune": true,
-            "entries": [
-                "{@i You're alone. Let the chorus of arms help you.}",
-                "While a creature is {@condition Grappled} by your {@variantrule Unarmed Strike|XPHB}, it is also {@condition Charmed} by you. At the end of each of its turns, the creature can make a DC 15 Wisdom saving throw, ending the {@condition Charmed} condition on a success. A creature that passes the save is immune to the cloak for 24 hours.",
-                "{@note Made by Althaea & Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Althaea",
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Dagger of Torment",
-            "source": "WM4",
-            "rarity": "rare",
-            "type": "M",
-            "baseItem": "dagger|XPHB",
-            "reqAttune": true,
-            "entries": [
-                "{@i Few of these blades remain, as many heroes of the past worked to destroy the majority of these terrible weapons.}",
-                {
-                    "type": "entries",
-                    "name": "Glimpse of Dread.",
-                    "entries": [
-                        "When you hit an attack against a creature using this weapon, you can force that creature to make a DC 15 Wisdom saving throw. On a failure, the creature perceives you as an animated corpse, often that of the creature's loved ones, and is {@condition Dazed|WM4} until the start of your next turn. You can use this feature three times. Expended uses are regained nightly at midnight. Creatures with {@sense Truesight|XPHB} or have Immunity to the {@condition Frightened} condition are Immune to this feature."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Visions of Torment.",
-                    "entries": [
-                        "You can take a {@action Magic|XPHB} action to curse a creature that has been under the effects Glimpse of Dread in the past hour. That creature must succeed on a DC 15 Wisdom saving throw or be plagued by visions of what they've seen. An affected creature suffers a -2 to all {@variantrule D20 Test|XPHB|D20 Tests} for the next hour. A casting of {@spell Remove Curse|XPHB} ends the effect. Once you use this feature, you cannot do so again until midnight."    
-                    ]
-                },
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Disposable Stun Prod",
-            "source": "WM4",
-            "rarity": "rare",
-            "wondrous": true,
-            "property": [
-                "C|WM4"
-            ],
-            "entries": [
-                "{@i “A single-use, short-range high-voltage electroshock weapon. Can be used one-handed.”}",
-                "As a {@action Magic|XPHB} action, all creatures in a 5-foot Emanation originating from you must succeed on a DC 15 Constitution saving throw or become {@condition Stunned|XPHB} until the start of your next turn.",
-                "{@note From SIGNALIS, Made by Althaea}"
-            ],
-            "credit": {
-                "gms": [
-                    "Althaea"
-                ],
-                "3rdparty": [
-                    "SIGNALIS"
-                ]
-            }
-        },
-        {
-            "name": "Hellion Helm",
-            "source": "WM4",
-            "rarity": "rare",
-            "wondrous": true,
-            "reqAttune": "by a Non-Good Creature",
-            "entries": [
-                "{@i A helmet fashioned in the likeness of a Fire Hellion, it carries an infernal warmth.}",
-                "Other creatures have {@variantrule Disadvantage|XPHB} on Intelligence ({@skill Investigation}) and Wisdom ({@skill Insight}) checks made to discern your true identity or intentions. Additionally, you can add 1d4 to Wisdom ({@skill Perception}) checks.",
-                {
-                    "type": "entries",
-                    "name": "Infernal Searing.",
-                    "entries": [
-                        "When you make an melee attack roll against a creature and hit it while wearing this helmet, the target takes an additional {@dice 1d4} Fire damage and can't regain {@variantrule Hit Points|XPHB} until the start of your next turn if it is damaged by this Fire damage."
-                    ]
-                },
-                "{@note Made by Landon}"
-            ],
-            "credit": {
-                "gms": [
-                    "Landon"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Skin of Adhesion",
-            "source": "WM4",
-            "rarity": "rare",
-            "type": "LA",
-            "baseItem": "Hide Armor|XPHB",
-            "entries": [
-                "While wearing this tar-covered armor, you have a +1 bonus to your AC. When you attune to this, it melds into your skin, making you naturally excrete a sticky tar. You still retain the benefits of wearing the armor. While attuned, you gain the following benefits:",
-                "When you are hit with a Melee Attack with a weapon, you can take a Reaction to force the wielder of the weapon to make a DC 15 Dexterity saving throw. On a failure, the weapon becomes attached to your skin until you die or release it with a {@variantrule Bonus Action|XPHB}. A creature can take an Action to pry the weapon off by succeeding on a DC 15 Strength ({@skill Athletics}) check. Once you use this feature 3 times, you cannot do so again until the next dawn.",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "The Painting of Mara Jay",
-            "source": "WM4",
-            "rarity": "rare",
-            "wondrous": true,
-            "property": [
-                "U|WM4"
-            ],
-            "entries": [
-                "This painting is an 8 foot long landscape of an open field near Raven's Bluff. A small town can be seen on the horizon line, and bison are grazing the grasses. The painting is signed by prodigy artist Mara Jay.",
-                "While The Painting of Mara Jay is placed in a bastion facility, it gains the following benefit:",
-                {
-                    "type": "entries",
-                    "name": "Inspired.",
-                    "entries": [
-                        "Taking a bastion turn in the facility where the painting resides grants you a +{@dice 1d4} bonus to any {@variantrule D20 Test|XPHB|D20 Tests} within the facility."
-                    ]
-                },
-                "You can only move the painting once per week, at the start of the new bastion turn.",
-                "{@note Made by Gavin}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gavin"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Unseen Fog",
-            "source": "WM4",
-            "rarity": "rare",
-            "wondrous": true,
-            "entries": [
-                "This small canister contains thick and obscuring fog, enchanted to be invisible. You can use a Utilize action to activate it, at which point the item casts {@spell Fog Cloud|XPHB} (no Concentration required) centered on itself. This fog has no effect on any creature that does not have {@sense Truesight|XPHB}, as it cannot see it.",
-                "Once used, this item cannot be used again until the next dawn.",
-                "{@note Made by V}"
-            ],
-            "credit": {
-                "gms": [
-                    "V"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Nalfeshnee's Visage",
-            "source": "WM4",
-            "rarity": "rare",
-            "wondrous": true,
-            "reqAttune": "by a non-good creature",
-            "entries": [
-                "A mask of a Nalfeshnee, it holds remnants of its hideous power.",
-                "Other creatures have {@variantrule Disadvantage|XPHB} on Intelligence ({@skill Investigation}) and Wisdom ({@skill Insight}) checks made to discern your true identity or intentions. Additionally, you can add {@dice 1d4} to Charisma ({@skill Intimidation}) checks.",
-                {
-                    "type": "entries",
-                    "name": "Pursuit",
-                    "entries": [
-                        "Immediately after you hit an enemy with an {@action Opportunity Attack|XPHB}, you can move up to half your {@variantrule Speed|XPHB} as part of that Reaction."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Horror Nimbus",
-                    "entries": [
-                        "As a {@action Magic|XPHB} action, you can create a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each creature within that {@variantrule Emanation [Area of Effect]|XPHB|Emanation} makes a Wisdom Saving Throw: DC 15. {@i Failure:} A target takes {@dice 8d6} Psychic damage, and the target has the {@condition Frightened} condition for 1 minute, until it takes damage, or until it ends its turn with you out of line of sight. {@i Success:} The target is unaffected. This item cannot be used this way again until next dawn."    
-                    ]
-                },
-                "{@note Made by Landon}"
-            ],
-            "credit": {
-                "gms": [
-                    "Landon"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Acorn of the Ice Squirrel",
-            "source": "WM4",
-            "rarity": "very rare",
-            "wondrous": true,
-            "reqAttune": true,
-            "entries": [
-                "This acorn is imbued with the diabolical power of ice. It can grant you great power, at a price.",
-                {
-                    "type": "entries",
-                    "name": "Diabolical Resistance.",
-                    "entries": [
-                        "You are Immune to Cold damage and Resistant to Fire and Poison"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Curse.",
-                    "entries": [
-                        "This item is cursed. While attuned, you take a -2 penalty to Dexterity Skill Checks and Saving Throws. You can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the acorn ends."
-                    ]
-                },
-                "{@note Made by Andrew}"
-            ],
-            "credit": {
-                "gms": [
-                    "Andrew"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Cloak of the Frenzied Lord",
-            "source": "WM4",
-            "rarity": "very rare",
-            "wondrous": true,
-            "reqAttune": true,
-            "entries": [
-                "While attuned to this mantle, you have Resistance to Psychic damage and your melee Weapon Attacks deal an additional {@dice 1d6} Psychic damage.",
-                {
-                    "type": "entries",
-                    "name": "Wave of Madness",
-                    "entries": [
-                        "As a {@action Magic|XPHB} action, you unleash a pulse of befuddlement and paranoia. Each creature within a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} centered on you must make a DC 17 Wisdom saving throw. On a failure, they are {@condition Confused|WM4} for the next minute. An affected creature can repeat the save at the end of each of their turns, ending the effect on a success. Once you use this feature you cannot do so again until the next dawn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Expand Potential",
-                    "entries": [
-                        "You tap into the powers present within the Far Realm. When you use this feature, you take {@dice 6d6} Psychic damage and cast one of the following spells on yourself without taking a {@action Magic|XPHB} action:",
-                        "{@spell Blur|XPHB}, {@spell Mirror Image|XPHB}, {@spell Haste|XPHB}, {@spell Stoneskin|XPHB}",
-                        "When you cast them this way, your Wisdom score is reduced by the spell’s level. If your Wisdom score is reduced to 0 this way, you die. When you are targeted with {@spell Greater Restoration|XPHB} only restores two points of Wisdom rather than the entire reduction. {@variantrule Long Rest|XPHB|Long Rests} do not restore reduced Wisdom score from this item."    
-                    ]
-                },
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Eternal Sending Stone",
-            "source": "WM4",
-            "rarity": "very rare",
-            "wondrous": true,
-            "entries": [
-                "Eternal Sending Stones come in pairs, with each stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can cast {@spell Sending|XPHB} from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone, and you don't cast the spell.",
-                "If one of the stones in a pair is destroyed, the other one becomes nonmagical.",
-                "{@note Made by Aris}"
-            ],
-            "credit": {
-                "gms": [
-                    "Aris"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Staff of Pestilence",
-            "source": "WM4",
-            "rarity": "very rare",
-            "type": "M|XPHB",
-            "staff": true,
-            "baseItem": "staff|XPHB",
-            "reqAttune": "by a Druid, Sorcerer, Warlock, or Wizard",
-            "entries": [
-                "{@i This wooden staff is covered in diseased sores that ooze yellow pus. It gives off a horrible odor of rotten flesh}",
-                "You have Immunity to the effects of Poisons and non-magical diseases while you hold this staff.",
-                "The staff has 10 charges. While holding it, you can use an action to expend charges to cast one of the following spells from it, using your spell save DC:",
-                {
-                    "type": "list",
-                    "items": [
-                        "{@spell Infestation|XGE} (0 charges)",
-                        "{@spell Allergy Field|WM4} (5th-level version, targets air instead of plants; 1 charge)",
-                        "{@spell Befoul|WM4} (6 charges)",
-                        "{@spell Blindness/Deafness|XPHB} (5th-level version; 1 charge)",
-                        "{@spell Contagion|XPHB} (3 charges)",
-                        "{@spell Harm|XPHB} (3 charges)",
-                        "{@spell Insect Plague|XPHB} (2 charges)",
-                        "{@spell Pox|WM4} (1 charge)",
-                        "{@spell Ray of Sickness|XPHB} (5th-level version; 1 charge)"
-                    ]
-                },
-                "The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, you are inflicted with Flesh Rot until cured, as the staff rots away into a puddle of diseased pus.",
-                "{@note Made by Aris}"
-            ],
-            "credit": {
-                "gms": [
-                    "Aris"
-                ],
-                "3rdparty": [
-                    "3.5e Book of Vile Darkness"
-                ]
-            }
-        },
-        {
-            "name": "Egg of Lolth",
-            "source": "WM4",
-            "rarity": "artifact",
-            "wondrous": true,
-            "entries": [
-                "{@i The egg of Lolth is a potent artifact with a long history. Originally nothing more than a cursed item that compelled its wielder to fling himself through a gate to the Abyss, its long exposure to the chaotic energies of the Demonweb Pits has transformed it into the deadly device it is today.}",
-                "This artifact functions as a Material component for the purpose of casting {@spell Plane Shift|XPHB}, but only if the destination is the Demonweb Pits.",
-                "While inactive, the artifact appears to be a smooth, fist sized platinum egg. When touched, it vibrates slightly, and faint sounds of scratching can be heard coming from within.",
-                "To activate this item, a casting of Remove Curse on it is required. When done so, it turns into a shuddering, tumescent bag of spider silk. On the following round, the bag tears itself open, summoning 5 {@creature Swarm of Insects|XMM|Swarms of Spiders} ({@creature Swarm of Insects|XMM} with the Fiend type, MM'25) and 1 {@creature Darkweaver|MPP} (with the Fiend type). Then, for the next minute, during each round, 1 {@creature Giant Spider|XMM} (with the Fiend type) is summoned by the egg. After which, the artifact reverts to inactivity and cannot be activated again until the next Midnight.",
-                "Creatures summoned by the egg appear in an unoccupied space on the ground within 10 feet of the egg and are {@variantrule Hostile [Attitude]|XPHB|Hostile} to non-drow creatures. After 10 Minutes, all spiders summoned by the egg are cast back into the Abyss.",
-                "While the artifact is activated, any creature that touches it is automatically transported to the Demonweb Pits.",
-                "Every time the artifact goes inactive, roll {@dice 1d20}. On a 1, it is instantly teleported to a location in the Demonweb Pits or the Material Plane of Lolth's choosing.",
-                {
-                    "type": "entries",
-                    "name": "Destroying the Artifact",
-                    "entries": [
-                        "The egg has to be embraced by Corellon as one of his own and is destroyed."
-                    ]
-                },
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Family Fortune",
-            "source": "WM4",
-            "rarity": "legacy",
-            "type": "$",
-            "reqAttune": true,
-            "property": [
-                "C|WM4"
-            ],
-            "entries": [
-                "The fortune is a treasure worth 100gp. A creature attuned to the fortune can take a Magic action to magically \"sell\" the treasure, converting it into a pile of gold coins equal to its value, destroying the fortune.",
-                "While attuned the fortune begins to increase in value. Every bastion turn, it increases in value by 50gp to a max value of 300gp. If a creature dies while attuned to the fortune, the treasure disappears and stops increasing in value. If the creature is brought back to life within 1 month, they immediately reattune to the fortune and the fortune reappears in the space that it was left.",
-                {
-                    "type": "entries",
-                    "name": "Poor (Level 3).",
-                    "entries": [
-                        "The fortune now increases by 100gp per bastion turn, to a max of 600gp"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Livable (Level 5).",
-                    "entries": [
-                        "The fortune now increases by 200gp per bastion turn, to a max of 1,000gp"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Alright (Level 8).",
-                    "entries": [
-                        "The fortune now increases by 300gp per bastion turn, to a max of 3,000gp"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Comfortable (Level 11).",
-                    "entries": [
-                        "The fortune now increases by 500gp per bastion turn, to a max of 5,000gp"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Wealthy (Level 15).",
-                    "entries": [
-                        "The fortune now increases by 1,500gp per bastion turn, to a max of 15,000gp"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Rich (Level 17).",
-                    "entries": [
-                        "The fortune now increases by 3,000gp per bastion turn, to a max of 30,000gp"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "1% (Level 20).",
-                    "entries": [
-                        "The fortune now increases by 10,000gp per bastion turn, to a max of 50,000gp"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Cursed",
-                    "entries": [
-                        "This fortune is cursed. Attuning to it curses you until you are targeted by a {@spell Remove Curse|XPHB} spell or similar magic. Whenever your attunement ends to the item, the fortune vanishes."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Legacy Rituals.",
-                    "entries": [
-                        "All of the abilities of the item are unlocked, requiring no rituals."
                     ]
                 },
                 "{@note Made by Gem}"

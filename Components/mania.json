@@ -27,6 +27,21 @@
             }
         },
         {
+            "name": "Goner",
+            "source": "WM4",
+            "type": "Mania",
+            "entries": [
+                "You must make a DC 13 Wisdom saving throw whenever you start your turn within 10 feet of a Holy Symbol. On a failed save, you are {@condition Charmed} by the object. While {@condition Charmed} you must do everything in your power to zerk it. Once you zerk it, you can repeat the saving throw. If you succeed on any saving throw against this Mania, you automatically succeed on saves against it for the next hour. ",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Ellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Helminthomania",
             "source": "WM4",
             "srd52": true,

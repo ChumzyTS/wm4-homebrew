@@ -26,6 +26,38 @@
                     "The Crooked Moon"
                 ]
             }
+        },
+        {
+            "name": "Known Bigfoot Hunter",
+            "source": "WM4",
+            "type": "Regional Effect",
+            "rarity": "uncommon",
+            "entries": [
+                "Bigfoot avoids your lair, refusing to enter it.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Time Distortion",
+            "source": "WM4",
+            "type": "Regional Effect",
+            "rarity": "uncommon",
+            "entries": [
+                "While within 1 mile of the lair, creatures age at one-tenth the usual rate.",
+                "{@note From Spirit Dragon. Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }
