@@ -19,6 +19,7 @@ with open(outputFile, 'r', encoding='utf8') as file:
                 gms = i["credit"]["gms"]
                 if gms:
                     for gm in gms:
+                        gm = gm.strip()
                         if gm in credits:
                             credits[gm] += 1
                         else:
