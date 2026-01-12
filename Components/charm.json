@@ -179,6 +179,53 @@
                 ],
                 "3rdparty": false
             }
+        },
+        {
+            "name": "No, Thank you!",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "Too Scary! - As a Reaction to anything, you can immediately teleport to back to the guild and leave the session. You don't get any Rewards. After you use this ability, the charm fades away.",
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "We Can Be Bees",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "{@i This is good news.}",
+                "As a {@action Magic|XPHB} action, you can activate this charm, casting the {@spell Animal Shapes|XPHB} spell. When you cast it this way, the creature that is chosen to transform into is a giant bee (using {@spell Giant Wasp|XMM} statistics). The charm vanishes after you activate it.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Wurm",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "As a {@action Magic|XPHB} action you become a worm. After a minute you revert back to your normal form.",
+                "This charm disappears after you become a worm.",
+                "{@note Made by Laz}"
+            ],
+            "credit": {
+                "gms": [
+                    "Laz"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

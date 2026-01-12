@@ -202,6 +202,48 @@
                 ],
                 "3rdparty": false
             }
+        },
+        {
+            "name": "Seed of Evil",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Magical Contagion",
+            "basicRules2024": true,
+            "entries": [
+                "Within every creature contains the capacity for evil; an idea of it. With the right cultivation, the right exposure, that evil within can grow and germinate- and eventually overpower. This Magical Contagion is unable to be cured by magical means (see Fighting the Contagion). A creature suffers the following effects immediately upon infection:",
+                {
+                    "type": "entries",
+                    "name": "Thrall to Evil.",
+                    "entries": [
+                        "The creature has {@variantrule Disadvantage|XPHB} on Wisdom saving throws against effects originating from Demons."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Germination.",
+                    "entries": [
+                        "The creature's alignment slowly shifts towards Chaotic Evil. Whenever it fails the saving throw against Fighting the Contagion, its alignment moves one step towards Chaotic Evil. A Lawful Good character for instance would become either Neutral Good or Lawful Neutral, at the choice of the creature. This alignment change cannot be restored until the disease is cured."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fighting the Contagion.",
+                    "entries": [
+                        "Every 7 days, an infected creature makes a DC 15 Charisma saving throw. On a failed save, the creature grows more chaotic and evil (see Germination). If the creature becomes Chaotic Evil, they gain the Demon Spawn story record. If you bathe yourself in the light of three of the Celestial Heavens, make physical contact with a {@item Talisman of Pure Good|XDMG}, or undergo a purging ritual listed in the {@item Book of Exalted Deeds|DMG}, the contagion is cured."    
+                    ]
+                },
+                "This contagion affects all creatures that aren’t Demons, ignoring Immunity to Magical Contagions.",
+                "{@note Made by Chrys and Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris",
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "Dragon 140"
+                ]
+            }
         }
     ]
 }

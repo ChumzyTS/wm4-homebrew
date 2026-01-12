@@ -1369,7 +1369,7 @@
             "entries": [
                 "{@i A magical bowl that shreds and mixes edible organic material placed within.}",
                 "After placing a pound of two or more different sources of edible organic material within (to a maximum of 5 lbs.), you can spend 10 minutes to create a Smoothie with this bowl. A creature can consume this Smoothie as a {@action Utilize|XPHB} Action. Consuming this Smoothie restores 1 Hit Point, and the Smoothie provides enough nourishment to sustain a creature for one day.",
-                "A Smoothie created this way looses its magical properties if it isn't consumed within 24 hours.",
+                "A Smoothie created this way loses its magical properties if it isn't consumed within 24 hours.",
                 "{@note Made by Marvin}"
             ],
             "credit": {

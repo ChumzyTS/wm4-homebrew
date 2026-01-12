@@ -18,7 +18,7 @@
         ],
         "dateAdded": 1742975531,
         "edition": "classic",
-        "dateLastModified": 1767486432
+        "dateLastModified": 1768211336
     },
     "baseitem": [
         {
@@ -794,6 +794,718 @@
             }
         },
         {
+            "name": "No, Thank you!",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "Too Scary! - As a Reaction to anything, you can immediately teleport to back to the guild and leave the session. You don't get any Rewards. After you use this ability, the charm fades away.",
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "We Can Be Bees",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "{@i This is good news.}",
+                "As a {@action Magic|XPHB} action, you can activate this charm, casting the {@spell Animal Shapes|XPHB} spell. When you cast it this way, the creature that is chosen to transform into is a giant bee (using {@spell Giant Wasp|XMM} statistics). The charm vanishes after you activate it.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Wurm",
+            "source": "WM4",
+            "type": "Charm",
+            "entries": [
+                "As a {@action Magic|XPHB} action you become a worm. After a minute you revert back to your normal form.",
+                "This charm disappears after you become a worm.",
+                "{@note Made by Laz}"
+            ],
+            "credit": {
+                "gms": [
+                    "Laz"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Endless Dreamer",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Special Curse}",
+                "Your dreams often stretch on endlessly, and years could pass in your dreams when only hours pass in reality. You remember most of your dreams, even if somewhat hazy.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Lycanthropy (shark)",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i You are heavily swayed to a Neutral Evil alignment, become a Monstrosity (Lycanthrope), and gain minor shark-like features.}",
+                {
+                    "type": "entries",
+                    "name": "Shape-Shift",
+                    "entries": [
+                        "As a Bonus Action, you can shape-shift into a Shark or Shark-Hybrid. While a Shark or Shark-Hybrid, you have a blindsight of 30 feet, a swim speed of 40 feet. While as a Shark-Hybrid, you can breathe air and water. While as a Shark, you are Large and can breathe only underwater. Your game statistics are otherwise the same in each form, though you cannot speak if you are a Shark. Any equipment you are wearing or carrying isn't transformed. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear or wield a piece of equipment. You can use another Bonus Action to shape-shift back."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite",
+                    "entries": [
+                        "While you are a Shark or Shark Hybrid, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal. You have advantage on attack rolls with this weapon against {@status Bloodied|XPHB} creatures.",
+                        "It deals {@dice 2d8} piercing damage on a hit. A damaged creature is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target gains this curse. Success: The target is immune to your curse for 24 hours. A creature automatically succeeds if it cannot become a Lycanthrope, like most non-Humanoids."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Transformation",
+                    "entries": [
+                        "When you start your turn next to a {@status bloodied|XPHB} enemy, you must make a DC 15 Wisdom saving throw. On a failure, you lose control of yourself and shape-shift into a Shark or Shark-Hybrid, and cannot shape-shift back into your true form until there are no {@status Bloodied|XPHB} creatures other than you within 120 feet of you. You have no memory of your actions during this time, the GM having control over those actions instead."
+                    ]
+                },
+                "{@note Formatted like Landon's Lycanthropy curse, Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Oiled Up",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Your hair and skin is constantly oily. You sweat oil.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pirate Speak",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Yargh, yer language been set to Sea Dog! Ye gotta speak like ye've got scurvy now!",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pretty Bad Medicine, Actually",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i This is serious, asshole.}",
+                "Whenever you, the player, laugh, your character takes {@dice 1d6} psychic damage.",
+                "{@note Inspired by Legends of Avantris, Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": [
+                    "Legends of Avantris"
+                ]
+            }
+        },
+        {
+            "name": "Slop.",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Step 1: Slop. Step 2: Slop. Step 3: Slop. Repeat from Step 1 until thoroughly Slopped.}",
+                "Whenever you craft an item from an Artisan's Tool, it turns into useless* Slop.",
+                "{@note *Note: Not all might find this useless}",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Tears of Sorrow",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Special Curse}",
+                "You cannot stop crying. Everything that was; every wish for what could've been; the yearn of what you could be; all of these reverberate through your mind- through each action you take- as an incessant reminder of your loss and grief. These tears are shed and you cannot bring yourself to cease them.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Terminal Terminal Velocity",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "There is no longer a maximum amount of damage you take from the Falling Hazard.",
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The MacLeod Effect",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Whenever you succeed on a Dexterity ({@skill Stealth}) check made to {@action Hide|XPHB}, Sneaky Snitch plays from around you and can be heard in a 30 foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Time to Get a Watch",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You always know the location of the nearest clock and can hear it ticking, as long as there is a clock on the same plane of existence as you",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Tongue of Lily",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "When annoyed or angry, you must speak with a southern accent.",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Fellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Vile Damage",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Special Curse}",
+                "Vile damage is a special curse. Every point of vile damage reduces your current hit points by 1. These lost hit points can only be restored by healing magic in a consecrated area such as the Hallow spell. Vile damage represents such an evil violation to a character\u2019s body or soul that only in a holy place can healing magic repair the damage.",
+                "Vile damage is usually done in increments of 1 damage per infliction",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "You First.",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Whether it's because you are aura farming, are overly polite, or just have a godlike reaction speed, whenever you would roll initiative, you instead get an initiative of 0. If you still go before someone else, you can point and laugh at them.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "All That's Left",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are unable to turn right.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Big and Full",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Every sentence you say must begin with \"Ouuuh I'm so ___\"",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cat got your tongue?",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You cannot speak, only meow.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Dysphoria",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "An overwhelming dissatisfaction engulfs you. You have {@variantrule Disadvantage|XPHB} on all Ability Checks and Attack Rolls. Participating in an activity that brings you joy lifts the curse for 1 minute.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Felt by its Embrace",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Have my company. Feel my warmth. You are alone no longer.}",
+                "Whenever you would be reduced to 0 {@variantrule Hit Points|XPHB}, you instead drop to 1 Hit Point and transform and lose control. Your skin begins to constantly shed blood and transform into an Aberrant Cultist as if through {@spell True Polymorph|XPHB}.",
+                "While in this form, whenever you choose a creature as a target, you must choose the target at random from among the creatures you can see within range of the attack, spell, or other ability it's using. If an enemy provokes an {@action Opportunity Attack|XPHB}, you must make the attack if you are able to.",
+                "If you lose the {@variantrule Temporary Hit Points|XPHB} granted by the transformation, you die and your body returns to normal ending the Curse.",
+                "{@note Made by Althaea and Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea",
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "It's just gonna ask you a couple of questions...",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Whenever you make a purchase, you have to pay an additional 20%.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Ough, so covered in honey...",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are covered in honey, thus attracting many insects- especially bees- and the occasional bear. This is just unpleasant.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pacifist",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are unable to take the {@action Attack|XPHB} action and cannot knowingly do harm to other creatures.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pig Snout, Eternal",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You grow a beautiful, snuffling pig snout. You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception}) checks that rely on smell. In addition, you gain great fondness of truffles; when you catch a whiff of one, you cannot help but disregard everything you were doing just to find and devour it.",
+                "{@note Based on Pig Snout. Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rainy Day",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "A rain cloud follows above you, constantly keeping you soaked. When the water touches any creature or object you aren't carrying, it vanishes. If you get angry, the cloud starts to storm.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rule of Hospitality",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are forced to be very polite. Say please and thank you. Don't start fights in a home. Open doors for others. If you are in someone else's home, you must defend them from attackers.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rule of Ownership",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are unable to take anything that isn't yours without permission from the owner.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rule of Reciprocity",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Whenever someone gives you a gift, favor, or similar, you must give them something equal in return.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Eeper",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "When you fall {@condition Unconscious}, you are unable to be woken up until you have slept for 8 hours.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Influencerrr",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "The only Action you can take is the {@action Influence|XPHB} action.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Think Before You Speak",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You can only speak when what you're about to say aligns with the attribute(s) determined by the GM when you receive this curse (ie. true, helpful, inspiring, necessary, kind).",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "This is so sad\u2026",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Every time you are sad, Despacito plays loudly.",
+                "{@note Made by Tyler}"
+            ],
+            "credit": {
+                "gms": [
+                    "Tyler"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Uncertain",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are only able to speak in questions. Failing to do so causes you to take {@dice 1d6} Necrotic damage that cannot be reduced, and prevents any other creature from hearing what you said.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Voice of the Nerd",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You must speak with a nasally voice. In addition, you have an intense urge to correct people when they're wrong, and often start such corrections with \"ermm, actually\".",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Welcoming Party",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are unable to enter a room without being invited in. You are compelled to invite anyone you see into your home.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Lycanthropy (Bat)",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i You are heavily swayed to a Neutral Evil alignment, and gain minor bat features.}",
+                {
+                    "type": "entries",
+                    "name": "Shape-Shift",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can shape-shift into a Large {@creature Giant Bat|XMM} or Medium Bat-Hybrid.  While a {@creature Giant Bat|XMM} or Medium Bat-Hybrid, you have a {@sense Blindsight|XPHB} of 60 feet and a {@variantrule Fly Speed|XPHB} of 60 feet.  Your game statistics are otherwise the same in each form, though you cannot speak if you are a {@creature Giant Bat|XMM}. Any equipment you are wearing or carrying isn't transformed. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear or wield a piece of equipment. You can use another {@variantrule Bonus Action|XPHB} to shape-shift back."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sunlight Sensitivity.",
+                    "entries": [
+                        "While you are a {@creature Giant Bat|XMM} or Bat Hybrid and are in sunlight, you have {@variantrule Disadvantage|XPHB} on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite",
+                    "entries": [
+                        "While you are a {@creature Giant Bat|XMM} or Bat Hybrid, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Dexterity modifier to the attack and damage when you attack with it.",
+                        "It deals {@dice 2d8} piercing damage on a hit. A damaged creature is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target gains this curse. Success: The target is immune to your curse for 24 hours. A creature automatically succeeds if it cannot become a Lycanthrope, like most non-Humanoids."
+                    ]
+                },
+                "{@note Formatted like Landon's Lycanthropy curse, Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Lycanthropy (Rat)",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i You are heavily swayed to a Lawful Evil alignment, and gain minor rat features.}",
+                {
+                    "type": "entries",
+                    "name": "Shape-Shift",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can shape-shift into a Small Rat or Medium Rat-Hybrid. Your game statistics are the same in each form, though you cannot speak if you are a Rat. Any equipment you are wearing or carrying isn't transformed. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear or wield a piece of equipment. You can use another {@variantrule Bonus Action|XPHB} to shape-shift back."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite",
+                    "entries": [
+                        "While you are a Rat or Rat-Hybrid, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Dexterity modifier to the attack and damage rolls when you attack with it.",
+                        "It deals {@dice 1d6} piercing damage on a hit. A damaged creature is subjected to the following effect. Constitution Saving Throw: DC 11. Failure: The target gains this curse. Success: The target is immune to your curse for 24 hours. A creature automatically succeeds if it cannot become a Lycanthrope, like most non-Humanoids."
+                    ]
+                },
+                "{@note Formatted like Landon's Lycanthropy curse, Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "A Name Given",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@note Special Curse}",
+                "You have given your name to a fey. You have Disadvantage on all attack rolls made against the fey and {@variantrule Disadvantage|XPHB} on saving throws against the fey's magic. No one is able to remember your name, or speak it. Any written mention of the name becomes incomprehensible.",
+                "As a {@action Magic|XPHB} action, the fey is able to perfectly disguise itself as you. It can drop the disguise at any time (no action required).",
+                "This curse can only be cursed by dealing with the fey who took the name, or by casting {@spell Legal Name Change|WM4}, permanently replacing the stolen name with a new one.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Ego Death",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@note Special Curse}",
+                "You have lost who you are. Your memories feel disconnected and unlike yourself. A part of you is missing. You and everything you carry appears in grayscale.",
+                "This curse can only be cured by finding yourself.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Hard Mode",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@note Special Curse}",
+                "Whenever you make a {@variantrule D20 Test|XPHB}, you roll a {@dice d12} instead of a {@dice d20}.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Cheese Touch",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@note Special Curse}",
+                "When you touch another creature, they gain this curse and you lose it. You cannot transfer the curse to the creature who bestowed it onto you.",
+                "This curse cannot be cured by any means.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
             "name": "Adaptable Artillery",
             "source": "WM4",
             "type": "Gift",
@@ -824,23 +1536,6 @@
             "credit": {
                 "gms": [
                     "Aris"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Attunement Adept",
-            "source": "WM4",
-            "type": "Gift",
-            "rarity": "uncommon",
-            "entries": [
-                "{@i Prerequisite: {@table Level 7 Gift Rewards|WM4|Level 7 Reward}}",
-                "You can attune to an additional magic item.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
                 ],
                 "3rdparty": false
             }
@@ -1438,24 +2133,6 @@
             }
         },
         {
-            "name": "Attunement Expert",
-            "source": "WM4",
-            "type": "Gift",
-            "rarity": "very rare",
-            "entries": [
-                "{@i Prerequisite: {@table Level 16 Gift Rewards|WM4|Level 16 Reward}}",
-                "You can attune to an additional magic item. It only takes you 1 minute to end your attunement to an item.",
-                "You can use a {@action Magic|XPHB} Action to touch a magic item and immediately attune to it. Once you do so, you can't again until you finish a long rest.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
             "name": "Horde Slayer",
             "source": "WM4",
             "type": "Gift",
@@ -1545,6 +2222,113 @@
             "credit": {
                 "gms": [
                     "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Seismic Empath",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "common",
+            "entries": [
+                "You've cultivated a deep connection with the earth and its volcanic power.",
+                "{@b Forewarning.} When you see a volcano that's at least 1 mile away, you can take the {@action Search|XPHB} action to make a DC 20 Wisdom ({@skill Insight}) check. If you succeed, you know if the volcano will erupt within the next 7 days.",
+                "{@b Seismic Detection.} You have {@sense Tremorsense|XPHB} out to 60 feet. In addition, you detect the presence of seismic activity with your {@sense Tremorsense|XPHB}, to a depth that reaches the center of Toril.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cerebrant",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i You've called out to the Far Realm as a hope to harness some of its power for yourself; the Far Realm responded.}",
+                "{@b Aching Dread.} Unfelt, your form subtly alters the psychological landscape of the surrounding aether. As a {@action Magic|XPHB} action, you can cause the alterations to flare. Creatures of your choice within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Frightened} of you until the end of your next turn. You can use this feature a number of times equal to your Proficiency Bonus, regaining expended uses after you complete a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@b Call Farspawn.} You call upon horrible entities from the Far Realm to your aid, casting {@spell Summon Aberration|XPHB} (Level 4 version). Once you cast this spell, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
+                "All DCs in this gift are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (determined by you when you receive this gift), spellcasting ability is equal to your Proficiency Bonus + the same ability modifier as the DCs.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Eyes of Light and Darkness",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@b Ebon Gaze.} As a {@action Magic|XPHB} action, you can tune your eyes to see through the darkest darkness. For the next 10 minutes, you can see in Darkness\u2014both magical and nonmagical\u2014within 60 feet of yourself as if it was {@variantrule Dim Light|XPHB}. Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@b Dazzling Gaze.} As a {@action Magic|XPHB} action, you can cause your eyes to erupt as pools of radiance. For the next minute, your eyes sheds {@variantrule Bright Light|XPHB} in a 20-foot radius and {@variantrule Dim Light|XPHB} for an additional 20 feet; as an action on each of your turns, you can concentrate your gaze onto a creature within 40 feet of you. That creature has to succeed on a Constitution saving throw (DC = 8 + prof bonus + con mod) or be {@condition Blinded} until the end of its next turn. Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Winter's Gift",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i You've learned to harness some of the powers of winter.}",
+                "{@b Frost Treader.} You ignore the penalties of {@variantrule Difficult Terrain|XPHB} imposed by snow or ice.",
+                "{@b Icebrand.} As a {@variantrule Bonus Action|XPHB}, you can infuse your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with chilling cold. For the next minute, your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} deal an additional {@dice 1d6} Cold damage. This ends early if you are subject to Fire damage. Once you use this feature, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cerebrant Fester",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "rare",
+            "entries": [
+                "{@i You've called out to the Far Realm as a hope to harness some of its power for yourself; the Far Realm responded.}",
+                "{@b Aching Dread.} Unfelt, your form subtly alters the psychological landscape of the surrounding aether. As a {@action Magic|XPHB} action, you can cause the alterations to flare. Creatures of your choice within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Frightened} of you until the end of your next turn. You can use this feature a number of times equal to your Proficiency Bonus, regaining expended uses after you complete a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@b Call Farspawn.} You call upon horrible entities from the Far Realm to your aid, casting {@spell Summon Aberration|XPHB} (Level 4 version). Once you cast this spell, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
+                "{@b Dimensional Rift.} You can cast {@spell Dimension Door|XPHB}. When you do so, roll {@dice 1d100}. On a 1, you are stolen away by horrible entities forever; if another creature was brought along by the spell, they arrive at the target destination. Once you cast {@spell Dimension Door|XPHB}, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}.",
+                "All DCs in this gift are equal to 8 + your Proficiency Bonus + your Intelligence, Wisdom, or Charisma modifier (determined by you when you receive this gift), spellcasting ability is equal to your Proficiency Bonus + the same ability modifier as the DCs.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Supernatural Boobs",
+            "source": "WM4",
+            "type": "Gift",
+            "rarity": "legendary",
+            "entries": [
+                "{@note Made by Tres}"
+            ],
+            "credit": {
+                "gms": [
+                    "Tres"
                 ],
                 "3rdparty": false
             }
@@ -2541,6 +3325,553 @@
             }
         },
         {
+            "name": "\ud83e\udd14",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@skill Investigation} proficiency}",
+                "You are Proficient with {@item Thinker's Tools|WM4}",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Blessing of Corellon",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Any Elf}",
+                "{@i Ever changing, mirthful, and beautiful, the primal elves could assume whatever sex they liked. When they bowed to Lolth's influence and chose to fix their physical forms, elves lost the ability to transform in this way. Yet occasionally elves are born who are so androgynous that they are proclaimed to be among the blessed of Corellon\u2014living symbols of the god's love and of the primal elves' original fluid state of being. Many of Corellon's chief priests bear this blessing.}",
+                "{@i The rarest of these blessed elves can change their sex whenever they finish a long rest-a miracle celebrated by elves of all sorts except drow. (The DM decides whether an elf can manifest this miracle.) Dark elves find this ability to be terrifying and characterize it as a curse, for it could destabilize their entire society. If Corellon's blessing manifests in a drow, that elf usually flees to the surface world to seek shelter among those dedicated to Corellon. (From MTF)}",
+                "You have become among the blessed of Corellon. Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your sex as well as minor characteristics about yourself such as your height, facial features, sound of your voice, and hair length. You cannot change your height by more than 6 inches and your size category stays the same. Whatever changes you make, you are still recognizable as yourself.",
+                "{@note Adapted from Mordenkainen's Tome of Foes. Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Mordenkainen's Tome of Foes"
+                ]
+            }
+        },
+        {
+            "name": "Bodybuilder",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have {@variantrule Advantage|XPHB} on Strength ({@skill Performance}) checks. If you lack proficiency in {@skill Performance}, you can still add your Proficiency Bonus to Strength ({@skill Performance}) checks.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "By the Nine! I'm Tweaking!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "If you would be forced to roll on the {@table Mixing Potions; Potion Miscibility|XDMG|Potion Miscibility} table as a result of drinking a potion while already under the effects of another potion, you may choose to treat your {@dice D100} roll as a 50. When you do so, you become {@condition Paralyzed} until the end of your next turn and fall {@condition Prone}.",
+                "{@note Made by Patrick}"
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Carceri Influence: Lockdown",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "All Ropes, Chains, Manacles, and Nets while within 10 feet of you have a +5 bonus to DCs made to escape the object.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Create Wine",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Can cast {@spell Create or Destroy Water|XPHB}}",
+                "When you cast {@spell Create or Destroy Water|XPHB}, and choose the Create Water option, you can choose to make wine instead of water. It functions the same as the water, except it cannot put out exposed flames.",
+                "Additionally, you can choose how alcoholic it is. If you choose to make it excessively alcoholic, any creature who drinks it must make a Constitution saving throw or become {@condition Poisoned} for 1 hour.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Double-Jointed",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Your body is jointed in ways it shouldn't be. The difference isn't noticeable until you start moving them, but you have more joints than most and more range in the ones most people have. You have {@variantrule Advantage|XPHB} on checks made to squeeze through small spaces, and you're capable of unnatural movements like spinning your head 180 degrees, bending your knee forwards, or similar slightly uncanny movements.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Elminster Discerning Protocol",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can choose to gain a +1 bonus on an ability check made to discern whether someone with the first name Elminster is the Elminster of legend. Once you do so, you cannot use this perk again until you finish a {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Denny}"
+            ],
+            "credit": {
+                "gms": [
+                    "Denny"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Enjoy the Show",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a Reaction to seeing shit going down, you can conjure a red and white striped bucket full of buttery popcorn in your hand.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Ethereal Connection",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Manifest Mind}",
+                "Your Awaked Spellbook does not immediately vanish when you move to the Ethereal Plane. While you are on a different plane than it, you lose control of it and cannot use or benefit from any abilities that require it to be manifested.",
+                "The Awakened Spellbook stops manifesting after 1 minute unless you return to the same Plane as it.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Furry Feathered Familiar",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you cast {@spell Find Familiar|XPHB}, you can summon a {@creature Tressym|BGDIA}.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Fur Coat",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As part of a {@variantrule Short Rest|XPHB}, you can grow a thick coat of fur on your body. While you have this fur and remain dry, you automatically succeed on saving throws against the effects of extreme cold, as if you were wearing {@item Clothing, cold weather|IDROTF|cold weather clothing}. This fur remains until you cut it off.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Harmless Theatrics",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you cast a spell, you can choose to deal no damage with it.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Horrible Entity",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Aberration}",
+                "You have become a horrible entity. As an Action, you can steal away an Alienist whose time has come. When you do so, they are never seen again.",
+                "This perk does not make you immune to getting taken away by other, more horrible entities.",
+                "{@note Made by Denny}"
+            ],
+            "credit": {
+                "gms": [
+                    "Denny"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I am a wolf.",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i On all levels except physical...}",
+                "You can perfectly recreate the howl of a wolf.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Introspection",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Insight}) checks made against yourself.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I Hired This \ud83e\udd80 To Stare At You",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can summon an {@creature Aldani (Lobsterfolk)|TOA|Aldani} in an unoccupied space that you can see within 15 feet. The {@creature Aldani (Lobsterfolk)|TOA|Aldani} remains there for 1 minute, in which it uses its time to stand there and stare at you. Once you use this perk, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I Hired This \ud83e\udd9e To Stare At You",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can summon a Crab Folk in an unoccupied space that you can see within 15 feet. The Crab Folk remains there for 1 minute, in which it uses its time to stand there and stare at you. Once you use this perk, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I know what I am",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can cast {@spell Detect Pronouns|WM4} at will. When cast in this way, its duration is Instantaneous and you only learn your own preferred pronouns.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I know what you are",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can cast {@spell Detect Pronouns|WM4} at will.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Melody of your Destruction",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You know how to perform this song (https://www.youtube.com/watch?v=bMW1kYrFI0M). While singing this song in the ocean, you can take the {@action Influence|XPHB} action, making a DC 50 Charisma ({@skill Performance}) check. On a success, you summon a {@creature Kraken|XMM}. It is {@variantrule Hostile [Attitude]|XPHB|Hostile} to you and tries to kill you. Once you are dead, or when it is {@status Bloodied|XPHB}, it flees. On a failure or after it flees, you are unable to attempt to summon it again for one week.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Nice Shot!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When a creature within 30ft of you rolls a 20 or a 1 on a {@variantrule D20 Test|XPHB}, you can use your reaction to create an illusion of the words \u201cNice Shot!\u201d 1 foot in front of them.",
+                "This illusion goes away after 6 seconds have passed.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Please notice me.",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Umbral Sight}",
+                "{@i \"WHY DO I KEEP EVADING MY ALLIES I WANT THEM TO KNOW WHERE I AM?!?!?!\"}",
+                "While entirely in {@variantrule Darkness|XPHB}, you can choose what creatures you become {@condition Invisible} to using your Umbral Sight.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Roth\u00e9 IRA",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "At the end of each week, for every 1 gold piece that a {@creature Deep Roth\u00e9|MPMM|Deep Roth\u00e9} is carrying for you, 2 copper appear in its possession.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Santa Initiate",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can squeeze into Chimneys as small as 1 inch and have {@variantrule Advantage|XPHB} on Strength ({@skill Athletics}) checks made to climb in them.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Shark Teeth",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can deal Piercing damage instead of Bludgeoning damage when you make an {@variantrule Unarmed Strike|XPHB} with your teeth. In addition, if you lose a tooth, you regrow it in 1 hour.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Slop eater",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can eat slop with no ill effects (though this does not affect the taste). Eating a pound of slop provides enough nourishment to sustain you for a day.",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Ellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Slop Lover",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "All slop tastes good.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Snowsense",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Dwarf}",
+                "You can use your stonecunning feature's {@sense Tremorsense|XPHB} while in or touching snow or ice, as well as stone.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Taunt!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You provoke a creature with a pose or a short phrase.",
+                "You gain a +1 bonus to checks that are part of the {@action Influence|XPHB} action to make a creature {@variantrule Hostile [Attitude]|XPHB|Hostile} towards you.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Bees Knees",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "All wasps, hornets, and bees within 15 feet of you telepathically give you compliments, and ordinary versions of such creatures (not swarms or otherwise) are {@condition Charmed} by you while within 15 feet of you.",
+                "You count as a {@creature Hellwasp|BGDIA} for the sake of a hellwasp's telepathy.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Coolest \ud83d\ude0e",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can cause a pair of sunglasses to materialize over your eyes, or if you already have a pair of sunglasses materialized from this perk, you cause them to dematerialize.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Winter's Respite",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As long as you remain dry, you automatically succeed on saving throws against the effects of extreme cold, as if you were wearing {@item Clothing, cold weather|IDROTF|cold weather clothing}.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Werewoof",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Your barks are nearly identical to those of a canine.",
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Fouling Blight",
+            "source": "WM4",
+            "type": "Regional Effect",
+            "rarity": "uncommon",
+            "entries": [
+                "Within 6 miles of the lair, ability checks made to forage for food or water have {@variantrule Disadvantage|XPHB}, and magic that creates food or water only produces half the normal amount.",
+                "{@note From The Beast of Blight. Made by Chrys.}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "The Crooked Moon"
+                ]
+            }
+        },
+        {
             "name": "ASYS Trial Participant",
             "source": "WM4",
             "type": "Story Record",
@@ -2967,6 +4298,131 @@
             "credit": {
                 "gms": [
                     "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "A Voice for a Life",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "{@i You've given a cat your voice to sing in exchange for one of its lives.}",
+                "Whenever you would be reduced to 0 {@variantrule Hit Points|XPHB}, you can choose to lose this Story Record and instead drop to 1 Hit Points and gain 40 {@variantrule Temporary Hit Points|XPHB} which last for 1 minute. ",
+                "While you have this Story Record, you have the {@reward Cat got your tongue?|WM4} Curse,",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Known by its Embrace",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "{@i Without me, you are nothing. In my arms, you are everything. To bleed is to feel. To feel is to see. To see is to know. To know is to love.}",
+                "{@i Expect to know its embrace once again.}",
+                "{@note Made by Althaea}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Marketable Plushie",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "{@i You've managed to give up your merch rights.}",
+                "You have allowed a creature to sell merch of your likeness. You occasionally find it for sale when shopping.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Honorary Hatter",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You\u2019ve passed the Trial of Hats and garnered Maddison Milner\u2019s respect.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Return to Love",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have traded a language with \"yourself\"",
+                "You can speak and understand Sylvan. In return, you can no longer speak or write Common but still understand it.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "SEAF Recruit",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You\u2019ve successfully finished a dive with the SEAF. You\u2019ve earned a small modicum of their trust, and contributed to Managed Democracy.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "WSS Membership Card",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "With this card, you are considered an honorary member of the Westgate Sanitary Society (AKA the Rat Bastards). While this doesn't do much, members of the Rat Bastards will respect you a bit more than usual.",
+                "{@note Made by Sam}"
+            ],
+            "credit": {
+                "gms": [
+                    "Sam"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "[LOS] Midnight Alliance",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "In a fervent night of poison, lies, and illusion, you claimed victory over the fifth Machine. In doing so, you have not only thwarted the plans of life's enemy, but earned valuable allies in both Talia and Raul.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
                 ],
                 "3rdparty": false
             }
@@ -4707,6 +6163,540 @@
                 ],
                 "3rdparty": false
             }
+        },
+        {
+            "name": "Aberrated Limb",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "One of your limbs has been twisted by concentrated exposure to the Far Realm, Limbo, or other chaotic energies. The effects depend on which limb is altered.",
+                "{@b Arm.} An aberrated arm transforms into a tentacle, stretched appendage, or similar. The hand can no longer hold items or perform somatic components. Your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with that hand now have a reach of 10 feet.",
+                "{@b Leg.} An aberrated leg becomes a tentacle, spider leg, or similar. Your {@variantrule Speed} decreases by 10 feet, but you gain a {@variantrule Climb Speed} of 10 feet. ",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Aberrative Shift",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "A residual wash of aberrative taints your system. As a {@action Magic|XPHB} action, you can call upon it to edit small details of your appearance. Not enough to make you unrecognizable or imitate a specific person, but enough to be noticeable. Each time you do so, roll {@dice 1d4}. On a 1, the shift goes slightly awry, resulting in slightly uncanny features, slimy purple flesh, spiny outcrops, or similar. On a 4, one such aberration fades, returning to your natural appearance.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Feet of a Zephyr",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i +2 Aura. You are BEYOND shoes.}",
+                "You can take a {@action Magic|XPHB} action to appear to float 4 inches above a surface. This effect lasts until you take another {@action Magic|XPHB} action to end it.",
+                "{@note Made by Althaea}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Find Flumiliar",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "When you cast {@spell Find Familiar|XPHB}, you can choose for the familiar to take the form of a {@creature Flumph|XMM}. If you choose this form, the creature's type is Aberration.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Sharptooth Training",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i You\u2019ve trained with the Sharptooth tribe and have learned how to use your teeth in battle.}",
+                "You can use your teeth to make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}. When you hit with them, the strike deals {@dice 1d4} + your Strength modifier Piercing damage, instead of the Bludgeoning damage normal for an {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Off-kilter Immune System",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "Your body\u2019s natural defense system are thrown out of alignment. They overfocus on hostile intruders, granting immunity to disease, but offer less protection against toxins, resulting in {@variantrule Vulnerability|XPHB} to Poison damage.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Phantom Noises",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "When you make an illusory sound using a spell, you can choose to exclude creatures from hearing the sound.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pinches That Hurt",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "When you pinch a creature, you can choose to deal 1 Bludgeoning damage.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Slender Legs",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "Your legs have elongated unnaturally due to aberrative exposure. They are unnaturally gangly, and may have mutated into stranger forms still, like bug legs, animal legs, or something that hardly resembles a leg at all.",
+                "The legs are long and spindly, increasing your {@variantrule Speed|XPHB} by 5 feet, but incurring {@variantrule Disadvantage|XPHB} on {@skill Acrobatics} checks.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Appendage Regrowth",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You can expend 4 hit dice to regrow a lost limb over the course of a minute, provided you are at least 1 hit point for the entire duration.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Charge Attack!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You charge up an attack, building up power over time.",
+                "As an Action, you can add {@dice 1d6} to the damage dice of a melee attack that you do on a subsequent turn. You can gain additional damage dice from this talent an amount of times equal to your Proficiency Bonus.",
+                "You can use this feature only if you haven't moved during this turn, and after you use it, your {@variantrule Speed|XPHB} is 0 until the end of the turn.",
+                "If you move before attempting a melee attack, the amount of additional damage dice from this talent is returned to 0.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Chemical Imbalance!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "Prerequisite: Ooze",
+                "{@i Due to exposure to an exotic chemical or maybe hormonal issues, your oozey form has become more unstable.}",
+                "As a {@action Magic|XPHB} action you can cause your ooze to change forms for a moment, producing a glob that functions as one of the following items. You can choose to use the item as part of the action. If you choose to not immediately use it, the glob retains its potency for 1 hour, at any point being able to be used as if it was the item.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@item Acid|XPHB|Acid (vial)}",
+                        "{@item Antitoxin|XPHB|Antitoxin (vial)}",
+                        "{@item Basic Poison|XPHB|Basic Poison (vial)}",
+                        "{@item Perfume|XPHB|Perfume (vial)}",
+                        "{@item Assassin's Blood|XDMG|Assassin's Blood (vial)}",
+                        "{@item Oil|XPHB|Oil (flask)}",
+                        "{@item Alchemist's Fire|XPHB|Alchemist's Fire (flask)}"
+                    ]
+                },
+                "You can create a number of items using this Talent equal to your proficiency bonus, regaining all uses on a {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Chestplate of Preserving",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Warforged}",
+                "Your chest cavity has been modified to ensure the survival of anything placed within. Your torso functions as a {@item Chest of Preserving|WDMM}.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Forward Throw!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You have the special ability to throw someone you have {@condition Grappled}.",
+                "When you {@variantrule Unarmed Strike|XPHB} Shove a creature you have {@condition Grappled}, you can push the target equal to 5 times the ability score modifier used for calculating the DC for your Shove.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Jumpscare",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You\u2019ve learned how to jump and scare someone.",
+                "If you spend at least 5 feet of movement to jump to a space within 5 feet of a creature, you can use {@action Magic|XPHB} action to scare a creature and that creature must succeed in a DC 13 Wisdom saving throw or have the {@condition Frightened} condition until the end of your next turn.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Just [REDACTED] - Gruesome Horror Sound Effects",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "When you score a Critical Hit on a Weapon Attack or Unarmed Strike that utilizes blood or has the potential to draw blood from the target, you can choose to add +1 damage to the initial damage roll of the attack if you accompany your attack with at least 3 seconds of improvised bloody squelching sound effects.",
+                "{@note Made by Denny}"
+            ],
+            "credit": {
+                "gms": [
+                    "Denny"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Ossified Plating",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "The plates making up your body have been shifted into hardened bone by exposure to aberrant energies. Your movement {@variantrule Speed|XPHB} decreases by 10 feet, as the solidified joints find themselves sticking. The hardened carapace grants you a +2 bonus to your Armor Class while not wearing armor.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Persistence Hunting",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Ranger}",
+                "When you use Favored Enemy to cast {@spell Hunter's Mark|XPHB}, you can expend additional uses of it to increase the spell level. The spell level increases by 1 per use expended, to a max of level 5.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Realization of Ambition",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Prerequisite: Tireless}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
+                "When you use Tireless to grant yourself {@variantrule Temporary Hit Points|XPHB}, you gain {@variantrule Advantage|XPHB} on the next {@variantrule D20 Test|XPHB} you make within the next hour.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Realization of Fear",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Prerequisite: Halo of Spores}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
+                "When your Halo of Spores against a creature, you can attempt to frighten them instead of hurt them. If the creature fails the Constitution saving throw, it takes no damage but becomes {@condition Frightened} of you until the start of its next turn.",
+                "You can use this Talent a number of times equal to your Proficiency Bonus, regaining all uses on a Long Rest.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Realization of Love",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Prerequisite: Bastion of Law}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
+                "Once per turn when a creature protected by your Bastion of Law makes an attack roll or saving throw, it can expend one of the Bastion of Law dice to add {@dice 1d4} to the roll.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Realization of Pride",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Prerequisite: Valor Bard}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
+                "When a creature uses your Bardic Inspiration die to turn a failure into a success, it is filled with pride of its accomplishment. It gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled on the Bardic Inspiration die plus your Proficiency Bonus. These {@variantrule Temporary Hit Points|XPHB} disappear at the end of its next turn.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Scent Sleuth",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You\u2019ve learned to leave behind no odor of yourself as you travel. ",
+                "Creatures cannot benefit from scent-based {@skill Perception} checks on you.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Trackless Treading",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You leave no tracks.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Wizard's Last Resort",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Wizard}",
+                "You always have {@spell Shred Arcane|WM4} prepared.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Go for the Throat",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: Cunning Strike}",
+                "You gain the following Cunning Strike option.",
+                "{@b Stifle (Cost: 3d6).} The target must succeed on a Constitution saving throw, or it has the {@condition Silenced|WM4} condition until the end of its next turn.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I AM THE ANGRY PUMPKIN",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "When a creature makes a Dexterity saving through to avoid being fallen upon by you, they have {@variantrule Disadvantage|XPHB}. Upon impact with another creature after falling, as a reaction, you can choose to roll maximum damage.",
+                "{@note Made by Sam}"
+            ],
+            "credit": {
+                "gms": [
+                    "Sam"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Mental Mark",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: Tireless}",
+                "When you cast {@spell Hunter's Mark|XPHB} using a spell slot of 3rd level or higher, you can mentally mark a creature. While marked, you always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it has the {@condition Invisible} condition, it gains no benefit from that condition against you. You can only have one creature marked in this way.",
+                "When you cast {@spell Hunter's Mark|XPHB} using a spell slot of 5th level or higher, you are able to track the target's location across planes of existence.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Mimic Familiar",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "When you cast {@spell Find Familiar|XPHB}, you may optionally target a Medium or Small object within 15 feet of you. The familiar will then take the form of a {@creature Juvenile Mimic|TCE} which is currently replicating that object.",
+                "{@note Made by Gavin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gavin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Shielded Mind",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "Your mind displays a rare resistance to psionic attack, either through extensive training or innate ability. You have {@variantrule Advantage|XPHB} on Sanity saving throws and saving throws against Madness. Additionally, the first time you take Psychic damage on a turn, the damage is reduced by {@dice 1d8}.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
         }
     ],
     "condition": [
@@ -5006,232 +6996,6 @@
             }
         },
         {
-            "name": "Endless Dreamer",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "{@i Special Curse}",
-                "Your dreams often stretch on endlessly, and years could pass in your dreams when only hours pass in reality. You remember most of your dreams, even if somewhat hazy.",
-                "{@note Made by Aris}"
-            ],
-            "credit": {
-                "gms": [
-                    "Aris"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Lycanthropy (shark)",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "{@i You are heavily swayed to a Neutral Evil alignment, become a Monstrosity (Lycanthrope), and gain minor shark-like features.}",
-                {
-                    "type": "entries",
-                    "name": "Shape-Shift",
-                    "entries": [
-                        "As a Bonus Action, you can shape-shift into a Shark or Shark-Hybrid. While a Shark or Shark-Hybrid, you have a blindsight of 30 feet, a swim speed of 40 feet. While as a Shark-Hybrid, you can breathe air and water. While as a Shark, you are Large and can breathe only underwater. Your game statistics are otherwise the same in each form, though you cannot speak if you are a Shark. Any equipment you are wearing or carrying isn't transformed. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear or wield a piece of equipment. You can use another Bonus Action to shape-shift back."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Bite",
-                    "entries": [
-                        "While you are a Shark or Shark Hybrid, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal. You have advantage on attack rolls with this weapon against {@status Bloodied|XPHB} creatures.",
-                        "It deals {@dice 2d8} piercing damage on a hit. A damaged creature is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target gains this curse. Success: The target is immune to your curse for 24 hours. A creature automatically succeeds if it cannot become a Lycanthrope, like most non-Humanoids."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Transformation",
-                    "entries": [
-                        "When you start your turn next to a {@status bloodied|XPHB} enemy, you must make a DC 15 Wisdom saving throw. On a failure, you lose control of yourself and shape-shift into a Shark or Shark-Hybrid, and cannot shape-shift back into your true form until there are no {@status Bloodied|XPHB} creatures other than you within 120 feet of you. You have no memory of your actions during this time, the GM having control over those actions instead."
-                    ]
-                },
-                "{@note Formatted like Landon's Lycanthropy curse, Made by Aris}"
-            ],
-            "credit": {
-                "gms": [
-                    "Aris"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Oiled Up",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "Your hair and skin is constantly oily. You sweat oil.",
-                "{@note Made by Gem}"
-            ],
-            "credit": {
-                "gms": [
-                    "Gem"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Pirate Speak",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "Yargh, yer language been set to Sea Dog! Ye gotta speak like ye've got scurvy now!",
-                "{@note Made by Christopher}"
-            ],
-            "credit": {
-                "gms": [
-                    "Christopher"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Pretty Bad Medicine, Actually",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "{@i This is serious, asshole.}",
-                "Whenever you, the player, laugh, your character takes {@dice 1d6} psychic damage.",
-                "{@note Inspired by Legends of Avantris, Made by Lily}"
-            ],
-            "credit": {
-                "gms": [
-                    "Lily"
-                ],
-                "3rdparty": [
-                    "Legends of Avantris"
-                ]
-            }
-        },
-        {
-            "name": "Slop.",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "{@i Step 1: Slop. Step 2: Slop. Step 3: Slop. Repeat from Step 1 until thoroughly Slopped.}",
-                "Whenever you craft an item from an Artisan's Tool, it turns into useless* Slop.",
-                "{@note *Note: Not all might find this useless}",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Tears of Sorrow",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "{@i Special Curse}",
-                "You cannot stop crying. Everything that was; every wish for what could've been; the yearn of what you could be; all of these reverberate through your mind- through each action you take- as an incessant reminder of your loss and grief. These tears are shed and you cannot bring yourself to cease them.",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Terminal Terminal Velocity",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "There is no longer a maximum amount of damage you take from the Falling Hazard.",
-                "{@note Made by Landon}"
-            ],
-            "credit": {
-                "gms": [
-                    "Landon"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "The MacLeod Effect",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "Whenever you succeed on a Dexterity ({@skill Stealth}) check made to {@action Hide|XPHB}, Sneaky Snitch plays from around you and can be heard in a 30 foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself.",
-                "{@note Made by Chrys}"
-            ],
-            "credit": {
-                "gms": [
-                    "Chrys"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Time to Get a Watch",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "You always know the location of the nearest clock and can hear it ticking, as long as there is a clock on the same plane of existence as you",
-                "{@note Made by Ellie}"
-            ],
-            "credit": {
-                "gms": [
-                    "Fellie"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Tongue of Lily",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "When annoyed or angry, you must speak with a southern accent.",
-                "{@note Made by Ellie}"
-            ],
-            "credit": {
-                "gms": [
-                    "Fellie"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "Vile Damage",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "{@i Special Curse}",
-                "Vile damage is a special curse. Every point of vile damage reduces your current hit points by 1. These lost hit points can only be restored by healing magic in a consecrated area such as the Hallow spell. Vile damage represents such an evil violation to a character\u2019s body or soul that only in a holy place can healing magic repair the damage.",
-                "Vile damage is usually done in increments of 1 damage per infliction",
-                "{@note Made by Aris}"
-            ],
-            "credit": {
-                "gms": [
-                    "Aris"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
-            "name": "You First.",
-            "source": "WM4",
-            "type": "Curse",
-            "entries": [
-                "Whether it's because you are aura farming, are overly polite, or just have a godlike reaction speed, whenever you would roll initiative, you instead get an initiative of 0. If you still go before someone else, you can point and laugh at them.",
-                "{@note Made by Christopher}"
-            ],
-            "credit": {
-                "gms": [
-                    "Christopher"
-                ],
-                "3rdparty": false
-            }
-        },
-        {
             "name": "Mad Rat Disease",
             "source": "WM4",
             "srd52": true,
@@ -5426,6 +7190,48 @@
             }
         },
         {
+            "name": "Seed of Evil",
+            "source": "WM4",
+            "srd52": true,
+            "type": "Magical Contagion",
+            "basicRules2024": true,
+            "entries": [
+                "Within every creature contains the capacity for evil; an idea of it. With the right cultivation, the right exposure, that evil within can grow and germinate- and eventually overpower. This Magical Contagion is unable to be cured by magical means (see Fighting the Contagion). A creature suffers the following effects immediately upon infection:",
+                {
+                    "type": "entries",
+                    "name": "Thrall to Evil.",
+                    "entries": [
+                        "The creature has {@variantrule Disadvantage|XPHB} on Wisdom saving throws against effects originating from Demons."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Germination.",
+                    "entries": [
+                        "The creature's alignment slowly shifts towards Chaotic Evil. Whenever it fails the saving throw against Fighting the Contagion, its alignment moves one step towards Chaotic Evil. A Lawful Good character for instance would become either Neutral Good or Lawful Neutral, at the choice of the creature. This alignment change cannot be restored until the disease is cured."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fighting the Contagion.",
+                    "entries": [
+                        "Every 7 days, an infected creature makes a DC 15 Charisma saving throw. On a failed save, the creature grows more chaotic and evil (see Germination). If the creature becomes Chaotic Evil, they gain the Demon Spawn story record. If you bathe yourself in the light of three of the Celestial Heavens, make physical contact with a {@item Talisman of Pure Good|XDMG}, or undergo a purging ritual listed in the {@item Book of Exalted Deeds|DMG}, the contagion is cured."
+                    ]
+                },
+                "This contagion affects all creatures that aren\u2019t Demons, ignoring Immunity to Magical Contagions.",
+                "{@note Made by Chrys and Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris",
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "Dragon 140"
+                ]
+            }
+        },
+        {
             "name": "Cucurbitomania",
             "source": "WM4",
             "srd52": true,
@@ -5465,6 +7271,21 @@
             "type": "Mania",
             "entries": [
                 "You must make a DC 13 Wisdom saving throw whenever you start your turn within 30 feet of a Small or smaller chain or binding implement that you can see and that isn't being worn or carried. On a failed save, you are {@condition Charmed|XPHB} by the object. While {@condition Charmed|XPHB} you must do everything to steal the object. Once you have the object you can repeat the saving throw. On a failure, you are unwilling to part with the object. If you succeed on any saving throw against this Mania, you automatically succeed on saves against Kleptomania for the next hour.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Nyctomaniac",
+            "source": "WM4",
+            "type": "Mania",
+            "entries": [
+                "When you enter an area of {@variantrule Darkness|XPHB}, you must succeed on a DC 13 Wisdom saving throw. On a failure, you are unwilling to enter areas of {@variantrule Dim Light|XPHB} and {@variantrule Bright Light|XPHB}; If you are forced into such an area of brightness, you must devote your time snuffing the light out, if that is possible. You may repeat the saving throw at the end of every {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. Once you succeed on any saving throw against this Mania, you automatically succeed on saves against it for the next 24 hours.",
                 "{@note Made by Chrys}"
             ],
             "credit": {
@@ -13045,7 +14866,7 @@
                 "fromClassList": [
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     },
                     {
                         "name": "Wizard",
@@ -13331,7 +15152,7 @@
                     "type": "entries",
                     "name": "At Higher Levels",
                     "entries": [
-                        "The {@variantrule Temporary Hit Points|XPHB} increases by {@dice 2d8} for each spell slot level above 1."
+                        "The {@variantrule Temporary Hit Points|XPHB} increase by {@dice 2d8} for each spell slot level above 1."
                     ]
                 }
             ],
@@ -13339,7 +15160,7 @@
                 "fromClassList": [
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     },
                     {
                         "name": "Bard",
@@ -13606,7 +15427,7 @@
                     },
                     {
                         "name": "Artificer",
-                        "source": "XPHB"
+                        "source": "EFA"
                     }
                 ],
                 "fromSubclass": [
@@ -14406,7 +16227,7 @@
                     },
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     }
                 ],
                 "fromSubclass": [
@@ -14871,7 +16692,7 @@
                     },
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     }
                 ],
                 "fromSubclass": [
@@ -15136,7 +16957,7 @@
                     },
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     }
                 ],
                 "fromSubclass": [
@@ -15389,6 +17210,1447 @@
                 ],
                 "3rdparty": false
             }
+        },
+        {
+            "name": "Aberrate",
+            "source": "WM4",
+            "level": 1,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Repassing from WM3, from 3.5e. Made by Chrys.}",
+                "You transform one willing creature into an Aberration. Its flesh twists and warps into thick, mutated hide. The target's creature type changes to Aberration and it gains a +1 bonus to AC while not wearing armor for the duration of the spell."
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "If you cast this spell using a spell slot of 2nd level or higher, the AC bonus increases by 1 for each slot level above 1st."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "EFA"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Allergy Field",
+            "source": "WM4",
+            "level": 1,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a pinch of ragweed"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 2e, Repassed from WM3, Made by Chrys.}",
+                "You target a patch of plant life within range, causing the plants to produce pollen, antigens, or similar allergens.",
+                "The plants release these allergens in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}. When a creature enters the spell\u2019s area for the first time or starts its turn there, that creature must make a Constitution saving throw. Creatures that don\u2019t need to breathe or have Immune to Poison damage or the {@condition Poisoned} condition automatically succeed on this saving throw. ",
+                "On a failed save, the creature takes {@dice 2d4} Poison damage and is {@condition Poisoned} for 1 minute. A {@condition Poisoned} creature repeats saving throw at the end of each of its turns, ending the condition on a success.",
+                "Creatures that succeed on the saving throw are immune to the effects of the allergens for the duration of the spell.",
+                "The field of allergens lasts for the duration or until a strong wind (such as one created by {@spell Gust of Wind|XPHB}) disperses it."
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "2e"
+                ]
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The field's radius increases by 5 feet for each spell slot level above 1."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Nature Domain",
+                            "shortName": "Nature",
+                            "source": "PHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Complex Idea",
+            "source": "WM4",
+            "level": 1,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You attempt to send a complex thought into the mind of a creature. The target makes an Intelligence saving throw. On a failed save, it takes {@dice 3d6} Psychic damage and has Disadvantage on Intelligence checks until the start of your next turn. On a successful save, the target takes half as much damage only."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d6 for each spell slot level above 1."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "EFA"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Detect Pronouns",
+            "source": "WM4",
+            "level": 1,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "entries": [
+                "{@note Made by Chrys}",
+                "For the duration, you know the preferred pronouns of all creatures and objects within 30 feet of you.",
+                "The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys "
+                ],
+                "3rdparty": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "EFA"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Insect",
+            "source": "WM4",
+            "level": 1,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You summon an insect. A bug even. It manifests in an unoccupied space you can see within range and uses the {@creature Spider|XMM} stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.",
+                "The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem "
+                ],
+                "3rdparty": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Puppet",
+            "source": "WM4",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note From 5e UA. Made by Chrys.}",
+                "Your gesture forces one Humanoid you can see within range to make a Wisdom saving throw. On a failed save, the target must move up to its Speed in a direction you choose. In addition, you can cause the target to drop anything it is holding. This spell has no effect on Humanoids that have Immunity to the {@condition Charmed} condition."
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "5e UA"
+                ]
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Random Action",
+            "source": "WM4",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3e, Made by Chrys.}",
+                "You attempt to taint a creature you can see within range with delusion. The target must make a Wisdom saving throw. On a failure, the target is {@condition Confused|WM4} until the end of its next turn. A target with an Intelligence score less than 4 automatically succeeds on the save."
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "3e"
+                ]
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shred Arcane",
+            "source": "WM4",
+            "level": 1,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "The caster's spellbook"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "You shred a page of your spellbook, spraying it in a 30-foot cone. When you cast this spell, pick a spell you have prepared from your spellbook of 1st-level. The spell is immediately unprepared and removed from your spellbook. If the chosen spell cannot be unprepared or removed, the spell fails. If you don't have any spells you can pick, this spell fails without expending the slot.",
+                "Each creature of your choice in the cone must make a Dexterity saving throw. On a failure, it takes {@dice 4d6} Slashing damage. On a success, it takes half as much damage.",
+                "If for any reason this spell fails to take effect, you do not unprepare nor remove the chosen spell from your spellbook. If a creature attempts to cast {@spell Counterspell|XPHB} in reaction to the casting of this spell, you automatically succeed on the saving throw against it."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Your chosen spell must be of the same level of the slot used. The damage increases by {@dice 3d6} for each spell slot level above 1."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Flash",
+            "source": "WM4",
+            "level": 2,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "emanation",
+                "distance": {
+                    "type": "feet",
+                    "amount": 15
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "You conjure a node of incredibly bright light. Until the end of your next turn, you shed {@variantrule Bright Light|XPHB} in a 30-foot radius, and {@variantrule Dim Light|XPHB} for an additional 30 feet. All creatures of your choice in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must make a Constitution saving throw. On a failure, they take {@dice 3d6} Radiant damage and are {@condition Blinded} until the end of your next turn."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The radius of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, {@variantrule Bright Light|XPHB}, and {@variantrule Dim Light|XPHB} increase by 15-feet for each spell slot level above 2."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "EFA"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ethereal Shunt",
+            "source": "WM4",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "s": true,
+                "m": "an object from the Material Plane"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "When you cast this spell, you momentarily gain the ability to see onto the Ethereal Plane allowing you to target creatures on it with this spell. ",
+                "You force a creature in range to make a Charisma saving throw, or be forced out of the Ethereal Plane back to the plane they were previously on. The creature is unable to return to the Ethereal Plane until the end of your next turn."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The duration of the spell increases with a spell slot of level 5-6 (1 Minute), 7-8 (1 Hour), or 9+ (24 Hours)"
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Pox",
+            "source": "WM4",
+            "level": 3,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e by Aris.}",
+                "You shout \"A Pox on you!\", and target a Humanoid, Giant, or Beast of your choice within range. The target creature must succeed on a Constitution saving throw or become infected with a Magical Contagion. When you cast this spell, choose the contagion from one of the following options:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@condition Cackle Fever|XDMG}",
+                        "{@condition Blue Mist Fever|TOA}",
+                        "{@condition Sewer Plague|XDMG}",
+                        "{@condition Shivering Sickness|TOA}",
+                        "{@condition Mudpox|FRAIF}",
+                        "{@condition Lichen Plague|FRAIF}"
+                    ]
+                },
+                "Alternatively, you can disease a body of water. You make exposed water inside an area you choose that is a Cube up to 100 feet on a side diseased. The water becomes diseased with {@condition Sight Rot|XDMG} or {@condition Throat Leeches|TOA} (your choice). The entire area of water can be purified with a single casting of {@spell Purify Food and Drink|XPHB} cast using a 5th level slot or higher.",
+                "At the DM's option, you may choose an alternative Magical Contagion effect, but it should be no more powerful than those described above. The DM has final say on such a contagion's effect."
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 10 feet of each other when you target them."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Putrid Aura",
+            "source": "WM4",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "emanation",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "You emit a putrid scent, filling a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you for the duration. Whenever a creature enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or starts its turn there, the creature must make a Constitution saving throw. On a failed save, the creature becomes {@condition Poisoned} until the end of its next turn. While {@condition Poisoned} in this way, it can't willingly move closer to you.",
+                "If a creature {@condition Poisoned} by this spell ends its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, it takes {@dice 6d6} Poison damage.",
+                "A creature makes this save only once per turn. When you cast this spell, you can designate creatures to be unaffected by it."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The Emanation increases by 10-feet for each spell slot level above 3."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Spikeskin",
+            "source": "WM4",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "touch",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "needle of a porcupine"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "Until the spell ends, one willing creature touch grows sharp quills to ward off attackers. Whenever a creature hits the warded creature with a melee attack, it takes {@dice 2d8} Piecing damage."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d8 for every two levels above 3."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wizard Blade",
+            "source": "WM4",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "touch",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "sharpening stone and a wooden handle"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "You magically transform into a large sword of force. While in this form, you are unable to cast spells, have a {@variantrule Speed|XPHB} of 0, a {@variantrule Fly Speed|XPHB} of 30ft, and Immunity to the {@condition Prone} condition, but otherwise your stats remain unchanged. As a {@action Magic|XPHB} action on your turn, you are able to make a spell attack with yourself against a creature within 5ft of you. On a hit the target takes Slashing or Force damage (chosen when you cast the spell) equal to {@dice 3d6} plus your spellcasting ability modifier.",
+                "Additionally, another creature can carry and wield you as a martial melee weapon. The sword has a bonus to attack and damage rolls equal to half your spellcasting ability modifier (rounded down). On a hit, it deals {@dice 3d6} Slashing or Force damage (chosen when you cast the spell)."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d6 for every two levels above 3."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sensory Deprivation",
+            "source": "WM4",
+            "level": 4,
+            "school": "I",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "black silk cloth tied like a blindfold"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e. Made by Chrys}",
+                "Rather than creating an illusion of something, this spell creates an illusion of absolute nothingness. A creature of your choice must make an Intelligence saving throw. On a failed save, the target only perceives a clinging darkness, and is {@condition Blinded} and {@condition Deafened} for the duration. The creature cannot benefit from {@sense Blindsight|XPHB}, {@sense Tremorsense|XPHB}, or scent.",
+                "An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d6 for every two levels above 3."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Alter Creature",
+            "source": "WM4",
+            "level": 7,
+            "school": "T",
+            "time": [
+                {
+                    "number": 24,
+                    "unit": "hour"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "At least 5000 gp worth of reagents, which are consumed"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Made by Landon}",
+                "You transform a target creature's appearance that is within range for the entire casting time of the spell. The target decides what they look like, including height, weight, facial features, sound of voice, hair length, coloration, and distinguishing characteristics, if any. They can make themselves appear as a member of another species, though none of their statistics change. They also don't appear as a creature of a different size category, and their shape stays the same."
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Forbidden Speech",
+            "source": "WM4",
+            "level": 5,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note From 3.5e. Adapted by Aris}",
+                "You make it impossible for a single creature to speak about a single topic. The topic should be as narrow as possible for the spell to work properly. An appropriate topic might be events that occurred while the creature was in captivity, the whereabouts and names of tormentors, the secret location of a hidden treasure, the password into a guarded compound, the command word of a magic item, or the explanation behind some major occurrence. Invalid topics include verbal components of spells, a creature's whole life history, or anything too broad for a reasonable definition of a single topic. Whether a topic is too broad is up the DM, who can cause the spell to fail and the slot to be wasted.",
+                "The affected creature cannot communicate regarding the topic in any way. Speech becomes gibberish, writing is reduced to an indecipherable scrawl, gestures are impossible, and even telepathy (including Detect Thoughts) is scrambled. The creature has not forgotten the information, however, and it can be a maddening occurrence for the creature to be unable to communicate information that might be of life-and-death importance to friends and allies.",
+                "A {@spell Remove Curse|XPHB} or {@spell Greater Restoration|XPHB} spell cast on the target restores the creature's ability to speak about the topic."
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Befoul",
+            "source": "WM4",
+            "level": 8,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a dead fish and a drop of poison"
+            },
+            "duration": [
+                {
+                    "type": "special"
+                }
+            ],
+            "entries": [
+                "{@note From 3.5e and the Wastrilith 5e statblock. Made by Aris}",
+                "You make exposed water inside an area you choose that is a Cube up to 800 feet on a side foul and poisonous. Underwater, this effect lightly obscures the area until a strong current clears it away. Water in containers remains corrupted until it evaporates.",
+                "A creature that consumes this foul water or swims in it must make a Constitution saving throw. On a successful save, the creature is immune to the foul water for 24 hours. On a failed save, the creature takes 4d6 Poison damage and is Poisoned for 1 minute. At the end of this time, the Poisoned creature must repeat the saving throw. On a failure, the creature takes {@dice 4d8} Poison damage and is {@condition Poisoned} until it finishes a Long Rest.",
+                "If you only affect part of a large body of water, the befouled water mixes with the pure water. If the entire body of water is no more than four times the size of the affected area, all the water in the body of water is befouled 24 hours later, but the damage from drinking or swimming in the water is only half the damage dice. If the body of water is more than four times the affected area but less than twenty times the affected area, after 24 hours all of the water tastes foul, but is not poisonous. If the entire body is larger than twenty times the affected area, the fouled water mixes with the clean water and loses all effect after 24 hours.",
+                "A strong magical current, such as a {@spell Control Water|XPHB} spell, can purify areas the spell affects of the befoulment."
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e",
+                    "Wastrilith 5e statblock"
+                ]
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    }
+                ]
+            }
         }
     ],
     "table": [
@@ -15553,9 +18815,6 @@
                 "col-10"
             ],
             "rows": [
-                [
-                    "{@reward Attunement Expert|WM4}"
-                ],
                 [
                     "{@reward Horde Slayer|WM4}"
                 ],
@@ -15723,9 +18982,6 @@
                 ],
                 [
                     "{@reward Assassin's Mark|WM4}"
-                ],
-                [
-                    "{@reward Attunement Adept|WM4}"
                 ],
                 [
                     "{@reward Blessing of Increased Ability|WM4}"

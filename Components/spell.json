@@ -38,7 +38,7 @@
                 "fromClassList": [
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     },
                     {
                         "name": "Wizard",
@@ -324,7 +324,7 @@
                     "type": "entries",
                     "name": "At Higher Levels",
                     "entries": [
-                        "The {@variantrule Temporary Hit Points|XPHB} increases by {@dice 2d8} for each spell slot level above 1."
+                        "The {@variantrule Temporary Hit Points|XPHB} increase by {@dice 2d8} for each spell slot level above 1."
                     ]
                 }
             ],
@@ -332,7 +332,7 @@
                 "fromClassList": [
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     },
                     {
                         "name": "Bard",
@@ -599,7 +599,7 @@
                     },
                     {
                         "name": "Artificer",
-                        "source": "XPHB"
+                        "source": "EFA"
                     }
                 ],
                 "fromSubclass": [
@@ -1399,7 +1399,7 @@
                     },
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     }
                 ],
                 "fromSubclass": [
@@ -1864,7 +1864,7 @@
                     },
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     }
                 ],
                 "fromSubclass": [
@@ -2129,7 +2129,7 @@
                     },
                     {
                         "name": "Artificer",
-                        "source": "TCE"
+                        "source": "EFA"
                     }
                 ],
                 "fromSubclass": [
@@ -2381,6 +2381,1448 @@
                     "Lily"
                 ],
                 "3rdparty": false
+            }
+        },
+        {
+            "name": "Aberrate",
+            "source": "WM4",
+            "level": 1,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Repassing from WM3, from 3.5e. Made by Chrys.}",
+                "You transform one willing creature into an Aberration. Its flesh twists and warps into thick, mutated hide. The target's creature type changes to Aberration and it gains a +1 bonus to AC while not wearing armor for the duration of the spell."    
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "If you cast this spell using a spell slot of 2nd level or higher, the AC bonus increases by 1 for each slot level above 1st."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "EFA"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Allergy Field",
+            "source": "WM4",
+            "level": 1,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a pinch of ragweed"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 2e, Repassed from WM3, Made by Chrys.}",
+                "You target a patch of plant life within range, causing the plants to produce pollen, antigens, or similar allergens.",
+                "The plants release these allergens in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}. When a creature enters the spell’s area for the first time or starts its turn there, that creature must make a Constitution saving throw. Creatures that don’t need to breathe or have Immune to Poison damage or the {@condition Poisoned} condition automatically succeed on this saving throw. ",
+                "On a failed save, the creature takes {@dice 2d4} Poison damage and is {@condition Poisoned} for 1 minute. A {@condition Poisoned} creature repeats saving throw at the end of each of its turns, ending the condition on a success.",
+                "Creatures that succeed on the saving throw are immune to the effects of the allergens for the duration of the spell.",
+                "The field of allergens lasts for the duration or until a strong wind (such as one created by {@spell Gust of Wind|XPHB}) disperses it."
+            
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "2e"
+                ]
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The field's radius increases by 5 feet for each spell slot level above 1."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Nature Domain",
+                            "shortName": "Nature",
+                            "source": "PHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Complex Idea",
+            "source": "WM4",
+            "level": 1,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You attempt to send a complex thought into the mind of a creature. The target makes an Intelligence saving throw. On a failed save, it takes {@dice 3d6} Psychic damage and has Disadvantage on Intelligence checks until the start of your next turn. On a successful save, the target takes half as much damage only."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d6 for each spell slot level above 1."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "EFA"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Detect Pronouns",
+            "source": "WM4",
+            "level": 1,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "entries": [
+                "{@note Made by Chrys}",
+                "For the duration, you know the preferred pronouns of all creatures and objects within 30 feet of you.",
+                "The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."    
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys "
+                ],
+                "3rdparty": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "EFA"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Insect",
+            "source": "WM4",
+            "level": 1,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem}",
+                "You summon an insect. A bug even. It manifests in an unoccupied space you can see within range and uses the {@creature Spider|XMM} stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.",
+                "The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem "
+                ],
+                "3rdparty": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Puppet",
+            "source": "WM4",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note From 5e UA. Made by Chrys.}",
+                "Your gesture forces one Humanoid you can see within range to make a Wisdom saving throw. On a failed save, the target must move up to its Speed in a direction you choose. In addition, you can cause the target to drop anything it is holding. This spell has no effect on Humanoids that have Immunity to the {@condition Charmed} condition."    
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "5e UA"
+                ]
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Random Action",
+            "source": "WM4",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3e, Made by Chrys.}",
+                "You attempt to taint a creature you can see within range with delusion. The target must make a Wisdom saving throw. On a failure, the target is {@condition Confused|WM4} until the end of its next turn. A target with an Intelligence score less than 4 automatically succeeds on the save."    
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "3e"
+                ]
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shred Arcane",
+            "source": "WM4",
+            "level": 1,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "The caster's spellbook"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "You shred a page of your spellbook, spraying it in a 30-foot cone. When you cast this spell, pick a spell you have prepared from your spellbook of 1st-level. The spell is immediately unprepared and removed from your spellbook. If the chosen spell cannot be unprepared or removed, the spell fails. If you don't have any spells you can pick, this spell fails without expending the slot.",
+                "Each creature of your choice in the cone must make a Dexterity saving throw. On a failure, it takes {@dice 4d6} Slashing damage. On a success, it takes half as much damage.",
+                "If for any reason this spell fails to take effect, you do not unprepare nor remove the chosen spell from your spellbook. If a creature attempts to cast {@spell Counterspell|XPHB} in reaction to the casting of this spell, you automatically succeed on the saving throw against it."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Your chosen spell must be of the same level of the slot used. The damage increases by {@dice 3d6} for each spell slot level above 1."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Flash",
+            "source": "WM4",
+            "level": 2,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "emanation",
+                "distance": {
+                    "type": "feet",
+                    "amount": 15
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "You conjure a node of incredibly bright light. Until the end of your next turn, you shed {@variantrule Bright Light|XPHB} in a 30-foot radius, and {@variantrule Dim Light|XPHB} for an additional 30 feet. All creatures of your choice in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must make a Constitution saving throw. On a failure, they take {@dice 3d6} Radiant damage and are {@condition Blinded} until the end of your next turn."    
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The radius of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, {@variantrule Bright Light|XPHB}, and {@variantrule Dim Light|XPHB} increase by 15-feet for each spell slot level above 2."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "EFA"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ethereal Shunt",
+            "source": "WM4",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "s": true,
+                "m": "an object from the Material Plane"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "When you cast this spell, you momentarily gain the ability to see onto the Ethereal Plane allowing you to target creatures on it with this spell. ",
+                "You force a creature in range to make a Charisma saving throw, or be forced out of the Ethereal Plane back to the plane they were previously on. The creature is unable to return to the Ethereal Plane until the end of your next turn."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The duration of the spell increases with a spell slot of level 5-6 (1 Minute), 7-8 (1 Hour), or 9+ (24 Hours)"
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Pox",
+            "source": "WM4",
+            "level": 3,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e by Aris.}",
+                "You shout \"A Pox on you!\", and target a Humanoid, Giant, or Beast of your choice within range. The target creature must succeed on a Constitution saving throw or become infected with a Magical Contagion. When you cast this spell, choose the contagion from one of the following options:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@condition Cackle Fever|XDMG}",
+                        "{@condition Blue Mist Fever|TOA}",
+                        "{@condition Sewer Plague|XDMG}",
+                        "{@condition Shivering Sickness|TOA}",
+                        "{@condition Mudpox|FRAIF}",
+                        "{@condition Lichen Plague|FRAIF}"
+                    ]
+                },
+                "Alternatively, you can disease a body of water. You make exposed water inside an area you choose that is a Cube up to 100 feet on a side diseased. The water becomes diseased with {@condition Sight Rot|XDMG} or {@condition Throat Leeches|TOA} (your choice). The entire area of water can be purified with a single casting of {@spell Purify Food and Drink|XPHB} cast using a 5th level slot or higher.",
+                "At the DM's option, you may choose an alternative Magical Contagion effect, but it should be no more powerful than those described above. The DM has final say on such a contagion's effect."
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 10 feet of each other when you target them."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Putrid Aura",
+            "source": "WM4",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "emanation",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "You emit a putrid scent, filling a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you for the duration. Whenever a creature enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or starts its turn there, the creature must make a Constitution saving throw. On a failed save, the creature becomes {@condition Poisoned} until the end of its next turn. While {@condition Poisoned} in this way, it can't willingly move closer to you.",
+                "If a creature {@condition Poisoned} by this spell ends its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, it takes {@dice 6d6} Poison damage.",
+                "A creature makes this save only once per turn. When you cast this spell, you can designate creatures to be unaffected by it."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The Emanation increases by 10-feet for each spell slot level above 3."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Spikeskin",
+            "source": "WM4",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "touch",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "needle of a porcupine"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "Until the spell ends, one willing creature touch grows sharp quills to ward off attackers. Whenever a creature hits the warded creature with a melee attack, it takes {@dice 2d8} Piecing damage."   
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d8 for every two levels above 3."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wizard Blade",
+            "source": "WM4",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "touch",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "sharpening stone and a wooden handle"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "{@note Made by Gem.}",
+                "You magically transform into a large sword of force. While in this form, you are unable to cast spells, have a {@variantrule Speed|XPHB} of 0, a {@variantrule Fly Speed|XPHB} of 30ft, and Immunity to the {@condition Prone} condition, but otherwise your stats remain unchanged. As a {@action Magic|XPHB} action on your turn, you are able to make a spell attack with yourself against a creature within 5ft of you. On a hit the target takes Slashing or Force damage (chosen when you cast the spell) equal to {@dice 3d6} plus your spellcasting ability modifier.",
+                "Additionally, another creature can carry and wield you as a martial melee weapon. The sword has a bonus to attack and damage rolls equal to half your spellcasting ability modifier (rounded down). On a hit, it deals {@dice 3d6} Slashing or Force damage (chosen when you cast the spell)."
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d6 for every two levels above 3."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard ",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sensory Deprivation",
+            "source": "WM4",
+            "level": 4,
+            "school": "I",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "black silk cloth tied like a blindfold"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "{@note Adapted from 3.5e. Made by Chrys}",
+                "Rather than creating an illusion of something, this spell creates an illusion of absolute nothingness. A creature of your choice must make an Intelligence saving throw. On a failed save, the target only perceives a clinging darkness, and is {@condition Blinded} and {@condition Deafened} for the duration. The creature cannot benefit from {@sense Blindsight|XPHB}, {@sense Tremorsense|XPHB}, or scent.",
+                "An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."   
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            },
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "The damage increases by 1d6 for every two levels above 3."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "XPHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "XPHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "XPHB"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Alter Creature",
+            "source": "WM4",
+            "level": 7,
+            "school": "T",
+            "time": [
+                {
+                    "number": 24,
+                    "unit": "hour"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "At least 5000 gp worth of reagents, which are consumed"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note Made by Landon}",
+                "You transform a target creature's appearance that is within range for the entire casting time of the spell. The target decides what they look like, including height, weight, facial features, sound of voice, hair length, coloration, and distinguishing characteristics, if any. They can make themselves appear as a member of another species, though none of their statistics change. They also don't appear as a creature of a different size category, and their shape stays the same."    
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Forbidden Speech",
+            "source": "WM4",
+            "level": 5,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "{@note From 3.5e. Adapted by Aris}",
+                "You make it impossible for a single creature to speak about a single topic. The topic should be as narrow as possible for the spell to work properly. An appropriate topic might be events that occurred while the creature was in captivity, the whereabouts and names of tormentors, the secret location of a hidden treasure, the password into a guarded compound, the command word of a magic item, or the explanation behind some major occurrence. Invalid topics include verbal components of spells, a creature's whole life history, or anything too broad for a reasonable definition of a single topic. Whether a topic is too broad is up the DM, who can cause the spell to fail and the slot to be wasted.",
+                "The affected creature cannot communicate regarding the topic in any way. Speech becomes gibberish, writing is reduced to an indecipherable scrawl, gestures are impossible, and even telepathy (including Detect Thoughts) is scrambled. The creature has not forgotten the information, however, and it can be a maddening occurrence for the creature to be unable to communicate information that might be of life-and-death importance to friends and allies.",
+                "A {@spell Remove Curse|XPHB} or {@spell Greater Restoration|XPHB} spell cast on the target restores the creature's ability to speak about the topic."    
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e"
+                ]
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Befoul",
+            "source": "WM4",
+            "level": 8,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a dead fish and a drop of poison"
+            },
+            "duration": [
+                {
+                    "type": "special"
+                }
+            ],
+            "entries": [
+                "{@note From 3.5e and the Wastrilith 5e statblock. Made by Aris}",
+                "You make exposed water inside an area you choose that is a Cube up to 800 feet on a side foul and poisonous. Underwater, this effect lightly obscures the area until a strong current clears it away. Water in containers remains corrupted until it evaporates.",
+                "A creature that consumes this foul water or swims in it must make a Constitution saving throw. On a successful save, the creature is immune to the foul water for 24 hours. On a failed save, the creature takes 4d6 Poison damage and is Poisoned for 1 minute. At the end of this time, the Poisoned creature must repeat the saving throw. On a failure, the creature takes {@dice 4d8} Poison damage and is {@condition Poisoned} until it finishes a Long Rest.",
+                "If you only affect part of a large body of water, the befouled water mixes with the pure water. If the entire body of water is no more than four times the size of the affected area, all the water in the body of water is befouled 24 hours later, but the damage from drinking or swimming in the water is only half the damage dice. If the body of water is more than four times the affected area but less than twenty times the affected area, after 24 hours all of the water tastes foul, but is not poisonous. If the entire body is larger than twenty times the affected area, the fouled water mixes with the clean water and loses all effect after 24 hours.",
+                "A strong magical current, such as a {@spell Control Water|XPHB} spell, can purify areas the spell affects of the befoulment."
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": [
+                    "3.5e",
+                    "Wastrilith 5e statblock"
+                ]
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "XPHB"
+                    }
+                ]
             }
         }
     ]

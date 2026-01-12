@@ -57,6 +57,21 @@
                 ],
                 "3rdparty": false
             }
+        },
+        {
+            "name": "Nyctomaniac",
+            "source": "WM4",
+            "type": "Mania",
+            "entries": [
+                "When you enter an area of {@variantrule Darkness|XPHB}, you must succeed on a DC 13 Wisdom saving throw. On a failure, you are unwilling to enter areas of {@variantrule Dim Light|XPHB} and {@variantrule Bright Light|XPHB}; If you are forced into such an area of brightness, you must devote your time snuffing the light out, if that is possible. You may repeat the saving throw at the end of every {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. Once you succeed on any saving throw against this Mania, you automatically succeed on saves against it for the next 24 hours.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

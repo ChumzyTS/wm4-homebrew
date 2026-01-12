@@ -1,6 +1,6 @@
 {
     "_meta": {
-        "name": "condition",
+        "name": "reward",
         "sort": [
             {
                 "key": "name",
@@ -231,6 +231,445 @@
             "credit": {
                 "gms": [
                     "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "All That's Left",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are unable to turn right.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Big and Full",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Every sentence you say must begin with \"Ouuuh I'm so ___\"",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Cat got your tongue?",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You cannot speak, only meow.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Dysphoria",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "An overwhelming dissatisfaction engulfs you. You have {@variantrule Disadvantage|XPHB} on all Ability Checks and Attack Rolls. Participating in an activity that brings you joy lifts the curse for 1 minute.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Felt by its Embrace",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i Have my company. Feel my warmth. You are alone no longer.}",
+                "Whenever you would be reduced to 0 {@variantrule Hit Points|XPHB}, you instead drop to 1 Hit Point and transform and lose control. Your skin begins to constantly shed blood and transform into an Aberrant Cultist as if through {@spell True Polymorph|XPHB}.",
+                "While in this form, whenever you choose a creature as a target, you must choose the target at random from among the creatures you can see within range of the attack, spell, or other ability it's using. If an enemy provokes an {@action Opportunity Attack|XPHB}, you must make the attack if you are able to.",
+                "If you lose the {@variantrule Temporary Hit Points|XPHB} granted by the transformation, you die and your body returns to normal ending the Curse.",
+                "{@note Made by Althaea and Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea",
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "It's just gonna ask you a couple of questions...",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Whenever you make a purchase, you have to pay an additional 20%.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Ough, so covered in honey...",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are covered in honey, thus attracting many insects- especially bees- and the occasional bear. This is just unpleasant.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pacifist",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are unable to take the {@action Attack|XPHB} action and cannot knowingly do harm to other creatures.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pig Snout, Eternal",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You grow a beautiful, snuffling pig snout. You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception}) checks that rely on smell. In addition, you gain great fondness of truffles; when you catch a whiff of one, you cannot help but disregard everything you were doing just to find and devour it.",
+                "{@note Based on Pig Snout. Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rainy Day",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "A rain cloud follows above you, constantly keeping you soaked. When the water touches any creature or object you aren't carrying, it vanishes. If you get angry, the cloud starts to storm.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rule of Hospitality",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are forced to be very polite. Say please and thank you. Don't start fights in a home. Open doors for others. If you are in someone else's home, you must defend them from attackers.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rule of Ownership",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are unable to take anything that isn't yours without permission from the owner.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rule of Reciprocity",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Whenever someone gives you a gift, favor, or similar, you must give them something equal in return.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Eeper",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "When you fall {@condition Unconscious}, you are unable to be woken up until you have slept for 8 hours.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Influencerrr",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "The only Action you can take is the {@action Influence|XPHB} action.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Think Before You Speak",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You can only speak when what you're about to say aligns with the attribute(s) determined by the GM when you receive this curse (ie. true, helpful, inspiring, necessary, kind).",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "This is so sad…",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "Every time you are sad, Despacito plays loudly.",
+                "{@note Made by Tyler}"
+            ],
+            "credit": {
+                "gms": [
+                    "Tyler"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Uncertain",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are only able to speak in questions. Failing to do so causes you to take {@dice 1d6} Necrotic damage that cannot be reduced, and prevents any other creature from hearing what you said.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Voice of the Nerd",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You must speak with a nasally voice. In addition, you have an intense urge to correct people when they're wrong, and often start such corrections with \"ermm, actually\".",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Welcoming Party",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "You are unable to enter a room without being invited in. You are compelled to invite anyone you see into your home.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Lycanthropy (Bat)",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i You are heavily swayed to a Neutral Evil alignment, and gain minor bat features.}",
+                {
+                    "type": "entries",
+                    "name": "Shape-Shift",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can shape-shift into a Large {@creature Giant Bat|XMM} or Medium Bat-Hybrid.  While a {@creature Giant Bat|XMM} or Medium Bat-Hybrid, you have a {@sense Blindsight|XPHB} of 60 feet and a {@variantrule Fly Speed|XPHB} of 60 feet.  Your game statistics are otherwise the same in each form, though you cannot speak if you are a {@creature Giant Bat|XMM}. Any equipment you are wearing or carrying isn't transformed. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear or wield a piece of equipment. You can use another {@variantrule Bonus Action|XPHB} to shape-shift back."    
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sunlight Sensitivity.",
+                    "entries": [
+                        "While you are a {@creature Giant Bat|XMM} or Bat Hybrid and are in sunlight, you have {@variantrule Disadvantage|XPHB} on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."   
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite",
+                    "entries": [
+                       "While you are a {@creature Giant Bat|XMM} or Bat Hybrid, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Dexterity modifier to the attack and damage when you attack with it.",
+                        "It deals {@dice 2d8} piercing damage on a hit. A damaged creature is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target gains this curse. Success: The target is immune to your curse for 24 hours. A creature automatically succeeds if it cannot become a Lycanthrope, like most non-Humanoids."
+                    ]
+                },
+                "{@note Formatted like Landon's Lycanthropy curse, Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Lycanthropy (Rat)",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@i You are heavily swayed to a Lawful Evil alignment, and gain minor rat features.}",
+                {
+                    "type": "entries",
+                    "name": "Shape-Shift",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can shape-shift into a Small Rat or Medium Rat-Hybrid. Your game statistics are the same in each form, though you cannot speak if you are a Rat. Any equipment you are wearing or carrying isn't transformed. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear or wield a piece of equipment. You can use another {@variantrule Bonus Action|XPHB} to shape-shift back."    
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite",
+                    "entries": [
+                        "While you are a Rat or Rat-Hybrid, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Dexterity modifier to the attack and damage rolls when you attack with it.",
+                        "It deals {@dice 1d6} piercing damage on a hit. A damaged creature is subjected to the following effect. Constitution Saving Throw: DC 11. Failure: The target gains this curse. Success: The target is immune to your curse for 24 hours. A creature automatically succeeds if it cannot become a Lycanthrope, like most non-Humanoids."    
+                    ]
+                },
+                "{@note Formatted like Landon's Lycanthropy curse, Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "A Name Given",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@note Special Curse}",
+                "You have given your name to a fey. You have Disadvantage on all attack rolls made against the fey and {@variantrule Disadvantage|XPHB} on saving throws against the fey's magic. No one is able to remember your name, or speak it. Any written mention of the name becomes incomprehensible.",
+                "As a {@action Magic|XPHB} action, the fey is able to perfectly disguise itself as you. It can drop the disguise at any time (no action required).",
+                "This curse can only be cursed by dealing with the fey who took the name, or by casting {@spell Legal Name Change|WM4}, permanently replacing the stolen name with a new one.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Ego Death",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@note Special Curse}",
+                "You have lost who you are. Your memories feel disconnected and unlike yourself. A part of you is missing. You and everything you carry appears in grayscale.",
+                "This curse can only be cured by finding yourself.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Hard Mode",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@note Special Curse}",
+                "Whenever you make a {@variantrule D20 Test|XPHB}, you roll a {@dice d12} instead of a {@dice d20}.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Cheese Touch",
+            "source": "WM4",
+            "type": "Curse",
+            "entries": [
+                "{@note Special Curse}",
+                "When you touch another creature, they gain this curse and you lose it. You cannot transfer the curse to the creature who bestowed it onto you.",
+                "This curse cannot be cured by any means.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
                 ],
                 "3rdparty": false
             }

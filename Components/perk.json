@@ -999,6 +999,535 @@
                 ],
                 "3rdparty": false
             }
+        },
+        {
+            "name": "🤔",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: {@skill Investigation} proficiency}",
+                "You are Proficient with {@item Thinker's Tools|WM4}",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Blessing of Corellon",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Any Elf}",
+                "{@i Ever changing, mirthful, and beautiful, the primal elves could assume whatever sex they liked. When they bowed to Lolth's influence and chose to fix their physical forms, elves lost the ability to transform in this way. Yet occasionally elves are born who are so androgynous that they are proclaimed to be among the blessed of Corellon—living symbols of the god's love and of the primal elves' original fluid state of being. Many of Corellon's chief priests bear this blessing.}",
+                "{@i The rarest of these blessed elves can change their sex whenever they finish a long rest-a miracle celebrated by elves of all sorts except drow. (The DM decides whether an elf can manifest this miracle.) Dark elves find this ability to be terrifying and characterize it as a curse, for it could destabilize their entire society. If Corellon's blessing manifests in a drow, that elf usually flees to the surface world to seek shelter among those dedicated to Corellon. (From MTF)}",
+                "You have become among the blessed of Corellon. Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your sex as well as minor characteristics about yourself such as your height, facial features, sound of your voice, and hair length. You cannot change your height by more than 6 inches and your size category stays the same. Whatever changes you make, you are still recognizable as yourself.",
+                "{@note Adapted from Mordenkainen's Tome of Foes. Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": [
+                    "Mordenkainen's Tome of Foes"
+                ]
+            }
+        },
+        {
+            "name": "Bodybuilder",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have {@variantrule Advantage|XPHB} on Strength ({@skill Performance}) checks. If you lack proficiency in {@skill Performance}, you can still add your Proficiency Bonus to Strength ({@skill Performance}) checks.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "By the Nine! I'm Tweaking!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "If you would be forced to roll on the {@table Mixing Potions; Potion Miscibility|XDMG|Potion Miscibility} table as a result of drinking a potion while already under the effects of another potion, you may choose to treat your {@dice D100} roll as a 50. When you do so, you become {@condition Paralyzed} until the end of your next turn and fall {@condition Prone}.",
+                "{@note Made by Patrick}"
+            ],
+            "credit": {
+                "gms": [
+                    "Patrick"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Carceri Influence: Lockdown",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "All Ropes, Chains, Manacles, and Nets while within 10 feet of you have a +5 bonus to DCs made to escape the object.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Create Wine",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Can cast {@spell Create or Destroy Water|XPHB}}",
+                "When you cast {@spell Create or Destroy Water|XPHB}, and choose the Create Water option, you can choose to make wine instead of water. It functions the same as the water, except it cannot put out exposed flames.",
+                "Additionally, you can choose how alcoholic it is. If you choose to make it excessively alcoholic, any creature who drinks it must make a Constitution saving throw or become {@condition Poisoned} for 1 hour.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Double-Jointed",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Your body is jointed in ways it shouldn't be. The difference isn't noticeable until you start moving them, but you have more joints than most and more range in the ones most people have. You have {@variantrule Advantage|XPHB} on checks made to squeeze through small spaces, and you're capable of unnatural movements like spinning your head 180 degrees, bending your knee forwards, or similar slightly uncanny movements.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Elminster Discerning Protocol",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can choose to gain a +1 bonus on an ability check made to discern whether someone with the first name Elminster is the Elminster of legend. Once you do so, you cannot use this perk again until you finish a {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Denny}"
+            ],
+            "credit": {
+                "gms": [
+                    "Denny"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Enjoy the Show",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a Reaction to seeing shit going down, you can conjure a red and white striped bucket full of buttery popcorn in your hand.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Ethereal Connection",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Manifest Mind}",
+                "Your Awaked Spellbook does not immediately vanish when you move to the Ethereal Plane. While you are on a different plane than it, you lose control of it and cannot use or benefit from any abilities that require it to be manifested.",
+                "The Awakened Spellbook stops manifesting after 1 minute unless you return to the same Plane as it.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Furry Feathered Familiar",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you cast {@spell Find Familiar|XPHB}, you can summon a {@creature Tressym|BGDIA}.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Fur Coat",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As part of a {@variantrule Short Rest|XPHB}, you can grow a thick coat of fur on your body. While you have this fur and remain dry, you automatically succeed on saving throws against the effects of extreme cold, as if you were wearing {@item Clothing, cold weather|IDROTF|cold weather clothing}. This fur remains until you cut it off.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Harmless Theatrics",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When you cast a spell, you can choose to deal no damage with it.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Horrible Entity",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Aberration}",
+                "You have become a horrible entity. As an Action, you can steal away an Alienist whose time has come. When you do so, they are never seen again.",
+                "This perk does not make you immune to getting taken away by other, more horrible entities.",
+                "{@note Made by Denny}"
+            ],
+            "credit": {
+                "gms": [
+                    "Denny"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I am a wolf.",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i On all levels except physical...}",
+                "You can perfectly recreate the howl of a wolf.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Introspection",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Insight}) checks made against yourself.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I Hired This 🦀 To Stare At You",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can summon an {@creature Aldani (Lobsterfolk)|TOA|Aldani} in an unoccupied space that you can see within 15 feet. The {@creature Aldani (Lobsterfolk)|TOA|Aldani} remains there for 1 minute, in which it uses its time to stand there and stare at you. Once you use this perk, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I Hired This 🦞 To Stare At You",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can summon a Crab Folk in an unoccupied space that you can see within 15 feet. The Crab Folk remains there for 1 minute, in which it uses its time to stand there and stare at you. Once you use this perk, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I know what I am",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can cast {@spell Detect Pronouns|WM4} at will. When cast in this way, its duration is Instantaneous and you only learn your own preferred pronouns.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I know what you are",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can cast {@spell Detect Pronouns|WM4} at will.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Melody of your Destruction",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You know how to perform this song (https://www.youtube.com/watch?v=bMW1kYrFI0M). While singing this song in the ocean, you can take the {@action Influence|XPHB} action, making a DC 50 Charisma ({@skill Performance}) check. On a success, you summon a {@creature Kraken|XMM}. It is {@variantrule Hostile [Attitude]|XPHB|Hostile} to you and tries to kill you. Once you are dead, or when it is {@status Bloodied|XPHB}, it flees. On a failure or after it flees, you are unable to attempt to summon it again for one week.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Nice Shot!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "When a creature within 30ft of you rolls a 20 or a 1 on a {@variantrule D20 Test|XPHB}, you can use your reaction to create an illusion of the words “Nice Shot!” 1 foot in front of them.",
+                "This illusion goes away after 6 seconds have passed.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Please notice me.",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Umbral Sight}",
+                "{@i \"WHY DO I KEEP EVADING MY ALLIES I WANT THEM TO KNOW WHERE I AM?!?!?!\"}",
+                "While entirely in {@variantrule Darkness|XPHB}, you can choose what creatures you become {@condition Invisible} to using your Umbral Sight.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Rothé IRA",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "At the end of each week, for every 1 gold piece that a {@creature Deep Rothé|MPMM|Deep Rothé} is carrying for you, 2 copper appear in its possession.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Santa Initiate",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can squeeze into Chimneys as small as 1 inch and have {@variantrule Advantage|XPHB} on Strength ({@skill Athletics}) checks made to climb in them.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Shark Teeth",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can deal Piercing damage instead of Bludgeoning damage when you make an {@variantrule Unarmed Strike|XPHB} with your teeth. In addition, if you lose a tooth, you regrow it in 1 hour.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Slop eater",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You can eat slop with no ill effects (though this does not affect the taste). Eating a pound of slop provides enough nourishment to sustain you for a day.",
+                "{@note Made by Ellie}"
+            ],
+            "credit": {
+                "gms": [
+                    "Ellie"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Slop Lover",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "All slop tastes good.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Snowsense",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Dwarf}",
+                "You can use your stonecunning feature's {@sense Tremorsense|XPHB} while in or touching snow or ice, as well as stone.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Taunt!",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "You provoke a creature with a pose or a short phrase.",
+                "You gain a +1 bonus to checks that are part of the {@action Influence|XPHB} action to make a creature {@variantrule Hostile [Attitude]|XPHB|Hostile} towards you.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Bees Knees",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "All wasps, hornets, and bees within 15 feet of you telepathically give you compliments, and ordinary versions of such creatures (not swarms or otherwise) are {@condition Charmed} by you while within 15 feet of you.",
+                "You count as a {@creature Hellwasp|BGDIA} for the sake of a hellwasp's telepathy.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "The Coolest 😎",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As a {@action Magic|XPHB} action, you can cause a pair of sunglasses to materialize over your eyes, or if you already have a pair of sunglasses materialized from this perk, you cause them to dematerialize.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Winter's Respite",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "As long as you remain dry, you automatically succeed on saving throws against the effects of extreme cold, as if you were wearing {@item Clothing, cold weather|IDROTF|cold weather clothing}.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Werewoof",
+            "source": "WM4",
+            "type": "Perk",
+            "entries": [
+                "Your barks are nearly identical to those of a canine.",
+                "{@note Made by Landon}"
+            ],
+            "credit": {
+                "gms": [
+                    "Landon"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

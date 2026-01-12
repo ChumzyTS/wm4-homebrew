@@ -439,6 +439,131 @@
                 ],
                 "3rdparty": false
             }
+        },
+        {
+            "name": "A Voice for a Life",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "{@i You've given a cat your voice to sing in exchange for one of its lives.}",
+                "Whenever you would be reduced to 0 {@variantrule Hit Points|XPHB}, you can choose to lose this Story Record and instead drop to 1 Hit Points and gain 40 {@variantrule Temporary Hit Points|XPHB} which last for 1 minute. ",
+                "While you have this Story Record, you have the {@reward Cat got your tongue?|WM4} Curse,",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Known by its Embrace",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "{@i Without me, you are nothing. In my arms, you are everything. To bleed is to feel. To feel is to see. To see is to know. To know is to love.}",
+                "{@i Expect to know its embrace once again.}",
+                "{@note Made by Althaea}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Marketable Plushie",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "{@i You've managed to give up your merch rights.}",
+                "You have allowed a creature to sell merch of your likeness. You occasionally find it for sale when shopping.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Honorary Hatter",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You’ve passed the Trial of Hats and garnered Maddison Milner’s respect.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Return to Love",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You have traded a language with \"yourself\"",
+                "You can speak and understand Sylvan. In return, you can no longer speak or write Common but still understand it.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "SEAF Recruit",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "You’ve successfully finished a dive with the SEAF. You’ve earned a small modicum of their trust, and contributed to Managed Democracy.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "WSS Membership Card",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "With this card, you are considered an honorary member of the Westgate Sanitary Society (AKA the Rat Bastards). While this doesn't do much, members of the Rat Bastards will respect you a bit more than usual.",
+                "{@note Made by Sam}"
+            ],
+            "credit": {
+                "gms": [
+                    "Sam"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "[LOS] Midnight Alliance",
+            "source": "WM4",
+            "type": "Story Record",
+            "entries": [
+                "In a fervent night of poison, lies, and illusion, you claimed victory over the fifth Machine. In doing so, you have not only thwarted the plans of life's enemy, but earned valuable allies in both Talia and Raul.",
+                "{@note Made by Christopher}"
+            ],
+            "credit": {
+                "gms": [
+                    "Christopher"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

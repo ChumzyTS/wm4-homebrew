@@ -1758,6 +1758,540 @@
                 ],
                 "3rdparty": false
             }
+        },
+        {
+            "name": "Aberrated Limb",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "One of your limbs has been twisted by concentrated exposure to the Far Realm, Limbo, or other chaotic energies. The effects depend on which limb is altered.",
+                "{@b Arm.} An aberrated arm transforms into a tentacle, stretched appendage, or similar. The hand can no longer hold items or perform somatic components. Your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with that hand now have a reach of 10 feet.",
+                "{@b Leg.} An aberrated leg becomes a tentacle, spider leg, or similar. Your {@variantrule Speed} decreases by 10 feet, but you gain a {@variantrule Climb Speed} of 10 feet. ",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Aberrative Shift",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "A residual wash of aberrative taints your system. As a {@action Magic|XPHB} action, you can call upon it to edit small details of your appearance. Not enough to make you unrecognizable or imitate a specific person, but enough to be noticeable. Each time you do so, roll {@dice 1d4}. On a 1, the shift goes slightly awry, resulting in slightly uncanny features, slimy purple flesh, spiny outcrops, or similar. On a 4, one such aberration fades, returning to your natural appearance.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Feet of a Zephyr",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i +2 Aura. You are BEYOND shoes.}",
+                "You can take a {@action Magic|XPHB} action to appear to float 4 inches above a surface. This effect lasts until you take another {@action Magic|XPHB} action to end it.",
+                "{@note Made by Althaea}"
+            ],
+            "credit": {
+                "gms": [
+                    "Althaea"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Find Flumiliar",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "When you cast {@spell Find Familiar|XPHB}, you can choose for the familiar to take the form of a {@creature Flumph|XMM}. If you choose this form, the creature's type is Aberration.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Sharptooth Training",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "{@i You’ve trained with the Sharptooth tribe and have learned how to use your teeth in battle.}",
+                "You can use your teeth to make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}. When you hit with them, the strike deals {@dice 1d4} + your Strength modifier Piercing damage, instead of the Bludgeoning damage normal for an {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Off-kilter Immune System",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "Your body’s natural defense system are thrown out of alignment. They overfocus on hostile intruders, granting immunity to disease, but offer less protection against toxins, resulting in {@variantrule Vulnerability|XPHB} to Poison damage.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Phantom Noises",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "When you make an illusory sound using a spell, you can choose to exclude creatures from hearing the sound.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Pinches That Hurt",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "When you pinch a creature, you can choose to deal 1 Bludgeoning damage.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Slender Legs",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "common",
+            "entries": [
+                "Your legs have elongated unnaturally due to aberrative exposure. They are unnaturally gangly, and may have mutated into stranger forms still, like bug legs, animal legs, or something that hardly resembles a leg at all.",
+                "The legs are long and spindly, increasing your {@variantrule Speed|XPHB} by 5 feet, but incurring {@variantrule Disadvantage|XPHB} on {@skill Acrobatics} checks.",
+                "{@note Made by Chrys}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Appendage Regrowth",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You can expend 4 hit dice to regrow a lost limb over the course of a minute, provided you are at least 1 hit point for the entire duration.",
+                "{@note Made by Aris}"
+            ],
+            "credit": {
+                "gms": [
+                    "Aris"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Charge Attack!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You charge up an attack, building up power over time.",
+                "As an Action, you can add {@dice 1d6} to the damage dice of a melee attack that you do on a subsequent turn. You can gain additional damage dice from this talent an amount of times equal to your Proficiency Bonus.",
+                "You can use this feature only if you haven't moved during this turn, and after you use it, your {@variantrule Speed|XPHB} is 0 until the end of the turn.",
+                "If you move before attempting a melee attack, the amount of additional damage dice from this talent is returned to 0.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Chemical Imbalance!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "Prerequisite: Ooze",
+                "{@i Due to exposure to an exotic chemical or maybe hormonal issues, your oozey form has become more unstable.}",
+                "As a {@action Magic|XPHB} action you can cause your ooze to change forms for a moment, producing a glob that functions as one of the following items. You can choose to use the item as part of the action. If you choose to not immediately use it, the glob retains its potency for 1 hour, at any point being able to be used as if it was the item.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@item Acid|XPHB|Acid (vial)}",
+                        "{@item Antitoxin|XPHB|Antitoxin (vial)}",
+                        "{@item Basic Poison|XPHB|Basic Poison (vial)}",
+                        "{@item Perfume|XPHB|Perfume (vial)}",
+                        "{@item Assassin's Blood|XDMG|Assassin's Blood (vial)}",
+                        "{@item Oil|XPHB|Oil (flask)}",
+                        "{@item Alchemist's Fire|XPHB|Alchemist's Fire (flask)}"
+                    ]
+                },
+                "You can create a number of items using this Talent equal to your proficiency bonus, regaining all uses on a {@variantrule Long Rest|XPHB}.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Chestplate of Preserving",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Warforged}",
+                "Your chest cavity has been modified to ensure the survival of anything placed within. Your torso functions as a {@item Chest of Preserving|WDMM}.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Forward Throw!",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You have the special ability to throw someone you have {@condition Grappled}.",
+                "When you {@variantrule Unarmed Strike|XPHB} Shove a creature you have {@condition Grappled}, you can push the target equal to 5 times the ability score modifier used for calculating the DC for your Shove.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Jumpscare",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You’ve learned how to jump and scare someone.",
+                "If you spend at least 5 feet of movement to jump to a space within 5 feet of a creature, you can use {@action Magic|XPHB} action to scare a creature and that creature must succeed in a DC 13 Wisdom saving throw or have the {@condition Frightened} condition until the end of your next turn.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Just [REDACTED] - Gruesome Horror Sound Effects",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "When you score a Critical Hit on a Weapon Attack or Unarmed Strike that utilizes blood or has the potential to draw blood from the target, you can choose to add +1 damage to the initial damage roll of the attack if you accompany your attack with at least 3 seconds of improvised bloody squelching sound effects.",
+                "{@note Made by Denny}"
+            ],
+            "credit": {
+                "gms": [
+                    "Denny"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Ossified Plating",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "The plates making up your body have been shifted into hardened bone by exposure to aberrant energies. Your movement {@variantrule Speed|XPHB} decreases by 10 feet, as the solidified joints find themselves sticking. The hardened carapace grants you a +2 bonus to your Armor Class while not wearing armor.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Persistence Hunting",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Ranger}",
+                "When you use Favored Enemy to cast {@spell Hunter's Mark|XPHB}, you can expend additional uses of it to increase the spell level. The spell level increases by 1 per use expended, to a max of level 5.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Realization of Ambition",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Prerequisite: Tireless}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
+                "When you use Tireless to grant yourself {@variantrule Temporary Hit Points|XPHB}, you gain {@variantrule Advantage|XPHB} on the next {@variantrule D20 Test|XPHB} you make within the next hour.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Realization of Fear",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Prerequisite: Halo of Spores}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
+                "When your Halo of Spores against a creature, you can attempt to frighten them instead of hurt them. If the creature fails the Constitution saving throw, it takes no damage but becomes {@condition Frightened} of you until the start of its next turn.",
+                "You can use this Talent a number of times equal to your Proficiency Bonus, regaining all uses on a Long Rest.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Realization of Love",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Prerequisite: Bastion of Law}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
+                "Once per turn when a creature protected by your Bastion of Law makes an attack roll or saving throw, it can expend one of the Bastion of Law dice to add {@dice 1d4} to the roll.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Realization of Pride",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "property": [
+                "E|WM4"
+            ],
+            "entries": [
+                "{@i Prerequisite: Valor Bard}",
+                "{@note Exotic: A reward that can only be found or received under certain circumstances.}",
+                "When a creature uses your Bardic Inspiration die to turn a failure into a success, it is filled with pride of its accomplishment. It gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled on the Bardic Inspiration die plus your Proficiency Bonus. These {@variantrule Temporary Hit Points|XPHB} disappear at the end of its next turn.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Scent Sleuth",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You’ve learned to leave behind no odor of yourself as you travel. ",
+                "Creatures cannot benefit from scent-based {@skill Perception} checks on you.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Trackless Treading",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "You leave no tracks.",
+                "{@note Made by Marvin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Marvin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Wizard's Last Resort",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Prerequisite: Wizard}",
+                "You always have {@spell Shred Arcane|WM4} prepared.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Go for the Throat",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: Cunning Strike}",
+                "You gain the following Cunning Strike option.",
+                "{@b Stifle (Cost: 3d6).} The target must succeed on a Constitution saving throw, or it has the {@condition Silenced|WM4} condition until the end of its next turn.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "I AM THE ANGRY PUMPKIN",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "When a creature makes a Dexterity saving through to avoid being fallen upon by you, they have {@variantrule Disadvantage|XPHB}. Upon impact with another creature after falling, as a reaction, you can choose to roll maximum damage.",
+                "{@note Made by Sam}"
+            ],
+            "credit": {
+                "gms": [
+                    "Sam"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Mental Mark",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "{@i Prerequisite: Tireless}",
+                "When you cast {@spell Hunter's Mark|XPHB} using a spell slot of 3rd level or higher, you can mentally mark a creature. While marked, you always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it has the {@condition Invisible} condition, it gains no benefit from that condition against you. You can only have one creature marked in this way.",
+                "When you cast {@spell Hunter's Mark|XPHB} using a spell slot of 5th level or higher, you are able to track the target's location across planes of existence.",
+                "{@note Made by Gem}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gem"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Mimic Familiar",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "When you cast {@spell Find Familiar|XPHB}, you may optionally target a Medium or Small object within 15 feet of you. The familiar will then take the form of a {@creature Juvenile Mimic|TCE} which is currently replicating that object.",
+                "{@note Made by Gavin}"
+            ],
+            "credit": {
+                "gms": [
+                    "Gavin"
+                ],
+                "3rdparty": false
+            }
+        },
+        {
+            "name": "Shielded Mind",
+            "source": "WM4",
+            "type": "Talent",
+            "rarity": "rare",
+            "entries": [
+                "Your mind displays a rare resistance to psionic attack, either through extensive training or innate ability. You have {@variantrule Advantage|XPHB} on Sanity saving throws and saving throws against Madness. Additionally, the first time you take Psychic damage on a turn, the damage is reduced by {@dice 1d8}.",
+                "{@note Made by Lily}"
+            ],
+            "credit": {
+                "gms": [
+                    "Lily"
+                ],
+                "3rdparty": false
+            }
         }
     ]
 }

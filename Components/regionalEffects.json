@@ -1,0 +1,31 @@
+{
+    "_meta": {
+        "name": "reward",
+        "sort": [
+            {
+                "key": "name",
+                "type": "a-z"
+            }
+        ]
+    },
+    "data": [
+        {
+            "name": "Fouling Blight",
+            "source": "WM4",
+            "type": "Regional Effect",
+            "rarity": "uncommon",
+            "entries": [
+                "Within 6 miles of the lair, ability checks made to forage for food or water have {@variantrule Disadvantage|XPHB}, and magic that creates food or water only produces half the normal amount.",
+                "{@note From The Beast of Blight. Made by Chrys.}"
+            ],
+            "credit": {
+                "gms": [
+                    "Chrys"
+                ],
+                "3rdparty": [
+                    "The Crooked Moon"
+                ]
+            }
+        }
+    ]
+}
