@@ -19,7 +19,7 @@ And thats it! If you want to verify you can go to items, click filter and you sh
 ## Found something missing/wrong?
 The 5e.tools homebrew is only updated on semi-regular basis once rewards are given out and added to the [homebrew catalog](https://docs.google.com/document/d/1tiToA5RnKt2pGXsPIT8XXOBbRKFVEKu-2gs7H3psY6I/edit?tab=t.0). This means there is sadly *A DELAY* in when things are added. 
 
-If you've had something for over a week and it has yet to be added, check to see if it is in the [homebrew catalog](https://docs.google.com/document/d/1tiToA5RnKt2pGXsPIT8XXOBbRKFVEKu-2gs7H3psY6I/edit?tab=t.0). If is not there, message the GM who gave you the reward and tell them to add it! If it **is on the homebrew catalog** then feel free to dm me (@selkiegem) or @me in #wm-discussion and I'll try to add it.
+If you've had something for over a week and it has yet to be added, check to see if it is in the [homebrew catalog](https://docs.google.com/document/d/1tiToA5RnKt2pGXsPIT8XXOBbRKFVEKu-2gs7H3psY6I/edit?tab=t.0). If is not there, message the GM who gave you the reward and tell them to add it! If it **is on the homebrew catalog** then feel free to dm or @ me in #wm-discussion and I'll try to add it.
 
 ## Want to notified of updates?
 Turn notifications on for this thread. I should only be sending new messages when things are updated!
