@@ -6,7 +6,7 @@
                 "json": "WM4",
                 "abbreviation": "WM4",
                 "full": "Westmarch 4",
-                "version": "2.0",
+                "version": "2.0.1",
                 "authors": [
                     "Various DMs"
                 ],
@@ -17,7 +17,7 @@
             }
         ],
         "edition": "classic",
-        "dateLastModified": 1778579251
+        "dateLastModified": 1778999238
     },
     "itemProperty": [
         {
@@ -4229,6 +4229,21 @@
         },
         {
             "source": "WM4",
+            "name": "Khokoto Hot Mill Gloves",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "Engraved with arcane sigils meant to lessen heat for smiths and craftsmen, these pair of gloves allows the wearer to handle molten metal, lava, boiling water, and magma with no pain! The wearer is immune to damage from these sources, unless they are in constant contact for more than one minute, in which case the gloves overheat and the wearer begins to take damage as normal. Once the gloves overheat, they must go 6 seconds without touching one of those sources before granting the wearer immunity again",
+                "{@i Made by Laz}"
+            ],
+            "reqAttune": null,
+            "property": [
+                "U|WM4"
+            ],
+            "staff": false
+        },
+        {
+            "source": "WM4",
             "name": "King Vulture Mask",
             "rarity": "rare",
             "wondrous": true,
@@ -4597,6 +4612,19 @@
         },
         {
             "source": "WM4",
+            "name": "Rechargeable Battery",
+            "rarity": "rare",
+            "type": "AF",
+            "entries": [
+                "This Energy Cell becomes full each day at dawn.",
+                "{@i Made by Aris}"
+            ],
+            "reqAttune": null,
+            "property": [],
+            "staff": false
+        },
+        {
+            "source": "WM4",
             "name": "Ring of Adamantine Touch",
             "rarity": "rare",
             "type": "RG",
@@ -4683,6 +4711,25 @@
                 "{@i Made by June}"
             ],
             "reqAttune": null,
+            "property": [],
+            "staff": false
+        },
+        {
+            "source": "WM4",
+            "name": "Svarog component: Interception Matrix",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "{@i A component of a larger core. This component can be integrated into a Steel Defender\u2019s frame, overwriting its defensive capabilities.}",
+                "{@b Reinforced Chassis.} The Steel Defender gains a +2 bonus to its AC.",
+                "{@b Protection Protocol.} Your Steel Defender\u2019s Deflect Attack Reaction is updated:",
+                "{@b Trigger.} A creature the Steel Defender can see within 10 feet of it, instead of 5 feet, makes an attack roll against a creature other than the Steel Defender.",
+                "{@b Response.} The Steel Defender moves up to 10 feet to an unoccupied space adjacent to the target, interposing itself. The triggering attack roll is made with disadvantage, and targets the Steel Defender instead.",
+                "If the triggering attack misses the Steel Defender, it may unleash a suppressive missile volley as part of the same reaction. Each creature of the Steel Defender\u2019s choice in a 10 foot cone must make a Dexterity saving throw against your spell save DC, taking {@dice 2d8} Force damage on a failed save, or half as much on a successful one.",
+                "You can use this feature a number of times equal to your Proficiency Bonus, regaining expended uses after you complete a Long Rest.",
+                "{@i Made by Laz}"
+            ],
+            "reqAttune": "by a Battlesmith Artificer",
             "property": [],
             "staff": false
         },
@@ -4859,6 +4906,19 @@
                 "C|WM4",
                 "U|WM4"
             ],
+            "staff": false
+        },
+        {
+            "source": "WM4",
+            "name": "Toybox",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "The chest is 2 1/2 feet long, 1 1/2 feet wide, and 1 foot tall with a half-barrel lid. The chest has 3 charges and regains all charges daily at dawn. As a Magic action while the chest is closed, you can spend 1 charge to cast the Tiny Servant spell on a Tiny nonmagical object within the box.",
+                "{@i Made by Aris}"
+            ],
+            "reqAttune": null,
+            "property": [],
             "staff": false
         },
         {
@@ -5219,6 +5279,22 @@
         },
         {
             "source": "WM4",
+            "name": "Entropy Containment",
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "As a Magic action, you can activate this cylinder and toss it into the air, whereby it creates a containment field in a 20-foot Cube within 30 feet of you. The walls of this Cube are shimmering, immobile, magical barriers. Antimagic or Entropy (such as a Sphere of Annihilation) originating from outside the barrier can't affect anything within it nor pass into the area. Similarly, Antimagic or Entropy within it cannot affect anything outside of the area or exit the area. If a creature under the effects of an Antimagic Field spell passes through the barrier, the spell ends.",
+                "The containment field lasts for 10 minutes.",
+                "{@i Made by Aris}"
+            ],
+            "reqAttune": null,
+            "property": [
+                "C|WM4"
+            ],
+            "staff": false
+        },
+        {
+            "source": "WM4",
             "name": "Eternal Sending Stone",
             "rarity": "very rare",
             "wondrous": true,
@@ -5512,6 +5588,19 @@
         },
         {
             "source": "WM4",
+            "name": "Nirvanan Deployer",
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "A Nirvanan Deployer is a small brass orb about the size of a human\u2019s fist, with a black ring around it and a small silver button. You can press the button to cast Summon Construct from the Deployer at eighth level. Once the Deployer has been activated, it can\u2019t be used again until the next dawn.",
+                "{@i Made by Lily}"
+            ],
+            "reqAttune": "by an Artificer",
+            "property": [],
+            "staff": false
+        },
+        {
+            "source": "WM4",
             "name": "Pipe Organ of Villainous Motivations",
             "rarity": "very rare",
             "type": "INS",
@@ -5673,6 +5762,21 @@
                 "The Tol-kendar (\u201cbody wrecker\u201d in Infernal) is a magic weapon that grants a +1 bonus to attack and damage rolls made with it. Wielded by the asymmetrical yagnoloths, it takes the form of a 10-foot-long steel Pike topped by a metal cup ringed with blades, with a harpoon point emerging from the cup\u2019s center. The {@i Tol-kendar} has the statistics of a Pike, but each time you hit, you can choose to do either Piercing damage with the harpoon or Slashing damage with the blades.",
                 "When you roll a 20 on an attack roll made with the {@i Tol-kendar}, the weapon pierces deep into the target\u2019s body to deal an extra {@dice 2d8} Piercing damage. A target that isn\u2019t a Construct or Undead must then succeed on a DC 15 Constitution saving throw or be Stunned until the start of your next turn.",
                 "{@i From Dragon+}"
+            ],
+            "reqAttune": null,
+            "property": [],
+            "staff": false
+        },
+        {
+            "source": "WM4",
+            "name": "Umbral Tear",
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "This small, 20 mm diameter black pearl is formed of condensed shifting shadowstuff that can be influenced into taking a different shape. As a Magic action while holding the pearl, you can cast the spell Creation at Level 5 using the pearl. The pearl disappears as its shadowstuff takes the form of the object created. The object created must be nonmagical.",
+                "As a Magic action while touching the object, you can end the Creation spell.",
+                "When the spell ends, the object turns back into a pearl.",
+                "{@i From S1, S2, S3. Made by Aris}"
             ],
             "reqAttune": null,
             "property": [],
@@ -6054,6 +6158,21 @@
         },
         {
             "source": "WM4",
+            "name": "Staff of Entropy",
+            "rarity": "legendary",
+            "type": "M",
+            "entries": [
+                "The tip of this staff is adorned with a 2-inch-diameter black sphere which is a hole in the multiverse, hovering above the tip and stabilized by a magical field surrounding it.",
+                "This staff can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. On a hit, the staff deals an extra {@dice 2d10} Force damage. A target reduced to 0 Hit Points by this damage is obliterated, leaving its possessions behind but no other physical remains.",
+                "This staff has 3 charges and regains all charges daily at dawn. You can expend a charge to cast one of the following spells: Disintegrate, Dispel Magic (Level 7 version), Antimagic Field.",
+                "{@i Made by Aris}"
+            ],
+            "reqAttune": true,
+            "property": [],
+            "staff": true
+        },
+        {
+            "source": "WM4",
             "name": "True Polymorph Potion",
             "rarity": "legendary",
             "type": "P",
@@ -6405,6 +6524,26 @@
                 "{@i From S3, Made by Aris}"
             ],
             "reqAttune": true,
+            "property": [],
+            "staff": false
+        },
+        {
+            "source": "WM4",
+            "name": "Command Platform",
+            "rarity": "legacy",
+            "type": "LA",
+            "entries": [
+                "The Command Platform is a suit of armor augmented with technology from an Inevitable Elder\u2019s surveillance systems. Consisting of interlocking copper plates and cogs, it covers most of the wearer\u2019s body.",
+                "As a Magic action, you can convert the Command Platform from a suit of armor to a stylish, if oddly shiny, bomber jacket or back. While in its jacket form, it grants no bonus to AC, but you still benefit from its other features. While in its armor form, you can deploy or retract the armor\u2019s helmet (no action required.)",
+                "While wearing the armor in any of its forms, you can telepathically communicate with Constructs within 120 feet. You can cast Arcane Eye from the armor to deploy a small surveillance drone. It can\u2019t be cast again until the next dawn.",
+                "As a Magic action while touching a Construct you created or command, you can designate it as a Drone for the features of this item. When you create a Construct with an ability or feature, you can designate it as a Drone, no action required. If a Drone is no longer under your command, it ceases to be a Drone.",
+                "{@b Built-In Bulwark (Level 10).} The armor gains five charges and regains all of them at dawn. As a Bonus Action, you can spend two charges to expand the armor into a heavy bulwark. It returns to its armor form if you are Incapacitated or choose to end it (no action required.) You gain Half Cover, and your Speed is halved. As a reaction when one of your Drones within 30 feet of you is hit by an attack, you can expend a charge to give them Half Cover against that attack with a shifting piece of the bulwark, potentially causing the attack to miss.",
+                "The Command Platform also grants a +1 bonus to AC while in its armor or bulwark forms.",
+                "At the end of your next turn, the Bulwark returns to armor form unless you spend two more charges to maintain it.",
+                "{@b Rechargeable Battery (Level 15).} You\u2019re more in tune with the Platform than ever. It now counts as one of your Replicate Magic Item items for your Charge Magic Item. The armor now has eight charges.",
+                "{@i Made by Lily}"
+            ],
+            "reqAttune": "by a Battle Smith",
             "property": [],
             "staff": false
         },
@@ -8093,6 +8232,17 @@
         },
         {
             "source": "WM4",
+            "name": "Dump Truck Operator",
+            "type": "Perk",
+            "entries": [
+                "You have Advantage on checks made to operate and work on dump trucks. People recognize your superior skills when you drive one.",
+                "{@i Made by June}"
+            ],
+            "reqAttune": null,
+            "property": []
+        },
+        {
+            "source": "WM4",
             "name": "Elminster Discerning Protocol",
             "type": "Perk",
             "entries": [
@@ -8335,17 +8485,6 @@
         },
         {
             "source": "WM4",
-            "name": "I'm So Hungry...",
-            "type": "Perk",
-            "entries": [
-                "As a Magic action, you can cast Locate Creature targeting the nearest horse. While you are Concentrating on the spell, the horse gains the benefits of Locate Creature as if cast targeting you and is aware you are tracking it.",
-                "{@i Made by June}"
-            ],
-            "reqAttune": null,
-            "property": []
-        },
-        {
-            "source": "WM4",
             "name": "I am a wolf.",
             "type": "Perk",
             "entries": [
@@ -8516,6 +8655,17 @@
         },
         {
             "source": "WM4",
+            "name": "I've Fallen!",
+            "type": "Perk",
+            "entries": [
+                "You have Advantage on {@dice D20} Tests made to fall down stairs.",
+                "{@i Made by June}"
+            ],
+            "reqAttune": null,
+            "property": []
+        },
+        {
+            "source": "WM4",
             "name": "Juggler",
             "type": "Perk",
             "entries": [
@@ -8632,6 +8782,17 @@
                 "{@i Prerequisite: Chef\u2019s Utensils Expertise, 22 Intelligence}",
                 "\u201cShe said chili! Chili\u2019s not a soup! The woman has named something that\u2019s not a soup!\u201d",
                 "You know how every liquid can be categorized as a soup, stew, or other naming convention for liquid intended to be consumed, and have advantage on checks to postulate the nature of an otherwise uncategorized liquid food."
+            ],
+            "reqAttune": null,
+            "property": []
+        },
+        {
+            "source": "WM4",
+            "name": "Living in the Past",
+            "type": "Perk",
+            "entries": [
+                "You have +1 AC to attacks made against you with modern or futuristic weapons. If you use a modern or futuristic item, you lose this perk.",
+                "{@i Made by June}"
             ],
             "reqAttune": null,
             "property": []
@@ -9011,6 +9172,18 @@
             "type": "Perk",
             "entries": [
                 "Your body has been tuned to a specific frequency, tuning you to a plane of existence. You can be used as a tuning fork for that plane of existence.",
+                "{@i Made by June}"
+            ],
+            "reqAttune": null,
+            "property": []
+        },
+        {
+            "source": "WM4",
+            "name": "Return to Caveman",
+            "type": "Perk",
+            "entries": [
+                "{@i Prerequisite: Living in the Past}",
+                "You have a +1 bonus to attack and damage rolls made with nonmagical Wooden Clubs.",
                 "{@i Made by June}"
             ],
             "reqAttune": null,
@@ -9867,6 +10040,18 @@
             "entries": [
                 "{@i Prerequisite: Proficiency in Sleight of Hand or Performance}",
                 "You can juggle a number of Juggling Clubs or other small objects in one hand without needing to make an ability check. You can make weapon attacks using any of the Juggling Clubs you are juggling. If you hit an attack with a juggling club you were juggling, it returns to your hand.",
+                "{@i Made by June}"
+            ],
+            "reqAttune": null,
+            "property": [],
+            "rarity": "common"
+        },
+        {
+            "source": "WM4",
+            "name": "Just a guy",
+            "type": "Talent",
+            "entries": [
+                "You count as a Commoner for the sake of things that effect Commoners.",
                 "{@i Made by June}"
             ],
             "reqAttune": null,
@@ -11060,10 +11245,7 @@
             "source": "WM4",
             "name": "Maimer's Mercy",
             "type": "Talent",
-            "entries": [
-                "You have achieved mastery over your attacks, and can accurately navigate the line between life and death. You can knock out creatures with any attack, not just melee attacks.",
-                "{@i Adapted from S2, Made by Corvus}"
-            ],
+            "entries": [],
             "reqAttune": null,
             "property": [
                 "NM|WM4"
@@ -12817,7 +12999,6 @@
             "name": "Adaptable Artillery",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "You can treat every ranged weapon as if it were a Simple melee weapon of your choice.",
                 "{@i Made by Landon}"
             ],
@@ -12830,7 +13011,7 @@
             "name": "Assassin's Mark",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Hunter's Mark}",
+                "{@i Prerequisite: Hunter's Mark}",
                 "If you hit a creature marked by your Hunter's Mark with a weapon attack, you can choose to end the Hunter's Mark on the creature. If you do so, your attack deals an extra {@dice 4d6} damage.",
                 "If you have Foe Slayer, this instead becomes {@dice 4d10} damage.",
                 "{@i Made by Aris}"
@@ -12844,7 +13025,6 @@
             "name": "Blessing of Increased Ability",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "Choose an Ability Score. It increases by 2, up to a maximum of 20.",
                 "When you finish a Long Rest, you can change which Ability Score you increase with this gift.",
                 "{@i Made by Landon}"
@@ -12858,7 +13038,6 @@
             "name": "Brutal Thrower",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "You treat every melee weapon as if it has the thrown property with a range of (20/60). After you make an attack, the weapon magically returns to your hand.",
                 "{@i Made by Chrys}"
             ],
@@ -12871,7 +13050,7 @@
             "name": "Bulwark",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Unarmored Defense}",
+                "{@i Prerequisite: Unarmored Defense}",
                 "You add your Strength Modifier to your Unarmored Defense calculations.",
                 "{@i Made by V}"
             ],
@@ -12913,7 +13092,6 @@
             "name": "Close Quarters Defense",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "When a creature within 5 feet of you attempts to Grapple you or subject you to an effect that would Grapple you, you can use your reaction to make a melee weapon attack against that creature. If you hit, you deal {@dice 1d6} extra damage, and you automatically succeed against the effect.",
                 "{@i Made by Chrys}"
             ],
@@ -12926,7 +13104,6 @@
             "name": "Cram Study",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "When you finish a Long Rest, you can choose Arcana, History, Investigation, Nature, or Religion. If you do not have proficiency in that Skill, you gain proficiency with that skill until the end of your next Long Rest. If you did have proficiency, when you take the Study Action, you have Advantage on Intelligence checks involving that Skill.",
                 "{@i Made by Landon}"
             ],
@@ -12939,7 +13116,6 @@
             "name": "Dirty Tactics",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "As a Bonus Action, you can throw irritating particles at a creature within 10 feet of you. It must make a Dexterity Saving throw, or become Blinded until the end of your turn. The saving throw is equal to 8 + Your Proficiency Modifier + Your Dexterity modifier.",
                 "Additionally, you have a +1 bonus to weapon damage rolls against Prone creatures.",
                 "{@i Made by Landon}"
@@ -12966,7 +13142,6 @@
             "name": "Dungeon Adept",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 {
                     "type": "list",
                     "items": [
@@ -12996,7 +13171,7 @@
             "name": "Eldritch Akimbo",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Pact of the Blade Invocation}",
+                "{@i Prerequisite: Pact of the Blade Invocation}",
                 "Your Pact of the Blade invocation can sustain two weapons at the same time, allowing you to keep up the pressure with dual-wielded weapons.",
                 "{@i Made by Lily}"
             ],
@@ -13009,7 +13184,7 @@
             "name": "Empowered Turning",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Channel Divinity (Turn Undead)}",
+                "{@i Prerequisite: Channel Divinity (Turn Undead)}",
                 "The range of your Turn Undead is increased to 60 feet, and undead within 15 feet of you have Disadvantage on the saving throw.",
                 "{@i Made by Chrys}"
             ],
@@ -13022,7 +13197,7 @@
             "name": "Enduring Focus",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Flurry of Blows}",
+                "{@i Prerequisite: Flurry of Blows}",
                 "The first time you use Flurry of Blows after a Short or Long Rest, you can do so without expending Focus Points. Additionally, you gain 2 more Focus Points to your total pool.",
                 "{@i Made by Chrys}"
             ],
@@ -13035,7 +13210,7 @@
             "name": "Expanded Cunning Strikes",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Cunning Strike}",
+                "{@i Prerequisite: Cunning Strike}",
                 "You have the following options added to your Cunning Strike feature:",
                 {
                     "type": "list",
@@ -13073,7 +13248,6 @@
             "name": "Familiar Familiarity",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "You always have the Find Familiar spell prepared. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a Long Rest.",
                 "{@i Made by Landon}"
             ],
@@ -13086,7 +13260,7 @@
             "name": "Fast Reader",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Wizard}",
+                "{@i Prerequisite: Wizard}",
                 "You can read twice as quickly as most people, and it takes you only half the time to copy spells into your book.",
                 "{@i Made by Lily}"
             ],
@@ -13099,7 +13273,6 @@
             "name": "First Move",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "Your movement Speed increases by 10 feet. Whenever you take the Disengage action, you are able to move through all creatures as if they were your allies.",
                 "Whenever you roll Initiative, you can immediately move up to your movement Speed.",
                 "{@i Made by June}"
@@ -13113,7 +13286,7 @@
             "name": "Flurry of Blades",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Flurry of Blows, Level 7 Reward}",
+                "{@i Prerequisite: Flurry of Blows}",
                 "You can use attacks with a Monk weapon in place of the Unarmed Strikes from Flurry of Blows.",
                 "{@i Made by Denny}"
             ],
@@ -13126,7 +13299,7 @@
             "name": "Hefty Spellbook",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward; Wizard}",
+                "{@i Prerequisite: Wizard}",
                 "You can prepare an extra number of spells equal to your Intelligence modifier.",
                 "{@i Made by June}"
             ],
@@ -13139,7 +13312,6 @@
             "name": "Hotswapper",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "Whenever you roll Initiative, you may immediately draw a weapon, and the first attack roll you make that combat has Advantage. Additionally, you can don or doff a shield as an object interaction.",
                 "{@i Made by Lily}"
             ],
@@ -13152,7 +13324,8 @@
             "name": "Malleable Illusions",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Spellcasting}",
+                "{@i Prerequisite: Spellcasting}",
+                "When you cast an illusion spell that has a duration of 1 minute or longer, you can use a Magic action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion.",
                 "{@i Made by Gavin}"
             ],
             "reqAttune": null,
@@ -13164,7 +13337,7 @@
             "name": "Metamancer",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Sorcery Incarnate, Level 7 Reward}",
+                "{@i Prerequisite: Sorcery Incarnate}",
                 "While your Innate Sorcery feature is active, you can use up to three of your Metamagic options on each spell you cast.",
                 "{@i Made by Denny}"
             ],
@@ -13177,7 +13350,7 @@
             "name": "Modular Design",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward; Magic Item Tinker}",
+                "{@i Prerequisite: Magic Item Tinker}",
                 "You can take your Transmute Magic Item ability as a Bonus Action. Additionally you can use Transmute Magic Item twice per Long Rest",
                 "{@i Made by June}"
             ],
@@ -13190,7 +13363,6 @@
             "name": "Negotiator",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "You do not suffer Disadvantage on Influence checks you make against Hostile creatures. Whenever you take an Influence action to make a Charisma (Persuasion) and pass, you gain Advantage on the next Charisma (Persuasion) check you make against that creature in the next hour.",
                 "Whenever you roll Initiative, you gain the effects of Sanctuary for 1 minute (DC equals 8 + your Proficiency bonus + your Charisma modifier).",
                 "{@i Made by June}"
@@ -13229,7 +13401,6 @@
             "name": "Polyglot",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "Whenever you finish a Short or Long Rest, you can choose a Language to know until you finish another Short or Long Rest.",
                 "{@i Made by Landon}"
             ],
@@ -13242,7 +13413,6 @@
             "name": "Powerful Shove",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "Whenever a creature fails the saving throw against being Shoved by you, you can have it take Bludgeoning damage equal to your Strength modifier.",
                 "{@i Made by Landon}"
             ],
@@ -13255,7 +13425,7 @@
             "name": "Skim Reader",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward; Memorize Spell}",
+                "{@i Prerequisite: Memorize Spell}",
                 "As a Study action, you can study your spellbook and replace one of the level 1-5 Wizard spells you have prepared for your Spellcasting feature with another level 1-5 spell from the book. The next time you finish a Short Rest, you do not benefit from Memorize Spell. You cannot take this action again until you finish a Short Rest.",
                 "{@i Made by June}"
             ],
@@ -13268,7 +13438,6 @@
             "name": "So much to do...",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "During your turn, you can take an extra Bonus Action. This Bonus Action cannot be used to make an attack roll, cast a spell, or deal damage. Once you use this Bonus Action, you cannot use it again until you roll Initiative or finish a Short or Long Rest.",
                 "{@i Made by June}"
             ],
@@ -13281,7 +13450,6 @@
             "name": "Sparks of Magic",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "You always have Dancing Lights, Elementalism, Mending, Prestidigitation, and Thaumaturgy prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this Gift).",
                 "{@i Made by Landon}"
             ],
@@ -13294,7 +13462,6 @@
             "name": "Spellbreaker",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: level 7 reward}",
                 "When a creature within reach casts a spell, you can use your reaction to make a melee attack with a weapon or an Unarmed Strike against that creature. On a hit, it must make a saving throw to maintain Concentration. On a failure, the creature's spell fails and has no effect. The action, Bonus Action, or Reaction used to cast it is wasted and, if the spell was cast using a spell slot, the slot is also wasted.",
                 "As with any saving throw to maintain Concentration, the DC equals 10 or half the damage the creature takes, whichever number is higher, to a maximum DC of 30.",
                 "{@i Adapted from S3. Made by V}"
@@ -13322,7 +13489,6 @@
             "name": "Strong Upbringing",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "You gain an Origin feat of your choice.",
                 "{@i Made by June}"
             ],
@@ -13335,7 +13501,6 @@
             "name": "Tactical Opportunist",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward}",
                 "Whenever you make an Opportunity Attack against a creature, you can choose to roll at Advantage. If you land this attack, all allies within 15 feet of the creature gain a +1 bonus to their attack and damage rolls against the creature until the start of the creature's next turn.",
                 "You can use this ability a number of times equal to half of your Proficiency Bonus (rounded down), and regain expended uses at the end of a Short or Long Rest.",
                 "{@i Made by Chrys}"
@@ -13349,7 +13514,7 @@
             "name": "Tool Expert",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Flash of Genius}",
+                "{@i Prerequisite: Flash of Genius}",
                 "You gain Expertise with every tool you are Proficient in.",
                 "{@i Based on Tool Expertise from 2014e. Made by June}"
             ],
@@ -13374,7 +13539,7 @@
             "name": "Vexing Mark",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 7 Reward, Hunter's Mark}",
+                "{@i Prerequisite: Hunter's Mark}",
                 "Creatures affected by your Hunter's Mark subtract {@dice 1d4} from their saving throws against your spells.",
                 "{@i Made by Chrys}"
             ],
@@ -13520,6 +13685,41 @@
         },
         {
             "source": "WM4",
+            "name": "Psionic Prowess",
+            "type": "Gift",
+            "entries": [
+                "{@i Prerequisite: Aberrant Sorcerer}",
+                "{@i Ough my brain is so big and full of psychic powers.}",
+                "{@b Mind Reader.} You can cast Detect Thoughts without expending a spell slot. When cast in this way, it requires no Verbal, Somatic, or Material components and does not require Concentration.",
+                "{@b Improved Detection.} While under the effects of Detect Thoughts, you can Sense Thoughts and Read Thoughts to a range of 300 feet. You can see creatures you detect with Sense Thoughts even if they are Invisible or Hidden. When you take an action to probe deeper into a target's mind, it does not know you are probing into its mind.",
+                "{@b Telepathic Tracker.} Your Telepathic Speech lasts up to 1 hour. You can use Telepathic Speech on creatures you've detected with Detect Thoughts. When you do so, you can choose to track their mind. The creature must make a Wisdom saving throw against your spell save DC. On a failure, you also always know the target's location and are aware what is most on the target's mind until the connection ends. On a success, the creature becomes Immune to this effect for 8 hours.",
+                "{@i Made by June}"
+            ],
+            "reqAttune": null,
+            "property": [],
+            "rarity": "rare"
+        },
+        {
+            "source": "WM4",
+            "name": "Robotics Engineer",
+            "type": "Gift",
+            "entries": [
+                "{@i Prerequisite: Tinker's Tools Proficiency}",
+                "Replicating technology originating from the Barrier Peaks crash site, you can craft any of the following Constructs using a Construct Forge, as listed below, even if you don't meet the prerequisite for the facility.",
+                "{@b Construct Forge Robots}",
+                "Creature   \t\t| Time   \t| Cost",
+                "Android   \t\t| 4 turns   \t| 10,000 GP",
+                "Combat Robot\t\t| 5 turns   \t| 15,000 GP",
+                "Worker Robot  \t| 3 turns   \t| 5,000 GP",
+                "{@b Metal Detector.} You have an uncanny ability to unearth futuristic technology. When you take the Guildhall Bastion Turn for an Investigation Task, you can find a Spaceship Trinket on a success instead of a Feywild or Horror Trinket.",
+                "{@i Made by Aris}"
+            ],
+            "reqAttune": null,
+            "property": [],
+            "rarity": "rare"
+        },
+        {
+            "source": "WM4",
             "name": "Vistani Evil Eye",
             "type": "Gift",
             "entries": [
@@ -13579,7 +13779,6 @@
             "name": "Accomplished Adventurer",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "You gain an Origin, General, or Fighting Style feat of your choice for which you meet the prerequisites.",
                 "{@i Made by June}"
             ],
@@ -13592,7 +13791,6 @@
             "name": "Always Prepared",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "You can retroactively buy mundane non-exotic adventuring gear, spending the currency to buy it when you need to use it. You can buy up to 10 items this way, after which you cannot use this feature until you visit a place where you have the time and money to purchase goods.",
                 "When you finish a Long Rest, you can produce either up to 2000 gp worth of Poisons or Explosives, or one Potion or non-Spell Scroll of up to Rare rarity. The items must be from DMG'24. The item lasts until you finish another Long Rest, at which point the item disappears or otherwise becomes unusable.",
                 "{@i Partly adapted from I Knew I Would Need This by V from S3}"
@@ -13606,7 +13804,7 @@
             "name": "Brutal Grip",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Strength 13+; Level 16 Reward}",
+                "{@i Prerequisite: Strength 13+}",
                 "{@b Heavy Duelist.} You can wield a Melee weapon with the Two-Handed property in one hand.",
                 "{@b Versatile Dual Wielder.} While wielding a Melee weapon that lacks the Two-Handed property in one hand, the weapon has the Light property for you.",
                 "{@i Adapted from VSS:PP}"
@@ -13636,7 +13834,7 @@
             "name": "Collective Predation",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward, Hunter's Mark}",
+                "{@i Prerequisite: Hunter's Mark}",
                 "Whenever a creature other than you hits the target of your Hunter's Mark with an attack roll, they deal an extra {@dice 1d6} Force damage to that target. Multiple instances of Collective Predation do not stack.",
                 "{@i Made by Christopher}"
             ],
@@ -13649,7 +13847,6 @@
             "name": "Curiosity",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "You always have Augury, Divination, Commune, Contact Other Plane, and Legend Lore prepared. You can cast one of those spells without expending a spell slot or material components. Once you cast a spell in this way, you can't do so again until you finish a Long Rest.",
                 "{@i Made by Landon}"
             ],
@@ -13662,7 +13859,7 @@
             "name": "Eldritch Gatling",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Warlock, Level 16 Reward, Eldritch Blast}",
+                "{@i Prerequisite: Warlock, Eldritch Blast}",
                 "Your Eldritch Blast fires an additional beam.",
                 "{@i Made by Denny}"
             ],
@@ -13675,7 +13872,7 @@
             "name": "Enhanced Pact Magic",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Warlock, Level 16 Reward}",
+                "{@i Prerequisite: Warlock}",
                 "Your number of spell slots from Pact Magic is increased by 1.",
                 "{@i Made by V}"
             ],
@@ -13688,7 +13885,6 @@
             "name": "Enduring Capacity",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "If you are Incapacitated while under an effect (except for Concentration) that would end early if you are Incapacitated, you can choose to have the effect not end.",
                 "{@i Made by V}"
             ],
@@ -13701,9 +13897,39 @@
             "name": "Expert Bonus",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "Your Proficiency Bonus increases by 1.",
                 "{@i Made by June}"
+            ],
+            "reqAttune": null,
+            "property": [],
+            "rarity": "very rare"
+        },
+        {
+            "source": "WM4",
+            "name": "Golemist",
+            "type": "Gift",
+            "entries": [
+                "{@i Prerequisite: Advanced Artifice or at least 2 5th-level spell slots}",
+                "{@b Golem Crafter.} You can craft golems at a Construct Forge, as listed below, even if you don't meet the prerequisite for the facility. If you possess a Manual of Golems, you can craft that Golem with the Construct Forge in only 1 bastion turn, and you can ignore the GP cost.",
+                "{@b Construct Forge Golems}",
+                "Creature   \t\t| Time   \t| Cost",
+                "Clay Golem   \t\t| 3 turns   \t| 13,000 GP",
+                "Flesh Golem   \t\t| 6 turns   \t| 10,000 GP and at least 4 Medium Humanoid corpses",
+                "Glasswork Golem   \t| 1 turn   \t| 1,500 GP",
+                "Iron Golem   \t\t| 12 turns   \t| 20,000 GP",
+                "Snow Golem   \t\t| 1 turn   \t| 500 GP",
+                "Stone Golem   \t| 9 turns   \t| 16,000 GP",
+                "Crafting a Golem can be sped up if you possess a certain tool proficiency related to the type of golem. Each time you take this bastion turn, if you have proficiency in the tool, you can reduce the total cost by 200 GP.",
+                "Golem-Associated Tools",
+                "Snow Golem - none",
+                "Iron Golem - Smith's Tools",
+                "Stone Golem - Mason's Tools",
+                "Clay Golem - Potter's Tools",
+                "Flesh Golem - Leatherworker's Tools",
+                "Glasswork Golem - Glassblower's Tools",
+                "{@b Innovation.} In addition, you can learn to craft other Golems, including ones that lack Manuals. Such costs, time, and their statblocks must be approved via gm vote, and you must learn the method to craft these golems in a session.",
+                "{@b Golem Repairs.} If you cast the Mending spell on a golem, it regains {@dice 2d6} hit points.",
+                "{@i Adapted from S3. Made by Aris}"
             ],
             "reqAttune": null,
             "property": [],
@@ -13730,7 +13956,6 @@
             "name": "Horde Slayer",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "When an attack you make reduces a creature to 0 Hit Points, you can target another creature within range and, if the original attack roll can hit it, applies any remaining damage to it. If that creature is likewise reduced to 0 Hit Points, repeat this process, carrying over the remaining damage until there are no valid targets, or until the damage carried over fails to reduce a creature to 0 Hit Points.",
                 "{@i Made by Landon}"
             ],
@@ -13743,7 +13968,6 @@
             "name": "Indominus",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "At the start of your turn, if you aren't Incapacitated, you may gain Temporary Hit Points equal to twice your Constitution modifier (minimum of 2). Additionally, you can add your Constitution modifier to your Death Saving Throws.",
                 "{@i Made by Christopher}"
             ],
@@ -13756,7 +13980,7 @@
             "name": "Intelligent Napper",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Wizard, Level 16 Reward}",
+                "{@i Prerequisite: Wizard}",
                 "When you use Arcane Recovery, the number of levels you can recover increases by your Intelligence Modifier. Additionally, Arcane Recovery can recover your sixth-level slot.",
                 "{@i Made by Lily}"
             ],
@@ -13769,7 +13993,7 @@
             "name": "Master of All Weapons",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Fighter Level 16 Reward}",
+                "{@i Prerequisite: Fighter}",
                 "You have mastery in all weapons.",
                 "A Little Bit of Everything: You may unequip and equip a weapon after each attack when you take the Attack Action on your turn. Once per turn, when you do this, you may attack an additional time if the weapon you equipped has a different mastery property than the one you unequipped.",
                 "{@i Made by Gavin}"
@@ -13783,7 +14007,6 @@
             "name": "Planar Voyager",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "You always have the Plane Shift spell prepared. When you cast it, it doesn\u2019t require components. Additionally, you can cast it without expending a spell slot, but you cannot do so again until you finish a Long Rest.",
                 "Intelligence, Wisdom, or Charisma is your spellcasting ability for this gift (choose when you receive it).",
                 "{@i Made by Aris}"
@@ -13797,7 +14020,6 @@
             "name": "Positional Master",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "Immediately after you roll Initiative, you can take a Reaction to cast Scatter without expending a spell slot.",
                 "{@i Made by Landon}"
             ],
@@ -13810,7 +14032,7 @@
             "name": "Positive Energy Flux",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward; Bard, Cleric or Druid}",
+                "{@i Prerequisite: Bard, Cleric or Druid}",
                 "When you restore Hit Points to a creature with a spell, any excess healing (Hit Points not healed due to being at maximum health), the target instead receives a number of Temporary Hit Points equal to the excess healing. These Temporary Hit Points cannot exceed the target's maximum Hit Points.",
                 "These Temporary Hit Points remain for 1 minute.",
                 "{@i Made by Chrys}"
@@ -13824,7 +14046,6 @@
             "name": "Psionic Reach",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "You gain Resistance to Psychic damage.",
                 "You always have Telekinesis prepared. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a Long Rest.",
                 "The spellcasting ability is Intelligence, Wisdom, or Charisma when you cast the spell with this gift (choose when you gain the gift).",
@@ -13839,7 +14060,7 @@
             "name": "Sickening Greed",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Artificer, Level 16 Reward}",
+                "{@i Prerequisite: Artificer}",
                 "You can attune to an additional magic item.",
                 "You can use a Magic Action to touch a magic item and immediately attune to it. Once you do so, you can't again until you finish a Long Rest.",
                 "{@i Made by Lily}"
@@ -13853,7 +14074,7 @@
             "name": "Sneakier",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Rogue, Level 16 Reward}",
+                "{@i Prerequisite: Rogue}",
                 "Your Sneak Attack dice increases by {@dice 4d6}.",
                 "{@i Made by Denny}"
             ],
@@ -13921,7 +14142,6 @@
             "name": "Tougher",
             "type": "Gift",
             "entries": [
-                "{@i Prerequisite: Level 16 Reward}",
                 "Your Hit Point maximum increases by an amount equal to twice your character level when you gain this gift. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points.",
                 "{@i Made by Denny}"
             ],
@@ -14047,6 +14267,17 @@
             "entries": [
                 "You cannot speak, only meow.",
                 "{@i Made by June}"
+            ],
+            "reqAttune": null,
+            "property": []
+        },
+        {
+            "source": "WM4",
+            "name": "Coward",
+            "type": "Curse",
+            "entries": [
+                "You automatically fail saving throws against effects that would give you the Frightened condition. If you have Immunity to the Frightened condition, effects ignore that Immunity; instead you roll for the save as normal.",
+                "{@i Made by Chrys}"
             ],
             "reqAttune": null,
             "property": []
@@ -15206,6 +15437,17 @@
             "entries": [
                 "Any body parts you are missing when you receive this story record are unable to be regrown.",
                 "{@i Made by June}"
+            ],
+            "reqAttune": null,
+            "property": []
+        },
+        {
+            "source": "WM4",
+            "name": "Glop-less",
+            "type": "Story Record",
+            "entries": [
+                "You bet your ability to make glop against a hag and lost. You can never make glop again.",
+                "{@i Made by Denny}"
             ],
             "reqAttune": null,
             "property": []
@@ -19171,77 +19413,6 @@
         },
         {
             "source": "WM4",
-            "name": "Sticks to Snakes",
-            "school": "T",
-            "level": "2",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 90
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "tree bark and snake scales",
-                "x": null
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 1
-                    },
-                    "concentration": true
-                }
-            ],
-            "meta": {},
-            "entries": [
-                "You transform a nonmagical stick, spear, or staff into a Venomous Snake, Giant Venomous Snake, Flying Snake, Constrictor Snake.",
-                "If the target item is being held by another creature and the creature is unwilling for their item to be transformed, that creature can make a Wisdom saving throw. On a failure, the item is transformed.",
-                "The snake is Friendly to you and your companions, and acts at the end of your turn. It understands and obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to it, then it defends itself from hostile creatures, but otherwise takes no actions.",
-                "If you cast this spell on a stick, spear, or staff each day for 30 days, it permanently becomes a snake, though it no longer has to be Friendly or obey your verbal commands."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "Using a Higher-Level Spell Slot",
-                    "entries": [
-                        "You can choose up to 2 more sticks, spears, or staves for each spell slot level above 2."
-                    ]
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Cleric",
-                        "source": "xphb"
-                    },
-                    {
-                        "name": "Druid",
-                        "source": "xphb"
-                    },
-                    {
-                        "name": "Paladin",
-                        "source": "xphb"
-                    },
-                    {
-                        "name": "Ranger",
-                        "source": "xphb"
-                    }
-                ]
-            }
-        },
-        {
-            "source": "WM4",
             "name": "Summon Elysian Thrush",
             "school": "C",
             "level": "2",
@@ -20612,6 +20783,50 @@
                 "fromClassList": [
                     {
                         "name": "Wizard",
+                        "source": "xphb"
+                    }
+                ]
+            }
+        },
+        {
+            "source": "WM4",
+            "name": "Called Shot",
+            "school": "D",
+            "level": "4",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": null,
+                "s": true,
+                "m": "A blade of grass",
+                "x": null
+            },
+            "duration": [
+                {
+                    "type": "instant",
+                    "concentration": false
+                }
+            ],
+            "meta": {},
+            "entries": [
+                "You immediately make an attack with a weapon against a target. If the attack reduces the target to 0 Hit Points, you can immediately make another attack against a different target, repeating the effect if you reduce the new target to 0 Hit Points. The spells ends once your attack fails to reduce a target to 0 Hit Points, or after you have made a number of attacks equal to your spellcasting ability with the spell.",
+                "If you reduce at least 1 target to 0 Hit Points with this attack, you do not expend a spell slot for casting this spell.",
+                "{@i Made by June}"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Ranger",
                         "source": "xphb"
                     }
                 ]
@@ -22848,6 +23063,19 @@
         },
         {
             "source": "WM4",
+            "name": "And I Get Back Up",
+            "school": null,
+            "level": 10,
+            "time": null,
+            "range": null,
+            "components": null,
+            "duration": null,
+            "meta": null,
+            "entries": [],
+            "classes": null
+        },
+        {
+            "source": "WM4",
             "name": "Ball",
             "school": null,
             "level": 10,
@@ -22862,6 +23090,19 @@
         {
             "source": "WM4",
             "name": "Fake Out",
+            "school": null,
+            "level": 10,
+            "time": null,
+            "range": null,
+            "components": null,
+            "duration": null,
+            "meta": null,
+            "entries": [],
+            "classes": null
+        },
+        {
+            "source": "WM4",
+            "name": "Home Run!!",
             "school": null,
             "level": 10,
             "time": null,
