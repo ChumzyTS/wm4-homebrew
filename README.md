@@ -4,7 +4,7 @@ A curated compilation of the **UTD TTRPG Club's Westmarch (WM4) D&D 5e homebrew 
 
 This repository makes the Westmarch UTD homebrew catalog easier to browse and search, bringing custom content into one searchable collection.
 
-The catalog includes items, spells, perks, talents, gifts, curses, conditions, and other homebrew content supported by 5e.tools.
+The catalog includes items, spells, perks, talents, gifts, curses, conditions, and other homebrew content created by various creators, designed for use with 5e.tools.
 
 ## Features
 
